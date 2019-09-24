@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reservasi mobil melalui data yang tersedia di kategori mobil" time="97" tests="4" failures="0" errors="0">
+   <testsuite name="Reservasi mobil melalui data yang tersedia di kategori mobil" tests="4" failures="0" errors="0" time="97" timestamp="2018-11-15 10:58:02" hostname="Belinnd - Belinda-PC" id="Test Suites/Front-End/Reservasi mobil melalui data yang tersedia di kategori mobil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui data yang tersedia di kategori mobil\\20181115_105759"/>
+         <property name="logFiles" value="D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui data yang tersedia di kategori mobil\\20181115_105759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Belinnd - Belinda-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.10.11.198"/>
+         <property name="sessionId" value="b8d46c985b65d8b42fc6af30fb322327"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email" classname="Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email" status="PASSED">
+         <system-out><![CDATA[2018-11-15 10:58:03 - [TEST_CASE][PASSED] - Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email: Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email
+
+2018-11-15 10:58:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 10:58:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 10:58:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 10:58:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 10:58:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stg.movic.id/home' successfully
+
+2018-11-15 10:58:49 - [MESSAGE][PASSED] - Navigate to 'https://stg.movic.id/home' successfully
+
+2018-11-15 10:58:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-15 10:58:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-15 10:58:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/a_Masuk (1)' is clicked on
+
+2018-11-15 10:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/a_Masuk (1)' is clicked on
+
+2018-11-15 10:58:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-15 10:58:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 10:58:53 - [TEST_STEP][PASSED] - setText: Text 'belinda.natalia@wgs.co.id' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for'
+
+2018-11-15 10:58:53 - [MESSAGE][PASSED] - Text 'belinda.natalia@wgs.co.id' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for'
+
+2018-11-15 10:58:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-15 10:58:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 10:58:56 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng'
+
+2018-11-15 10:58:57 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng'
+
+2018-11-15 10:58:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-15 10:59:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-15 10:59:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/button_MASUK' is clicked on
+
+2018-11-15 10:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/button_MASUK' is clicked on
+
+2018-11-15 10:59:00 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda' is visible
+
+2018-11-15 10:59:01 - [MESSAGE][PASSED] - Object 'Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda' is visible
+
+2018-11-15 10:59:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:03 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Homepage/SC99 Regression/TC21 Cari mobil via pilihan tipe kendaraan" classname="Test Cases/Front-End/Homepage/SC99 Regression/TC21 Cari mobil via pilihan tipe kendaraan" status="PASSED">
+         <system-out><![CDATA[2018-11-15 10:59:03 - [TEST_CASE][PASSED] - Test Cases/Front-End/Homepage/SC99 Regression/TC21 Cari mobil via pilihan tipe kendaraan: Test Cases/Front-End/Homepage/SC99 Regression/TC21 Cari mobil via pilihan tipe kendaraan
+
+2018-11-15 10:59:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:05 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 460, y = 1490
+
+2018-11-15 10:59:10 - [MESSAGE][PASSED] - Browser is scrolled to position x = 460, y = 1490
+
+2018-11-15 10:59:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil via pilihan tipe kendaraan/span_Sedan' is clicked on
+
+2018-11-15 10:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil via pilihan tipe kendaraan/span_Sedan' is clicked on
+
+2018-11-15 10:59:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil via pilihan tipe kendaraan/h5_JAZZ' is clicked on
+
+2018-11-15 10:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil via pilihan tipe kendaraan/h5_JAZZ' is clicked on
+
+2018-11-15 10:59:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil" classname="Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil" status="PASSED">
+         <system-out><![CDATA[2018-11-15 10:59:15 - [TEST_CASE][PASSED] - Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil: Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil
+
+2018-11-15 10:59:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:17 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 530, y = 1240
+
+2018-11-15 10:59:17 - [MESSAGE][PASSED] - Browser is scrolled to position x = 530, y = 1240
+
+2018-11-15 10:59:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' is clicked on
+
+2018-11-15 10:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' is clicked on
+
+2018-11-15 10:59:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang' is clicked on
+
+2018-11-15 10:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang' is clicked on
+
+2018-11-15 10:59:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:24 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 610, y = 970
+
+2018-11-15 10:59:24 - [MESSAGE][PASSED] - Browser is scrolled to position x = 610, y = 970
+
+2018-11-15 10:59:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-15 10:59:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-15 10:59:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_LANJUTKAN PESANAN' is clicked on
+
+2018-11-15 10:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_LANJUTKAN PESANAN' is clicked on
+
+2018-11-15 10:59:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Setuju' is clicked on
+
+2018-11-15 10:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Setuju' is clicked on
+
+2018-11-15 10:59:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-15 10:59:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Yes' is clicked on
+
+2018-11-15 10:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Yes' is clicked on
+
+2018-11-15 10:59:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/h2_Sukses' is visible
+
+2018-11-15 10:59:34 - [MESSAGE][PASSED] - Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/h2_Sukses' is visible
+
+2018-11-15 10:59:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/div_Mobil berhasil dimasukan k' is visible
+
+2018-11-15 10:59:34 - [MESSAGE][PASSED] - Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/div_Mobil berhasil dimasukan k' is visible
+
+2018-11-15 10:59:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:36 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher" classname="Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher" status="PASSED">
+         <system-out><![CDATA[2018-11-15 10:59:36 - [TEST_CASE][PASSED] - Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher: Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher
+
+2018-11-15 10:59:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' is clicked on
+
+2018-11-15 10:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' is clicked on
+
+2018-11-15 10:59:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-15 10:59:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 10:58:02 - [TEST_SUITE][PASSED] - Reservasi mobil melalui data yang tersedia di kategori mobil: Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

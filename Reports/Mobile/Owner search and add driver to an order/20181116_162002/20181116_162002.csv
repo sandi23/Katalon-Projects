@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner search and add driver to an order,,,2018-11-16 16:20:07,2018-11-16 16:22:13,2m - 5.902s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-16 16:20:08,2018-11-16 16:21:27,1m - 19.352s,PASSED
+startApplication,,Open apps on phone,2018-11-16 16:20:09,2018-11-16 16:20:59,50.478s,PASSED
+tap,,Tap button next,2018-11-16 16:20:59,2018-11-16 16:21:04,4.627s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-16 16:21:04,2018-11-16 16:21:07,2.821s,PASSED
+tap,,Tap button skip,2018-11-16 16:21:07,2018-11-16 16:21:09,2.754s,PASSED
+tap,,Tap button login,2018-11-16 16:21:09,2018-11-16 16:21:11,1.641s,PASSED
+setText,,Input email user,2018-11-16 16:21:11,2018-11-16 16:21:12,1.381s,PASSED
+tap,,Tap button next,2018-11-16 16:21:12,2018-11-16 16:21:16,3.028s,PASSED
+setText,,Input password user,2018-11-16 16:21:16,2018-11-16 16:21:17,1.334s,PASSED
+delay,,,2018-11-16 16:21:17,2018-11-16 16:21:18,1.098s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-16 16:21:18,2018-11-16 16:21:20,2.417s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-16 16:21:20,2018-11-16 16:21:22,1.631s,PASSED
+delay,,,2018-11-16 16:21:22,2018-11-16 16:21:27,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC02 Search - My Order,,,2018-11-16 16:21:27,2018-11-16 16:21:54,27.462s,PASSED
+callTestCase,,,2018-11-16 16:21:28,2018-11-16 16:21:28,0.006s,NOT_RUN
+setText,,Input customer name,2018-11-16 16:21:28,2018-11-16 16:21:45,17.448s,PASSED
+tap,,Search by name,2018-11-16 16:21:45,2018-11-16 16:21:47,2.132s,PASSED
+tap,,Select my order,2018-11-16 16:21:47,2018-11-16 16:21:49,2.087s,PASSED
+delay,,,2018-11-16 16:21:49,2018-11-16 16:21:54,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC07 Add Driver,,,2018-11-16 16:21:54,2018-11-16 16:22:10,15.826s,PASSED
+callTestCase,,,2018-11-16 16:21:55,2018-11-16 16:21:55,0.001s,NOT_RUN
+tap,,Tap button add courier,2018-11-16 16:21:55,2018-11-16 16:21:56,1.388s,PASSED
+tap,,Take photo profile driver,2018-11-16 16:21:56,2018-11-16 16:21:58,1.782s,PASSED
+tap,,Capture photo,2018-11-16 16:21:58,2018-11-16 16:22:01,2.375s,PASSED
+setText,,Input name driver,2018-11-16 16:22:01,2018-11-16 16:22:02,1.172s,PASSED
+setText,,Input phone number driver,2018-11-16 16:22:02,2018-11-16 16:22:03,1.446s,PASSED
+tap,,Submit form information driver,2018-11-16 16:22:03,2018-11-16 16:22:05,2.154s,PASSED
+delay,,,2018-11-16 16:22:05,2018-11-16 16:22:10,5.001s,PASSED

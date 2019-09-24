@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New User,Chrome 73.0.3683.103,,2019-04-26 14:33:23,2019-04-26 14:35:54,2m - 30.566s,FAILED
+,,,,,,
+Test Cases/Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin,Chrome 73.0.3683.103,,2019-04-26 14:33:24,2019-04-26 14:35:12,1m - 47.800s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-26 14:33:25,2019-04-26 14:34:36,1m - 11.104s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-26 14:34:36,2019-04-26 14:34:38,1.233s,PASSED
+"navigateToUrl(""https://stg-cms.movic.id/login"")",Chrome 73.0.3683.103,,2019-04-26 14:34:38,2019-04-26 14:34:47,9.676s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 1))",Chrome 73.0.3683.103,,2019-04-26 14:34:47,2019-04-26 14:34:50,2.409s,PASSED
+"setText(findTestObject(""Backend/OR User Management/Temporary/input_Admin_username""), ""admin@movic.id"")",Chrome 73.0.3683.103,,2019-04-26 14:34:50,2019-04-26 14:34:56,5.984s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 1))",Chrome 73.0.3683.103,,2019-04-26 14:34:56,2019-04-26 14:34:58,2.011s,PASSED
+"setEncryptedText(findTestObject(""Backend/OR User Management/Temporary/input_Admin_password""), ""SeFaNmi6/B8CPA8fJzpX7A=="")",Chrome 73.0.3683.103,,2019-04-26 14:34:58,2019-04-26 14:34:59,0.822s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 1))",Chrome 73.0.3683.103,,2019-04-26 14:34:59,2019-04-26 14:35:01,2.014s,PASSED
+"click(findTestObject(""Backend/OR User Management/Temporary/button_SignIn""))",Chrome 73.0.3683.103,,2019-04-26 14:35:01,2019-04-26 14:35:10,8.883s,PASSED
+waitForPageLoad(5),Chrome 73.0.3683.103,,2019-04-26 14:35:10,2019-04-26 14:35:12,2.426s,PASSED
+,,,,,,
+Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC01 - List User - User Management,Chrome 73.0.3683.103,,2019-04-26 14:35:13,2019-04-26 14:35:51,38.826s,PASSED
+"callTestCase(findTestCase(""Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-26 14:35:14,2019-04-26 14:35:14,0.013s,NOT_RUN
+delay(2),Chrome 73.0.3683.103,,2019-04-26 14:35:14,2019-04-26 14:35:14,0.035s,NOT_RUN
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_Access Management""))",Chrome 73.0.3683.103,,2019-04-26 14:35:14,2019-04-26 14:35:14,0.420s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_User Management""))",Chrome 73.0.3683.103,,2019-04-26 14:35:14,2019-04-26 14:35:17,2.265s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_New_searchValue""), ""user test"")",Chrome 73.0.3683.103,,2019-04-26 14:35:17,2019-04-26 14:35:19,2.259s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/button_New_filterBtn""))",Chrome 73.0.3683.103,,2019-04-26 14:35:19,2019-04-26 14:35:19,0.326s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Name""), ""email"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:19,2019-04-26 14:35:21,1.776s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/div_Name""))",Chrome 73.0.3683.103,,2019-04-26 14:35:21,2019-04-26 14:35:21,0.321s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_New_searchValue""), ""nugraha.iman@gmail.com"")",Chrome 73.0.3683.103,,2019-04-26 14:35:21,2019-04-26 14:35:22,0.701s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/button_New_filterBtn""))",Chrome 73.0.3683.103,,2019-04-26 14:35:22,2019-04-26 14:35:22,0.123s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_Search_form-control inpu""), ""user test"")",Chrome 73.0.3683.103,,2019-04-26 14:35:22,2019-04-26 14:35:23,1.124s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_Export""))",Chrome 73.0.3683.103,,2019-04-26 14:35:23,2019-04-26 14:35:27,3.723s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_New""))",Chrome 73.0.3683.103,,2019-04-26 14:35:27,2019-04-26 14:35:29,1.907s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_NPK _npk""), ""008"")",Chrome 73.0.3683.103,,2019-04-26 14:35:29,2019-04-26 14:35:30,1.072s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_Name _name""), ""nandang"")",Chrome 73.0.3683.103,,2019-04-26 14:35:30,2019-04-26 14:35:30,0.433s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_Email _email""), ""nansulaiman5@mailinator.com"")",Chrome 73.0.3683.103,,2019-04-26 14:35:30,2019-04-26 14:35:31,0.642s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_Phone Number _phone""), ""082121212121"")",Chrome 73.0.3683.103,,2019-04-26 14:35:31,2019-04-26 14:35:36,4.846s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/span_Nothing selected""))",Chrome 73.0.3683.103,,2019-04-26 14:35:36,2019-04-26 14:35:36,0.621s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/span_Admin Data""))",Chrome 73.0.3683.103,,2019-04-26 14:35:36,2019-04-26 14:35:37,0.244s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7ac"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:37,2019-04-26 14:35:37,0.520s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7ac"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:37,2019-04-26 14:35:37,0.259s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7ac"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:37,2019-04-26 14:35:38,0.267s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7ac"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:38,2019-04-26 14:35:38,0.309s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7ac"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:38,2019-04-26 14:35:39,0.656s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7ac"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:39,2019-04-26 14:35:39,0.219s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_Admin Data""))",Chrome 73.0.3683.103,,2019-04-26 14:35:39,2019-04-26 14:35:39,0.424s,PASSED
+"deselectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7ac"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:39,2019-04-26 14:35:40,0.229s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_Admin Konten""))",Chrome 73.0.3683.103,,2019-04-26 14:35:40,2019-04-26 14:35:40,0.256s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7dc"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:40,2019-04-26 14:35:40,0.236s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_Superadmin""))",Chrome 73.0.3683.103,,2019-04-26 14:35:40,2019-04-26 14:35:40,0.351s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7c9"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:40,2019-04-26 14:35:41,0.216s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/button_Save""))",Chrome 73.0.3683.103,,2019-04-26 14:35:41,2019-04-26 14:35:42,1.682s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_nansulaiman5mailinator.com_b""))",Chrome 73.0.3683.103,,2019-04-26 14:35:42,2019-04-26 14:35:44,1.268s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_NPK _npk""), ""009"")",Chrome 73.0.3683.103,,2019-04-26 14:35:44,2019-04-26 14:35:44,0.250s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_Name _name""), ""nandangupdate"")",Chrome 73.0.3683.103,,2019-04-26 14:35:44,2019-04-26 14:35:44,0.411s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_Email _email""), ""nansulaiman5update@mailinator.com"")",Chrome 73.0.3683.103,,2019-04-26 14:35:44,2019-04-26 14:35:45,0.458s,PASSED
+"setText(findTestObject(""Object Repository/Backend/OR Access Management/input_Phone Number _phone""), ""082121212122"")",Chrome 73.0.3683.103,,2019-04-26 14:35:45,2019-04-26 14:35:45,0.276s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/button_Admin Konten Superadmin""))",Chrome 73.0.3683.103,,2019-04-26 14:35:45,2019-04-26 14:35:46,0.780s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_Admin Konten""))",Chrome 73.0.3683.103,,2019-04-26 14:35:46,2019-04-26 14:35:46,0.132s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7c9"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:46,2019-04-26 14:35:46,0.280s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7c9"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:46,2019-04-26 14:35:46,0.262s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7c9"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:46,2019-04-26 14:35:47,0.191s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7c9"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:47,2019-04-26 14:35:47,0.235s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7c9"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:47,2019-04-26 14:35:47,0.246s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Backend/OR Access Management/select_Admin Data""), ""ab203982-13d0-427e-bc4b-8d887712b7c9"", true)",Chrome 73.0.3683.103,,2019-04-26 14:35:47,2019-04-26 14:35:47,0.210s,PASSED
+"click(findTestObject(""Object Repository/Backend/OR Access Management/button_Save""))",Chrome 73.0.3683.103,,2019-04-26 14:35:47,2019-04-26 14:35:49,1.243s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-26 14:35:49,2019-04-26 14:35:51,2.850s,PASSED
+,,,,,,
+Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management,Chrome 73.0.3683.103,,2019-04-26 14:35:51,2019-04-26 14:35:53,1.538s,FAILED
+"callTestCase(findTestCase(""Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-26 14:35:52,2019-04-26 14:35:52,0.026s,NOT_RUN
+delay(2),Chrome 73.0.3683.103,,2019-04-26 14:35:52,2019-04-26 14:35:52,0.008s,NOT_RUN
+"click(findTestObject(""Object Repository/Backend/OR Access Management/a_Access Management""))",Chrome 73.0.3683.103,,2019-04-26 14:35:52,2019-04-26 14:35:53,0.777s,FAILED

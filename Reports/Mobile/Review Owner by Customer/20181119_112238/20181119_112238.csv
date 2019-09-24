@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Review Owner by Customer,,,2018-11-19 11:22:43,2018-11-19 11:28:18,5m - 34.954s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-19 11:22:44,2018-11-19 11:24:08,1m - 23.839s,PASSED
+startApplication,,Open apps on phone,2018-11-19 11:22:45,2018-11-19 11:23:40,54.981s,PASSED
+tap,,Tap button next,2018-11-19 11:23:40,2018-11-19 11:23:44,4.466s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-19 11:23:44,2018-11-19 11:23:47,2.841s,PASSED
+tap,,Tap button skip,2018-11-19 11:23:47,2018-11-19 11:23:50,2.404s,PASSED
+tap,,Tap button login,2018-11-19 11:23:50,2018-11-19 11:23:51,1.687s,PASSED
+setText,,Input email user,2018-11-19 11:23:51,2018-11-19 11:23:53,1.484s,PASSED
+tap,,Tap button next,2018-11-19 11:23:53,2018-11-19 11:23:56,2.993s,PASSED
+setText,,Input password user,2018-11-19 11:23:56,2018-11-19 11:23:57,1.432s,PASSED
+delay,,,2018-11-19 11:23:57,2018-11-19 11:23:58,1.129s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-19 11:23:58,2018-11-19 11:24:01,2.550s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-19 11:24:01,2018-11-19 11:24:03,1.548s,PASSED
+delay,,,2018-11-19 11:24:03,2018-11-19 11:24:08,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC01 My Booking,,,2018-11-19 11:24:08,2018-11-19 11:25:34,1m - 26.680s,PASSED
+callTestCase,,,2018-11-19 11:24:08,2018-11-19 11:24:08,0.005s,NOT_RUN
+tap,,Tab my bookings,2018-11-19 11:24:08,2018-11-19 11:25:29,1m - 21.057s,PASSED
+delay,,,2018-11-19 11:25:29,2018-11-19 11:25:34,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC10 Review Owner,,,2018-11-19 11:25:34,2018-11-19 11:28:16,2m - 41.249s,PASSED
+callTestCase,,,2018-11-19 11:25:35,2018-11-19 11:25:35,0.004s,NOT_RUN
+tap,,Tab history my booking,2018-11-19 11:25:35,2018-11-19 11:26:48,1m - 12.820s,PASSED
+tap,,Select history complate,2018-11-19 11:26:48,2018-11-19 11:27:50,1m - 2.530s,PASSED
+tap,,Tap button review car,2018-11-19 11:27:50,2018-11-19 11:27:52,1.877s,PASSED
+delay,,Delay untuk select rating star,2018-11-19 11:27:52,2018-11-19 11:28:02,10.004s,PASSED
+tap,,,2018-11-19 11:28:02,2018-11-19 11:28:05,2.582s,PASSED
+setText,,Inpu deskripsi review,2018-11-19 11:28:05,2018-11-19 11:28:06,1.192s,PASSED
+hideKeyboard,,,2018-11-19 11:28:06,2018-11-19 11:28:08,2.135s,PASSED
+tap,,Mengirimkan review,2018-11-19 11:28:08,2018-11-19 11:28:10,2.517s,PASSED
+delay,,,2018-11-19 11:28:10,2018-11-19 11:28:16,5.003s,PASSED

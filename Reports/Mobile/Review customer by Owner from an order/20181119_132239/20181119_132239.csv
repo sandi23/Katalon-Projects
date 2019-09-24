@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Review customer by Owner from an order,,,2018-11-19 13:22:44,2018-11-19 13:24:49,2m - 5.760s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-19 13:22:45,2018-11-19 13:24:03,1m - 18.232s,PASSED
+startApplication,,Open apps on phone,2018-11-19 13:22:46,2018-11-19 13:23:36,49.850s,PASSED
+tap,,Tap button next,2018-11-19 13:23:36,2018-11-19 13:23:41,4.769s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-19 13:23:41,2018-11-19 13:23:44,2.806s,PASSED
+tap,,Tap button skip,2018-11-19 13:23:44,2018-11-19 13:23:46,2.473s,PASSED
+tap,,Tap button login,2018-11-19 13:23:46,2018-11-19 13:23:48,1.636s,PASSED
+setText,,Input email user,2018-11-19 13:23:48,2018-11-19 13:23:49,1.330s,PASSED
+tap,,Tap button next,2018-11-19 13:23:49,2018-11-19 13:23:52,2.794s,PASSED
+setText,,Input password user,2018-11-19 13:23:52,2018-11-19 13:23:53,1.234s,PASSED
+delay,,,2018-11-19 13:23:53,2018-11-19 13:23:54,1.130s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-19 13:23:54,2018-11-19 13:23:57,2.465s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-19 13:23:57,2018-11-19 13:23:58,1.682s,PASSED
+delay,,,2018-11-19 13:23:58,2018-11-19 13:24:03,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC01 My Order,,,2018-11-19 13:24:03,2018-11-19 13:24:11,7.317s,PASSED
+callTestCase,,,2018-11-19 13:24:04,2018-11-19 13:24:04,0.013s,NOT_RUN
+tap,,Menampilkan page my order,2018-11-19 13:24:04,2018-11-19 13:24:06,1.466s,PASSED
+delay,,,2018-11-19 13:24:06,2018-11-19 13:24:11,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC02 Search - My Order,,,2018-11-19 13:24:11,2018-11-19 13:24:29,18.216s,PASSED
+callTestCase,,,2018-11-19 13:24:12,2018-11-19 13:24:12,0.003s,NOT_RUN
+tap,,Tab history my booking,2018-11-19 13:24:12,2018-11-19 13:24:13,1.249s,PASSED
+setText,,Input customer name,2018-11-19 13:24:13,2018-11-19 13:24:20,7.495s,PASSED
+tap,,Search by name,2018-11-19 13:24:20,2018-11-19 13:24:22,1.958s,PASSED
+tap,,Select my order,2018-11-19 13:24:22,2018-11-19 13:24:24,1.692s,PASSED
+delay,,,2018-11-19 13:24:24,2018-11-19 13:24:29,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC11 Review Customer,,,2018-11-19 13:24:29,2018-11-19 13:24:48,18.850s,PASSED
+callTestCase,,,2018-11-19 13:24:30,2018-11-19 13:24:30,0.004s,NOT_RUN
+tap,,Tap review customer,2018-11-19 13:24:30,2018-11-19 13:24:31,1.716s,PASSED
+delay,,Delay untuk select rating,2018-11-19 13:24:31,2018-11-19 13:24:36,5.004s,PASSED
+setText,,Input review untuk customer,2018-11-19 13:24:36,2018-11-19 13:24:38,1.282s,PASSED
+tap,,Mengirim review,2018-11-19 13:24:38,2018-11-19 13:24:39,1.649s,PASSED
+tap,,Berhasil melakukan approval,2018-11-19 13:24:39,2018-11-19 13:24:43,3.570s,PASSED
+delay,,,2018-11-19 13:24:43,2018-11-19 13:24:48,5.003s,PASSED

@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner search and change status order to Delivery,,,2018-11-16 16:45:28,2018-11-16 16:47:21,1m - 53.563s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-16 16:45:29,2018-11-16 16:46:48,1m - 19.658s,PASSED
+startApplication,,Open apps on phone,2018-11-16 16:45:30,2018-11-16 16:46:22,51.690s,PASSED
+tap,,Tap button next,2018-11-16 16:46:22,2018-11-16 16:46:26,4.619s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-16 16:46:26,2018-11-16 16:46:29,2.692s,PASSED
+tap,,Tap button skip,2018-11-16 16:46:29,2018-11-16 16:46:31,2.149s,PASSED
+tap,,Tap button login,2018-11-16 16:46:31,2018-11-16 16:46:33,1.605s,PASSED
+setText,,Input email user,2018-11-16 16:46:33,2018-11-16 16:46:34,1.198s,PASSED
+tap,,Tap button next,2018-11-16 16:46:34,2018-11-16 16:46:36,2.442s,PASSED
+setText,,Input password user,2018-11-16 16:46:36,2018-11-16 16:46:39,2.323s,PASSED
+delay,,,2018-11-16 16:46:39,2018-11-16 16:46:40,1.067s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-16 16:46:40,2018-11-16 16:46:42,1.855s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-16 16:46:42,2018-11-16 16:46:43,1.591s,PASSED
+delay,,,2018-11-16 16:46:43,2018-11-16 16:46:48,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC02 Search - My Order,,,2018-11-16 16:46:48,2018-11-16 16:47:12,24.046s,PASSED
+callTestCase,,,2018-11-16 16:46:49,2018-11-16 16:46:49,0.008s,NOT_RUN
+setText,,Input customer name,2018-11-16 16:46:49,2018-11-16 16:47:01,12.391s,PASSED
+tap,,Search by name,2018-11-16 16:47:01,2018-11-16 16:47:03,1.525s,PASSED
+tap,,Select my order,2018-11-16 16:47:03,2018-11-16 16:47:07,4.469s,PASSED
+delay,,,2018-11-16 16:47:07,2018-11-16 16:47:12,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC09 Delivery Car,,,2018-11-16 16:47:12,2018-11-16 16:47:20,7.386s,PASSED
+callTestCase,,,2018-11-16 16:47:13,2018-11-16 16:47:13,0.001s,NOT_RUN
+tap,,Tap delivery complete,2018-11-16 16:47:13,2018-11-16 16:47:15,1.887s,PASSED
+delay,,,2018-11-16 16:47:15,2018-11-16 16:47:20,5.002s,PASSED

@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and edit Owned Cars by Owner,,,2018-12-14 15:28:20,2018-12-14 15:33:00,4m - 40.395s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-14 15:28:20,2018-12-14 15:30:02,1m - 41.592s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-14 15:28:22,2018-12-14 15:29:21,59.918s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-14 15:29:21,2018-12-14 15:29:26,4.630s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-14 15:29:26,2018-12-14 15:29:31,4.874s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-14 15:29:31,2018-12-14 15:29:33,2.157s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-14 15:29:33,2018-12-14 15:29:37,3.550s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-14 15:29:37,2018-12-14 15:29:38,1.358s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 15:29:38,2018-12-14 15:29:41,3.098s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:29:41,2018-12-14 15:29:46,5.199s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-14 15:29:46,2018-12-14 15:29:48,1.305s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:29:48,2018-12-14 15:29:53,5.012s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-14 15:29:53,2018-12-14 15:29:55,2.605s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-14 15:29:55,2018-12-14 15:29:57,1.658s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:29:57,2018-12-14 15:30:02,5.008s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-12-14 15:30:02,2018-12-14 15:30:22,20.505s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2018-12-14 15:30:03,2018-12-14 15:30:03,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 15:30:03,2018-12-14 15:30:04,1.513s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:30:04,2018-12-14 15:30:09,5.007s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Search car""), ""Mitsubishi"", 0)",,Mencari car by name,2018-12-14 15:30:09,2018-12-14 15:30:11,1.680s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:30:11,2018-12-14 15:30:16,5.006s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView6""), 0)",,Tap button search,2018-12-14 15:30:16,2018-12-14 15:30:17,1.700s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:30:17,2018-12-14 15:30:22,5.009s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC04 Edit Car - My Cars,,,2018-12-14 15:30:22,2018-12-14 15:32:58,2m - 35.617s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars""), [:], STOP_ON_FAILURE)",,Call test case search car - my cars,2018-12-14 15:30:23,2018-12-14 15:30:23,0.009s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 15:30:23,2018-12-14 15:30:23,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView9 (1)""), 0)",,Tap icon menu titik 3,2018-12-14 15:30:23,2018-12-14 15:30:27,3.616s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout2""), 0)",,Tap menu edit,2018-12-14 15:30:27,2018-12-14 15:30:29,1.935s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView4 - Edit""), 0)",,Edit car details,2018-12-14 15:30:29,2018-12-14 15:30:30,1.853s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Mitsubishi""), 0)",,Tap car brand,2018-12-14 15:30:30,2018-12-14 15:30:34,3.498s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Select car brand,2018-12-14 15:30:34,2018-12-14 15:30:39,5.008s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText1 (3)""), 0)",,Tap car model,2018-12-14 15:30:39,2018-12-14 15:30:41,1.503s,PASSED
+"delay(5, STOP_ON_FAILURE)",,Select car model,2018-12-14 15:30:41,2018-12-14 15:30:46,5.005s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText2 - 2018""), 0)",,Tap model year,2018-12-14 15:30:46,2018-12-14 15:30:49,3.553s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Select year,2018-12-14 15:30:49,2018-12-14 15:30:54,5.013s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (11)""), 0)",,Menuju ke form selanjutnya,2018-12-14 15:30:54,2018-12-14 15:30:58,3.511s,PASSED
+"clearText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - D 1 BOS""), 0)",,Clear text plate number,2018-12-14 15:30:58,2018-12-14 15:30:58,0.410s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Exp B 1 XXX (1)""), ""D 03 A"", 0)",,Input plate number,2018-12-14 15:30:58,2018-12-14 15:31:00,2.170s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (12)""), 0)",,Menuju ke form selanjutnya,2018-12-14 15:31:00,2018-12-14 15:31:02,2.036s,PASSED
+for (def index : (1..2)),,Mengatur jumlah seat,2018-12-14 15:31:02,2018-12-14 15:31:07,5.008s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Diesel""), 0)",,Select fuel,2018-12-14 15:31:07,2018-12-14 15:31:11,3.638s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button4 - Automatic""), 0)",,Select transmision,2018-12-14 15:31:11,2018-12-14 15:31:14,3.635s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button5 - Next (1)""), 0)",,Menuju ke form selanjutnya,2018-12-14 15:31:14,2018-12-14 15:31:16,1.703s,PASSED
+for (def index : (1..6)),,Menghapus image car,2018-12-14 15:31:16,2018-12-14 15:31:37,20.349s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout3""), 0)",,Upload car photo 1,2018-12-14 15:31:37,2018-12-14 15:31:38,1.374s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:31:38,2018-12-14 15:31:39,1.546s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:31:39,2018-12-14 15:31:41,1.348s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:31:41,2018-12-14 15:31:46,5.007s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout4""), 0)",,Upload car photo 2,2018-12-14 15:31:46,2018-12-14 15:31:47,1.359s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:31:47,2018-12-14 15:31:51,3.464s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:31:51,2018-12-14 15:31:54,3.411s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:31:54,2018-12-14 15:31:59,5.012s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout5""), 0)",,Upload car photo 3,2018-12-14 15:31:59,2018-12-14 15:32:00,1.411s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:32:00,2018-12-14 15:32:02,1.690s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:32:02,2018-12-14 15:32:06,3.455s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:32:06,2018-12-14 15:32:11,5.009s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout6""), 0)",,Upload car photo 4,2018-12-14 15:32:11,2018-12-14 15:32:12,1.255s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:32:12,2018-12-14 15:32:13,1.355s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:32:13,2018-12-14 15:32:17,3.451s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:32:17,2018-12-14 15:32:22,5.013s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout7 (1)""), 0)",,Upload car photo 5,2018-12-14 15:32:22,2018-12-14 15:32:23,1.183s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:32:23,2018-12-14 15:32:24,1.380s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:32:24,2018-12-14 15:32:26,1.921s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:32:26,2018-12-14 15:32:31,5.014s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout8 (1)""), 0)",,Upload car photo 6,2018-12-14 15:32:31,2018-12-14 15:32:35,3.600s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:32:35,2018-12-14 15:32:36,1.389s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:32:36,2018-12-14 15:32:38,1.992s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:32:38,2018-12-14 15:32:43,5.015s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Save (4)""), 0)",,,2018-12-14 15:32:43,2018-12-14 15:32:53,9.858s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:32:53,2018-12-14 15:32:58,5.007s,PASSED

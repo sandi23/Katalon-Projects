@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_LANJUTKAN</name>
+   <tag></tag>
+   <elementGuidId>0f1046d6-bdbc-4949-bf63-b31b331b52ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class=&quot;container-type-b&quot;]/div[1]/div[@class=&quot;row m-0 mb-4&quot;]/div[@class=&quot;col p-0&quot;]/div[1]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;mt-3 float-md-right&quot;]/button[@class=&quot;btn btn-success&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[3]/button[count(. | //*[(text() = 'LANJUTKAN' or . = 'LANJUTKAN')]) = count(//*[(text() = 'LANJUTKAN' or . = 'LANJUTKAN')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LANJUTKAN</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[3]/button</value>
+   </webElementProperties>
+</WebElementEntity>

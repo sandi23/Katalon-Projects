@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Owner Edit Available Dates by Calendar" time="247" tests="2" failures="0" errors="0">
+   <testsuite name="Owner Edit Available Dates by Calendar" tests="2" failures="0" errors="0" time="247" timestamp="2018-11-21 15:10:02" hostname="WGS-LAP199 - DESKTOP-QUMB1S3" id="Test Suites/Mobile/Owner Edit Available Dates by Calendar">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Owner Edit Available Dates by Calendar\\20181121_150957"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Owner Edit Available Dates by Calendar\\20181121_150957\\appium.log, C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Owner Edit Available Dates by Calendar\\20181121_150957\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP199 - DESKTOP-QUMB1S3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Redmi 5"/>
+         <property name="hostAddress" value="10.10.11.177"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="54e797627cf5"/>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" status="PASSED">
+         <system-out><![CDATA[2018-11-21 15:10:03 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email
+
+2018-11-21 15:10:04 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.8_2018-11-12-stable-debug.apk'
+
+2018-11-21 15:10:56 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.8_2018-11-12-stable-debug.apk'
+
+2018-11-21 15:10:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-21 15:10:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-21 15:11:01 - [TEST_STEP][PASSED] - Statement - For (def index : (1..2)): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 15:11:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 15:11:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 15:11:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 15:11:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 15:11:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-21 15:11:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-21 15:11:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-21 15:11:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-21 15:11:08 - [TEST_STEP][PASSED] - setText: Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-21 15:11:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:09 - [MESSAGE][PASSED] - Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-21 15:11:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-21 15:11:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-21 15:11:12 - [TEST_STEP][PASSED] - setText: Text 'P@ssword789' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-21 15:11:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:13 - [MESSAGE][PASSED] - Text 'P@ssword789' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-21 15:11:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-21 15:11:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-21 15:11:14 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-21 15:11:16 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-21 15:11:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-21 15:11:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:11:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-21 15:11:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 15:11:23 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner" classname="Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner" status="PASSED">
+         <system-out><![CDATA[2018-11-21 15:11:23 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner: Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner
+
+2018-11-21 15:11:24 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-21 15:11:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-21 15:11:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Tab - Calendar'
+
+2018-11-21 15:11:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:12:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Tab - Calendar'
+
+2018-11-21 15:12:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView47 - 1'
+
+2018-11-21 15:12:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:13:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView47 - 1'
+
+2018-11-21 15:13:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Switch0 - OFF'
+
+2018-11-21 15:13:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:13:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Switch0 - OFF'
+
+2018-11-21 15:13:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Switch1 - OFF'
+
+2018-11-21 15:13:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:13:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Switch1 - OFF'
+
+2018-11-21 15:13:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Open'
+
+2018-11-21 15:13:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:13:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Open'
+
+2018-11-21 15:13:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button2 - Save'
+
+2018-11-21 15:13:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 15:14:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button2 - Save'
+
+2018-11-21 15:14:02 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-21 15:14:02 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-21 15:14:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 15:14:07 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-21 15:10:02 - [TEST_SUITE][PASSED] - Owner Edit Available Dates by Calendar: Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

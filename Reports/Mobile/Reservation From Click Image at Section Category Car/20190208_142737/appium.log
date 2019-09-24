@@ -1,0 +1,1044 @@
+[35m[Appium][39m Welcome to Appium v1.8.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 19360
+[35m[Appium][39m   chromeDriverPort: 19361
+[35m[Appium][39m   tmpDir: C:\Users\WGS-LA~1\AppData\Local\Temp\\Katalon\Appium\Temp1549610867162
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:19360
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[MJSONWP][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.0","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m16 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5e31d87d7d73"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5e31d87d7d73"},"firstMatch":[{"platformName":"android"}]}}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.createSession() with args: [{"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5e31d87d7d73"},null,{"desiredCapabilities":{"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5e31d87d7d73"},"firstMatch":[{"platformName":"android"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1549610911881 (14:28:31 GMT+0700 (SE Asia Standard Time))
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceId","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidUiautomator2Driver (v1.9.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceId: 
+[35m[Appium][39m   deviceName: Xiaomi Redmi 4A (Android 7.1.2)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   udid: 5e31d87d7d73
+[debug] [35m[BaseDriver][39m Creating session with MJSONWP desired capabilities: {"app":"C:\\Users\\WGS-LAP1...
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[35m[BaseDriver][39m Session created with session id: 86812596-8f87-4049-803c-5530fef1a9e0
+[35m[BaseDriver][39m Using local app 'C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_181
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/WGS-LAP151/.katalon/tools/android_sdk/build-tools/28.0.3
+[35m[ADB][39m Using adb.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[35m[AndroidDriver][39m Using device: 5e31d87d7d73
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to 5e31d87d7d73
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 25
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\WGS-LAP151\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\WGS-LAP151\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\WGS-LAP151\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'id.astra.stable.movic'
+[35m[ADB][39m Main activity name: 'id.astra.adp.movic.modules.main.SplashScreenActivity'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: id.astra.stable.movic/id.astra.adp.movic.modules.main.SplashScreenActivity
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 7.1.2
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell wm density'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': Redmi 4A
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell am force-stop io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'verify,--print-certs,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk'
+[debug] [35m[ADB][39m 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk' is not signed with debug cert.
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk'
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\zipalign.exe
+[debug] [35m[ADB][39m Signing 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk' with default cert
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'sign,--key,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'verify,--print-certs,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is not signed with debug cert.
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\zipalign.exe
+[debug] [35m[ADB][39m Signing 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' with default cert
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'sign,--key,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is not installed
+[35m[ADB][39m io.appium.uiautomator2.server was not uninstalled, because it was not present on the device
+[debug] [35m[ADB][39m Uninstalling io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is not installed
+[35m[ADB][39m io.appium.uiautomator2.server.test was not uninstalled, because it was not present on the device
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list packages io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 install C\:\\Users\\WGS-LAP151\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v1.7.0.apk'
+[debug] [35m[ADB][39m Install command stdout: Success
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server.test
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list packages io.appium.uiautomator2.server.test'
+[debug] [35m[ADB][39m App is not installed
+[debug] [35m[ADB][39m App 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' not installed. Installing
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 install C\:\\Users\\WGS-LAP151\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk'
+[debug] [35m[ADB][39m Install command stdout: Success
+[debug] [35m[UiAutomator2][39m Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list instrumentation'
+[debug] [35m[UiAutomator2][39m Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell ps'
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell appops set io.appium.settings android\:mock_location allow'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell dumpsys package io.appium.unlock'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to 8202
+[debug] [35m[ADB][39m Forwarding system: 8202 to device: 6790
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 forward tcp\:8202 tcp\:6790'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell rm -rf /data/local/tmp/strings.json'
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\WGS-LA~1\AppData\Local\Temp\Katalon\Appium\Temp1549610867162\id.astra.stable.movic
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[35m[ADB][39m Successfully extracted 1269 strings from 'C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 push C\:\\Users\\WGS-LA~1\\AppData\\Local\\Temp\\Katalon\\Appium\\Temp1549610867162\\id.astra.stable.movic\\strings.json /data/local/tmp'
+[debug] [35m[ADB][39m Checking app cert for C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'verify,--print-certs,C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk'
+[debug] [35m[ADB][39m 'C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk' is not signed with debug cert.
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Zip-aligning 'C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk'
+[35m[ADB][39m Checking whether zipalign is present
+[35m[ADB][39m Using zipalign.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\zipalign.exe
+[debug] [35m[ADB][39m Signing 'C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk' with default cert
+[35m[ADB][39m Using apksigner.bat from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat
+[debug] [35m[ADB][39m Starting 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\apksigner.bat' with args 'sign,--key,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.pk8,--cert,C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\keys\testkey.x509.pem,C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk'
+[debug] [35m[ADB][39m Getting install status for id.astra.stable.movic
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell pm list packages id.astra.stable.movic'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'id.astra.stable.movic'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell dumpsys package id.astra.stable.movic'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\WGS-LAP151\.katalon\tools\android_sdk\build-tools\28.0.3\aapt.exe
+[debug] [35m[ADB][39m The installed 'id.astra.stable.movic' package does not require upgrade (105 > 11)
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell am force-stop io.appium.uiautomator2.server'
+[35m[UiAutomator2][39m Starting uiautomator2 server 1.7.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v1.7.0.apk' and test from 'C:\Users\WGS-LAP151\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Running command: 'adb -s 5e31d87d7d73 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[35m[UiAutomator2][39m Waiting up to 20000ms for UiAutomator2 to be online...
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /session] to [POST http://localhost:8202/wd/hub/session] with body: {"desiredCapabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5e31d87d7d73"},"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"5e31d87d7d73","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"5e31d87d7d73","deviceUDID":"5e31d87d7d73","platformVersion":"7.1.2","deviceScreenSize":"720x1280","deviceScreenDensity":320,"deviceModel":"Redmi 4A","deviceManufacturer":"Xiaomi","appPa...
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":"Created Session"}
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'id.astra.stable.movic/id.astra.adp.movic.modules.main.SplashScreenActivity'. Starting it ourselves
+[debug] [35m[ADB][39m Device API level: 25
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell am start -W -n id.astra.stable.movic/id.astra.adp.movic.modules.main.SplashScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [35m[ADB][39m Waiting up to 20000ms for activity matching pkg: 'id.astra.stable.movic' and activity: 'id.astra.adp.movic.modules.main.SplashScreenActivity' to be focused
+[debug] [35m[ADB][39m Possible activities, to be checked: 'id.astra.adp.movic.modules.main.SplashScreenActivity', 'id.astra.stable.movic.id.astra.adp.movic.modules.main.SplashScreenActivity'
+[debug] [35m[ADB][39m Getting focused package and activity
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell dumpsys window windows'
+[debug] [35m[ADB][39m Found package: 'id.astra.stable.movic' and fully qualified activity name : 'id.astra.adp.movic.modules.main.SplashScreenActivity'
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/appium/device/pixel_ratio] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"d0363283-0849-445e-b8e7-90b168e27cac\",\"status\":0,\"value\":2}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /appium/device/system_bars] to [GET http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/appium/device/system_bars] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"d0363283-0849-445e-b8e7-90b168e27cac\",\"status\":0,\"value\":{\"statusBar\":48}}"
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /window/current/size] to [GET http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/window/current/size] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"d0363283-0849-445e-b8e7-90b168e27cac\",\"status\":0,\"value\":{\"height\":1280,\"width\":720}}"
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 86812596-8f87-4049-803c-5530fef1a9e0 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1549610960752 (14:29:20 GMT+0700 (SE Asia Standard Time))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"Xiaomi Redmi 4A (Android 7.1.2)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"5e31d87d7d73"},"app":"C:\\Users\\WGS-LAP151\\Downloads\\Movic_1.2.0_2019-02-04-stable-debug.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceId":"","deviceName":"5e31d87d7d73","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platformName":"Android","udid":"5e31d87d7d73","deviceUDID":"5e31d87d7d73","platformVersion":"7.1.2","deviceScreenSize":"720x1280","deviceScreenDensity":320,"deviceModel":"Redmi 4A","deviceManufacturer":"Xiaomi","appPackage":"id.astra.stable...
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m48876 ms - 1196[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[W3C][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.8.0","revision":null}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 55[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":100000}[39m
+[debug] [35m[W3C][39m Bad parameters: BadParametersError: Parameters were incorrect. We wanted "W3C protocol expects any of script, pageLoad or implicit to be set" and you sent {"type":"implicit","ms":100000}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/timeouts [39m[33m400[39m [90m30 ms - 5083[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getCurrentContext() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[W3C][39m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m17 ms - 84[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getContexts() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/contexts [39m[32m200[39m [90m205 ms - 86[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m256 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"d0363283-0849-445e-b8e7-90b168e27cac\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOzdd3yU15no8eecd7p6QSAhgei9mF4MGHAvidPjOE7i7CZxnNxkN9ndJLtJvLGT67spd7PZTS\\/X\\ncZzm9MQV2zE2xoCNAQOm9yIJIRDqU99z\\/3iFrEgIZoQOQ5Tf7+PP17I00rwySHPmecuo0k\\/cIURE\\nREQ209neACIiIhr8seAgIiIi67HgICIiIuux4CAiIiLrseAgIiIi67HgICIiIuux4CAiIiLrseAg\\nIiIi67HgICIiIuv5sr0BREQWCwcCwwtLiiK5WinXmPqWptqm0\\/Fk8vyf5WhdmptfVVTqaG3EtESj\\nNWdONUc7jDGXZrOJBl8sOIjoUqeVqioeMrq0zO\\/4Uq7b182UUkpU0k0eaKg\\/evqkm\\/mDfcgfWDBq\\nwrvnL5tcXhX0+5Op1K9eefHB9c+eaD7jd5xIIBgJBAM+v09r15h4MtEej7XFY\\/FkMuwPLJ8w9a6l\\n1xeEc2LJxNHGht9sevHx7ZuaOtov7lsn+tuNBQdluYLywtQ7K1xlAg\\/Xnjl2JtubQ5eicCB464x5\\nt89f5i0CvHcaY5RSnl3\\/6XOceDL50PrVP1j7dFssmukdVRWVvH3O4hmV1R2JRGtry8GGEzvrjmml\\nxpWVV5cMHVkypLygqDgn16d9rnGbo+11TWcOnz65\\/2Td6baWgw31Gw\\/vn1JRlRsMjy4d+rbZi\\/ef\\nPPHyob0D\\/P+CLqfCgcD04dXjh1bkhcJ+7Vi9r66\\/7a4x7fFYXVPjpiMH6pob+7Gw\\/muJBceAFc6t\\n6npbiZiznqeum7W3HrW9eZdtsXeWuypllMTe...
+[debug] [35m[W3C][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOzdd3yU15no8eecd7p6QSAhgei9mF4MGHAvidPjOE7i7CZxnNxkN9ndJLtJvLGT67spd7PZTS/X\ncZzm9MQV2zE2xoCNAQOm9yIJIRDqU99z/3iFrEgIZoQOQ5Tf7+PP17I00rwySHPmecuo0k/cIURE\nREQ209neACIiIhr8seAgIiIi67HgICIiIuux4CAiIiLrseAgIiIi67HgICIiIuux4CAiIiLrseAg\nIiIi67HgICIiIuv5sr0BREQWCwcCwwtLiiK5WinXmPqWptqm0/Fk8vyf5WhdmptfVVTqaG3EtESj\nNWdONUc7jDGXZrOJBl8sOIjoUqeVqioeMrq0zO/4Uq7b182UUkpU0k0eaKg/evqkm/mDfcgfWDBq\nwrvnL5tcXhX0+5Op1K9eefHB9c+eaD7jd5xIIBgJBAM+v09r15h4MtEej7XFY/FkMuwPLJ8w9a6l\n1xeEc2LJxNHGht9sevHx7ZuaOtov7lsn+tuNBQdluYLywtQ7K1xlAg/Xnjl2JtubQ5eicCB464x5\nt89f5i0CvHcaY5RSnl3/6XOceDL50PrVP1j7dFssmukdVRWVvH3O4hmV1R2JRGtry8GGEzvrjmml\nxpWVV5cMHVkypLygqDgn16d9rnGbo+11TWcOnz65/2Td6baWgw31Gw/vn1JRlRsMjy4d+rbZi/ef\nPPHyob0D/P+CLqfCgcD04dXjh1bkhcJ+7Vi9r66/7a4x7fFYXVPjpiMH6pob+7Gw/muJBceAFc6t\n6npbiZiznqeum7W3HrW9eZdtsXeWuypllMTeWSZfHZgFh+PI2UexPrrgnw3ZLOA4uaFwPJWMp5Ln\n//WqlRKR3FA46PO1xTK+o5Lc/HFlFUnXbWxvfWHfjj9t3RhLJJaMnbxg9ISxZeWFkRy/drRWSpSI\nuMYk3V...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/screenshot [39m[32m200[39m [90m397 ms - 50796[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m213 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getCurrentContext() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[W3C][39m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m4 ms - 84[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getContexts() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/contexts [39m[32m200[39m [90m209 ms - 86[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m186 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/element[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Search by Car Categories\"))"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Search by Car Categories\"))","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/element] with body: {"strategy":"-android uiautomator","selector":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Search by Car Categories\"))","context":"","multiple":false}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/element [39m[33m404[39m [90m91 ms - 1056[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m182 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getCurrentContext() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[W3C][39m Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m4 ms - 84[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getContexts() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/contexts [39m[32m200[39m [90m198 ms - 86[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m179 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.getScreenshot() with args: ["86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /screenshot] to [GET http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/screenshot] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"d0363283-0849-445e-b8e7-90b168e27cac\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U\\/gAAAgAElEQVR4\\nnOydZ3wc1dm37zOzfSWteu+2bMtF7kXuDTewwdQY0wmhJSQQSE94ICE8ac8LCS200DumGVzA2Mbd\\nlnuVJVu9Wl3avjvn\\/TCyUFR3ZzWSbP+vn3NlWc2ec6bfc8+ZMyzyoZsJAAAAAEBNhIFuAAAAAAAu\\nfhBwAAAAAEB1EHAAAAAAQHUQcAAAAABAdRBwAAAAAEB1EHAAAAAAQHUQcAAAAABAdRBwAAAAAEB1\\nEHAAAAAAQHU0A90AAABQEaNOlxAaEWYKEhiTOK9ubqxorHN5PD3\\/ShSEyKCQpLBIURA48WaHo7yh\\ntslh55z3T7MBuPhAwAEA6G8ExpLCo9Ijo7WixitJ3U3GGGPEPJLnbE11Sd05yf+TvUGrm5Y2\\/Kap\\nc0bGJem1Wo\\/X++H+nW\\/s3lzV1KAVRZNOb9LpdRqtRhAkzl0et83ltLqcLo\\/HqNXNGz76ntlLLEaz\\n0+Muqa\\/5+MDOdccONNptgc06AJcuCDjAAGOJC\\/X+IF5iXPdBRUNpw0A3B\\/QHRp3+qrFTVk+dIwcB\\n8pecc8aY7Lb\\/1Iiiy+N5a\\/eWl3d8Y3U6\\/K0oKSzi+kkzxiam2t3ulpbmgpqqk5WlAmMZ0XGpETEp\\nEVFxlrBwc5BG0EhcanLYKhsbiurOnTlXWWdtLqipzik6Myo+KUhvTI+MuW7ijDPnqvYV5vXxsgCD\\nCaNOl5WQOiwmPthg1AqiqnW1be0S5zaXs7Kx\\/kDx2cqmegWB9YUCAo4+wxiU1PaZEfHz7oG2yWwt\\nJWo3b9Di\\/EGcxLyckfMH0fT3vgk4RJHOn8W6odd1...
+[debug] [35m[W3C][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAtAAAAUACAIAAADhrPJqAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4\nnOydZ3wc1dm37zOzfSWteu+2bMtF7kXuDTewwdQY0wmhJSQQSE94ICE8ac8LCS200DumGVzA2Mbd\nlnuVJVu9Wl3avjvn/TCyUFR3ZzWSbP+vn3NlWc2ec6bfc8+ZMyzyoZsJAAAAAEBNhIFuAAAAAAAu\nfhBwAAAAAEB1EHAAAAAAQHUQcAAAAABAdRBwAAAAAEB1EHAAAAAAQHUQcAAAAABAdRBwAAAAAEB1\nEHAAAAAAQHU0A90AAABQEaNOlxAaEWYKEhiTOK9ubqxorHN5PD3/ShSEyKCQpLBIURA48WaHo7yh\ntslh55z3T7MBuPhAwAEA6G8ExpLCo9Ijo7WixitJ3U3GGGPEPJLnbE11Sd05yf+TvUGrm5Y2/Kap\nc0bGJem1Wo/X++H+nW/s3lzV1KAVRZNOb9LpdRqtRhAkzl0et83ltLqcLo/HqNXNGz76ntlLLEaz\n0+Muqa/5+MDOdccONNptgc06AJcuCDjAAGOJC/X+IF5iXPdBRUNpw0A3B/QHRp3+qrFTVk+dIwcB\n8pecc8aY7Lb/1Iiiy+N5a/eWl3d8Y3U6/K0oKSzi+kkzxiam2t3ulpbmgpqqk5WlAmMZ0XGpETEp\nEVFxlrBwc5BG0EhcanLYKhsbiurOnTlXWWdtLqipzik6Myo+KUhvTI+MuW7ijDPnqvYV5vXxsgCD\nCaNOl5WQOiwmPthg1AqiqnW1be0S5zaXs7Kx/kDx2cqmegWB9YUCAo4+wxiU1PaZEfHz7oG2yWwt\nJWo3b9Di/EGcxLyckfMH0fT3vgk4RJHOn8W6odd1A9REJ4pBBqPL63F5PT0fXgXGiCjIYNRrNFan\n3xVFBIVkRMd7JKne1rI9/8QXR3KcbvesoSOnpQ8fGh0XajJrBVEQGCNGRBLnHsnbZLcX1VXnFObv\nPJv7zO...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/screenshot [39m[32m200[39m [90m380 ms - 90194[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.setContext() with args: ["NATIVE_APP","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[AndroidDriver][39m Getting a list of available webviews
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell cat /proc/net/unix'
+[debug] [35m[AndroidDriver][39m Found webviews: []
+[debug] [35m[AndroidDriver][39m Available contexts: ["NATIVE_APP"]
+[debug] [35m[W3C][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/context [39m[32m200[39m [90m195 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/window/current/size[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C][39m Driver proxy active, passing request on via HTTP proxy
+[debug] [35m[JSONWP Proxy][39m Proxying [GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/window/current/size] to [GET http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/window/current/size] with body: {}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"d0363283-0849-445e-b8e7-90b168e27cac\",\"status\":0,\"value\":{\"height\":1280,\"width\":720}}"
+[35m[JSONWP Proxy][39m Replacing sessionId d0363283-0849-445e-b8e7-90b168e27cac with 86812596-8f87-4049-803c-5530fef1a9e0
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/window/current/size [39m[32m200[39m [90m33 ms - 99[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m113 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m89 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m87 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m69 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m55 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m57 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m60 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m63 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m63 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m60 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m58 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m55 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m55 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m55 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m61 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m50 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m64 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m54 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m50 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m50 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m57 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m53 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m50 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m53 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m48 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m53 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m50 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m50 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m41 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m51 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m48 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m49 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m52 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m47 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m48 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m66 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m45 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m48 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m46 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m45 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m47 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m42 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m49 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m50 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m43 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m53 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m40 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m40 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m44 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m41 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m39 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m42 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m44 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m40 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m43 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m40 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m42 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m200[39m [90m52 ms - 74[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]"}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.findElements() with args: ["xpath","//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","86812596-8f87-4049-803c-5530fef1a9e0"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 0 ms for condition
+[debug] [35m[JSONWP Proxy][39m Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac/elements] with body: {"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.Button[1]","context":"","multiple":true}
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: {"sessionId":"d0363283-0849-445e-b8e7-90b168e27cac","status":0,"value":[]}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/86812596-8f87-4049-803c-5530fef1a9e0/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[W3C][39m Responding to client with driver.findElements() result: []
+[debug] [35m[UiAutomator2][39m [UIAutomator2] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+[debug] [35m[UiAutomator2][39m [UIAutomator2] Time: 265,099
+[debug] [35m[UiAutomator2][39m [UIAutomator2] OK (1 test)
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 86812596-8f87-4049-803c-5530fef1a9e0 from our master session list
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[JSONWP Proxy][39m Proxying [DELETE /] to [DELETE http://localhost:8202/wd/hub/session/d0363283-0849-445e-b8e7-90b168e27cac] with no body
+[debug] [35m[JSONWP Proxy][39m Got response with status 200: "{\"sessionId\":\"d0363283-0849-445e-b8e7-90b168e27cac\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 1 device(s) connected
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 shell am force-stop id.astra.stable.movic'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 8202 
+[debug] [35m[ADB][39m Running 'C:\Users\WGS-LAP151\.katalon\tools\android_sdk\platform-tools\adb.exe -P 5037 -s 5e31d87d7d73 forward --remove tcp\:8202'

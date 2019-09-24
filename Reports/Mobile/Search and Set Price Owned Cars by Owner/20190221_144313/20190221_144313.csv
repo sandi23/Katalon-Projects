@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set Price Owned Cars by Owner,,,2019-02-21 14:43:19,2019-02-21 14:49:26,6m - 6.972s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-21 14:43:20,2019-02-21 14:45:19,1m - 59.451s,PASSED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-21 14:43:22,2019-02-21 14:44:36,1m - 14.288s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English""), 0)",,,2019-02-21 14:44:36,2019-02-21 14:44:40,4.070s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4""), 0)",,Tap button next,2019-02-21 14:44:40,2019-02-21 14:44:42,1.521s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2019-02-21 14:44:42,2019-02-21 14:44:46,4.664s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2019-02-21 14:44:46,2019-02-21 14:44:49,2.401s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2019-02-21 14:44:49,2019-02-21 14:44:52,3.421s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""nansulaiman5@gmail.com"", 0)",,Input email user,2019-02-21 14:44:52,2019-02-21 14:44:53,1.105s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03""), 0)",,Tap tombol lanjutkan seharusnya next Eng,2019-02-21 14:44:53,2019-02-21 14:44:56,2.963s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 14:44:56,2019-02-21 14:45:01,5.129s,PASSED
+"setText(findTestObject(""Mobile/OR Login 2/android.widget.EditText0 - field password""), ""password8"", 0)",,Input password user,2019-02-21 14:45:01,2019-02-21 14:45:02,1.006s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 14:45:02,2019-02-21 14:45:07,5.011s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2019-02-21 14:45:07,2019-02-21 14:45:11,3.234s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Start Movic 01""), 0)",,Submit form dan redirect ke homepage,2019-02-21 14:45:11,2019-02-21 14:45:14,3.861s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 14:45:14,2019-02-21 14:45:19,5.006s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC06 Set Price - My Cars,,,2019-02-21 14:45:20,2019-02-21 14:49:04,3m - 44.524s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars""), [:], STOP_ON_FAILURE)",,Call test case search car - my cars,2019-02-21 14:45:20,2019-02-21 14:45:20,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2019-02-21 14:45:20,2019-02-21 14:45:20,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.ImageView9 - 3 dots 1""), 0)",,Tap icon menu titik 3,2019-02-21 14:45:20,2019-02-21 14:46:35,1m - 14.534s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView6 - Set price""), 0)",,Select menu set price,2019-02-21 14:46:35,2019-02-21 14:49:04,2m - 29.280s,FAILED

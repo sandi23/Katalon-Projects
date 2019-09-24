@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set Price Owned Cars by Owner,,,2018-12-14 15:44:50,2018-12-14 15:47:05,2m - 15.164s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-14 15:44:51,2018-12-14 15:46:19,1m - 28.742s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-14 15:44:52,2018-12-14 15:45:39,46.684s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-14 15:45:39,2018-12-14 15:45:43,4.799s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-14 15:45:43,2018-12-14 15:45:48,4.924s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-14 15:45:48,2018-12-14 15:45:52,3.485s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-14 15:45:52,2018-12-14 15:45:55,3.503s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-14 15:45:55,2018-12-14 15:45:57,1.363s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 15:45:57,2018-12-14 15:46:00,2.915s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:46:00,2018-12-14 15:46:05,5.085s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-14 15:46:05,2018-12-14 15:46:06,1.193s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:46:06,2018-12-14 15:46:11,5.009s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-14 15:46:11,2018-12-14 15:46:13,1.974s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-14 15:46:13,2018-12-14 15:46:14,1.635s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:46:14,2018-12-14 15:46:19,5.006s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-12-14 15:46:20,2018-12-14 15:46:40,20.569s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2018-12-14 15:46:20,2018-12-14 15:46:20,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 15:46:20,2018-12-14 15:46:21,1.437s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:46:21,2018-12-14 15:46:26,5.008s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Search car""), ""Mitsubishi"", 0)",,Mencari car by name,2018-12-14 15:46:26,2018-12-14 15:46:28,1.855s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:46:28,2018-12-14 15:46:33,5.017s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView6""), 0)",,Tap button search,2018-12-14 15:46:33,2018-12-14 15:46:35,1.746s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:46:35,2018-12-14 15:46:40,5.010s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC06 Set Price - My Cars,,,2018-12-14 15:46:40,2018-12-14 15:47:03,23.403s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars""), [:], STOP_ON_FAILURE)",,Call test case search car - my cars,2018-12-14 15:46:41,2018-12-14 15:46:41,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 15:46:41,2018-12-14 15:46:41,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView9 (1)""), 0)",,Tap icon menu titik 3,2018-12-14 15:46:41,2018-12-14 15:46:42,1.406s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout4 (1)""), 0)",,Select menu set price,2018-12-14 15:46:42,2018-12-14 15:46:44,2.177s,PASSED
+"clearText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Rp 750.000""), 0)",,Clear price for weekdays (package price 1),2018-12-14 15:46:44,2018-12-14 15:46:45,0.527s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 (5)""), ""1000000"", 0)",,Input new price for weekdays (package price 1),2018-12-14 15:46:45,2018-12-14 15:46:47,2.231s,PASSED
+"clearText(findTestObject(""Mobile/OR Product/android.widget.EditText1 - Rp 1.000.000""), 0)",,Clear price for weekends/national holiday (package price 1),2018-12-14 15:46:47,2018-12-14 15:46:48,0.921s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText1 (4)""), ""1250000"", 0)",,Input new price for weekends/national holiday (package price 1),2018-12-14 15:46:48,2018-12-14 15:46:50,1.812s,PASSED
+"scrollToText(""Add Package Price"", STOP_ON_FAILURE)",,,2018-12-14 15:46:50,2018-12-14 15:46:51,1.095s,PASSED
+"clearText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Rp 1.000.000""), 0)",,Clear price for weekdays (package price 2),2018-12-14 15:46:51,2018-12-14 15:46:51,0.454s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 (6)""), ""1250000"", 0)",,Input new price for weekdays (package price 2),2018-12-14 15:46:51,2018-12-14 15:46:53,1.924s,PASSED
+"clearText(findTestObject(""Mobile/OR Product/android.widget.EditText1 - Rp 1.250.000""), 0)",,Clear price for weekends/national holiday (package price 2),2018-12-14 15:46:53,2018-12-14 15:46:54,0.923s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText1 (5)""), ""1500000"", 0)",,Input new price for weekends/national holiday (package price 2),2018-12-14 15:46:54,2018-12-14 15:46:56,1.844s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Save (5)""), 0)",,Menyimpan perubahan price,2018-12-14 15:46:56,2018-12-14 15:46:58,2.629s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2))",,,2018-12-14 15:46:58,2018-12-14 15:47:03,5.012s,PASSED

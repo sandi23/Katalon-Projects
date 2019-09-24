@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Edit_LokasiJemput</name>
+   <tag></tag>
+   <elementGuidId>e84aef77-a182-4c5d-904c-c37ff36eddf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;data-pesanan&quot;]/div[1]/form/div[1]/div[1]/div[7]/div/div/div/div[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;data-pesanan&quot;]/div[1]/form/div[1]/div[1]/div[7]/div/div/div/div[5]/a</value>
+   </webElementProperties>
+</WebElementEntity>

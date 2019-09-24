@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner Edit Available Dates by Calendar,,,2018-12-14 16:47:20,2018-12-14 16:51:12,3m - 52.401s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-14 16:47:20,2018-12-14 16:48:50,1m - 30.009s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-14 16:47:22,2018-12-14 16:48:09,47.154s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-14 16:48:09,2018-12-14 16:48:15,6.760s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-14 16:48:15,2018-12-14 16:48:21,5.217s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-14 16:48:21,2018-12-14 16:48:24,3.538s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-14 16:48:24,2018-12-14 16:48:26,1.617s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-14 16:48:26,2018-12-14 16:48:27,1.340s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 16:48:27,2018-12-14 16:48:30,3.130s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:48:30,2018-12-14 16:48:35,5.097s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-14 16:48:35,2018-12-14 16:48:37,1.248s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:48:37,2018-12-14 16:48:42,5.005s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-14 16:48:42,2018-12-14 16:48:44,2.040s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-14 16:48:44,2018-12-14 16:48:45,1.661s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:48:45,2018-12-14 16:48:50,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner,,,2018-12-14 16:48:50,2018-12-14 16:50:57,2m - 6.359s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2018-12-14 16:48:51,2018-12-14 16:48:51,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Tab - Calendar""), 0)",,Tap tab calendar,2018-12-14 16:48:51,2018-12-14 16:48:54,3.372s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView47 - 1""), 0)",,Tap button icon plus (add calendar),2018-12-14 16:48:54,2018-12-14 16:48:58,3.856s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Switch0 - OFF""), 0)",,Tap available dates (every week) on,2018-12-14 16:48:58,2018-12-14 16:50:57,1m - 58.642s,FAILED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner Edit Available Dates by Calendar,,,2019-02-26 14:38:36,2019-02-26 14:44:40,6m - 4.365s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-26 14:38:37,2019-02-26 14:41:23,2m - 46.798s,PASSED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-26 14:38:38,2019-02-26 14:40:37,1m - 59.299s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English""), 0)",,,2019-02-26 14:40:37,2019-02-26 14:40:44,6.456s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4""), 0)",,Tap button next,2019-02-26 14:40:44,2019-02-26 14:40:47,3.477s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2019-02-26 14:40:47,2019-02-26 14:40:50,2.449s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2019-02-26 14:40:50,2019-02-26 14:40:53,3.439s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2019-02-26 14:40:53,2019-02-26 14:40:57,3.409s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""nansulaiman5@gmail.com"", 0)",,Input email user,2019-02-26 14:40:57,2019-02-26 14:40:58,1.069s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03""), 0)",,Tap tombol lanjutkan seharusnya next Eng,2019-02-26 14:40:58,2019-02-26 14:41:00,2.665s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:41:00,2019-02-26 14:41:06,5.183s,PASSED
+"setText(findTestObject(""Mobile/OR Login 2/android.widget.EditText0 - field password""), ""password8"", 0)",,Input password user,2019-02-26 14:41:06,2019-02-26 14:41:06,0.975s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:41:06,2019-02-26 14:41:11,5.007s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2019-02-26 14:41:12,2019-02-26 14:41:14,2.745s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Start Movic 01""), 0)",,Submit form dan redirect ke homepage,2019-02-26 14:41:14,2019-02-26 14:41:18,4.176s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:41:18,2019-02-26 14:41:23,5.008s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner,,,2019-02-26 14:41:23,2019-02-26 14:44:31,3m - 7.168s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2019-02-26 14:41:24,2019-02-26 14:41:24,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Tab - Calendar""), 0)",,Tap tab calendar,2019-02-26 14:41:24,2019-02-26 14:42:45,1m - 20.969s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView47 - 1""), 0)",,Tap button icon plus (add calendar),2019-02-26 14:42:45,2019-02-26 14:44:31,1m - 45.619s,FAILED

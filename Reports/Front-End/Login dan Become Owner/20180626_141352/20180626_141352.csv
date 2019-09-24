@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login dan Become Owner,Chrome 67.0.3396.87,,2018-06-26 14:13:54,2018-06-26 14:15:03,1m - 8.559s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email,Chrome 67.0.3396.87,,2018-06-26 14:13:55,2018-06-26 14:14:47,52.407s,FAILED
+openBrowser,Chrome 67.0.3396.87,Buka browser,2018-06-26 14:13:56,2018-06-26 14:14:01,5.750s,PASSED
+maximizeWindow,Chrome 67.0.3396.87,Maximize window,2018-06-26 14:14:01,2018-06-26 14:14:03,2.160s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,Akses Url,2018-06-26 14:14:03,2018-06-26 14:14:26,22.172s,PASSED
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-26 14:14:26,2018-06-26 14:14:27,1.091s,PASSED
+click,Chrome 67.0.3396.87,Klik menu 'Masuk',2018-06-26 14:14:27,2018-06-26 14:14:47,20.691s,FAILED
+,,,,,,
+Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery,Chrome 67.0.3396.87,,2018-06-26 14:14:47,2018-06-26 14:15:01,13.907s,FAILED
+openBrowser,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.006s,NOT_RUN
+maximizeWindow,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.002s,NOT_RUN
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.003s,NOT_RUN
+waitForPageLoad,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.004s,NOT_RUN
+click,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.004s,NOT_RUN
+setText,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.003s,NOT_RUN
+setText,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.003s,NOT_RUN
+click,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:48,0.001s,NOT_RUN
+delay,Chrome 67.0.3396.87,,2018-06-26 14:14:48,2018-06-26 14:14:51,3.064s,PASSED
+refresh,Chrome 67.0.3396.87,,2018-06-26 14:14:51,2018-06-26 14:15:01,10.050s,FAILED

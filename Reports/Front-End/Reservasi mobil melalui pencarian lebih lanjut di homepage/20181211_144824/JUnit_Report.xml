@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reservasi mobil melalui pencarian lebih lanjut di homepage" time="300" tests="1" failures="5" errors="0">
+   <testsuite name="Reservasi mobil melalui pencarian lebih lanjut di homepage" tests="1" failures="5" errors="0" time="300" timestamp="2018-12-11 14:48:29" hostname="WGS-LAP199 - DESKTOP-QUMB1S3" id="Test Suites/Front-End/Reservasi mobil melalui pencarian lebih lanjut di homepage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui pencarian lebih lanjut di homepage\\20181211_144824"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui pencarian lebih lanjut di homepage\\20181211_144824\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui pencarian lebih lanjut di homepage\\20181211_144824\\1544568659502.png"/>
+         <property name="hostName" value="WGS-LAP199 - DESKTOP-QUMB1S3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.80"/>
+         <property name="hostAddress" value="10.10.10.231"/>
+         <property name="sessionId" value="078b0220807dc1c81a06447f7925b31a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email" classname="Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email" status="PASSED">
+         <system-out><![CDATA[2018-12-11 14:48:29 - [TEST_CASE][PASSED] - Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email: Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email
+
+2018-12-11 14:48:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-11 14:48:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-11 14:48:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-11 14:48:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-11 14:48:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-11 14:48:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-11 14:48:37 - [TEST_STEP][PASSED] - navigateToUrl("https://stg.movic.id/home"): Navigate to 'https://stg.movic.id/home' successfully
+
+2018-12-11 14:49:01 - [MESSAGE][PASSED] - Navigate to 'https://stg.movic.id/home' successfully
+
+2018-12-11 14:49:01 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2018-12-11 14:49:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-12-11 14:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Front-End/OR User/OR Login Biasa with email/a_Masuk (1)")): Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/a_Masuk (1)' is clicked on
+
+2018-12-11 14:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/a_Masuk (1)' is clicked on
+
+2018-12-11 14:49:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-11 14:49:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-11 14:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for"), "santi.wahyuni@wgs.co.id"): Text 'santi.wahyuni@wgs.co.id' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for'
+
+2018-12-11 14:49:05 - [MESSAGE][PASSED] - Text 'santi.wahyuni@wgs.co.id' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for'
+
+2018-12-11 14:49:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-11 14:49:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-11 14:49:08 - [TEST_STEP][PASSED] - setText(findTestObject("Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng"), "P@ssw0rd123"): Text 'P@ssw0rd123' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng'
+
+2018-12-11 14:49:09 - [MESSAGE][PASSED] - Text 'P@ssw0rd123' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng'
+
+2018-12-11 14:49:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-11 14:49:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-11 14:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front-End/OR User/OR Login Biasa with email/button_MASUK")): Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/button_MASUK' is clicked on
+
+2018-12-11 14:49:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/button_MASUK' is clicked on
+
+2018-12-11 14:49:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda"), CONTINUE_ON_FAILURE): Object 'Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda' is visible
+
+2018-12-11 14:49:12 - [MESSAGE][PASSED] - Object 'Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda' is visible
+
+2018-12-11 14:49:12 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 1)): Delayed 2 second(s)
+
+2018-12-11 14:49:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut" classname="Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class=&quot;wrapper-top&quot;]/div[@class=&quot;search-menu&quot;]/form[@class=&quot;ng-untouched ng-dirty ng-valid&quot;]/a[1]/input[@class=&quot;form-input-search home-page ng-untouched ng-dirty ng-valid&quot;][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at TC02 Cari mobil menggunakan fitur pencarian lebih lanjut.run(TC02 Cari mobil menggunakan fitur pencarian lebih lanjut:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-11 14:49:15 - [TEST_CASE][FAILED] - Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut: Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at TC02 Cari mobil menggunakan fitur pencarian lebih lanjut.run(TC02 Cari mobil menggunakan fitur pencarian lebih lanjut:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:49:16 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Front-End/User/SC99 Regression/TC04 Login Biasa with email"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Front-End/User/SC99 Regression/TC04 Login Biasa with email"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:49:16 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Front-End/User/SC99 Regression/TC04 Login Biasa with email"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:49:16 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h"), "bandung"): setText(findTestObject("Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h"), "bandung") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at TC02 Cari mobil menggunakan fitur pencarian lebih lanjut.run(TC02 Cari mobil menggunakan fitur pencarian lebih lanjut:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:50:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-11 14:51:00 - [MESSAGE][FAILED] - Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+[[ATTACHMENT|C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui pencarian lebih lanjut di homepage\\20181211_144824\\1544568659502.png]]
+
+2018-12-11 14:51:00 - [MESSAGE][FAILED] - setText(findTestObject("Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h"), "bandung") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at TC02 Cari mobil menggunakan fitur pencarian lebih lanjut.run(TC02 Cari mobil menggunakan fitur pencarian lebih lanjut:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-11 14:49:15 - [TEST_CASE][FAILED] - Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut: Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at TC02 Cari mobil menggunakan fitur pencarian lebih lanjut.run(TC02 Cari mobil menggunakan fitur pencarian lebih lanjut:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil" classname="Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='carPackRent']/div[2]/div[3]/button})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at TC01 Reservasi mobil.run(TC01 Reservasi mobil:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-11 14:51:00 - [TEST_CASE][FAILED] - Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil: Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='carPackRent']/div[2]/div[3]/button})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at TC01 Reservasi mobil.run(TC01 Reservasi mobil:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:51:00 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Front-End/Homepage/SC99 Regression/TC01 Cari mobil menggunakan field pencarian biasa di homepage"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Front-End/Homepage/SC99 Regression/TC01 Cari mobil menggunakan field pencarian biasa di homepage"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:51:00 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Front-End/Homepage/SC99 Regression/TC01 Cari mobil menggunakan field pencarian biasa di homepage"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:51:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-11 14:51:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-11 14:51:02 - [TEST_STEP][PASSED] - scrollToPosition(530, 1240, CONTINUE_ON_FAILURE): Browser is scrolled to position x = 530, y = 1240
+
+2018-12-11 14:51:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 530, y = 1240
+
+2018-12-11 14:51:02 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2018-12-11 14:51:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-11 14:51:04 - [TEST_STEP][FAILED] - click(findTestObject("Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET"), CONTINUE_ON_FAILURE): Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='carPackRent']/div[2]/div[3]/button})
+
+2018-12-11 14:52:29 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-11 14:52:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='carPackRent']/div[2]/div[3]/button})
+
+2018-12-11 14:52:29 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2018-12-11 14:52:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-11 14:52:31 - [TEST_STEP][FAILED] - click(findTestObject("Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang")): click(findTestObject("Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='carPackRent']/div[2]/div[3]/button})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at TC01 Reservasi mobil.run(TC01 Reservasi mobil:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:52:43 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-11 14:52:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//a[contains(text(),'Pesan Sekarang !')]})
+
+2018-12-11 14:52:43 - [MESSAGE][FAILED] - click(findTestObject("Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='carPackRent']/div[2]/div[3]/button})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at TC01 Reservasi mobil.run(TC01 Reservasi mobil:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-11 14:51:00 - [TEST_CASE][FAILED] - Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil: Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='carPackRent']/div[2]/div[3]/button})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$7.call(Unknown Source)
+	at TC01 Reservasi mobil.run(TC01 Reservasi mobil:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher" classname="Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='rincianharga']/a})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC01 Review pesanan tanpa input voucher.run(TC01 Review pesanan tanpa input voucher:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-11 14:52:43 - [TEST_CASE][FAILED] - Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher: Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='rincianharga']/a})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC01 Review pesanan tanpa input voucher.run(TC01 Review pesanan tanpa input voucher:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:52:44 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Front-End/Booking/SC99 Regression/TC01 Reservasi mobil"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Front-End/Booking/SC99 Regression/TC01 Reservasi mobil"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:52:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Front-End/Booking/SC99 Regression/TC01 Reservasi mobil"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:52:44 - [TEST_STEP][FAILED] - click(findTestObject("Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar")): click(findTestObject("Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='rincianharga']/a})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC01 Review pesanan tanpa input voucher.run(TC01 Review pesanan tanpa input voucher:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:52:56 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-11 14:52:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='rincianharga']/a})
+
+2018-12-11 14:52:56 - [MESSAGE][FAILED] - click(findTestObject("Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='rincianharga']/a})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC01 Review pesanan tanpa input voucher.run(TC01 Review pesanan tanpa input voucher:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-11 14:52:43 - [TEST_CASE][FAILED] - Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher: Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//div[@id='rincianharga']/a})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC01 Review pesanan tanpa input voucher.run(TC01 Review pesanan tanpa input voucher:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master" classname="Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//section[@id='data-pesanan']/div/div/div[2]/form/div/div/div/p/label})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04 Payment via credit card visa atau master.run(TC04 Payment via credit card visa atau master:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-11 14:52:56 - [TEST_CASE][FAILED] - Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master: Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//section[@id='data-pesanan']/div/div/div[2]/form/div/div/div/p/label})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04 Payment via credit card visa atau master.run(TC04 Payment via credit card visa atau master:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:52:56 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:52:56 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:52:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2018-12-11 14:52:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-12-11 14:52:58 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master")): click(findTestObject("Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//section[@id='data-pesanan']/div/div/div[2]/form/div/div/div/p/label})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04 Payment via credit card visa atau master.run(TC04 Payment via credit card visa atau master:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:53:10 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-11 14:53:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//section[@id='data-pesanan']/div/div/div[2]/form/div/div/div/p/label})
+
+2018-12-11 14:53:10 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//section[@id='data-pesanan']/div/div/div[2]/form/div/div/div/p/label})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04 Payment via credit card visa atau master.run(TC04 Payment via credit card visa atau master:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-11 14:52:56 - [TEST_CASE][FAILED] - Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master: Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=//section[@id='data-pesanan']/div/div/div[2]/form/div/div/div/p/label})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC04 Payment via credit card visa atau master.run(TC04 Payment via credit card visa atau master:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking" classname="Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR My Booking/img' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[1]/following::img[1]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC06 My Booking.run(TC06 My Booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-11 14:53:10 - [TEST_CASE][FAILED] - Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking: Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR My Booking/img' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[1]/following::img[1]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC06 My Booking.run(TC06 My Booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:53:11 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:53:11 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master"), [:], STOP_ON_FAILURE)
+
+2018-12-11 14:53:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2018-12-11 14:53:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-11 14:53:16 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Front-End/OR Booking/OR My Booking/img")): click(findTestObject("Object Repository/Front-End/OR Booking/OR My Booking/img")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR My Booking/img' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[1]/following::img[1]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC06 My Booking.run(TC06 My Booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)
+
+
+2018-12-11 14:53:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-12-11 14:53:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Booking/OR My Booking/img' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[1]/following::img[1]})
+
+2018-12-11 14:53:28 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Front-End/OR Booking/OR My Booking/img")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR My Booking/img' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[1]/following::img[1]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC06 My Booking.run(TC06 My Booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-11 14:53:10 - [TEST_CASE][FAILED] - Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking: Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Booking/OR My Booking/img' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=71.0.3578.80)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-QUMB1S3', ip: '10.10.10.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\WGS-LA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62400}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.80, webStorageEnabled: true}
+Session ID: 078b0220807dc1c81a06447f7925b31a
+*** Element info: {Using=xpath, value=(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[1]/following::img[1]})
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC06 My Booking.run(TC06 My Booking:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-11 14:48:29 - [TEST_SUITE][FAILED] - Reservasi mobil melalui pencarian lebih lanjut di homepage: Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at TC02 Cari mobil menggunakan fitur pencarian lebih lanjut.run(TC02 Cari mobil menggunakan fitur pencarian lebih lanjut:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-11 14:48:29 - [TEST_SUITE][FAILED] - Reservasi mobil melalui pencarian lebih lanjut di homepage: Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'bandung' of object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-root[1]/app-homepage[1]/div[@class="wrapper-top"]/div[@class="search-menu"]/form[@class="ng-untouched ng-dirty ng-valid"]/a[1]/input[@class="form-input-search home-page ng-untouched ng-dirty ng-valid"][count(. | //input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?']) = count(//input[@class = 'form-input-search home-page ng-untouched ng-dirty ng-valid' and @placeholder = 'Mau pergi kemana?'])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at TC02 Cari mobil menggunakan fitur pencarian lebih lanjut.run(TC02 Cari mobil menggunakan fitur pencarian lebih lanjut:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544568504199.run(TempTestSuite1544568504199.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

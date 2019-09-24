@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer See Detail Promo (By link Show More atau Lihat Semua),,,2018-11-14 10:29:20,2018-11-14 10:31:21,2m - 0.383s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-14 10:29:22,2018-11-14 10:30:47,1m - 25.366s,PASSED
+startApplication,,Open apps on phone,2018-11-14 10:29:23,2018-11-14 10:30:18,54.546s,PASSED
+tap,,Tap button next,2018-11-14 10:30:18,2018-11-14 10:30:23,4.584s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-14 10:30:23,2018-11-14 10:30:27,4.691s,PASSED
+tap,,Tap button skip,2018-11-14 10:30:27,2018-11-14 10:30:30,2.257s,PASSED
+tap,,Tap button login,2018-11-14 10:30:30,2018-11-14 10:30:31,1.722s,PASSED
+setText,,Input email user,2018-11-14 10:30:31,2018-11-14 10:30:33,1.300s,PASSED
+tap,,Tap button next,2018-11-14 10:30:33,2018-11-14 10:30:35,2.739s,PASSED
+setText,,Input password user,2018-11-14 10:30:35,2018-11-14 10:30:37,1.635s,PASSED
+delay,,,2018-11-14 10:30:37,2018-11-14 10:30:38,1.172s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-14 10:30:38,2018-11-14 10:30:40,2.135s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-14 10:30:40,2018-11-14 10:30:42,1.840s,PASSED
+delay,,,2018-11-14 10:30:42,2018-11-14 10:30:47,5.009s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Promo/SC99 Regression/TC02 Show detail promo (By Show More atau Lihat Semua),,,2018-11-14 10:30:47,2018-11-14 10:31:18,31.313s,PASSED
+callTestCase,,,2018-11-14 10:30:48,2018-11-14 10:30:48,0.008s,NOT_RUN
+tap,,Show more info & promo,2018-11-14 10:30:48,2018-11-14 10:30:50,2.558s,PASSED
+tap,,Tab info,2018-11-14 10:30:50,2018-11-14 10:30:52,1.338s,PASSED
+tap,,Select info,2018-11-14 10:30:52,2018-11-14 10:30:54,2.483s,PASSED
+delay,,Delay untuk back ke page info & promo,2018-11-14 10:30:54,2018-11-14 10:30:59,5.004s,PASSED
+tap,,Tab promo,2018-11-14 10:30:59,2018-11-14 10:31:01,1.360s,PASSED
+tap,,Select promo,2018-11-14 10:31:01,2018-11-14 10:31:03,2.200s,PASSED
+tap,,Salin code promo,2018-11-14 10:31:03,2018-11-14 10:31:06,3.620s,PASSED
+tap,,Tab terms and conditions,2018-11-14 10:31:06,2018-11-14 10:31:10,3.367s,PASSED
+tap,,Gunakan kode promo (copy code),2018-11-14 10:31:10,2018-11-14 10:31:13,3.597s,PASSED
+delay,,,2018-11-14 10:31:13,2018-11-14 10:31:18,5.002s,PASSED

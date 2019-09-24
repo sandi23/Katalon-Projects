@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set Discount Owned Cars by Owner,,,2018-12-14 15:51:28,2018-12-14 15:53:39,2m - 11.041s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-14 15:51:28,2018-12-14 15:52:58,1m - 29.575s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-14 15:51:29,2018-12-14 15:52:17,47.529s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-14 15:52:17,2018-12-14 15:52:24,6.596s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-14 15:52:24,2018-12-14 15:52:26,2.622s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-14 15:52:26,2018-12-14 15:52:30,3.469s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-14 15:52:30,2018-12-14 15:52:33,3.513s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-14 15:52:33,2018-12-14 15:52:34,1.236s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 15:52:34,2018-12-14 15:52:37,2.822s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:52:37,2018-12-14 15:52:42,5.086s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-14 15:52:42,2018-12-14 15:52:43,1.184s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:52:43,2018-12-14 15:52:48,5.011s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-14 15:52:48,2018-12-14 15:52:50,1.792s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-14 15:52:50,2018-12-14 15:52:53,2.497s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:52:53,2018-12-14 15:52:58,5.011s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-12-14 15:52:58,2018-12-14 15:53:18,19.888s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2018-12-14 15:52:58,2018-12-14 15:52:58,0.005s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 15:52:58,2018-12-14 15:53:00,1.583s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:53:00,2018-12-14 15:53:05,5.013s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Search car""), ""Mitsubishi"", 0)",,Mencari car by name,2018-12-14 15:53:05,2018-12-14 15:53:07,1.711s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:53:07,2018-12-14 15:53:12,5.008s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView6""), 0)",,Tap button search,2018-12-14 15:53:12,2018-12-14 15:53:13,1.137s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:53:13,2018-12-14 15:53:18,5.007s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC07 Set Discount - My Cars,,,2018-12-14 15:53:18,2018-12-14 15:53:37,19.290s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars""), [:], STOP_ON_FAILURE)",,Call test case search car - my cars,2018-12-14 15:53:18,2018-12-14 15:53:18,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 15:53:18,2018-12-14 15:53:18,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView9 (1)""), 0)",,Tap icon menu titik 3,2018-12-14 15:53:18,2018-12-14 15:53:20,1.573s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout5 (1)""), 0)",,Select menu set discounts,2018-12-14 15:53:20,2018-12-14 15:53:22,1.814s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RadioButton0 (1)""), 0)",,Tap add discount,2018-12-14 15:53:22,2018-12-14 15:53:23,1.593s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 (7)""), ""5"", 0)",,Input weekdays discount,2018-12-14 15:53:23,2018-12-14 15:53:24,1.374s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText1 (6)""), 0)",,Tap weekends/national holiday discount,2018-12-14 15:53:24,2018-12-14 15:53:27,2.232s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText1 (7)""), ""10"", 0)",,Input weekends/national holiday discount,2018-12-14 15:53:27,2018-12-14 15:53:28,1.335s,PASSED
+hideKeyboard(),,Hide keyboard,2018-12-14 15:53:28,2018-12-14 15:53:30,1.542s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Save (6)""), 0)",,Save add discount,2018-12-14 15:53:30,2018-12-14 15:53:32,2.372s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2))",,,2018-12-14 15:53:32,2018-12-14 15:53:37,5.013s,PASSED

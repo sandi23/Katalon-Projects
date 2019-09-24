@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner Set Car not available,Chrome 70.0.3538.102,,2018-11-19 16:48:37,2018-11-19 16:50:15,1m - 37.960s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 70.0.3538.102,,2018-11-19 16:48:38,2018-11-19 16:50:10,1m - 31.421s,PASSED
+openBrowser,Chrome 70.0.3538.102,Buka Browser,2018-11-19 16:48:39,2018-11-19 16:49:05,26.267s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,Maximize Window,2018-11-19 16:49:05,2018-11-19 16:49:07,1.310s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Akses Url,2018-11-19 16:49:07,2018-11-19 16:49:43,36.138s,PASSED
+waitForPageLoad,Chrome 70.0.3538.102,,2018-11-19 16:49:43,2018-11-19 16:49:44,0.810s,PASSED
+click,Chrome 70.0.3538.102,Klik textlink Masuk,2018-11-19 16:49:44,2018-11-19 16:49:46,2.284s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-19 16:49:46,2018-11-19 16:49:49,3.029s,PASSED
+setText,Chrome 70.0.3538.102,Input Email,2018-11-19 16:49:49,2018-11-19 16:49:51,2.247s,PASSED
+setText,Chrome 70.0.3538.102,Input Email,2018-11-19 16:49:51,2018-11-19 16:49:51,0.005s,NOT_RUN
+delay,Chrome 70.0.3538.102,,2018-11-19 16:49:51,2018-11-19 16:49:54,3.004s,PASSED
+setText,Chrome 70.0.3538.102,Input Password,2018-11-19 16:49:54,2018-11-19 16:49:54,0.316s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-19 16:49:54,2018-11-19 16:49:57,3.003s,PASSED
+click,Chrome 70.0.3538.102,Klik button Masuk,2018-11-19 16:49:57,2018-11-19 16:49:58,0.299s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-19 16:49:58,2018-11-19 16:50:01,3.004s,PASSED
+click,Chrome 70.0.3538.102,Klik Switch to Owner,2018-11-19 16:50:01,2018-11-19 16:50:07,5.881s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-19 16:50:07,2018-11-19 16:50:10,3.002s,PASSED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC10 Set not available data mobil,Chrome 70.0.3538.102,,2018-11-19 16:50:10,2018-11-19 16:50:11,1.699s,FAILED
+click,Chrome 70.0.3538.102,Klik Menu Kendaraan Saya,2018-11-19 16:50:10,2018-11-19 16:50:11,0.987s,FAILED

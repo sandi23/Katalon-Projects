@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnOKCar</name>
+   <tag></tag>
+   <elementGuidId>efd050d1-c560-4229-b12f-dd90e1470903</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;modal-approve-car&quot;]/div/div/div[3]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;modal-approve-car&quot;]/div/div/div[3]/button[1]</value>
+   </webElementProperties>
+</WebElementEntity>

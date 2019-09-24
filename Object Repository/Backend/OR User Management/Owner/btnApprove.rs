@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnApprove</name>
+   <tag></tag>
+   <elementGuidId>8b7afdd2-94f8-45e7-8057-696d634d5539</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;listTable&quot;]/tbody/tr/td[10]/a[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;listTable&quot;]/tbody/tr/td[10]/a[3]</value>
+   </webElementProperties>
+</WebElementEntity>

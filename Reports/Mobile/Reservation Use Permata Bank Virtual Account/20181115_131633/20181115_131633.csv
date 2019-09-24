@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservation Use Permata Bank Virtual Account,,,2018-11-15 13:16:37,2018-11-15 13:21:01,4m - 23.819s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-15 13:16:38,2018-11-15 13:17:55,1m - 16.572s,PASSED
+startApplication,,Open apps on phone,2018-11-15 13:16:39,2018-11-15 13:17:29,49.226s,PASSED
+tap,,Tap button next,2018-11-15 13:17:29,2018-11-15 13:17:33,4.644s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-15 13:17:33,2018-11-15 13:17:36,2.676s,PASSED
+tap,,Tap button skip,2018-11-15 13:17:36,2018-11-15 13:17:38,2.172s,PASSED
+tap,,Tap button login,2018-11-15 13:17:38,2018-11-15 13:17:40,1.552s,PASSED
+setText,,Input email user,2018-11-15 13:17:40,2018-11-15 13:17:41,1.206s,PASSED
+tap,,Tap button next,2018-11-15 13:17:41,2018-11-15 13:17:43,2.382s,PASSED
+setText,,Input password user,2018-11-15 13:17:43,2018-11-15 13:17:44,1.111s,PASSED
+delay,,,2018-11-15 13:17:44,2018-11-15 13:17:45,1.079s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-15 13:17:45,2018-11-15 13:17:48,2.118s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-15 13:17:48,2018-11-15 13:17:50,2.242s,PASSED
+delay,,,2018-11-15 13:17:50,2018-11-15 13:17:55,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region,,,2018-11-15 13:17:55,2018-11-15 13:19:22,1m - 26.761s,PASSED
+callTestCase,,,2018-11-15 13:17:56,2018-11-15 13:17:56,0.005s,NOT_RUN
+tap,,Tap car rental citiy atau region,2018-11-15 13:17:56,2018-11-15 13:19:02,1m - 6.285s,PASSED
+setText,,Mencari city or region jabodetabek,2018-11-15 13:19:02,2018-11-15 13:19:04,1.825s,PASSED
+tap,,Memilih city or region jabodetabek,2018-11-15 13:19:04,2018-11-15 13:19:06,2.151s,PASSED
+tap,,Memilih car only,2018-11-15 13:19:06,2018-11-15 13:19:07,1.611s,PASSED
+tap,,Next untuk select dates,2018-11-15 13:19:07,2018-11-15 13:19:09,1.684s,PASSED
+delay,,Delay untuk select date,2018-11-15 13:19:09,2018-11-15 13:19:14,5.004s,PASSED
+tap,,Mencari car dengan ketentuan yang telah dipilih,2018-11-15 13:19:14,2018-11-15 13:19:17,2.463s,PASSED
+delay,,,2018-11-15 13:19:17,2018-11-15 13:19:22,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars,,,2018-11-15 13:19:22,2018-11-15 13:20:14,52.225s,PASSED
+callTestCase,,,2018-11-15 13:19:22,2018-11-15 13:19:22,0.002s,NOT_RUN
+tap,,Select car yang ada di list of cars,2018-11-15 13:19:22,2018-11-15 13:19:26,3.782s,PASSED
+tap,,Check packages,2018-11-15 13:19:26,2018-11-15 13:19:28,1.734s,PASSED
+tap,,Membuat reservasi,2018-11-15 13:19:28,2018-11-15 13:19:30,1.872s,PASSED
+scrollToText,,Scroll to text add additional benefits,2018-11-15 13:19:30,2018-11-15 13:19:34,4.459s,PASSED
+tap,,Edit additional benefits,2018-11-15 13:19:34,2018-11-15 13:19:36,1.468s,PASSED
+tap,,Checklist life insurance,2018-11-15 13:19:36,2018-11-15 13:19:37,1.130s,PASSED
+tap,,Tap arrow right untuk menampilkan life insurance by astralife,2018-11-15 13:19:37,2018-11-15 13:19:39,1.660s,PASSED
+tap,,Menyimpan contact life insurance,2018-11-15 13:19:39,2018-11-15 13:19:40,1.468s,PASSED
+tap,,Menyetujui additional benefits,2018-11-15 13:19:40,2018-11-15 13:19:41,1.419s,PASSED
+tap,,Tap untuk menampilkan jam,2018-11-15 13:19:41,2018-11-15 13:19:43,1.376s,PASSED
+delay,,Select time,2018-11-15 13:19:43,2018-11-15 13:19:48,5.003s,PASSED
+tap,,Submit jam,2018-11-15 13:19:48,2018-11-15 13:19:49,1.127s,PASSED
+tap,,Pick up location,2018-11-15 13:19:49,2018-11-15 13:19:51,1.951s,PASSED
+delay,,Delay untuk load maps sesuai titik yang ditentukan,2018-11-15 13:19:51,2018-11-15 13:19:56,5.003s,PASSED
+tap,,Mengkonfirmasi lokasi pick up,2018-11-15 13:19:56,2018-11-15 13:19:58,1.946s,PASSED
+tap,,Return location,2018-11-15 13:19:58,2018-11-15 13:20:00,2.157s,PASSED
+delay,,Delay untuk load maps sesuai titik yang ditentukan,2018-11-15 13:20:00,2018-11-15 13:20:05,5.002s,PASSED
+tap,,Mengkonfirmasi lokasi return ,2018-11-15 13:20:05,2018-11-15 13:20:06,1.403s,PASSED
+tap,,Continue reserve,2018-11-15 13:20:06,2018-11-15 13:20:09,2.433s,PASSED
+delay,,,2018-11-15 13:20:09,2018-11-15 13:20:14,5.001s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules,,,2018-11-15 13:20:14,2018-11-15 13:20:17,3.592s,PASSED
+callTestCase,,,2018-11-15 13:20:14,2018-11-15 13:20:14,0.001s,NOT_RUN
+tap,,Menampilkan informasi yang ada di tab cancellation policy,2018-11-15 13:20:14,2018-11-15 13:20:16,1.229s,PASSED
+tap,,Menyetujui segala ketentuan rules yang tertera,2018-11-15 13:20:16,2018-11-15 13:20:17,1.866s,PASSED
+tap,,,2018-11-15 13:20:17,2018-11-15 13:20:17,0.002s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment,,,2018-11-15 13:20:17,2018-11-15 13:20:26,8.863s,PASSED
+callTestCase,,,2018-11-15 13:20:18,2018-11-15 13:20:18,0.005s,NOT_RUN
+tap,,,2018-11-15 13:20:18,2018-11-15 13:20:18,0.002s,NOT_RUN
+tap,,Mulai melakukan pembayaran,2018-11-15 13:20:18,2018-11-15 13:20:19,1.457s,PASSED
+tap,,Konfirmasi pembayaran,2018-11-15 13:20:19,2018-11-15 13:20:21,1.821s,PASSED
+delay,,,2018-11-15 13:20:21,2018-11-15 13:20:26,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment methode,,,2018-11-15 13:20:26,2018-11-15 13:20:33,6.931s,PASSED
+callTestCase,,,2018-11-15 13:20:27,2018-11-15 13:20:27,0.007s,NOT_RUN
+tap,,Menampilkan option payment,2018-11-15 13:20:27,2018-11-15 13:20:28,1.422s,PASSED
+delay,,,2018-11-15 13:20:28,2018-11-15 13:20:33,5.001s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC07 Permata Bank Virtual Account,,,2018-11-15 13:20:33,2018-11-15 13:20:59,25.632s,PASSED
+callTestCase,,,2018-11-15 13:20:34,2018-11-15 13:20:34,0.002s,NOT_RUN
+tap,,Select payment via permatabank,2018-11-15 13:20:34,2018-11-15 13:20:35,1.202s,PASSED
+scrollToText,,Scroll to hubungi kami,2018-11-15 13:20:35,2018-11-15 13:20:41,6.347s,PASSED
+tap,,Tap button i have sent payment,2018-11-15 13:20:41,2018-11-15 13:20:43,1.622s,PASSED
+tap,,Close information,2018-11-15 13:20:43,2018-11-15 13:20:54,10.859s,PASSED
+delay,,,2018-11-15 13:20:54,2018-11-15 13:20:59,5.002s,PASSED

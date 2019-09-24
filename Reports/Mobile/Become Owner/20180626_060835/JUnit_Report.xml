@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Become Owner" time="200" tests="0" failures="2" errors="0">
+   <testsuite name="Become Owner" tests="0" failures="2" errors="0" time="200" timestamp="2018-06-26 06:08:39" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Mobile/Become Owner">
+      <properties>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060835"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060835\\appium.log, C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060835\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-J320G"/>
+         <property name="hostAddress" value="192.168.43.170"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="4200d20faae66400"/>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2)' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found)"/>
+         <system-out><![CDATA[2018-06-26 06:08:40 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2)' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found)
+
+2018-06-26 06:08:41 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk'
+
+2018-06-26 06:10:27 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk'
+
+2018-06-26 06:10:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView3 - Indonesia'
+
+2018-06-26 06:10:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:10:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView3 - Indonesia'
+
+2018-06-26 06:10:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4'
+
+2018-06-26 06:10:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:10:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4'
+
+2018-06-26 06:10:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView2 - Lewati'
+
+2018-06-26 06:10:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:10:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView2 - Lewati'
+
+2018-06-26 06:10:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView0 - Log in'
+
+2018-06-26 06:10:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:10:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView0 - Log in'
+
+2018-06-26 06:10:36 - [TEST_STEP][PASSED] - setText: Text 'ali.saputra@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0'
+
+2018-06-26 06:10:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:10:49 - [MESSAGE][PASSED] - Text 'ali.saputra@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0'
+
+2018-06-26 06:10:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.Button0 - Next'
+
+2018-06-26 06:10:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:10:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.Button0 - Next'
+
+2018-06-26 06:10:50 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2)' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found)
+
+2018-06-26 06:10:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:11:21 - [MESSAGE][FAILED] - Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found
+
+2018-06-26 06:11:21 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2)' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found)]]></system-out>
+         <system-err><![CDATA[2018-06-26 06:08:40 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2)' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" classname="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner not found)"/>
+         <system-out><![CDATA[2018-06-26 06:11:21 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner not found)
+
+2018-06-26 06:11:21 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-06-26 06:11:21 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-06-26 06:11:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0'
+
+2018-06-26 06:11:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:11:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0'
+
+2018-06-26 06:11:22 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner not found)
+
+2018-06-26 06:11:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:11:52 - [MESSAGE][FAILED] - Object Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner not found
+
+2018-06-26 06:11:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner not found)]]></system-out>
+         <system-err><![CDATA[2018-06-26 06:11:21 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.TextView15 - Switch to vehicle owner not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 06:08:39 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2)' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found)]]></system-out>
+      <system-err><![CDATA[2018-06-26 06:08:39 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2)' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.EditText0 (2) not found)]]></system-err>
+   </testsuite>
+</testsuites>

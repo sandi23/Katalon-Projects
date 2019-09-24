@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login dan Become Owner" time="99" tests="0" failures="2" errors="0">
+   <testsuite name="Login dan Become Owner" tests="0" failures="2" errors="0" time="99" timestamp="2018-06-26 09:26:44" hostname="Sandi - DESKTOP-IO1HPO8" id="Test Suites/Front-End/Login dan Become Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_092641"/>
+         <property name="logFiles" value="C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_092641\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_092641\\1529980072146.png, C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_092641\\1529980103290.png"/>
+         <property name="hostName" value="Sandi - DESKTOP-IO1HPO8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="10.10.10.233"/>
+         <property name="sessionId" value="7e0c78736fd679b4a7f32ae986cc9f01"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" classname="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' located by 'By.xpath: //a[@href = '/be-come-owner' and (text() = 'Bergabung menjadi Vehicle Owner' or . = 'Bergabung menjadi Vehicle Owner')]' not found)"/>
+         <system-out><![CDATA[2018-06-26 09:26:45 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' located by 'By.xpath: //a[@href = '/be-come-owner' and (text() = 'Bergabung menjadi Vehicle Owner' or . = 'Bergabung menjadi Vehicle Owner')]' not found)
+
+2018-06-26 09:26:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 09:26:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 09:26:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 09:26:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 09:26:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-26 09:27:15 - [MESSAGE][PASSED] - Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-26 09:27:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-26 09:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-26 09:27:16 - [TEST_STEP][PASSED] - setText: Text 'ali.saputra@wgs.co.id' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-26 09:27:16 - [MESSAGE][PASSED] - Text 'ali.saputra@wgs.co.id' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-26 09:27:16 - [TEST_STEP][PASSED] - setText: Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-26 09:27:16 - [MESSAGE][PASSED] - Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-26 09:27:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-26 09:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-26 09:27:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-26 09:27:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 09:27:19 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-06-26 09:27:21 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-06-26 09:27:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' located by 'By.xpath: //a[@href = '/be-come-owner' and (text() = 'Bergabung menjadi Vehicle Owner' or . = 'Bergabung menjadi Vehicle Owner')]' not found)
+
+2018-06-26 09:27:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' located by 'By.xpath: //a[@href = '/be-come-owner' and (text() = 'Bergabung menjadi Vehicle Owner' or . = 'Bergabung menjadi Vehicle Owner')]' not found)
+[[ATTACHMENT|C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_092641\\1529980072146.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-26 09:26:45 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' located by 'By.xpath: //a[@href = '/be-come-owner' and (text() = 'Bergabung menjadi Vehicle Owner' or . = 'Bergabung menjadi Vehicle Owner')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" classname="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' located by 'By.xpath: //input[@placeholder = 'Nama rental' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-06-26 09:27:52 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' located by 'By.xpath: //input[@placeholder = 'Nama rental' and @type = 'text']' not found)
+
+2018-06-26 09:27:52 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' located by 'By.xpath: //input[@placeholder = 'Nama rental' and @type = 'text']' not found)
+
+2018-06-26 09:28:23 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' located by 'By.xpath: //input[@placeholder = 'Nama rental' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_092641\\1529980103290.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-26 09:27:52 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' located by 'By.xpath: //input[@placeholder = 'Nama rental' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 09:26:44 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' located by 'By.xpath: //a[@href = '/be-come-owner' and (text() = 'Bergabung menjadi Vehicle Owner' or . = 'Bergabung menjadi Vehicle Owner')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-26 09:26:44 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' located by 'By.xpath: //a[@href = '/be-come-owner' and (text() = 'Bergabung menjadi Vehicle Owner' or . = 'Bergabung menjadi Vehicle Owner')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,89 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservation From Search Bar Rental City or Region,,,2018-11-12 14:19:39,2018-11-12 14:23:14,3m - 34.146s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-12 14:19:40,2018-11-12 14:20:55,1m - 14.937s,PASSED
+startApplication,,Open apps on phone,2018-11-12 14:19:42,2018-11-12 14:20:29,47.765s,PASSED
+tap,,Tap button next,2018-11-12 14:20:29,2018-11-12 14:20:34,4.706s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-12 14:20:34,2018-11-12 14:20:37,2.625s,PASSED
+tap,,Tap button skip,2018-11-12 14:20:37,2018-11-12 14:20:39,2.254s,PASSED
+tap,,Tap button login,2018-11-12 14:20:39,2018-11-12 14:20:41,1.569s,PASSED
+setText,,Input email user,2018-11-12 14:20:41,2018-11-12 14:20:42,1.178s,PASSED
+tap,,Tap button next,2018-11-12 14:20:42,2018-11-12 14:20:44,2.746s,PASSED
+setText,,Input password user,2018-11-12 14:20:44,2018-11-12 14:20:46,1.162s,PASSED
+delay,,,2018-11-12 14:20:46,2018-11-12 14:20:47,1.070s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-12 14:20:47,2018-11-12 14:20:49,1.910s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-12 14:20:49,2018-11-12 14:20:50,1.726s,PASSED
+delay,,,2018-11-12 14:20:50,2018-11-12 14:20:55,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region,,,2018-11-12 14:20:55,2018-11-12 14:21:20,24.367s,PASSED
+callTestCase,,,2018-11-12 14:20:56,2018-11-12 14:20:56,0.005s,NOT_RUN
+tap,,Tap car rental citiy atau region,2018-11-12 14:20:56,2018-11-12 14:20:58,1.671s,PASSED
+setText,,Mencari city or region jabodetabek,2018-11-12 14:20:58,2018-11-12 14:21:00,2.074s,PASSED
+tap,,Memilih city or region jabodetabek,2018-11-12 14:21:00,2018-11-12 14:21:02,2.220s,PASSED
+tap,,Memilih car only,2018-11-12 14:21:02,2018-11-12 14:21:03,1.335s,PASSED
+tap,,Next untuk select dates,2018-11-12 14:21:03,2018-11-12 14:21:05,1.717s,PASSED
+delay,,Delay untuk select date,2018-11-12 14:21:05,2018-11-12 14:21:10,5.003s,PASSED
+tap,,Mencari car dengan ketentuan yang telah dipilih,2018-11-12 14:21:10,2018-11-12 14:21:15,4.677s,PASSED
+delay,,,2018-11-12 14:21:15,2018-11-12 14:21:20,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars,,,2018-11-12 14:21:20,2018-11-12 14:22:08,47.891s,PASSED
+callTestCase,,,2018-11-12 14:21:20,2018-11-12 14:21:20,0.002s,NOT_RUN
+tap,,Select car yang ada di list of cars,2018-11-12 14:21:20,2018-11-12 14:21:20,0.003s,NOT_RUN
+tap,,Check packages,2018-11-12 14:21:20,2018-11-12 14:21:22,1.724s,PASSED
+tap,,Membuat reservasi,2018-11-12 14:21:22,2018-11-12 14:21:25,2.419s,PASSED
+scrollToText,,Scroll to text add additional benefits,2018-11-12 14:21:25,2018-11-12 14:21:29,4.334s,PASSED
+tap,,Edit additional benefits,2018-11-12 14:21:29,2018-11-12 14:21:30,1.546s,PASSED
+tap,,Checklist life insurance,2018-11-12 14:21:30,2018-11-12 14:21:32,1.095s,PASSED
+tap,,Tap arrow right untuk menampilkan life insurance by astralife,2018-11-12 14:21:32,2018-11-12 14:21:33,1.663s,PASSED
+tap,,Menyimpan contact life insurance,2018-11-12 14:21:33,2018-11-12 14:21:35,1.539s,PASSED
+tap,,Menyetujui additional benefits,2018-11-12 14:21:35,2018-11-12 14:21:36,1.485s,PASSED
+tap,,Tap untuk menampilkan jam,2018-11-12 14:21:36,2018-11-12 14:21:38,1.375s,PASSED
+delay,,Select time,2018-11-12 14:21:38,2018-11-12 14:21:43,5.004s,PASSED
+tap,,Submit jam,2018-11-12 14:21:43,2018-11-12 14:21:44,1.117s,PASSED
+tap,,Pick up location,2018-11-12 14:21:44,2018-11-12 14:21:46,1.854s,PASSED
+delay,,Delay untuk load maps sesuai titik yang ditentukan,2018-11-12 14:21:46,2018-11-12 14:21:51,5.002s,PASSED
+tap,,Mengkonfirmasi lokasi pick up,2018-11-12 14:21:51,2018-11-12 14:21:52,1.818s,PASSED
+tap,,Return location,2018-11-12 14:21:52,2018-11-12 14:21:54,1.653s,PASSED
+delay,,Delay untuk load maps sesuai titik yang ditentukan,2018-11-12 14:21:54,2018-11-12 14:21:59,5.002s,PASSED
+tap,,Mengkonfirmasi lokasi return ,2018-11-12 14:21:59,2018-11-12 14:22:01,1.894s,PASSED
+tap,,Continue reserve,2018-11-12 14:22:01,2018-11-12 14:22:03,1.693s,PASSED
+delay,,,2018-11-12 14:22:03,2018-11-12 14:22:08,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules,,,2018-11-12 14:22:08,2018-11-12 14:22:12,4.412s,PASSED
+callTestCase,,,2018-11-12 14:22:08,2018-11-12 14:22:08,0.001s,NOT_RUN
+tap,,,2018-11-12 14:22:08,2018-11-12 14:22:10,1.813s,PASSED
+tap,,,2018-11-12 14:22:10,2018-11-12 14:22:12,2.077s,PASSED
+tap,,,2018-11-12 14:22:12,2018-11-12 14:22:12,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment,,,2018-11-12 14:22:12,2018-11-12 14:22:20,8.218s,PASSED
+callTestCase,,,2018-11-12 14:22:13,2018-11-12 14:22:13,0.003s,NOT_RUN
+tap,,,2018-11-12 14:22:13,2018-11-12 14:22:13,0.002s,NOT_RUN
+tap,,,2018-11-12 14:22:13,2018-11-12 14:22:14,1.337s,PASSED
+tap,,,2018-11-12 14:22:14,2018-11-12 14:22:15,1.303s,PASSED
+delay,,,2018-11-12 14:22:15,2018-11-12 14:22:20,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment methode,,,2018-11-12 14:22:20,2018-11-12 14:22:27,6.964s,PASSED
+callTestCase,,,2018-11-12 14:22:21,2018-11-12 14:22:21,0.003s,NOT_RUN
+tap,,Menampilkan option payment,2018-11-12 14:22:21,2018-11-12 14:22:22,1.476s,PASSED
+delay,,,2018-11-12 14:22:22,2018-11-12 14:22:27,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment,,,2018-11-12 14:22:27,2018-11-12 14:23:14,46.337s,PASSED
+callTestCase,,,2018-11-12 14:22:28,2018-11-12 14:22:28,0.002s,NOT_RUN
+tap,,Pilih metode pembayaran credit card,2018-11-12 14:22:28,2018-11-12 14:22:29,1.264s,PASSED
+delay,,Scroll to field identitas credit card,2018-11-12 14:22:29,2018-11-12 14:22:34,5.002s,PASSED
+tap,,Credit card number,2018-11-12 14:22:34,2018-11-12 14:22:49,14.596s,PASSED
+setText,,Input card number,2018-11-12 14:22:49,2018-11-12 14:22:50,0.709s,PASSED
+tap,,Full name credit card,2018-11-12 14:22:50,2018-11-12 14:22:52,2.262s,PASSED
+setText,,Input full name,2018-11-12 14:22:52,2018-11-12 14:22:52,0.682s,PASSED
+tap,,Month credit card,2018-11-12 14:22:52,2018-11-12 14:22:54,1.635s,PASSED
+setText,,Input month,2018-11-12 14:22:54,2018-11-12 14:22:55,0.782s,PASSED
+tap,,Year credit card,2018-11-12 14:22:55,2018-11-12 14:22:56,1.563s,PASSED
+setText,,Input year,2018-11-12 14:22:56,2018-11-12 14:22:57,0.701s,PASSED
+tap,,Cvc credit card,2018-11-12 14:22:57,2018-11-12 14:22:59,2.069s,PASSED
+setText,,Input cvc,2018-11-12 14:22:59,2018-11-12 14:23:00,0.750s,PASSED
+tap,,Email credit card,2018-11-12 14:23:00,2018-11-12 14:23:02,1.670s,PASSED
+setText,,Input email pemilik credit card,2018-11-12 14:23:02,2018-11-12 14:23:02,0.679s,PASSED
+tap,,Tap checkbox simpan data kartu kredit anda (terenkripsi),2018-11-12 14:23:02,2018-11-12 14:23:04,1.545s,PASSED
+tap,,Melakukan pembayaran by credit card,2018-11-12 14:23:04,2018-11-12 14:23:07,2.669s,PASSED
+delay,,,2018-11-12 14:23:07,2018-11-12 14:23:12,5.004s,PASSED
+closeApplication,,,2018-11-12 14:23:12,2018-11-12 14:23:14,2.045s,PASSED

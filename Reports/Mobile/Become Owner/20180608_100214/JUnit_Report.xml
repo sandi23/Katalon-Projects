@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Become Owner" time="35" tests="0" failures="2" errors="0">
+   <testsuite name="Become Owner" tests="0" failures="2" errors="0" time="35" timestamp="2018-06-08 10:02:17" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Mobile/Become Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180608_100214"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180608_100214\\appium.log, C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180608_100214\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="hostAddress" value="10.10.10.136"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)"/>
+         <system-out><![CDATA[2018-06-08 10:02:18 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-06-08 10:02:19 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-06-08 10:02:50 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+         <system-err><![CDATA[2018-06-08 10:02:18 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" classname="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-06-08 10:02:50 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)
+
+2018-06-08 10:02:51 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-06-08 10:02:51 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-06-08 10:02:51 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)
+
+2018-06-08 10:02:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-08 10:02:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-06-08 10:02:50 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-08 10:02:17 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+      <system-err><![CDATA[2018-06-08 10:02:17 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.3.2_2018-05-30-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

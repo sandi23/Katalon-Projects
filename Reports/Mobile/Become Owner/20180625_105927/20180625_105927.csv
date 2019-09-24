@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Become Owner,,,2018-06-25 10:59:31,2018-06-25 11:03:48,4m - 17.282s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email,,,2018-06-25 10:59:31,2018-06-25 11:01:31,1m - 59.711s,PASSED
+startApplication,,Buka browser,2018-06-25 10:59:32,2018-06-25 11:00:44,1m - 11.777s,PASSED
+tap,,Pilih bahasa indonesia,2018-06-25 11:00:44,2018-06-25 11:00:47,3.065s,PASSED
+tap,,Tap arrow next,2018-06-25 11:00:47,2018-06-25 11:00:49,1.429s,PASSED
+tap,,"Tap tombol \""Lewati\""",2018-06-25 11:00:49,2018-06-25 11:00:51,2.370s,PASSED
+tap,,"Tap tombol \""Login\""",2018-06-25 11:00:51,2018-06-25 11:00:52,1.457s,PASSED
+setText,,Masukkan email,2018-06-25 11:00:52,2018-06-25 11:01:04,11.833s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-25 11:01:04,2018-06-25 11:01:05,1.300s,PASSED
+tap,,Tap field password,2018-06-25 11:01:05,2018-06-25 11:01:13,7.453s,PASSED
+setText,,Masukkan password,2018-06-25 11:01:13,2018-06-25 11:01:27,13.763s,PASSED
+tap,,"Tap tombol \""Mulai Movic\""",2018-06-25 11:01:27,2018-06-25 11:01:28,1.110s,PASSED
+verifyElementVisible,,Verifikasi image sesudah login,2018-06-25 11:01:28,2018-06-25 11:01:31,3.346s,PASSED
+closeApplication,,,2018-06-25 11:01:31,2018-06-25 11:01:31,0.004s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner,,,2018-06-25 11:01:31,2018-06-25 11:03:47,2m - 16.243s,FAILED
+startApplication,,,2018-06-25 11:01:32,2018-06-25 11:01:32,0.002s,NOT_RUN
+tap,,Tap image user,2018-06-25 11:01:32,2018-06-25 11:01:32,0.817s,PASSED
+tap,,Pilih menu switch to vehicle owner,2018-06-25 11:01:32,2018-06-25 11:01:34,1.324s,PASSED
+tap,,"Tap tombol \""Get Started\""",2018-06-25 11:01:34,2018-06-25 11:01:36,2.291s,PASSED
+tap,,"Tap tombol \""Ok\""",2018-06-25 11:01:36,2018-06-25 11:01:37,1.095s,PASSED
+tap,,Ambil photo dengan kamera,2018-06-25 11:01:37,2018-06-25 11:01:39,2.072s,PASSED
+tap,,"Tap tombol \""use this photo\""",2018-06-25 11:01:39,2018-06-25 11:01:40,1.077s,PASSED
+tap,,"Tap tombol \""Ok\""",2018-06-25 11:01:40,2018-06-25 11:03:47,2m - 7.040s,FAILED

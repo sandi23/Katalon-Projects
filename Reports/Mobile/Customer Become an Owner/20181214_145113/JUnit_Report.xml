@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer Become an Owner" time="178" tests="2" failures="0" errors="0">
+   <testsuite name="Customer Become an Owner" tests="2" failures="0" errors="0" time="178" timestamp="2018-12-14 14:51:17" hostname="WGS-LAP199 - DESKTOP-QUMB1S3" id="Test Suites/Mobile/Customer Become an Owner">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Customer Become an Owner\\20181214_145113"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Customer Become an Owner\\20181214_145113\\appium.log, C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Customer Become an Owner\\20181214_145113\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP199 - DESKTOP-QUMB1S3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="Redmi 5"/>
+         <property name="hostAddress" value="10.10.10.231"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="54e797627cf5"/>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" status="PASSED">
+         <system-out><![CDATA[2018-12-14 14:51:18 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email
+
+2018-12-14 14:51:20 - [TEST_STEP][PASSED] - startApplication("C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk", false): Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk'
+
+2018-12-14 14:51:20 - [MESSAGE][INFO] - User set preference: ['deviceId', '54e797627cf5']
+
+2018-12-14 14:51:28 - [MESSAGE][INFO] - Appium server started on port 65,028
+
+2018-12-14 14:52:07 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk'
+
+2018-12-14 14:52:07 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Registrasi/android.widget.ImageView4"), 0): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-12-14 14:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-12-14 14:52:13 - [TEST_STEP][PASSED] - for (def index : (1..2)): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-12-14 14:52:13 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Registrasi/android.widget.ImageView1"), 0): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-12-14 14:52:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-12-14 14:52:16 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Registrasi/android.widget.ImageView1"), 0): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-12-14 14:52:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-12-14 14:52:18 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Registrasi/android.widget.TextView2 - Skip"), 0): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-12-14 14:52:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-12-14 14:52:20 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Login/android.widget.TextView0 - Log in"), 0): Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-12-14 14:52:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-12-14 14:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Login/android.widget.EditText0"), "santi.wahyuni@wgs.co.id", 0): Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-12-14 14:52:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:23 - [MESSAGE][PASSED] - Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-12-14 14:52:23 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Login/android.widget.Button0 - Next"), 0): Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-12-14 14:52:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-12-14 14:52:26 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2018-12-14 14:52:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-14 14:52:31 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Login/android.widget.EditText0 (1)"), "P@ssword123", 0): Text 'P@ssword123' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-12-14 14:52:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:32 - [MESSAGE][PASSED] - Text 'P@ssword123' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-12-14 14:52:32 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2018-12-14 14:52:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-12-14 14:52:37 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2018-12-14 14:52:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-12-14 14:52:39 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Login/android.widget.Button0 - Start Movic"), 0): Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-12-14 14:52:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-12-14 14:52:41 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2018-12-14 14:52:46 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC22 Become a vehicle owner" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC22 Become a vehicle owner" status="PASSED">
+         <system-out><![CDATA[2018-12-14 14:52:46 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC22 Become a vehicle owner: Test Cases/Mobile/Android/User/SC99 Regression/TC22 Become a vehicle owner
+
+2018-12-14 14:52:46 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Mobile/Android/User/SC99 Regression/TC04 Login with email"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Mobile/Android/User/SC99 Regression/TC04 Login with email"), [:], STOP_ON_FAILURE)
+
+2018-12-14 14:52:46 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Mobile/Android/User/SC99 Regression/TC04 Login with email"), [:], STOP_ON_FAILURE)
+
+2018-12-14 14:52:46 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.ImageView0"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.ImageView0'
+
+2018-12-14 14:52:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.ImageView0'
+
+2018-12-14 14:52:48 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.TextView17 - Become a vehicle owner"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.TextView17 - Become a vehicle owner'
+
+2018-12-14 14:52:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.TextView17 - Become a vehicle owner'
+
+2018-12-14 14:52:51 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started"), 0): NOT_RUN: tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started"), 0)
+
+2018-12-14 14:52:51 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started"), 0)
+
+2018-12-14 14:52:51 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/android.widget.Button0 - Next"), 0): NOT_RUN: tap(findTestObject("Mobile/android.widget.Button0 - Next"), 0)
+
+2018-12-14 14:52:51 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/android.widget.Button0 - Next"), 0)
+
+2018-12-14 14:52:51 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/android.widget.Button0 - Resend"), 0): NOT_RUN: tap(findTestObject("Mobile/android.widget.Button0 - Resend"), 0)
+
+2018-12-14 14:52:51 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/android.widget.Button0 - Resend"), 0)
+
+2018-12-14 14:52:51 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/android.widget.TextView1 - Close"), 0): NOT_RUN: tap(findTestObject("Mobile/android.widget.TextView1 - Close"), 0)
+
+2018-12-14 14:52:51 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/android.widget.TextView1 - Close"), 0)
+
+2018-12-14 14:52:51 - [TEST_STEP][NOT_RUN] - delay(findTestData("Delay Step").getValue(1, 4), STOP_ON_FAILURE): NOT_RUN: delay(findTestData("Delay Step").getValue(1, 4), STOP_ON_FAILURE)
+
+2018-12-14 14:52:51 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(findTestData("Delay Step").getValue(1, 4), STOP_ON_FAILURE)
+
+2018-12-14 14:52:51 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started'
+
+2018-12-14 14:52:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started'
+
+2018-12-14 14:52:53 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok'
+
+2018-12-14 14:52:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok'
+
+2018-12-14 14:52:56 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.LinearLayout3"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:52:59 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo'
+
+2018-12-14 14:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo'
+
+2018-12-14 14:53:00 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)'
+
+2018-12-14 14:53:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)'
+
+2018-12-14 14:53:04 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.LinearLayout3"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:53:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:53:07 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo'
+
+2018-12-14 14:53:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo'
+
+2018-12-14 14:53:10 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)'
+
+2018-12-14 14:53:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)'
+
+2018-12-14 14:53:14 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.LinearLayout3"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:53:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:53:16 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo'
+
+2018-12-14 14:53:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo'
+
+2018-12-14 14:53:19 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.ImageView1"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.ImageView1'
+
+2018-12-14 14:53:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.ImageView1'
+
+2018-12-14 14:53:21 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.LinearLayout3"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:53:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3'
+
+2018-12-14 14:53:25 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Next"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:26 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Become a vehicle owner/android.widget.EditText0"), "QA Rentals", 0): Text 'QA Rentals' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0'
+
+2018-12-14 14:53:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:28 - [MESSAGE][PASSED] - Text 'QA Rentals' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0'
+
+2018-12-14 14:53:28 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.TextView2 - Check"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.TextView2 - Check'
+
+2018-12-14 14:53:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.TextView2 - Check'
+
+2018-12-14 14:53:30 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Next"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:32 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.LinearLayout3 (1)"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3 (1)'
+
+2018-12-14 14:53:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.LinearLayout3 (1)'
+
+2018-12-14 14:53:36 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Confirm"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Confirm'
+
+2018-12-14 14:53:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Confirm'
+
+2018-12-14 14:53:38 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.EditText0 (1)"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0 (1)'
+
+2018-12-14 14:53:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0 (1)'
+
+2018-12-14 14:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Become a vehicle owner/android.widget.EditText0 - Search city"), "Bandung", 0): Text 'Bandung' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0 - Search city'
+
+2018-12-14 14:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:42 - [MESSAGE][PASSED] - Text 'Bandung' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0 - Search city'
+
+2018-12-14 14:53:42 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.RelativeLayout3"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.RelativeLayout3'
+
+2018-12-14 14:53:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.RelativeLayout3'
+
+2018-12-14 14:53:44 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Save"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Save'
+
+2018-12-14 14:53:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Save'
+
+2018-12-14 14:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Become a vehicle owner/android.widget.EditText1 (1)"), "Jl. AH. Nasution No. 55", 0): Text 'Jl. AH. Nasution No. 55' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText1 (1)'
+
+2018-12-14 14:53:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:48 - [MESSAGE][PASSED] - Text 'Jl. AH. Nasution No. 55' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText1 (1)'
+
+2018-12-14 14:53:48 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Next"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:52 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Become a vehicle owner/android.widget.EditText0 (3)"), "Prioritas Qualitas", 0): Text 'Prioritas Qualitas' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0 (3)'
+
+2018-12-14 14:53:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:54 - [MESSAGE][PASSED] - Text 'Prioritas Qualitas' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText0 (3)'
+
+2018-12-14 14:53:54 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Become a vehicle owner/android.widget.EditText1 (2)"), "Rental Milik QA Group", 0): Text 'Rental Milik QA Group' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText1 (2)'
+
+2018-12-14 14:53:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:55 - [MESSAGE][PASSED] - Text 'Rental Milik QA Group' has been set to element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.EditText1 (2)'
+
+2018-12-14 14:53:55 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Next"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:53:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Next'
+
+2018-12-14 14:53:58 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Become a vehicle owner/android.widget.Button0 - Got It"), 0): Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Got It'
+
+2018-12-14 14:53:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2018-12-14 14:54:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Become a vehicle owner/android.widget.Button0 - Got It'
+
+2018-12-14 14:54:07 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2018-12-14 14:54:12 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-14 14:51:17 - [TEST_SUITE][PASSED] - Customer Become an Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC22 Become a vehicle owner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

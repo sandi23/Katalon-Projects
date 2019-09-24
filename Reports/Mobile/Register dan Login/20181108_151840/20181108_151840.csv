@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register dan Login,,,2018-11-08 15:18:44,2018-11-08 15:20:44,2m - 0.679s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC01 Registrasi Biasa,,,2018-11-08 15:18:45,2018-11-08 15:20:44,1m - 59.744s,PASSED
+startApplication,,Open apps on phone,2018-11-08 15:18:46,2018-11-08 15:19:37,51.020s,PASSED
+tap,,Tap button next,2018-11-08 15:19:37,2018-11-08 15:19:42,5.295s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-08 15:19:42,2018-11-08 15:19:45,2.449s,PASSED
+tap,,Tap button skip,2018-11-08 15:19:45,2018-11-08 15:19:47,2.158s,PASSED
+tap,,Tap button create new account,2018-11-08 15:19:47,2018-11-08 15:19:49,2.070s,PASSED
+setText,,Input first name,2018-11-08 15:19:49,2018-11-08 15:19:50,1.337s,PASSED
+delay,,,2018-11-08 15:19:50,2018-11-08 15:19:51,1.063s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:19:51,2018-11-08 15:19:54,2.186s,PASSED
+tap,,Tap kolom last name agar field dapat di input text,2018-11-08 15:19:54,2018-11-08 15:19:56,1.928s,PASSED
+setText,,Input last name (optional),2018-11-08 15:19:56,2018-11-08 15:19:57,1.116s,PASSED
+delay,,,2018-11-08 15:19:57,2018-11-08 15:19:58,1.004s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:19:58,2018-11-08 15:19:59,1.727s,PASSED
+tap,,Tap button next,2018-11-08 15:19:59,2018-11-08 15:20:02,2.151s,PASSED
+setText,,Input email,2018-11-08 15:20:02,2018-11-08 15:20:03,1.258s,PASSED
+delay,,,2018-11-08 15:20:03,2018-11-08 15:20:04,1.004s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:20:04,2018-11-08 15:20:05,1.568s,PASSED
+tap,,Tap button next,2018-11-08 15:20:05,2018-11-08 15:20:08,2.511s,PASSED
+setText,,Input mobile number,2018-11-08 15:20:08,2018-11-08 15:20:09,1.208s,PASSED
+delay,,,2018-11-08 15:20:09,2018-11-08 15:20:10,1.004s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:20:10,2018-11-08 15:20:12,1.619s,PASSED
+tap,,Tap button next,2018-11-08 15:20:12,2018-11-08 15:20:14,1.823s,PASSED
+delay,,Delay untuk mengisi verification code,2018-11-08 15:20:14,2018-11-08 15:20:24,10.003s,PASSED
+setText,,Input password,2018-11-08 15:20:24,2018-11-08 15:20:25,1.968s,PASSED
+delay,,,2018-11-08 15:20:25,2018-11-08 15:20:26,1.003s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:20:26,2018-11-08 15:20:29,2.014s,PASSED
+tap,,Tap button next,2018-11-08 15:20:29,2018-11-08 15:20:31,2.144s,PASSED
+setText,,Input referral code,2018-11-08 15:20:31,2018-11-08 15:20:32,1.192s,PASSED
+delay,,,2018-11-08 15:20:32,2018-11-08 15:20:33,1.002s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:20:33,2018-11-08 15:20:35,1.767s,PASSED
+tap,,Check ketersediaan referral code,2018-11-08 15:20:35,2018-11-08 15:20:36,1.619s,PASSED
+tap,,Submit form registrasi dan sistem akan mengirim email verifikasi,2018-11-08 15:20:36,2018-11-08 15:20:38,1.640s,PASSED
+delay,,,2018-11-08 15:20:38,2018-11-08 15:20:43,5.002s,PASSED
+closeApplication,,,2018-11-08 15:20:43,2018-11-08 15:20:44,1.594s,PASSED

@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and edit Owned Cars by Owner,,,2018-11-19 14:28:42,2018-11-19 14:32:05,3m - 23.318s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-19 14:28:43,2018-11-19 14:30:00,1m - 16.576s,PASSED
+startApplication,,Open apps on phone,2018-11-19 14:28:44,2018-11-19 14:29:33,48.514s,PASSED
+tap,,Tap button next,2018-11-19 14:29:33,2018-11-19 14:29:37,4.632s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-19 14:29:37,2018-11-19 14:29:40,2.741s,PASSED
+tap,,Tap button skip,2018-11-19 14:29:40,2018-11-19 14:29:42,2.320s,PASSED
+tap,,Tap button login,2018-11-19 14:29:42,2018-11-19 14:29:44,1.671s,PASSED
+setText,,Input email user,2018-11-19 14:29:44,2018-11-19 14:29:45,1.269s,PASSED
+tap,,Tap button next,2018-11-19 14:29:45,2018-11-19 14:29:48,2.551s,PASSED
+setText,,Input password user,2018-11-19 14:29:48,2018-11-19 14:29:50,1.951s,PASSED
+delay,,,2018-11-19 14:29:50,2018-11-19 14:29:51,1.082s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-19 14:29:51,2018-11-19 14:29:53,1.955s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-19 14:29:53,2018-11-19 14:29:55,1.694s,PASSED
+delay,,,2018-11-19 14:29:55,2018-11-19 14:30:00,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-11-19 14:30:00,2018-11-19 14:30:11,11.799s,PASSED
+callTestCase,,,2018-11-19 14:30:00,2018-11-19 14:30:00,0.009s,NOT_RUN
+tap,,Tap tab my cars,2018-11-19 14:30:00,2018-11-19 14:30:02,1.725s,PASSED
+setText,,Mencari car by name,2018-11-19 14:30:02,2018-11-19 14:30:04,2.170s,PASSED
+tap,,Tap button search,2018-11-19 14:30:04,2018-11-19 14:30:06,2.125s,PASSED
+delay,,,2018-11-19 14:30:06,2018-11-19 14:30:11,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC04 Edit Car - My Cars,,,2018-11-19 14:30:11,2018-11-19 14:32:03,1m - 51.661s,PASSED
+callTestCase,,,2018-11-19 14:30:12,2018-11-19 14:30:12,0.003s,NOT_RUN
+tap,,Tap tab my cars,2018-11-19 14:30:12,2018-11-19 14:30:12,0.001s,NOT_RUN
+tap,,Tap icon menu titik 3,2018-11-19 14:30:12,2018-11-19 14:30:14,1.823s,PASSED
+tap,,Tap menu edit,2018-11-19 14:30:14,2018-11-19 14:30:16,2.167s,PASSED
+tap,,Edit car details,2018-11-19 14:30:16,2018-11-19 14:30:18,1.754s,PASSED
+tap,,Tap car brand,2018-11-19 14:30:18,2018-11-19 14:30:20,1.508s,PASSED
+delay,,Select car brand,2018-11-19 14:30:20,2018-11-19 14:30:25,5.004s,PASSED
+tap,,Tap car model,2018-11-19 14:30:25,2018-11-19 14:30:26,1.230s,PASSED
+delay,,Select car model,2018-11-19 14:30:26,2018-11-19 14:30:31,5.004s,PASSED
+tap,,Tap model year,2018-11-19 14:30:31,2018-11-19 14:30:32,1.474s,PASSED
+delay,,Select year,2018-11-19 14:30:32,2018-11-19 14:30:37,5.004s,PASSED
+tap,,Menuju ke form selanjutnya,2018-11-19 14:30:37,2018-11-19 14:30:39,1.532s,PASSED
+clearText,,Clear text plate number,2018-11-19 14:30:39,2018-11-19 14:30:39,0.420s,PASSED
+setText,,Input plate number,2018-11-19 14:30:39,2018-11-19 14:30:41,2.134s,PASSED
+tap,,Menuju ke form selanjutnya,2018-11-19 14:30:41,2018-11-19 14:30:43,2.003s,PASSED
+Statement - For (def index : (1..2)),,Mengatur jumlah seat,2018-11-19 14:30:43,2018-11-19 14:30:46,2.070s,PASSED
+tap,,Select fuel,2018-11-19 14:30:46,2018-11-19 14:30:47,1.124s,PASSED
+tap,,Select transmision,2018-11-19 14:30:47,2018-11-19 14:30:48,1.056s,PASSED
+tap,,Menuju ke form selanjutnya,2018-11-19 14:30:48,2018-11-19 14:30:49,1.566s,PASSED
+Statement - For (def index : (1..6)),,Menghapus image car,2018-11-19 14:30:49,2018-11-19 14:30:58,9.004s,PASSED
+tap,,Upload car photo 1,2018-11-19 14:30:58,2018-11-19 14:31:00,1.366s,PASSED
+tap,,Select upload photo from camera,2018-11-19 14:31:00,2018-11-19 14:31:02,1.908s,PASSED
+tap,,Capture photo,2018-11-19 14:31:02,2018-11-19 14:31:04,2.218s,PASSED
+delay,,,2018-11-19 14:31:04,2018-11-19 14:31:09,5.002s,PASSED
+tap,,Upload car photo 2,2018-11-19 14:31:09,2018-11-19 14:31:10,1.193s,PASSED
+tap,,Select upload photo from camera,2018-11-19 14:31:10,2018-11-19 14:31:11,1.425s,PASSED
+tap,,Capture photo,2018-11-19 14:31:11,2018-11-19 14:31:13,1.957s,PASSED
+delay,,,2018-11-19 14:31:13,2018-11-19 14:31:18,5.003s,PASSED
+tap,,Upload car photo 3,2018-11-19 14:31:18,2018-11-19 14:31:20,1.160s,PASSED
+tap,,Select upload photo from camera,2018-11-19 14:31:20,2018-11-19 14:31:21,1.370s,PASSED
+tap,,Capture photo,2018-11-19 14:31:21,2018-11-19 14:31:23,2.054s,PASSED
+delay,,,2018-11-19 14:31:23,2018-11-19 14:31:28,5.001s,PASSED
+tap,,Upload car photo 4,2018-11-19 14:31:28,2018-11-19 14:31:29,1.268s,PASSED
+tap,,Select upload photo from camera,2018-11-19 14:31:29,2018-11-19 14:31:31,1.382s,PASSED
+tap,,Capture photo,2018-11-19 14:31:31,2018-11-19 14:31:33,1.989s,PASSED
+delay,,,2018-11-19 14:31:33,2018-11-19 14:31:38,5.002s,PASSED
+tap,,Upload car photo 5,2018-11-19 14:31:38,2018-11-19 14:31:39,1.195s,PASSED
+tap,,Select upload photo from camera,2018-11-19 14:31:39,2018-11-19 14:31:40,1.434s,PASSED
+tap,,Capture photo,2018-11-19 14:31:40,2018-11-19 14:31:42,1.937s,PASSED
+delay,,,2018-11-19 14:31:42,2018-11-19 14:31:47,5.001s,PASSED
+tap,,Upload car photo 6,2018-11-19 14:31:47,2018-11-19 14:31:48,1.203s,PASSED
+tap,,Select upload photo from camera,2018-11-19 14:31:48,2018-11-19 14:31:50,1.397s,PASSED
+tap,,Capture photo,2018-11-19 14:31:50,2018-11-19 14:31:52,1.973s,PASSED
+delay,,,2018-11-19 14:31:52,2018-11-19 14:31:57,5.002s,PASSED
+tap,,,2018-11-19 14:31:57,2018-11-19 14:31:58,1.245s,PASSED
+delay,,,2018-11-19 14:31:58,2018-11-19 14:32:03,5.004s,PASSED

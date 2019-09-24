@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Delete Owned Cars by Owner,,,2018-11-19 14:42:41,2018-11-19 14:44:24,1m - 43.875s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-19 14:42:42,2018-11-19 14:44:00,1m - 18.054s,PASSED
+startApplication,,Open apps on phone,2018-11-19 14:42:43,2018-11-19 14:43:33,50.028s,PASSED
+tap,,Tap button next,2018-11-19 14:43:33,2018-11-19 14:43:37,4.618s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-19 14:43:37,2018-11-19 14:43:40,2.659s,PASSED
+tap,,Tap button skip,2018-11-19 14:43:40,2018-11-19 14:43:42,2.386s,PASSED
+tap,,Tap button login,2018-11-19 14:43:42,2018-11-19 14:43:44,1.674s,PASSED
+setText,,Input email user,2018-11-19 14:43:44,2018-11-19 14:43:45,1.318s,PASSED
+tap,,Tap button next,2018-11-19 14:43:45,2018-11-19 14:43:48,2.922s,PASSED
+setText,,Input password user,2018-11-19 14:43:48,2018-11-19 14:43:50,1.287s,PASSED
+delay,,,2018-11-19 14:43:50,2018-11-19 14:43:51,1.065s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-19 14:43:51,2018-11-19 14:43:53,2.151s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-19 14:43:53,2018-11-19 14:43:55,1.708s,PASSED
+delay,,,2018-11-19 14:43:55,2018-11-19 14:44:00,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-11-19 14:44:00,2018-11-19 14:44:12,12.733s,PASSED
+callTestCase,,,2018-11-19 14:44:00,2018-11-19 14:44:00,0.003s,NOT_RUN
+tap,,Tap tab my cars,2018-11-19 14:44:00,2018-11-19 14:44:03,3.170s,PASSED
+setText,,Mencari car by name,2018-11-19 14:44:03,2018-11-19 14:44:05,1.857s,PASSED
+tap,,Tap button search,2018-11-19 14:44:05,2018-11-19 14:44:07,2.044s,PASSED
+delay,,,2018-11-19 14:44:07,2018-11-19 14:44:12,5.010s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC05 Delete - My Cars,,,2018-11-19 14:44:12,2018-11-19 14:44:23,10.351s,PASSED
+callTestCase,,,2018-11-19 14:44:13,2018-11-19 14:44:13,0.003s,NOT_RUN
+tap,,Tap tab my cars,2018-11-19 14:44:13,2018-11-19 14:44:13,0.002s,NOT_RUN
+tap,,Tap icon menu titik 3,2018-11-19 14:44:13,2018-11-19 14:44:14,1.447s,PASSED
+tap,,Tap menu delete,2018-11-19 14:44:14,2018-11-19 14:44:16,1.344s,PASSED
+tap,,Select konfirmasi ok,2018-11-19 14:44:16,2018-11-19 14:44:18,1.838s,PASSED
+delay,,,2018-11-19 14:44:18,2018-11-19 14:44:23,5.004s,PASSED

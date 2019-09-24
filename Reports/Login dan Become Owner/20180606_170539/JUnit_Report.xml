@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login dan Become Owner" time="81" tests="1" failures="1" errors="0">
+   <testsuite name="Login dan Become Owner" tests="1" failures="1" errors="0" time="81" timestamp="2018-06-06 17:05:42" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Login dan Become Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170539"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170539\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170539\\1528279623209.png"/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.10.10.211"/>
+         <property name="sessionId" value="df3c99d311d3c5ff6f76d19de54819f4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" classname="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" status="PASSED">
+         <system-out><![CDATA[2018-06-06 17:05:43 - [TEST_CASE][PASSED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery
+
+2018-06-06 17:05:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-06 17:05:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-06 17:05:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-06 17:05:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-06 17:05:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-06 17:06:08 - [MESSAGE][PASSED] - Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-06 17:06:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-06 17:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-06 17:06:08 - [TEST_STEP][PASSED] - setText: Text 'ali.saputra@wgs.co.id' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-06 17:06:09 - [MESSAGE][PASSED] - Text 'ali.saputra@wgs.co.id' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-06 17:06:09 - [TEST_STEP][PASSED] - setText: Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-06 17:06:09 - [MESSAGE][PASSED] - Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-06 17:06:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-06 17:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-06 17:06:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-06 17:06:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-06 17:06:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' is clicked on
+
+2018-06-06 17:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' is clicked on
+
+2018-06-06 17:06:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner/a_Bergabung Menjadi Pemilik Mo' is clicked on
+
+2018-06-06 17:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner/a_Bergabung Menjadi Pemilik Mo' is clicked on
+
+2018-06-06 17:06:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-06 17:06:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-06 17:06:16 - [TEST_STEP][PASSED] - WebUICustomKeyword.uploadFile: WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar' is clicked on
+
+2018-06-06 17:06:17 - [MESSAGE][PASSED] - WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:06:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-06 17:06:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-06 17:06:20 - [TEST_STEP][PASSED] - WebUICustomKeyword.uploadFile: WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' is clicked on
+
+2018-06-06 17:06:20 - [MESSAGE][PASSED] - WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:06:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-06 17:06:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-06 17:06:25 - [TEST_STEP][PASSED] - WebUICustomKeyword.uploadFile: WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar3' is clicked on
+
+2018-06-06 17:06:25 - [MESSAGE][PASSED] - WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:06:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-06 17:06:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-06 17:06:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/button_LANJUTKAN' is clicked on
+
+2018-06-06 17:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/button_LANJUTKAN' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" classname="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class=&quot;container-type-b&quot;]/div[1]/div[@class=&quot;row m-0 mx-xl-5 mb-4&quot;]/div[@class=&quot;col mx-xl-5 p-0&quot;]/div[@class=&quot;mx-xl-5&quot;]/form[@class=&quot;ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;img-wrapper1&quot;]' not found)"/>
+         <system-out><![CDATA[2018-06-06 17:06:31 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class="container-type-b"]/div[1]/div[@class="row m-0 mx-xl-5 mb-4"]/div[@class="col mx-xl-5 p-0"]/div[@class="mx-xl-5"]/form[@class="ng-valid ng-dirty ng-touched"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="img-wrapper1"]' not found)
+
+2018-06-06 17:06:31 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche'
+
+2018-06-06 17:06:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche'
+
+2018-06-06 17:06:32 - [TEST_STEP][FAILED] - WebUICustomKeyword.uploadFile: Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class="container-type-b"]/div[1]/div[@class="row m-0 mx-xl-5 mb-4"]/div[@class="col mx-xl-5 p-0"]/div[@class="mx-xl-5"]/form[@class="ng-valid ng-dirty ng-touched"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="img-wrapper1"]' not found)
+
+2018-06-06 17:07:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class="container-type-b"]/div[1]/div[@class="row m-0 mx-xl-5 mb-4"]/div[@class="col mx-xl-5 p-0"]/div[@class="mx-xl-5"]/form[@class="ng-valid ng-dirty ng-touched"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="img-wrapper1"]' not found)
+[[ATTACHMENT|C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170539\\1528279623209.png]]
+
+2018-06-06 17:07:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class="container-type-b"]/div[1]/div[@class="row m-0 mx-xl-5 mb-4"]/div[@class="col mx-xl-5 p-0"]/div[@class="mx-xl-5"]/form[@class="ng-valid ng-dirty ng-touched"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="img-wrapper1"]' not found)]]></system-out>
+         <system-err><![CDATA[2018-06-06 17:06:31 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class="container-type-b"]/div[1]/div[@class="row m-0 mx-xl-5 mb-4"]/div[@class="col mx-xl-5 p-0"]/div[@class="mx-xl-5"]/form[@class="ng-valid ng-dirty ng-touched"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="img-wrapper1"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-06 17:05:42 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class="container-type-b"]/div[1]/div[@class="row m-0 mx-xl-5 mb-4"]/div[@class="col mx-xl-5 p-0"]/div[@class="mx-xl-5"]/form[@class="ng-valid ng-dirty ng-touched"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="img-wrapper1"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-06-06 17:05:42 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/div_img-wrapper1' located by 'By.xpath: /html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class="container-type-b"]/div[1]/div[@class="row m-0 mx-xl-5 mb-4"]/div[@class="col mx-xl-5 p-0"]/div[@class="mx-xl-5"]/form[@class="ng-valid ng-dirty ng-touched"]/div[@class="row"]/div[@class="col-md-6"]/div[@class="img-wrapper1"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

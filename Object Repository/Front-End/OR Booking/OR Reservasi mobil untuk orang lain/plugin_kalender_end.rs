@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>plugin_kalender_end</name>
+   <tag></tag>
+   <elementGuidId>1e464158-8d0d-4048-8bd3-a31d48a362ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;custom-dest&quot;]/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;custom-dest&quot;]/div[3]</value>
+   </webElementProperties>
+</WebElementEntity>

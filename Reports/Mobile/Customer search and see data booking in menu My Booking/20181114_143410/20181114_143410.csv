@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer search and see data booking in menu My Booking,,,2018-11-14 14:34:15,2018-11-14 14:36:35,2m - 19.257s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-14 14:34:17,2018-11-14 14:35:37,1m - 20.221s,PASSED
+startApplication,,Open apps on phone,2018-11-14 14:34:18,2018-11-14 14:35:10,51.566s,PASSED
+tap,,Tap button next,2018-11-14 14:35:10,2018-11-14 14:35:14,4.663s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-14 14:35:14,2018-11-14 14:35:17,2.965s,PASSED
+tap,,Tap button skip,2018-11-14 14:35:17,2018-11-14 14:35:20,2.368s,PASSED
+tap,,Tap button login,2018-11-14 14:35:20,2018-11-14 14:35:21,1.635s,PASSED
+setText,,Input email user,2018-11-14 14:35:21,2018-11-14 14:35:23,1.393s,PASSED
+tap,,Tap button next,2018-11-14 14:35:23,2018-11-14 14:35:26,3.015s,PASSED
+setText,,Input password user,2018-11-14 14:35:26,2018-11-14 14:35:27,1.187s,PASSED
+delay,,,2018-11-14 14:35:27,2018-11-14 14:35:28,1.099s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-14 14:35:28,2018-11-14 14:35:30,2.104s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-14 14:35:30,2018-11-14 14:35:32,1.721s,PASSED
+delay,,,2018-11-14 14:35:32,2018-11-14 14:35:37,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC12 Search - My Booking,,,2018-11-14 14:35:37,2018-11-14 14:35:48,11.439s,PASSED
+callTestCase,,,2018-11-14 14:35:38,2018-11-14 14:35:38,0.003s,NOT_RUN
+tap,,Tab my bookings,2018-11-14 14:35:38,2018-11-14 14:35:40,1.881s,PASSED
+setText,,Search my bookings,2018-11-14 14:35:40,2018-11-14 14:35:41,1.823s,PASSED
+tap,,Tap icon search,2018-11-14 14:35:41,2018-11-14 14:35:43,1.982s,PASSED
+delay,,,2018-11-14 14:35:43,2018-11-14 14:35:48,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC14 Booking Details - My Booking,,,2018-11-14 14:35:48,2018-11-14 14:36:32,44.064s,PASSED
+callTestCase,,,2018-11-14 14:35:49,2018-11-14 14:35:49,0.002s,NOT_RUN
+tap,,Select my bookings,2018-11-14 14:35:49,2018-11-14 14:35:52,3.360s,PASSED
+tap,,View status details,2018-11-14 14:35:52,2018-11-14 14:35:54,1.646s,PASSED
+tap,,Tap arrow left untuk back ke booking details,2018-11-14 14:35:54,2018-11-14 14:35:58,3.575s,PASSED
+scrollToText,,Scroll to payment,2018-11-14 14:35:58,2018-11-14 14:36:01,3.679s,PASSED
+tap,,Tap price details,2018-11-14 14:36:01,2018-11-14 14:36:03,1.309s,PASSED
+scrollToText,,Scroll to total price,2018-11-14 14:36:03,2018-11-14 14:36:04,1.065s,PASSED
+delay,,,2018-11-14 14:36:04,2018-11-14 14:36:06,2.002s,PASSED
+tap,,Tap arrow left untuk back ke page my bookings,2018-11-14 14:36:06,2018-11-14 14:36:08,1.857s,PASSED
+tap,,Tab history my booking,2018-11-14 14:36:08,2018-11-14 14:36:10,2.335s,PASSED
+clearText,,,2018-11-14 14:36:10,2018-11-14 14:36:10,0.474s,PASSED
+setText,,Search history my bookings,2018-11-14 14:36:10,2018-11-14 14:36:13,2.184s,PASSED
+tap,,Tap icon search,2018-11-14 14:36:13,2018-11-14 14:36:15,2.144s,PASSED
+tap,,Select my bookings,2018-11-14 14:36:15,2018-11-14 14:36:17,1.884s,PASSED
+tap,,View status details,2018-11-14 14:36:17,2018-11-14 14:36:18,1.629s,PASSED
+tap,,Tap arrow left untuk back ke booking details,2018-11-14 14:36:18,2018-11-14 14:36:22,3.510s,PASSED
+scrollToText,,Scroll to payment,2018-11-14 14:36:22,2018-11-14 14:36:25,3.438s,PASSED
+tap,,Tap price details,2018-11-14 14:36:25,2018-11-14 14:36:26,1.261s,PASSED
+scrollToText,,Scroll to total price,2018-11-14 14:36:26,2018-11-14 14:36:27,1.075s,PASSED
+delay,,,2018-11-14 14:36:27,2018-11-14 14:36:32,5.005s,PASSED

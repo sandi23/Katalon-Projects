@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Lanjutkan_Pemilihan_Tanggal</name>
+   <tag></tag>
+   <elementGuidId>96b1d360-8639-45b1-97c0-349f44fe8fb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/modal-container/div/div/div[2]/div[8]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/modal-container/div/div/div[2]/div[8]/a[2]</value>
+   </webElementProperties>
+</WebElementEntity>

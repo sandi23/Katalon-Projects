@@ -1,0 +1,135 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservation From Advanced Search Rental City or Region,,,2018-12-12 14:56:18,2018-12-12 15:03:32,7m - 14.484s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-12 14:56:19,2018-12-12 14:57:45,1m - 26.259s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-12 14:56:20,2018-12-12 14:57:06,45.987s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-12 14:57:06,2018-12-12 14:57:11,4.738s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-12 14:57:11,2018-12-12 14:57:16,4.809s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-12 14:57:16,2018-12-12 14:57:18,2.178s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-12 14:57:18,2018-12-12 14:57:22,3.505s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-12 14:57:22,2018-12-12 14:57:23,1.238s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-12 14:57:23,2018-12-12 14:57:25,2.572s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 14:57:25,2018-12-12 14:57:31,5.090s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-12 14:57:31,2018-12-12 14:57:32,1.203s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 14:57:32,2018-12-12 14:57:37,5.009s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-12 14:57:37,2018-12-12 14:57:39,1.780s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-12 14:57:39,2018-12-12 14:57:40,1.616s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 14:57:40,2018-12-12 14:57:45,5.006s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region,,,2018-12-12 14:57:45,2018-12-12 14:58:05,19.465s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2018-12-12 14:57:46,2018-12-12 14:57:46,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView0 - Car Rental CityRegion""), 0)",,Tap car rental citiy atau region,2018-12-12 14:57:46,2018-12-12 14:57:47,1.752s,PASSED
+"setText(findTestObject(""Mobile/OR Booking/android.widget.EditText0 - Search available car for you""), ""Bandung"", 0)",,Mencari city or region jabodetabek,2018-12-12 14:57:47,2018-12-12 14:57:49,1.942s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView2 - Jabodetabek""), 0)",,Memilih city or region jabodetabek,2018-12-12 14:57:49,2018-12-12 14:57:49,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView2 - Bandung""), 0)",,Mencari city or region bandung,2018-12-12 14:57:49,2018-12-12 14:57:52,2.217s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView1 - Car Only""), 0)",,Memilih car only,2018-12-12 14:57:52,2018-12-12 14:57:52,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Homepage/android.widget.TextView2 - Car With Driver""), 0)",,Memilih car with driver,2018-12-12 14:57:52,2018-12-12 14:57:53,1.369s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Next""), 0)",,Next untuk select dates,2018-12-12 14:57:53,2018-12-12 14:57:55,1.655s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Select range tanggal,2018-12-12 14:57:55,2018-12-12 14:58:00,5.015s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Search""), 0)",,Mencari car dengan ketentuan yang telah dipilih,2018-12-12 14:58:00,2018-12-12 14:58:00,0.004s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 14:58:00,2018-12-12 14:58:05,5.011s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC02 Advanced Search Car Use Search Bar Rental City atau Region,,,2018-12-12 14:58:05,2018-12-12 14:58:14,9.427s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region""), [:], STOP_ON_FAILURE)",,Call test case search car use search bar rental city atau region,2018-12-12 14:58:05,2018-12-12 14:58:05,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView46 - Advance Search""), 0)",,Menampilkan option advance search,2018-12-12 14:58:05,2018-12-12 14:58:07,2.043s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Search""), 0)",,Mencari car sesuai pilihan advance search,2018-12-12 14:58:07,2018-12-12 14:58:09,1.995s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 14:58:09,2018-12-12 14:58:14,5.013s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC14 Sort and filter list cars,,,2018-12-12 14:58:14,2018-12-12 14:59:56,1m - 41.567s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Homepage/SC99 Regression/TC02 Advanced Search Car Use Search Bar Rental City atau Region""), [:], STOP_ON_FAILURE)",,Call test case advanced search car use search bar rental city atau region,2018-12-12 14:58:15,2018-12-12 14:58:15,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView5 - Sort  Filter""), 0)",,Menampilkan option sort & filter,2018-12-12 14:58:15,2018-12-12 14:58:17,1.949s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Popularity""), 0)",,Menampilkan dropdown option list sort by,2018-12-12 14:58:17,2018-12-12 14:58:18,1.766s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Lowest price""), 0)",,Select lowest price,2018-12-12 14:58:18,2018-12-12 14:58:18,0.003s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk select sort by,2018-12-12 14:58:18,2018-12-12 14:58:23,5.010s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView4 - 1""), 0)",,Select bintang 1,2018-12-12 14:58:23,2018-12-12 14:58:27,3.880s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView7 - 2""), 0)",,Select bintang 2,2018-12-12 14:58:27,2018-12-12 14:58:31,3.684s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView8 - 3""), 0)",,Select bintang 3,2018-12-12 14:58:31,2018-12-12 14:58:32,1.143s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView9 - 4""), 0)",,Select bintang 4,2018-12-12 14:58:32,2018-12-12 14:58:33,1.176s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView10 - 5""), 0)",,Select bintang 5,2018-12-12 14:58:33,2018-12-12 14:58:37,3.539s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk select price range,2018-12-12 14:58:37,2018-12-12 14:58:42,5.013s,PASSED
+for (def index : (1..5)),,Looping untuk menentukan jumlah seat,2018-12-12 14:58:42,2018-12-12 14:58:57,15.452s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView18 - Even""), 0)",,Select plate number even,2018-12-12 14:58:57,2018-12-12 14:58:59,1.190s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView20 - Odd""), 0)",,Select plate number odd,2018-12-12 14:58:59,2018-12-12 14:58:59,0.002s,NOT_RUN
+"scrollToText(""Facilities"", STOP_ON_FAILURE)",,Scroll to text facilities,2018-12-12 14:58:59,2018-12-12 14:59:03,4.328s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Show all facilities""), 0)",,Show all facilities,2018-12-12 14:59:03,2018-12-12 14:59:06,3.588s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView6 - Life Insurance""), 0)",,Select facilities life insurance,2018-12-12 14:59:06,2018-12-12 14:59:06,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView11 - Wifi""), 0)",,Select facilities wifi,2018-12-12 14:59:06,2018-12-12 14:59:06,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Emergency Tools""), 0)",,,2018-12-12 14:59:06,2018-12-12 14:59:10,3.705s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Scroll to text car category,2018-12-12 14:59:10,2018-12-12 14:59:15,5.009s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Show all category""), 0)",,Show all category,2018-12-12 14:59:15,2018-12-12 14:59:19,4.325s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.MPV""), 0)",,Select car categories MPV,2018-12-12 14:59:19,2018-12-12 14:59:19,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Minibus""), 0)",,Select car categories Minibus,2018-12-12 14:59:19,2018-12-12 14:59:19,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Sport""), 0)",,Select car categories Sport,2018-12-12 14:59:19,2018-12-12 14:59:19,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.SUV""), 0)",,Select car category SUV,2018-12-12 14:59:19,2018-12-12 14:59:25,5.087s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Sedan""), 0)",,Select car categories Sedan,2018-12-12 14:59:25,2018-12-12 14:59:25,0.003s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Scroll to text brand,2018-12-12 14:59:25,2018-12-12 14:59:30,5.013s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Show all brand""), 0)",,Show all brand,2018-12-12 14:59:30,2018-12-12 14:59:31,1.350s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView5 - Honda""), 0)",,Select brands honda,2018-12-12 14:59:31,2018-12-12 14:59:31,0.000s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView18 - Jeep""), 0)",,,2018-12-12 14:59:31,2018-12-12 14:59:35,4.023s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView9 - Chevrolet""), 0)",,Select brands chevrolet,2018-12-12 14:59:35,2018-12-12 14:59:35,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView11 - Toyota""), 0)",,Select brands toyota,2018-12-12 14:59:35,2018-12-12 14:59:35,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Homepage/android.widget.ImageView1""), 0)",,Tap arrow right untuk select model,2018-12-12 14:59:35,2018-12-12 14:59:37,1.932s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 3), STOP_ON_FAILURE)",,Delay untuk select model,2018-12-12 14:59:37,2018-12-12 14:59:37,0.004s,NOT_RUN
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Search model""), ""Renegade"", 0)",,,2018-12-12 14:59:37,2018-12-12 14:59:39,1.852s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.CheckBox0""), 0)",,,2018-12-12 14:59:39,2018-12-12 14:59:43,4.054s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView1 - SPORTAGE""), 0)",,,2018-12-12 14:59:43,2018-12-12 14:59:43,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView2 - SPORT CLASS""), 0)",,,2018-12-12 14:59:43,2018-12-12 14:59:43,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView10 - CITY""), 0)",,,2018-12-12 14:59:43,2018-12-12 14:59:43,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView12 - RANGER""), 0)",,,2018-12-12 14:59:43,2018-12-12 14:59:43,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Save""), 0)",,Submit model yang dipilih,2018-12-12 14:59:43,2018-12-12 14:59:45,2.295s,PASSED
+"scrollToText(""Transmission"", STOP_ON_FAILURE)",,,2018-12-12 14:59:45,2018-12-12 14:59:46,1.212s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView10 - Diesel""), 0)",,Select type of fuel diesel,2018-12-12 14:59:46,2018-12-12 14:59:48,1.182s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView13 - Petrol""), 0)",,Select type of fuel petrol,2018-12-12 14:59:48,2018-12-12 14:59:48,0.001s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView14 - Electric""), 0)",,Select type of fuel electric,2018-12-12 14:59:48,2018-12-12 14:59:48,0.001s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView16 - Manual""), 0)",,Select transmission manual,2018-12-12 14:59:48,2018-12-12 14:59:49,1.257s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView19 - Automatic""), 0)",,Select transmission automatic,2018-12-12 14:59:49,2018-12-12 14:59:49,0.001s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Search""), 0)",,Search car sesuai sort dan filter yang telah ditentukan,2018-12-12 14:59:49,2018-12-12 14:59:51,1.859s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 14:59:51,2018-12-12 14:59:56,5.012s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars,,,2018-12-12 14:59:56,2018-12-12 15:00:59,1m - 2.990s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region""), [:], STOP_ON_FAILURE)",,Call test case search car use search bar renal city atau region,2018-12-12 14:59:56,2018-12-12 14:59:56,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.support.v4.view.ViewPager0""), 0)",,Select car yang ada di list of cars,2018-12-12 14:59:56,2018-12-12 14:59:59,3.240s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Check Packages""), 0)",,Check packages,2018-12-12 14:59:59,2018-12-12 15:00:06,6.251s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button1 - Book Now""), 0)",,Membuat reservasi,2018-12-12 15:00:06,2018-12-12 15:00:09,3.533s,PASSED
+"scrollToText(""Add additional benefits"", STOP_ON_FAILURE)",,Scroll to text add additional benefits,2018-12-12 15:00:09,2018-12-12 15:00:10,1.092s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView2 - Edit""), 0)",,Edit additional benefits,2018-12-12 15:00:10,2018-12-12 15:00:12,1.403s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.CheckBox0""), 0)",,Checklist life insurance,2018-12-12 15:00:12,2018-12-12 15:00:15,3.473s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.ImageView1""), 0)",,Tap arrow right untuk menampilkan life insurance by astralife,2018-12-12 15:00:15,2018-12-12 15:00:17,2.077s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Save""), 0)",,Menyimpan contact life insurance,2018-12-12 15:00:17,2018-12-12 15:00:19,1.546s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - I Agree""), 0)",,Menyetujui additional benefits,2018-12-12 15:00:19,2018-12-12 15:00:22,3.522s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.EditText0""), 0)",,Tap untuk menampilkan jam,2018-12-12 15:00:22,2018-12-12 15:00:26,3.904s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 15:00:26,2018-12-12 15:00:31,5.013s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button1 - OK""), 0)",,Submit jam,2018-12-12 15:00:31,2018-12-12 15:00:32,1.110s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.RelativeLayout7""), 0)",,Pick up location,2018-12-12 15:00:32,2018-12-12 15:00:34,1.791s,PASSED
+"delay(5, STOP_ON_FAILURE)",,Delay untuk load maps sesuai titik yang ditentukan,2018-12-12 15:00:34,2018-12-12 15:00:39,5.004s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Confirm""), 0)",,Mengkonfirmasi lokasi pick up,2018-12-12 15:00:39,2018-12-12 15:00:41,1.899s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.RelativeLayout8""), 0)",,Return location,2018-12-12 15:00:41,2018-12-12 15:00:46,4.527s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 15:00:46,2018-12-12 15:00:51,5.014s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Confirm""), 0)",,Mengkonfirmasi lokasi return ,2018-12-12 15:00:51,2018-12-12 15:00:52,1.295s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Continue""), 0)",,Continue reserve,2018-12-12 15:00:52,2018-12-12 15:00:54,1.713s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 15:00:54,2018-12-12 15:00:59,5.011s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules,,,2018-12-12 15:00:59,2018-12-12 15:01:10,11.002s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars""), [:], STOP_ON_FAILURE)",,Call test case select car from list cars,2018-12-12 15:00:59,2018-12-12 15:00:59,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY""), 0)",,Menampilkan informasi yang ada di tab cancellation policy,2018-12-12 15:00:59,2018-12-12 15:01:03,3.610s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Agree""), 0)",,Menyetujui segala ketentuan rules yang tertera,2018-12-12 15:01:03,2018-12-12 15:01:05,1.978s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Pay Later""), 0)",,,2018-12-12 15:01:05,2018-12-12 15:01:05,0.002s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 15:01:05,2018-12-12 15:01:10,5.007s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment,,,2018-12-12 15:01:10,2018-12-12 15:01:18,8.400s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Booking/SC99 Regression/TC09 Rules""), [:], STOP_ON_FAILURE)",,Call test case rules,2018-12-12 15:01:10,2018-12-12 15:01:10,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.ImageView2""), 0)",,,2018-12-12 15:01:10,2018-12-12 15:01:10,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.Button1 - Pay""), 0)",,Mulai melakukan pembayaran,2018-12-12 15:01:10,2018-12-12 15:01:11,1.293s,PASSED
+"tap(findTestObject(""Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM""), 0)",,Konfirmasi pembayaran,2018-12-12 15:01:11,2018-12-12 15:01:13,1.713s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 15:01:13,2018-12-12 15:01:18,5.014s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method,,,2018-12-12 15:01:18,2018-12-12 15:01:26,7.704s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment""), [:], STOP_ON_FAILURE)",,Call test case pay - payment,2018-12-12 15:01:19,2018-12-12 15:01:19,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout3""), 0)",,Menampilkan option payment,2018-12-12 15:01:19,2018-12-12 15:01:21,2.230s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-12 15:01:21,2018-12-12 15:01:26,5.013s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment,,,2018-12-12 15:01:26,2018-12-12 15:03:23,1m - 57.330s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC04 Select payment method""), [:], STOP_ON_FAILURE)",,Call test case select payment method,2018-12-12 15:01:26,2018-12-12 15:01:26,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout3 (1)""), 0)",,Pilih metode pembayaran credit card,2018-12-12 15:01:26,2018-12-12 15:01:28,2.033s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Scroll to field identitas credit card,2018-12-12 15:01:28,2018-12-12 15:01:33,5.012s,PASSED
+"tap(findTestObject(""Mobile/OR Payment/android.widget.EditText0""), 0)",,Credit card number,2018-12-12 15:01:33,2018-12-12 15:03:23,1m - 49.845s,FAILED

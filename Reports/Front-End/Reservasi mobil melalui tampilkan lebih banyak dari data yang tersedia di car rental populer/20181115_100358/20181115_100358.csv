@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservasi mobil melalui tampilkan lebih banyak dari data yang tersedia di car rental populer,Chrome 70.0.3538.102,,2018-11-15 10:04:04,2018-11-15 10:06:11,2m - 7.281s,PASSED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email,Chrome 70.0.3538.102,,2018-11-15 10:04:05,2018-11-15 10:05:18,1m - 13.299s,PASSED
+openBrowser,Chrome 70.0.3538.102,Buka browser,2018-11-15 10:04:06,2018-11-15 10:04:24,18.616s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,Maximize window,2018-11-15 10:04:24,2018-11-15 10:04:26,1.218s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Akses Url,2018-11-15 10:04:26,2018-11-15 10:05:02,36.824s,PASSED
+waitForPageLoad,Chrome 70.0.3538.102,,2018-11-15 10:05:02,2018-11-15 10:05:03,0.709s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 10:05:03,2018-11-15 10:05:04,0.526s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:04,2018-11-15 10:05:07,3.027s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 10:05:07,2018-11-15 10:05:08,1.369s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:08,2018-11-15 10:05:11,3.005s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 10:05:11,2018-11-15 10:05:11,0.402s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:11,2018-11-15 10:05:15,3.099s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 10:05:15,2018-11-15 10:05:15,0.461s,PASSED
+verifyElementVisible,Chrome 70.0.3538.102,"Verifikasi popup ""Success"" Visible",2018-11-15 10:05:15,2018-11-15 10:05:16,0.882s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:16,2018-11-15 10:05:18,2.323s,PASSED
+,,,,,,
+Test Cases/Front-End/Homepage/SC99 Regression/TC08 Cari mobil via tampilkan lebih banyak di car rental populer,Chrome 70.0.3538.102,,2018-11-15 10:05:18,2018-11-15 10:05:40,22.207s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 10:05:19,2018-11-15 10:05:30,10.973s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:30,2018-11-15 10:05:33,3.005s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 10:05:33,2018-11-15 10:05:34,1.124s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:34,2018-11-15 10:05:37,3.003s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 10:05:37,2018-11-15 10:05:37,0.594s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:37,2018-11-15 10:05:40,3.002s,PASSED
+,,,,,,
+Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil,Chrome 70.0.3538.102,,2018-11-15 10:05:41,2018-11-15 10:06:04,23.111s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:41,2018-11-15 10:05:43,2.002s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,Scroll kebawah,2018-11-15 10:05:43,2018-11-15 10:05:43,0.104s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:43,2018-11-15 10:05:45,2.003s,PASSED
+click,Chrome 70.0.3538.102,Klik Pilih Paket pada salah satu Paket,2018-11-15 10:05:45,2018-11-15 10:05:46,0.277s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:46,2018-11-15 10:05:48,2.002s,PASSED
+click,Chrome 70.0.3538.102,Klik Button Pesan Sekarang,2018-11-15 10:05:48,2018-11-15 10:05:48,0.433s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:48,2018-11-15 10:05:50,2.003s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-15 10:05:50,2018-11-15 10:05:50,0.037s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:50,2018-11-15 10:05:55,5.004s,PASSED
+click,Chrome 70.0.3538.102,Klik Button Lanjutkan Pesanan,2018-11-15 10:05:55,2018-11-15 10:05:56,0.685s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:56,2018-11-15 10:05:58,2.004s,PASSED
+click,Chrome 70.0.3538.102,Klik Button Setuju Aturan & Kebijakan,2018-11-15 10:05:58,2018-11-15 10:05:58,0.313s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:05:58,2018-11-15 10:06:00,2.004s,PASSED
+click,Chrome 70.0.3538.102,Klik Button Yes Konfirmasi,2018-11-15 10:06:00,2018-11-15 10:06:00,0.276s,PASSED
+verifyElementVisible,Chrome 70.0.3538.102,,2018-11-15 10:06:00,2018-11-15 10:06:02,1.217s,PASSED
+verifyElementVisible,Chrome 70.0.3538.102,Verify Reservasi Berhasil Masuk Cart,2018-11-15 10:06:02,2018-11-15 10:06:02,0.095s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:06:02,2018-11-15 10:06:04,2.003s,PASSED
+,,,,,,
+Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher,Chrome 70.0.3538.102,,2018-11-15 10:06:04,2018-11-15 10:06:06,2.672s,PASSED
+click,Chrome 70.0.3538.102,Klik button Lanjutkan ke Metode Pembayaran,2018-11-15 10:06:04,2018-11-15 10:06:04,0.319s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:06:04,2018-11-15 10:06:06,2.004s,PASSED

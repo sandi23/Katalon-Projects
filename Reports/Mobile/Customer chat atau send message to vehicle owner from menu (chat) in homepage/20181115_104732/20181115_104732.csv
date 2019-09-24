@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer chat atau send message to vehicle owner from menu (chat) in homepage,,,2018-11-15 10:47:37,2018-11-15 10:50:38,3m - 1.595s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-15 10:47:38,2018-11-15 10:48:54,1m - 16.234s,PASSED
+startApplication,,Open apps on phone,2018-11-15 10:47:39,2018-11-15 10:48:27,48.422s,PASSED
+tap,,Tap button next,2018-11-15 10:48:27,2018-11-15 10:48:32,5.062s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-15 10:48:32,2018-11-15 10:48:35,2.638s,PASSED
+tap,,Tap button skip,2018-11-15 10:48:35,2018-11-15 10:48:37,2.238s,PASSED
+tap,,Tap button login,2018-11-15 10:48:37,2018-11-15 10:48:39,1.621s,PASSED
+setText,,Input email user,2018-11-15 10:48:39,2018-11-15 10:48:40,1.303s,PASSED
+tap,,Tap button next,2018-11-15 10:48:40,2018-11-15 10:48:43,3.077s,PASSED
+setText,,Input password user,2018-11-15 10:48:43,2018-11-15 10:48:44,1.104s,PASSED
+delay,,,2018-11-15 10:48:44,2018-11-15 10:48:45,1.060s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-15 10:48:45,2018-11-15 10:48:47,1.741s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-15 10:48:47,2018-11-15 10:48:49,1.719s,PASSED
+delay,,,2018-11-15 10:48:49,2018-11-15 10:48:54,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC23 Chat to vehicle owner from menu chat homepage,,,2018-11-15 10:48:54,2018-11-15 10:50:36,1m - 42.629s,PASSED
+callTestCase,,,2018-11-15 10:48:55,2018-11-15 10:48:55,0.003s,NOT_RUN
+tap,,Tap tab icon chat ,2018-11-15 10:48:55,2018-11-15 10:50:16,1m - 21.088s,PASSED
+tap,,Tap kolom search chat,2018-11-15 10:50:16,2018-11-15 10:50:16,0.002s,NOT_RUN
+delay,,Delay untuk input history chat,2018-11-15 10:50:16,2018-11-15 10:50:21,5.006s,PASSED
+setText,,Input chat history,2018-11-15 10:50:21,2018-11-15 10:50:21,0.002s,NOT_RUN
+tap,,Tap icon search,2018-11-15 10:50:21,2018-11-15 10:50:21,0.002s,NOT_RUN
+delay,,Delay untuk select history chat,2018-11-15 10:50:21,2018-11-15 10:50:26,5.003s,PASSED
+tap,,Select chat,2018-11-15 10:50:26,2018-11-15 10:50:26,0.003s,NOT_RUN
+tap,,Tap kolom untuk menulis chat,2018-11-15 10:50:26,2018-11-15 10:50:28,1.897s,PASSED
+setText,,Input chat,2018-11-15 10:50:28,2018-11-15 10:50:29,1.893s,PASSED
+tap,,Mengirim chat,2018-11-15 10:50:29,2018-11-15 10:50:31,2.018s,PASSED
+delay,,,2018-11-15 10:50:31,2018-11-15 10:50:36,5.002s,PASSED

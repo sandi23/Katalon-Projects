@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>harga_start</name>
+   <tag></tag>
+   <elementGuidId>a45dedc7-5f97-4a84-8520-a34b7ad89aa0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-root/app-homepage/div[1]/div[2]/div/div/div[1]/div[2]/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-root/app-homepage/div[1]/div[2]/div/div/div[1]/div[2]/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

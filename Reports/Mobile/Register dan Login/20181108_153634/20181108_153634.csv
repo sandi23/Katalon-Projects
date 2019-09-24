@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register dan Login,,,2018-11-08 15:36:39,2018-11-08 15:38:00,1m - 21.404s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC05 Login with mobile number,,,2018-11-08 15:36:40,2018-11-08 15:38:00,1m - 20.420s,PASSED
+startApplication,,Open apps on phone,2018-11-08 15:36:41,2018-11-08 15:37:32,51.412s,PASSED
+tap,,Tap button next,2018-11-08 15:37:32,2018-11-08 15:37:37,4.547s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-08 15:37:37,2018-11-08 15:37:39,2.642s,PASSED
+tap,,Tap button skip,2018-11-08 15:37:39,2018-11-08 15:37:42,2.120s,PASSED
+tap,,Tap button login,2018-11-08 15:37:42,2018-11-08 15:37:43,1.620s,PASSED
+setText,,Input email user,2018-11-08 15:37:43,2018-11-08 15:37:45,1.740s,PASSED
+tap,,Tap button next,2018-11-08 15:37:45,2018-11-08 15:37:48,2.756s,PASSED
+setText,,Input password user,2018-11-08 15:37:48,2018-11-08 15:37:49,1.164s,PASSED
+delay,,,2018-11-08 15:37:49,2018-11-08 15:37:50,1.069s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:37:50,2018-11-08 15:37:52,2.009s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-08 15:37:52,2018-11-08 15:37:54,1.602s,PASSED
+delay,,,2018-11-08 15:37:54,2018-11-08 15:37:59,5.004s,PASSED
+closeApplication,,,2018-11-08 15:37:59,2018-11-08 15:38:00,1.533s,PASSED

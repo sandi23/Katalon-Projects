@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer Become an Owner,,,2018-11-15 15:16:49,2018-11-15 15:22:02,5m - 13.546s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-15 15:16:49,2018-11-15 15:18:07,1m - 17.893s,PASSED
+startApplication,,Open apps on phone,2018-11-15 15:16:51,2018-11-15 15:17:40,49.209s,PASSED
+tap,,Tap button next,2018-11-15 15:17:40,2018-11-15 15:17:44,4.599s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-15 15:17:44,2018-11-15 15:17:47,2.690s,PASSED
+tap,,Tap button skip,2018-11-15 15:17:47,2018-11-15 15:17:49,2.153s,PASSED
+tap,,Tap button login,2018-11-15 15:17:49,2018-11-15 15:17:51,2.239s,PASSED
+setText,,Input email user,2018-11-15 15:17:51,2018-11-15 15:17:53,1.418s,PASSED
+tap,,Tap button next,2018-11-15 15:17:53,2018-11-15 15:17:56,2.991s,PASSED
+setText,,Input password user,2018-11-15 15:17:56,2018-11-15 15:17:57,1.209s,PASSED
+delay,,,2018-11-15 15:17:57,2018-11-15 15:17:58,1.094s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-15 15:17:58,2018-11-15 15:18:01,2.397s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-15 15:18:01,2018-11-15 15:18:02,1.715s,PASSED
+delay,,,2018-11-15 15:18:02,2018-11-15 15:18:07,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC22 Become a vehicle owner,,,2018-11-15 15:18:07,2018-11-15 15:22:00,3m - 52.641s,PASSED
+callTestCase,,,2018-11-15 15:18:08,2018-11-15 15:18:08,0.005s,NOT_RUN
+tap,,Tap icon profile,2018-11-15 15:18:08,2018-11-15 15:19:30,1m - 21.158s,PASSED
+tap,,Tap menu become a vehicle owner,2018-11-15 15:19:30,2018-11-15 15:20:42,1m - 12.771s,PASSED
+tap,,Tap button get started untuk memulai pendaftaran sebagai owner,2018-11-15 15:20:42,2018-11-15 15:20:45,3.137s,PASSED
+tap,,Tap ok untuk mengambil foto diri bersama kartu identitas,2018-11-15 15:20:45,2018-11-15 15:20:47,1.406s,PASSED
+tap,,Capture image,2018-11-15 15:20:47,2018-11-15 15:20:49,1.923s,PASSED
+tap,,Gunakan gambar yang telah diambil,2018-11-15 15:20:49,2018-11-15 15:20:51,2.625s,PASSED
+tap,,Tap ok untuk mengambil foto sim,2018-11-15 15:20:51,2018-11-15 15:20:54,2.453s,PASSED
+tap,,Capture image,2018-11-15 15:20:54,2018-11-15 15:20:56,2.168s,PASSED
+tap,,Gunakan gambar yang telah diambil,2018-11-15 15:20:56,2018-11-15 15:20:58,1.776s,PASSED
+tap,,Tap ok untuk mengambil foto ktp,2018-11-15 15:20:58,2018-11-15 15:21:00,2.618s,PASSED
+tap,,Capture image,2018-11-15 15:21:00,2018-11-15 15:21:03,2.557s,PASSED
+tap,,Gunakan gambar yang telah diambil,2018-11-15 15:21:03,2018-11-15 15:21:05,1.570s,PASSED
+tap,,Add photo profile rental,2018-11-15 15:21:05,2018-11-15 15:21:07,2.818s,PASSED
+tap,,Capture image,2018-11-15 15:21:07,2018-11-15 15:21:09,2.077s,PASSED
+tap,,Tap button next untuk mengisi form selanjutnya,2018-11-15 15:21:09,2018-11-15 15:21:11,1.956s,PASSED
+setText,,Input car rental name,2018-11-15 15:21:11,2018-11-15 15:21:13,1.395s,PASSED
+tap,,Check ketersediaan nama rental,2018-11-15 15:21:13,2018-11-15 15:21:15,2.166s,PASSED
+tap,,Tap button next untuk mengisi form selanjutnya,2018-11-15 15:21:15,2018-11-15 15:21:17,2.132s,PASSED
+tap,,Menentukan lokasi rental,2018-11-15 15:21:17,2018-11-15 15:21:20,2.909s,PASSED
+tap,,Mengkonfirmasi lokasi rental,2018-11-15 15:21:20,2018-11-15 15:21:22,2.009s,PASSED
+tap,,Menampilkan form city,2018-11-15 15:21:22,2018-11-15 15:21:24,1.897s,PASSED
+setText,,Searching city,2018-11-15 15:21:24,2018-11-15 15:21:26,1.765s,PASSED
+tap,,Select city,2018-11-15 15:21:26,2018-11-15 15:21:27,1.763s,PASSED
+tap,,Tap button save untuk menyimpan pilihan city,2018-11-15 15:21:27,2018-11-15 15:21:31,3.541s,PASSED
+setText,,Input alamat lengkap lokasi rental,2018-11-15 15:21:31,2018-11-15 15:21:32,0.998s,PASSED
+tap,,Tap button next untuk mengisi form selanjutnya,2018-11-15 15:21:32,2018-11-15 15:21:34,2.260s,PASSED
+setText,,Input slogan,2018-11-15 15:21:34,2018-11-15 15:21:36,1.232s,PASSED
+setText,,Input description,2018-11-15 15:21:36,2018-11-15 15:21:37,1.670s,PASSED
+tap,,Tap button next untuk submit form registrasi owner,2018-11-15 15:21:37,2018-11-15 15:21:40,2.752s,PASSED
+tap,,Memulai sebagai owner,2018-11-15 15:21:40,2018-11-15 15:21:55,15.037s,PASSED
+delay,,,2018-11-15 15:21:55,2018-11-15 15:22:00,5.002s,PASSED

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login dan Become Owner" time="53" tests="1" failures="1" errors="0">
+   <testsuite name="Login dan Become Owner" tests="1" failures="1" errors="0" time="53" timestamp="2018-06-06 17:03:14" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Login dan Become Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170310"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170310\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170310\\1528279446603.png"/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.10.10.211"/>
+         <property name="sessionId" value="766543a4b46b303105fe6fd6c3f18d42"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" classname="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" status="PASSED">
+         <system-out><![CDATA[2018-06-06 17:03:15 - [TEST_CASE][PASSED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery
+
+2018-06-06 17:03:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-06 17:03:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-06 17:03:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-06 17:03:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-06 17:03:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-06 17:03:41 - [MESSAGE][PASSED] - Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-06 17:03:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-06 17:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-06 17:03:42 - [TEST_STEP][PASSED] - setText: Text 'ali.saputra@wgs.co.id' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-06 17:03:43 - [MESSAGE][PASSED] - Text 'ali.saputra@wgs.co.id' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-06 17:03:43 - [TEST_STEP][PASSED] - setText: Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-06 17:03:43 - [MESSAGE][PASSED] - Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-06 17:03:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-06 17:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-06 17:03:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-06 17:03:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-06 17:03:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' is clicked on
+
+2018-06-06 17:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' is clicked on
+
+2018-06-06 17:03:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner/a_Bergabung Menjadi Pemilik Mo' is clicked on
+
+2018-06-06 17:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner/a_Bergabung Menjadi Pemilik Mo' is clicked on
+
+2018-06-06 17:03:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-06 17:03:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-06 17:03:51 - [TEST_STEP][PASSED] - WebUICustomKeyword.uploadFile: WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar' is clicked on
+
+2018-06-06 17:03:52 - [MESSAGE][PASSED] - WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:03:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-06 17:03:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-06 17:03:55 - [TEST_STEP][PASSED] - WebUICustomKeyword.uploadFile: WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' is clicked on
+
+2018-06-06 17:03:55 - [MESSAGE][PASSED] - WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:03:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-06 17:04:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-06 17:04:00 - [TEST_STEP][PASSED] - WebUICustomKeyword.uploadFile: WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:04:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar3' is clicked on
+
+2018-06-06 17:04:00 - [MESSAGE][PASSED] - WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-06 17:04:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-06-06 17:04:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-06-06 17:04:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/button_LANJUTKAN' is clicked on
+
+2018-06-06 17:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/button_LANJUTKAN' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" classname="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '&quot;&quot;' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALIMSA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 766543a4b46b303105fe6fd6c3f18d42)"/>
+         <system-out><![CDATA[2018-06-06 17:04:05 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '""' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALIMSA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 766543a4b46b303105fe6fd6c3f18d42)
+
+2018-06-06 17:04:06 - [TEST_STEP][FAILED] - setText: Unable to set text '""' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALIMSA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 766543a4b46b303105fe6fd6c3f18d42)
+
+2018-06-06 17:04:07 - [MESSAGE][FAILED] - Unable to set text '""' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALIMSA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 766543a4b46b303105fe6fd6c3f18d42)
+[[ATTACHMENT|C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Login dan Become Owner\\20180606_170310\\1528279446603.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-06 17:04:05 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '""' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALIMSA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 766543a4b46b303105fe6fd6c3f18d42)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-06 17:03:14 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '""' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALIMSA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 766543a4b46b303105fe6fd6c3f18d42)]]></system-out>
+      <system-err><![CDATA[2018-06-06 17:03:14 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '""' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.211', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ALIMSA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: 766543a4b46b303105fe6fd6c3f18d42)]]></system-err>
+   </testsuite>
+</testsuites>

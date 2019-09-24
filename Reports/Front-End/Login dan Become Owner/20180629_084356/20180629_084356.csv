@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login dan Become Owner,Chrome 67.0.3396.99,,2018-06-29 08:43:58,2018-06-29 08:45:36,1m - 37.854s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email,Chrome 67.0.3396.99,,2018-06-29 08:43:59,2018-06-29 08:45:21,1m - 22.035s,FAILED
+openBrowser,Chrome 67.0.3396.99,Buka browser,2018-06-29 08:43:59,2018-06-29 08:44:05,5.389s,PASSED
+maximizeWindow,Chrome 67.0.3396.99,Maximize window,2018-06-29 08:44:05,2018-06-29 08:44:07,2.147s,PASSED
+navigateToUrl,Chrome 67.0.3396.99,Akses Url,2018-06-29 08:44:07,2018-06-29 08:44:38,31.541s,PASSED
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 08:44:38,2018-06-29 08:44:40,1.474s,PASSED
+click,Chrome 67.0.3396.99,Klik menu 'Masuk',2018-06-29 08:44:40,2018-06-29 08:44:42,2.264s,PASSED
+setText,Chrome 67.0.3396.99,Input email\r\n,2018-06-29 08:44:42,2018-06-29 08:44:46,4.229s,PASSED
+setText,Chrome 67.0.3396.99,Input password,2018-06-29 08:44:46,2018-06-29 08:44:51,4.144s,PASSED
+click,Chrome 67.0.3396.99,Klik tombol 'Masuk',2018-06-29 08:44:51,2018-06-29 08:44:53,2.094s,PASSED
+verifyElementVisible,Chrome 67.0.3396.99,"Verifikasi popup \""Success\"" Visible",2018-06-29 08:44:53,2018-06-29 08:45:21,28.247s,FAILED
+,,,,,,
+Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:35,13.794s,FAILED
+openBrowser,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.002s,NOT_RUN
+maximizeWindow,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.004s,NOT_RUN
+navigateToUrl,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.004s,NOT_RUN
+waitForPageLoad,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.002s,NOT_RUN
+click,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.001s,NOT_RUN
+setText,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.002s,NOT_RUN
+setText,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.001s,NOT_RUN
+click,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:21,0.002s,NOT_RUN
+delay,Chrome 67.0.3396.99,,2018-06-29 08:45:21,2018-06-29 08:45:25,3.349s,PASSED
+refresh,Chrome 67.0.3396.99,,2018-06-29 08:45:25,2018-06-29 08:45:35,10.050s,FAILED

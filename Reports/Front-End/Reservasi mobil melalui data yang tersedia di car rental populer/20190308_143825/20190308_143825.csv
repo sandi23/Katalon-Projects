@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservasi mobil melalui data yang tersedia di car rental populer,Chrome 72.0.3626.119,,2019-03-08 14:38:47,2019-03-08 14:42:29,3m - 42.587s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email,Chrome 72.0.3626.119,,2019-03-08 14:38:48,2019-03-08 14:39:52,1m - 4.571s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.119,Buka browser,2019-03-08 14:38:49,2019-03-08 14:38:59,9.834s,PASSED
+maximizeWindow(),Chrome 72.0.3626.119,Maximize window,2019-03-08 14:38:59,2019-03-08 14:39:00,1.175s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.119,Akses Url,2019-03-08 14:39:00,2019-03-08 14:39:39,39.395s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.119,,2019-03-08 14:39:39,2019-03-08 14:39:39,0.151s,PASSED
+"click(findTestObject(""Front-End/OR User/OR Login Biasa with email/a_Masuk (1)""))",Chrome 72.0.3626.119,Klik textlink Masuk,2019-03-08 14:39:39,2019-03-08 14:39:40,0.369s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-08 14:39:40,2019-03-08 14:39:43,3.061s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for""), ""nandang@gmail.com"")",Chrome 72.0.3626.119,Input Email,2019-03-08 14:39:43,2019-03-08 14:39:43,0.542s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-08 14:39:43,2019-03-08 14:39:46,3.009s,PASSED
+"setText(findTestObject(""Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng""), ""password7"")",Chrome 72.0.3626.119,Input Password,2019-03-08 14:39:46,2019-03-08 14:39:47,0.287s,PASSED
+delay(3),Chrome 72.0.3626.119,,2019-03-08 14:39:47,2019-03-08 14:39:50,3.004s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Edit Mobil/Page_Home/Page_Home/button_Masuk - 2""))",Chrome 72.0.3626.119,Klik Button Masuk,2019-03-08 14:39:50,2019-03-08 14:39:50,0.272s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda""), CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,"Verifikasi popup ""Success"" Visible",2019-03-08 14:39:50,2019-03-08 14:39:50,0.003s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 1))",Chrome 72.0.3626.119,,2019-03-08 14:39:50,2019-03-08 14:39:52,2.206s,PASSED
+,,,,,,
+Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil,Chrome 72.0.3626.119,,2019-03-08 14:39:52,2019-03-08 14:41:28,1m - 35.600s,PASSED
+"callTestCase(findTestCase(""Front-End/Homepage/SC99 Regression/TC01 Cari mobil menggunakan field pencarian biasa di homepage""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:39:53,2019-03-08 14:39:53,0.003s,NOT_RUN
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:39:53,2019-03-08 14:39:55,2.010s,PASSED
+"scrollToPosition(530, 1240, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,Scroll kebawah,2019-03-08 14:39:55,2019-03-08 14:40:03,8.150s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:40:03,2019-03-08 14:40:05,2.005s,PASSED
+"click(findTestObject(""Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET""), CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,Klik Pilih Paket pada salah satu Paket,2019-03-08 14:40:05,2019-03-08 14:41:05,59.078s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:41:05,2019-03-08 14:41:07,2.002s,PASSED
+"click(findTestObject(""Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang""))",Chrome 72.0.3626.119,Klik Button Pesan Sekarang,2019-03-08 14:41:07,2019-03-08 14:41:09,2.504s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:41:09,2019-03-08 14:41:11,2.003s,PASSED
+"scrollToPosition(610, 970)",Chrome 72.0.3626.119,,2019-03-08 14:41:11,2019-03-08 14:41:11,0.018s,PASSED
+"delay(5, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:41:11,2019-03-08 14:41:16,5.003s,PASSED
+"click(findTestObject(""Front-End/OR Booking/OR Reservasi Mobil/div_Ubah - lokasi penjemputan""))",Chrome 72.0.3626.119,,2019-03-08 14:41:16,2019-03-08 14:41:16,0.321s,PASSED
+delay(4),Chrome 72.0.3626.119,,2019-03-08 14:41:16,2019-03-08 14:41:20,4.003s,PASSED
+"click(findTestObject(""Front-End/OR Booking/OR Reservasi Mobil/button_Simpan - lokasi penjemputan""))",Chrome 72.0.3626.119,,2019-03-08 14:41:20,2019-03-08 14:41:21,0.593s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:41:21,2019-03-08 14:41:23,2.004s,PASSED
+"click(findTestObject(""Front-End/OR Booking/OR Reservasi Mobil/a_LANJUTKAN PESANAN""))",Chrome 72.0.3626.119,Klik Button Lanjutkan Pesanan,2019-03-08 14:41:23,2019-03-08 14:41:23,0.336s,PASSED
+"click(findTestObject(""Front-End/OR Booking/OR Reservasi Mobil/button_Setuju""))",Chrome 72.0.3626.119,Klik Button Setuju Aturan & Kebijakan,2019-03-08 14:41:23,2019-03-08 14:41:24,0.316s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:41:24,2019-03-08 14:41:26,2.004s,PASSED
+"click(findTestObject(""Front-End/OR Booking/OR Reservasi Mobil/button_Yes""))",Chrome 72.0.3626.119,Klik Button Yes Konfirmasi,2019-03-08 14:41:26,2019-03-08 14:41:26,0.004s,NOT_RUN
+"verifyElementVisible(findTestObject(""Object Repository/Front-End/OR Booking/OR Reservasi Mobil/h2_Sukses""))",Chrome 72.0.3626.119,,2019-03-08 14:41:26,2019-03-08 14:41:26,0.005s,NOT_RUN
+"verifyElementVisible(findTestObject(""Object Repository/Front-End/OR Booking/OR Reservasi Mobil/div_Mobil berhasil dimasukan k""))",Chrome 72.0.3626.119,Verify Reservasi Berhasil Masuk Cart,2019-03-08 14:41:26,2019-03-08 14:41:26,0.206s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:41:26,2019-03-08 14:41:28,2.003s,PASSED
+,,,,,,
+Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher,Chrome 72.0.3626.119,,2019-03-08 14:41:28,2019-03-08 14:41:31,2.952s,PASSED
+"callTestCase(findTestCase(""Front-End/Booking/SC99 Regression/TC01 Reservasi mobil""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,Call test case reservasi mobil,2019-03-08 14:41:28,2019-03-08 14:41:28,0.007s,NOT_RUN
+"click(findTestObject(""Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar""))",Chrome 72.0.3626.119,Klik button Lanjutkan ke Metode Pembayaran,2019-03-08 14:41:28,2019-03-08 14:41:29,0.410s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:41:29,2019-03-08 14:41:31,2.004s,PASSED
+,,,,,,
+Test Cases/Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master,Chrome 72.0.3626.119,,2019-03-08 14:41:31,2019-03-08 14:42:22,51.507s,FAILED
+"callTestCase(findTestCase(""Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:41:31,2019-03-08 14:41:31,0.002s,NOT_RUN
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:41:31,2019-03-08 14:41:33,2.003s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master""))",Chrome 72.0.3626.119,Pilih Pembayaran via Credit Card Visa / Master,2019-03-08 14:41:33,2019-03-08 14:41:34,0.391s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:41:34,2019-03-08 14:41:36,2.002s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/a_Lihat rincian""))",Chrome 72.0.3626.119,Lihat Rincian,2019-03-08 14:41:36,2019-03-08 14:41:36,0.266s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:41:36,2019-03-08 14:41:38,2.004s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/span_""))",Chrome 72.0.3626.119,Close Pop Up Rincian,2019-03-08 14:41:38,2019-03-08 14:41:38,0.270s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:41:38,2019-03-08 14:41:40,2.002s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/a_Bayar""))",Chrome 72.0.3626.119,Klik button Bayar,2019-03-08 14:41:40,2019-03-08 14:41:41,0.205s,PASSED
+delay(2),Chrome 72.0.3626.119,,2019-03-08 14:41:41,2019-03-08 14:41:43,2.004s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input_Credit Card Information_""), ""4137 1803 0002 3783"")",Chrome 72.0.3626.119,Input Credit Card Number,2019-03-08 14:41:43,2019-03-08 14:42:22,39.694s,FAILED
+,,,,,,
+Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking,Chrome 72.0.3626.119,,2019-03-08 14:42:22,2019-03-08 14:42:28,5.745s,FAILED
+"callTestCase(findTestCase(""Front-End/Payment/SC99 Regression/TC04 Payment via credit card visa atau master""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.119,,2019-03-08 14:42:23,2019-03-08 14:42:23,0.002s,NOT_RUN
+delay(5),Chrome 72.0.3626.119,,2019-03-08 14:42:23,2019-03-08 14:42:28,5.002s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Booking/OR My Booking/img""))",Chrome 72.0.3626.119,Klik Menu Pesanan Saya,2019-03-08 14:42:28,2019-03-08 14:42:28,0.212s,FAILED

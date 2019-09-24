@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register dan Login" time="81" tests="1" failures="0" errors="0">
+   <testsuite name="Register dan Login" tests="1" failures="0" errors="0" time="81" timestamp="2018-11-08 15:36:39" hostname="WGS-LAP199 - DESKTOP-QUMB1S3" id="Test Suites/Mobile/Register dan Login">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Register dan Login\\20181108_153634"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Register dan Login\\20181108_153634\\appium.log, C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Register dan Login\\20181108_153634\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP199 - DESKTOP-QUMB1S3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Redmi 5"/>
+         <property name="hostAddress" value="192.168.43.252"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="54e797627cf5"/>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC05 Login with mobile number" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC05 Login with mobile number" status="PASSED">
+         <system-out><![CDATA[2018-11-08 15:36:40 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC05 Login with mobile number: Test Cases/Mobile/Android/User/SC99 Regression/TC05 Login with mobile number
+
+2018-11-08 15:36:41 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.7_2018-10-14-stable-debug.apk'
+
+2018-11-08 15:37:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.7_2018-10-14-stable-debug.apk'
+
+2018-11-08 15:37:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-08 15:37:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-08 15:37:37 - [TEST_STEP][PASSED] - Statement - For (def index : (1..2)): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:37:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:37:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:37:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:37:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:37:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-08 15:37:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-08 15:37:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-08 15:37:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-08 15:37:43 - [TEST_STEP][PASSED] - setText: Text '082117284992' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-08 15:37:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:45 - [MESSAGE][PASSED] - Text '082117284992' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-08 15:37:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-08 15:37:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-08 15:37:48 - [TEST_STEP][PASSED] - setText: Text 'P@ssword123' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-08 15:37:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:49 - [MESSAGE][PASSED] - Text 'P@ssword123' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-08 15:37:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:37:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:37:50 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-08 15:37:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-08 15:37:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-08 15:37:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:37:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-08 15:37:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-08 15:37:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-08 15:37:59 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-11-08 15:38:00 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-08 15:36:39 - [TEST_SUITE][PASSED] - Register dan Login: Test Cases/Mobile/Android/User/SC99 Regression/TC05 Login with mobile number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

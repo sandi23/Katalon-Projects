@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add New Car and approve By Owner,,,2018-12-14 14:57:57,2018-12-14 15:04:06,6m - 8.122s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-14 14:57:58,2018-12-14 14:59:31,1m - 33.102s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-14 14:57:59,2018-12-14 14:58:49,49.295s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-14 14:58:49,2018-12-14 14:58:55,6.121s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-14 14:58:55,2018-12-14 14:59:00,5.041s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-14 14:59:00,2018-12-14 14:59:03,3.570s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-14 14:59:03,2018-12-14 14:59:07,3.463s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-14 14:59:07,2018-12-14 14:59:08,1.205s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 14:59:08,2018-12-14 14:59:11,2.949s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 14:59:11,2018-12-14 14:59:16,5.091s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-14 14:59:16,2018-12-14 14:59:17,1.214s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 14:59:17,2018-12-14 14:59:22,5.023s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-14 14:59:22,2018-12-14 14:59:25,2.224s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-14 14:59:25,2018-12-14 14:59:26,1.647s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 14:59:26,2018-12-14 14:59:31,5.007s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC01 Add Car - My Cars,,,2018-12-14 14:59:31,2018-12-14 15:04:03,4m - 31.832s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2018-12-14 14:59:32,2018-12-14 14:59:32,0.009s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView31 - Switch to customer""), 0)",,Switch to customer mode,2018-12-14 14:59:32,2018-12-14 14:59:32,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView17 - Switch to vehicle owner""), 0)",,Switch to owner mode,2018-12-14 14:59:32,2018-12-14 14:59:32,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 14:59:32,2018-12-14 14:59:34,1.454s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageButton0""), 0)",,Tap add new car,2018-12-14 14:59:34,2018-12-14 14:59:36,1.952s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText0""), 0)",,Tap dropdown car brand,2018-12-14 14:59:36,2018-12-14 14:59:37,1.319s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Select - Jeep""), 0)",,Select brand,2018-12-14 14:59:37,2018-12-14 14:59:37,0.002s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk select brand,2018-12-14 14:59:37,2018-12-14 14:59:42,5.011s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText1""), 0)",,Tap dropdown car model,2018-12-14 14:59:42,2018-12-14 14:59:45,3.018s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Select - Renegade""), 0)",,Select model,2018-12-14 14:59:45,2018-12-14 14:59:45,0.002s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk select model,2018-12-14 14:59:45,2018-12-14 14:59:50,5.006s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText2""), 0)",,Tap dropdown model years,2018-12-14 14:59:50,2018-12-14 14:59:51,1.505s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Select - 2018""), 0)",,Select years,2018-12-14 14:59:51,2018-12-14 14:59:51,0.002s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk select model years,2018-12-14 14:59:51,2018-12-14 14:59:56,5.007s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 14:59:56,2018-12-14 14:59:58,1.561s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Exp B 1 XXX""), ""D 4 Y"", 0)",,Input plate number,2018-12-14 14:59:58,2018-12-14 15:00:00,1.830s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (1)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:00:00,2018-12-14 15:00:04,4.012s,PASSED
+for (def index : (1..2)),,Looping total seats,2018-12-14 15:00:04,2018-12-14 15:00:09,4.666s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button3 - Manual""), 0)",,Select transmision,2018-12-14 15:00:09,2018-12-14 15:00:10,1.058s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button5 - Next""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:00:10,2018-12-14 15:00:13,3.504s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Switch0 - OFF""), 0)",,Select on jika lokasi sama dengan lokasi profil,2018-12-14 15:00:13,2018-12-14 15:00:13,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout4""), 0)",,Set location ,2018-12-14 15:00:13,2018-12-14 15:00:16,2.749s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Confirm""), 0)",,Confirm location,2018-12-14 15:00:16,2018-12-14 15:00:20,3.973s,PASSED
+"tap(findTestObject(""Mobile/OR Product/TextInputLayout0""), 0)",,Menampilkan dropdown list city,2018-12-14 15:00:20,2018-12-14 15:00:22,1.972s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Search city""), ""Bandung"", 0)",,Search city by name,2018-12-14 15:00:22,2018-12-14 15:00:24,2.021s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RadioButton0""), 0)",,Select city,2018-12-14 15:00:24,2018-12-14 15:00:28,4.069s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Save (1)""), 0)",,Simpan kota yang dipilih,2018-12-14 15:00:28,2018-12-14 15:00:32,3.647s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText1 (1)""), ""Jl. Soekarno Hatta No. 55"", 0)",,Input complate address (optional),2018-12-14 15:00:32,2018-12-14 15:00:33,1.078s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (2)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:00:33,2018-12-14 15:00:35,2.214s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk menentukan tanggal not available,2018-12-14 15:00:35,2018-12-14 15:00:40,5.012s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView50 - Advance edit dates""), 0)",,Untuk menampilkan pengaturan tanggal available,2018-12-14 15:00:40,2018-12-14 15:00:44,4.125s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Switch0 - OFF (1)""), 0)",,On jika available setiap minggu,2018-12-14 15:00:44,2018-12-14 15:00:48,3.550s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Switch1 - OFF""), 0)",,On jika available hari kerja,2018-12-14 15:00:48,2018-12-14 15:00:49,0.979s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button2 - Save""), 0)",,Menyimpan pengaturan tanggal available,2018-12-14 15:00:49,2018-12-14 15:00:52,3.525s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (3)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:00:52,2018-12-14 15:00:56,3.598s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 (1)""), ""Not using narcotics, Not drink alcohol"", 0)",,Input additional car rules,2018-12-14 15:00:56,2018-12-14 15:00:57,1.222s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (4)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:00:57,2018-12-14 15:00:59,2.002s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (5)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:00:59,2018-12-14 15:01:00,1.509s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText0 - 0900""), 0)",,Menampilkan jam pick up (from),2018-12-14 15:01:00,2018-12-14 15:01:02,1.454s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk menentukan jam pick up (from),2018-12-14 15:01:02,2018-12-14 15:01:07,5.005s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button1 - OK""), 0)",,Menyimpan jam pick up (from) yang telah ditentukan,2018-12-14 15:01:07,2018-12-14 15:01:10,3.549s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText1 - 1100""), 0)",,Menampilkan jam pick up (to),2018-12-14 15:01:10,2018-12-14 15:01:14,3.880s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk menentukan jam pick up (to),2018-12-14 15:01:14,2018-12-14 15:01:19,5.014s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button1 - OK""), 0)",,Menyimpan jam pick up (to) yang telah ditentukan,2018-12-14 15:01:19,2018-12-14 15:01:23,3.849s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText2 - 1200""), 0)",,Menampilkan jam return (from),2018-12-14 15:01:23,2018-12-14 15:01:28,4.511s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk menentukan jam return (from),2018-12-14 15:01:28,2018-12-14 15:01:33,5.010s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button1 - OK""), 0)",,Menyimpan jam return (from) yang telah ditentukan,2018-12-14 15:01:33,2018-12-14 15:01:34,1.081s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.EditText3 - 1400""), 0)",,Menampilkan jam return (to),2018-12-14 15:01:34,2018-12-14 15:01:37,2.820s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,Delay untuk menentukan jam return (to),2018-12-14 15:01:37,2018-12-14 15:01:42,5.014s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button1 - OK""), 0)",,Menyimpan jam return (to) yang telah ditentukan,2018-12-14 15:01:42,2018-12-14 15:01:43,1.119s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText4""), ""Nothing else"", 0)",,Input additional pick up rules,2018-12-14 15:01:43,2018-12-14 15:01:44,1.210s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (6)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:01:44,2018-12-14 15:01:48,4.097s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 (2)""), ""250000"", 0)",,Input price per kilometer,2018-12-14 15:01:48,2018-12-14 15:01:49,1.442s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (7)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:01:49,2018-12-14 15:01:52,2.665s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 (3)""), ""2500000"", 0)",,Input price for weekdays,2018-12-14 15:01:52,2018-12-14 15:01:54,1.561s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText1 (2)""), ""3000000"", 0)",,Input price for weekends / national holiday,2018-12-14 15:01:54,2018-12-14 15:01:56,1.924s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout9""), 0)",,Tap add specific facilities,2018-12-14 15:01:56,2018-12-14 15:01:58,2.770s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 (4)""), ""1000000"", 0)",,Input book car only with deposit,2018-12-14 15:01:58,2018-12-14 15:02:00,1.759s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout7""), 0)",,Select car facility life insurance,2018-12-14 15:02:00,2018-12-14 15:02:04,4.009s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout9""), 0)",,Select car facility trash bin,2018-12-14 15:02:04,2018-12-14 15:02:09,4.876s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout11""), 0)",,Select car facility car seat baby,2018-12-14 15:02:09,2018-12-14 15:02:14,5.120s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout13""), 0)",,Select car facility emergency tools,2018-12-14 15:02:14,2018-12-14 15:02:17,2.720s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Save (2)""), 0)",,Menyimpan specific facilities yang telah di select,2018-12-14 15:02:17,2018-12-14 15:02:20,2.841s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (8)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:02:20,2018-12-14 15:02:21,1.516s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (9)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:02:21,2018-12-14 15:02:25,3.515s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout3""), 0)",,Upload car photo 1,2018-12-14 15:02:25,2018-12-14 15:02:26,1.384s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:02:26,2018-12-14 15:02:28,1.802s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:02:28,2018-12-14 15:02:30,2.370s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:02:30,2018-12-14 15:02:35,5.008s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout4""), 0)",,Upload car photo 2,2018-12-14 15:02:35,2018-12-14 15:02:37,1.340s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:02:37,2018-12-14 15:02:38,1.432s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:02:38,2018-12-14 15:02:40,1.995s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:02:40,2018-12-14 15:02:45,5.009s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout5""), 0)",,Upload car photo 3,2018-12-14 15:02:45,2018-12-14 15:02:49,3.527s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:02:49,2018-12-14 15:02:50,1.836s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:02:50,2018-12-14 15:02:54,3.408s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:02:54,2018-12-14 15:02:59,5.009s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout6""), 0)",,Upload car photo 4,2018-12-14 15:02:59,2018-12-14 15:03:00,1.199s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:03:00,2018-12-14 15:03:01,1.423s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:03:01,2018-12-14 15:03:04,2.328s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:03:04,2018-12-14 15:03:09,5.011s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout7 (1)""), 0)",,Upload car photo 5,2018-12-14 15:03:09,2018-12-14 15:03:10,1.163s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:03:10,2018-12-14 15:03:11,1.388s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:03:11,2018-12-14 15:03:15,3.386s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:03:15,2018-12-14 15:03:20,5.015s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout8 (1)""), 0)",,Upload car photo 6,2018-12-14 15:03:20,2018-12-14 15:03:21,1.154s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:03:21,2018-12-14 15:03:24,3.431s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:03:24,2018-12-14 15:03:26,1.989s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:03:26,2018-12-14 15:03:31,5.008s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout10""), 0)",,Upload vehicle registration certificate,2018-12-14 15:03:31,2018-12-14 15:03:35,3.532s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout1""), 0)",,Select upload photo from camera,2018-12-14 15:03:35,2018-12-14 15:03:38,3.444s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.LinearLayout3""), 0)",,Capture photo,2018-12-14 15:03:38,2018-12-14 15:03:40,1.948s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:03:40,2018-12-14 15:03:45,5.009s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Next (10)""), 0)",,Tap button next untuk ke form selanjutnya,2018-12-14 15:03:45,2018-12-14 15:03:47,1.806s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.Button0 - Save (3)""), 0)",,Menyimpan form add car,2018-12-14 15:03:47,2018-12-14 15:03:58,11.010s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 15:03:58,2018-12-14 15:04:03,5.006s,PASSED

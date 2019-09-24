@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer See all review from detail produk,,,2018-11-14 11:02:14,2018-11-14 11:05:34,3m - 19.699s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-14 11:02:15,2018-11-14 11:03:37,1m - 22.036s,PASSED
+startApplication,,Open apps on phone,2018-11-14 11:02:17,2018-11-14 11:03:09,52.510s,PASSED
+tap,,Tap button next,2018-11-14 11:03:09,2018-11-14 11:03:14,4.954s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-14 11:03:14,2018-11-14 11:03:17,2.772s,PASSED
+tap,,Tap button skip,2018-11-14 11:03:17,2018-11-14 11:03:19,2.288s,PASSED
+tap,,Tap button login,2018-11-14 11:03:19,2018-11-14 11:03:21,1.701s,PASSED
+setText,,Input email user,2018-11-14 11:03:21,2018-11-14 11:03:22,1.227s,PASSED
+tap,,Tap button next,2018-11-14 11:03:22,2018-11-14 11:03:25,2.733s,PASSED
+setText,,Input password user,2018-11-14 11:03:25,2018-11-14 11:03:26,1.506s,PASSED
+delay,,,2018-11-14 11:03:26,2018-11-14 11:03:27,1.101s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-14 11:03:27,2018-11-14 11:03:29,1.878s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-14 11:03:29,2018-11-14 11:03:32,3.098s,PASSED
+delay,,,2018-11-14 11:03:32,2018-11-14 11:03:37,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region,,,2018-11-14 11:03:37,2018-11-14 11:04:04,26.710s,PASSED
+callTestCase,,,2018-11-14 11:03:38,2018-11-14 11:03:38,0.017s,NOT_RUN
+tap,,Tap car rental citiy atau region,2018-11-14 11:03:38,2018-11-14 11:03:40,1.665s,PASSED
+setText,,Mencari city or region jabodetabek,2018-11-14 11:03:40,2018-11-14 11:03:42,1.998s,PASSED
+tap,,Memilih city or region jabodetabek,2018-11-14 11:03:42,2018-11-14 11:03:44,2.219s,PASSED
+tap,,Memilih car only,2018-11-14 11:03:44,2018-11-14 11:03:48,3.843s,PASSED
+tap,,Next untuk select dates,2018-11-14 11:03:48,2018-11-14 11:03:50,1.752s,PASSED
+delay,,Delay untuk select date,2018-11-14 11:03:50,2018-11-14 11:03:55,5.004s,PASSED
+tap,,Mencari car dengan ketentuan yang telah dipilih,2018-11-14 11:03:55,2018-11-14 11:03:59,4.470s,PASSED
+delay,,,2018-11-14 11:03:59,2018-11-14 11:04:04,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC13 See all review from detail car,,,2018-11-14 11:04:04,2018-11-14 11:05:32,1m - 27.564s,PASSED
+callTestCase,,,2018-11-14 11:04:05,2018-11-14 11:04:05,0.003s,NOT_RUN
+tap,,Select car yang ada di list of cars,2018-11-14 11:04:05,2018-11-14 11:04:09,3.835s,PASSED
+delay,,Scroll to reviews,2018-11-14 11:04:09,2018-11-14 11:04:14,5.004s,PASSED
+tap,,Tap see all reviews,2018-11-14 11:04:14,2018-11-14 11:05:27,1m - 13.117s,PASSED
+delay,,,2018-11-14 11:05:27,2018-11-14 11:05:32,5.003s,PASSED

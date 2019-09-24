@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Rent Car By Category,,,2018-06-25 17:04:56,2018-06-25 17:08:59,4m - 2.175s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email,,,2018-06-25 17:04:57,2018-06-25 17:07:23,2m - 26.030s,PASSED
+startApplication,,Buka browser,2018-06-25 17:04:58,2018-06-25 17:06:34,1m - 36.258s,PASSED
+tap,,Pilih bahasa indonesia,2018-06-25 17:06:34,2018-06-25 17:06:38,3.231s,PASSED
+tap,,Tap arrow next,2018-06-25 17:06:38,2018-06-25 17:06:39,1.297s,PASSED
+tap,,"Tap tombol \""Lewati\""",2018-06-25 17:06:39,2018-06-25 17:06:41,2.183s,PASSED
+tap,,"Tap tombol \""Login\""",2018-06-25 17:06:41,2018-06-25 17:06:43,1.655s,PASSED
+setText,,Masukkan email,2018-06-25 17:06:43,2018-06-25 17:06:55,11.996s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-25 17:06:55,2018-06-25 17:06:56,1.282s,PASSED
+tap,,Tap field password,2018-06-25 17:06:56,2018-06-25 17:07:02,6.054s,PASSED
+setText,,Masukkan password,2018-06-25 17:07:02,2018-06-25 17:07:16,14.338s,PASSED
+tap,,"Tap tombol \""Mulai Movic\""",2018-06-25 17:07:16,2018-06-25 17:07:18,1.320s,PASSED
+verifyElementVisible,,Verifikasi image sesudah login,2018-06-25 17:07:18,2018-06-25 17:07:23,5.644s,PASSED
+closeApplication,,,2018-06-25 17:07:23,2018-06-25 17:07:23,0.005s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/Owner/SC99 Regression/TC02 Rent New Car by Category,,,2018-06-25 17:07:23,2018-06-25 17:08:53,1m - 29.333s,FAILED
+startApplication,,,2018-06-25 17:07:24,2018-06-25 17:07:24,0.016s,NOT_RUN
+scrollToText,,,2018-06-25 17:07:24,2018-06-25 17:07:29,4.684s,PASSED
+tap,,,2018-06-25 17:07:29,2018-06-25 17:07:29,0.889s,PASSED
+tap,,,2018-06-25 17:07:29,2018-06-25 17:07:35,5.393s,PASSED
+tap,,,2018-06-25 17:07:35,2018-06-25 17:07:35,0.003s,NOT_RUN
+tap,,,2018-06-25 17:07:35,2018-06-25 17:07:40,5.519s,PASSED
+tap,,,2018-06-25 17:07:40,2018-06-25 17:07:42,1.351s,PASSED
+tap,,,2018-06-25 17:07:42,2018-06-25 17:07:43,1.697s,PASSED
+tap,,,2018-06-25 17:07:43,2018-06-25 17:08:17,33.174s,PASSED
+tap,,,2018-06-25 17:08:17,2018-06-25 17:08:18,1.887s,PASSED
+tap,,,2018-06-25 17:08:18,2018-06-25 17:08:18,0.002s,NOT_RUN
+tap,,,2018-06-25 17:08:18,2018-06-25 17:08:53,34.184s,FAILED

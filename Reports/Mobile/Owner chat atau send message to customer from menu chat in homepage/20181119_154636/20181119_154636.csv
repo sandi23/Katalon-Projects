@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner chat atau send message to customer from menu chat in homepage,,,2018-11-19 15:46:43,2018-11-19 15:50:46,4m - 3.274s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-19 15:46:44,2018-11-19 15:48:07,1m - 22.677s,PASSED
+startApplication,,Open apps on phone,2018-11-19 15:46:45,2018-11-19 15:47:39,54.191s,PASSED
+tap,,Tap button next,2018-11-19 15:47:39,2018-11-19 15:47:44,4.634s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-19 15:47:44,2018-11-19 15:47:47,2.861s,PASSED
+tap,,Tap button skip,2018-11-19 15:47:47,2018-11-19 15:47:49,2.521s,PASSED
+tap,,Tap button login,2018-11-19 15:47:49,2018-11-19 15:47:51,1.968s,PASSED
+setText,,Input email user,2018-11-19 15:47:51,2018-11-19 15:47:53,1.405s,PASSED
+tap,,Tap button next,2018-11-19 15:47:53,2018-11-19 15:47:56,2.857s,PASSED
+setText,,Input password user,2018-11-19 15:47:56,2018-11-19 15:47:57,1.310s,PASSED
+delay,,,2018-11-19 15:47:57,2018-11-19 15:47:58,1.081s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-19 15:47:58,2018-11-19 15:48:00,2.115s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-19 15:48:00,2018-11-19 15:48:02,1.583s,PASSED
+delay,,,2018-11-19 15:48:02,2018-11-19 15:48:07,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC24 Chat to customer from menu chat homepage,,,2018-11-19 15:48:07,2018-11-19 15:50:43,2m - 36.589s,PASSED
+callTestCase,,,2018-11-19 15:48:08,2018-11-19 15:48:08,0.006s,NOT_RUN
+tap,,Tap tab icon chat ,2018-11-19 15:48:08,2018-11-19 15:49:29,1m - 21.530s,PASSED
+tap,,,2018-11-19 15:49:29,2018-11-19 15:50:32,1m - 2.842s,PASSED
+tap,,Tap kolom untuk menulis chat,2018-11-19 15:50:32,2018-11-19 15:50:34,2.107s,PASSED
+setText,,Input chat,2018-11-19 15:50:34,2018-11-19 15:50:36,1.861s,PASSED
+tap,,Mengirim chat,2018-11-19 15:50:36,2018-11-19 15:50:38,2.134s,PASSED
+delay,,,2018-11-19 15:50:38,2018-11-19 15:50:43,5.014s,PASSED

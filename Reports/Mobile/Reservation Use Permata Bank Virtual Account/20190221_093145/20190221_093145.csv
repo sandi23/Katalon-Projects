@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservation Use Permata Bank Virtual Account,,,2019-02-21 09:31:57,2019-02-21 09:36:32,4m - 34.419s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-21 09:31:58,2019-02-21 09:35:20,3m - 21.253s,PASSED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-21 09:32:00,2019-02-21 09:34:32,2m - 32.482s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English""), 0)",,,2019-02-21 09:34:32,2019-02-21 09:34:39,6.293s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4""), 0)",,Tap button next,2019-02-21 09:34:39,2019-02-21 09:34:40,1.677s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2019-02-21 09:34:40,2019-02-21 09:34:47,7.007s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2019-02-21 09:34:47,2019-02-21 09:34:50,2.546s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2019-02-21 09:34:50,2019-02-21 09:34:51,1.522s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""nansulaiman5@gmail.com"", 0)",,Input email user,2019-02-21 09:34:51,2019-02-21 09:34:53,1.438s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03""), 0)",,Tap tombol lanjutkan seharusnya next Eng,2019-02-21 09:34:53,2019-02-21 09:34:56,3.040s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 09:34:56,2019-02-21 09:35:01,5.131s,PASSED
+"setText(findTestObject(""Mobile/OR Login 2/android.widget.EditText0 - field password""), ""password8"", 0)",,Input password user,2019-02-21 09:35:01,2019-02-21 09:35:02,1.062s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 09:35:02,2019-02-21 09:35:07,5.010s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2019-02-21 09:35:07,2019-02-21 09:35:11,3.961s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Start Movic 01""), 0)",,Submit form dan redirect ke homepage,2019-02-21 09:35:11,2019-02-21 09:35:15,3.567s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 09:35:15,2019-02-21 09:35:20,5.009s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment,,,2019-02-21 09:35:20,2019-02-21 09:36:03,43.716s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Booking/SC99 Regression/TC09 Rules""), [:], STOP_ON_FAILURE)",,Call test case rules,2019-02-21 09:35:20,2019-02-21 09:35:20,0.005s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.ImageView2""), 0)",,,2019-02-21 09:35:20,2019-02-21 09:35:20,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.Button1 - Pay""), 0)",,Mulai melakukan pembayaran,2019-02-21 09:35:20,2019-02-21 09:35:56,36.055s,PASSED
+"tap(findTestObject(""Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM""), 0)",,Konfirmasi pembayaran,2019-02-21 09:35:56,2019-02-21 09:35:58,1.985s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 09:35:58,2019-02-21 09:36:03,5.007s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method,,,2019-02-21 09:36:03,2019-02-21 09:36:10,6.870s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment""), [:], STOP_ON_FAILURE)",,Call test case pay - payment,2019-02-21 09:36:04,2019-02-21 09:36:04,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout3""), 0)",,Menampilkan option payment,2019-02-21 09:36:04,2019-02-21 09:36:05,1.173s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-21 09:36:05,2019-02-21 09:36:10,5.007s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC07 Permata Bank Virtual Account,,,2019-02-21 09:36:10,2019-02-21 09:36:28,17.923s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC04 Select payment method""), [:], STOP_ON_FAILURE)",,Call test case select payment method,2019-02-21 09:36:11,2019-02-21 09:36:11,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout4""), 0)",,Select payment via permatabank,2019-02-21 09:36:11,2019-02-21 09:36:15,3.506s,PASSED
+"scrollToText(""Hubungi kami."", STOP_ON_FAILURE)",,Scroll to hubungi kami,2019-02-21 09:36:15,2019-02-21 09:36:28,13.639s,FAILED

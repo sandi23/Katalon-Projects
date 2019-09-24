@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Set Discount Owned(Dengan Driver) Cars by Owner" time="221" tests="1" failures="1" errors="0">
+   <testsuite name="Set Discount Owned(Dengan Driver) Cars by Owner" tests="1" failures="1" errors="0" time="221" timestamp="2019-03-12 13:31:23" hostname="WGS-LAP151 - INVWGSLAP151" id="Test Suites/Front-End/Set Discount Owned(Dengan Driver) Cars by Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Front-End\\Set Discount Owned(Dengan Driver) Cars by Owner\\20190312_133105"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Front-End\\Set Discount Owned(Dengan Driver) Cars by Owner\\20190312_133105\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Front-End\\Set Discount Owned(Dengan Driver) Cars by Owner\\20190312_133105\\1552372500750.png"/>
+         <property name="hostName" value="WGS-LAP151 - INVWGSLAP151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="10.10.11.125"/>
+         <property name="sessionId" value="e484e6a396001c7b94b161fe575cd796"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner" classname="Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner" status="PASSED">
+         <system-out><![CDATA[2019-03-12 13:31:25 - [TEST_CASE][PASSED] - Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner: Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner
+
+2019-03-12 13:31:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-12 13:31:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-12 13:31:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-12 13:32:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-12 13:32:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-12 13:32:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-12 13:32:11 - [TEST_STEP][PASSED] - navigateToUrl("https://stg.movic.id/home"): Navigate to 'https://stg.movic.id/home' successfully
+
+2019-03-12 13:32:39 - [MESSAGE][PASSED] - Navigate to 'https://stg.movic.id/home' successfully
+
+2019-03-12 13:32:39 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-03-12 13:32:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-12 13:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk")): Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk' is clicked on
+
+2019-03-12 13:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk' is clicked on
+
+2019-03-12 13:32:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-12 13:32:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-12 13:32:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for"), "082128751192"): Text '082128751192' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for'
+
+2019-03-12 13:32:47 - [MESSAGE][PASSED] - Text '082128751192' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for'
+
+2019-03-12 13:32:47 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for"), "ali.msaputra01@gmail.com"): NOT_RUN: setText(findTestObject("Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for"), "ali.msaputra01@gmail.com")
+
+2019-03-12 13:32:47 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for"), "ali.msaputra01@gmail.com")
+
+2019-03-12 13:32:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-12 13:32:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-12 13:32:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng"), "password10"): Text 'password10' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng'
+
+2019-03-12 13:32:50 - [MESSAGE][PASSED] - Text 'password10' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng'
+
+2019-03-12 13:32:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-12 13:32:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-12 13:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK")): Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK' is clicked on
+
+2019-03-12 13:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK' is clicked on
+
+2019-03-12 13:32:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-12 13:32:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-12 13:32:57 - [TEST_STEP][PASSED] - click(findTestObject("Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update")): Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update' is clicked on
+
+2019-03-12 13:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update' is clicked on
+
+2019-03-12 13:33:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-12 13:33:08 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga)" classname="Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga).run(TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552372265946.run(TempTestSuite1552372265946.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-12 13:33:08 - [TEST_CASE][FAILED] - Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga): Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga).run(TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552372265946.run(TempTestSuite1552372265946.groovy:36)
+
+
+2019-03-12 13:33:09 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Front-End/User/SC99 Regression/TC12 Login Sebagai Owner"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Front-End/User/SC99 Regression/TC12 Login Sebagai Owner"), [:], STOP_ON_FAILURE)
+
+2019-03-12 13:33:09 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Front-End/User/SC99 Regression/TC12 Login Sebagai Owner"), [:], STOP_ON_FAILURE)
+
+2019-03-12 13:33:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-12 13:33:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-12 13:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/img")): Object: 'Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/img' is clicked on
+
+2019-03-12 13:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/img' is clicked on
+
+2019-03-12 13:33:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-12 13:33:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-12 13:33:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/input_SORT BY _form-control ty"), "kuda"): Text 'kuda' is set on object 'Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/input_SORT BY _form-control ty'
+
+2019-03-12 13:33:12 - [MESSAGE][PASSED] - Text 'kuda' is set on object 'Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/input_SORT BY _form-control ty'
+
+2019-03-12 13:33:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-12 13:33:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-12 13:33:13 - [TEST_STEP][PASSED] - click(findTestObject("Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/img - search")): Object: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/img - search' is clicked on
+
+2019-03-12 13:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/img - search' is clicked on
+
+2019-03-12 13:33:14 - [TEST_STEP][PASSED] - click(findTestObject("Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/i_Tersedia_fa fa-ellipsis-h 3 dot button")): Object: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/i_Tersedia_fa fa-ellipsis-h 3 dot button' is clicked on
+
+2019-03-12 13:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/i_Tersedia_fa fa-ellipsis-h 3 dot button' is clicked on
+
+2019-03-12 13:33:14 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/button_Tersedia_btn btn-primar")): NOT_RUN: click(findTestObject("Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/button_Tersedia_btn btn-primar"))
+
+2019-03-12 13:33:14 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/button_Tersedia_btn btn-primar"))
+
+2019-03-12 13:33:14 - [TEST_STEP][FAILED] - click(findTestObject("Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit")): click(findTestObject("Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga).run(TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552372265946.run(TempTestSuite1552372265946.groovy:36)
+
+
+2019-03-12 13:35:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[contains(text(),'Set Discount')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-12 13:35:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+[[ATTACHMENT|C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Front-End\\Set Discount Owned(Dengan Driver) Cars by Owner\\20190312_133105\\1552372500750.png]]
+
+2019-03-12 13:35:02 - [MESSAGE][FAILED] - click(findTestObject("Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga).run(TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552372265946.run(TempTestSuite1552372265946.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-12 13:33:08 - [TEST_CASE][FAILED] - Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga): Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga).run(TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552372265946.run(TempTestSuite1552372265946.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-12 13:31:23 - [TEST_SUITE][FAILED] - Set Discount Owned(Dengan Driver) Cars by Owner: Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga).run(TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552372265946.run(TempTestSuite1552372265946.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-12 13:31:23 - [TEST_SUITE][FAILED] - Set Discount Owned(Dengan Driver) Cars by Owner: Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/a_Set Discount - mit' located by 'By.xpath: //a[contains(text(),'Set Discount')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga).run(TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga):41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1552372265946.run(TempTestSuite1552372265946.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

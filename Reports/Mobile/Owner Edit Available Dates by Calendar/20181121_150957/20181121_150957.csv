@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner Edit Available Dates by Calendar,,,2018-11-21 15:10:02,2018-11-21 15:14:09,4m - 7.303s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-21 15:10:03,2018-11-21 15:11:23,1m - 20.314s,PASSED
+startApplication,,Open apps on phone,2018-11-21 15:10:04,2018-11-21 15:10:56,52.355s,PASSED
+tap,,Tap button next,2018-11-21 15:10:56,2018-11-21 15:11:01,4.522s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-21 15:11:01,2018-11-21 15:11:04,2.754s,PASSED
+tap,,Tap button skip,2018-11-21 15:11:04,2018-11-21 15:11:06,2.338s,PASSED
+tap,,Tap button login,2018-11-21 15:11:06,2018-11-21 15:11:08,1.687s,PASSED
+setText,,Input email user,2018-11-21 15:11:08,2018-11-21 15:11:09,1.391s,PASSED
+tap,,Tap button next,2018-11-21 15:11:09,2018-11-21 15:11:12,2.748s,PASSED
+setText,,Input password user,2018-11-21 15:11:12,2018-11-21 15:11:13,1.120s,PASSED
+delay,,,2018-11-21 15:11:13,2018-11-21 15:11:14,1.084s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-21 15:11:14,2018-11-21 15:11:16,2.198s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-21 15:11:16,2018-11-21 15:11:18,1.859s,PASSED
+delay,,,2018-11-21 15:11:18,2018-11-21 15:11:23,5.005s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC17 Edit available date by owner,,,2018-11-21 15:11:23,2018-11-21 15:14:07,2m - 44.009s,PASSED
+callTestCase,,,2018-11-21 15:11:24,2018-11-21 15:11:24,0.004s,NOT_RUN
+tap,,Tap tab calendar,2018-11-21 15:11:24,2018-11-21 15:12:45,1m - 21.368s,PASSED
+tap,,Tap button icon plus (add calendar),2018-11-21 15:12:45,2018-11-21 15:13:48,1m - 2.712s,PASSED
+tap,,Tap available dates (every week) on,2018-11-21 15:13:48,2018-11-21 15:13:49,1.123s,PASSED
+tap,,Tap available dates (business day) on,2018-11-21 15:13:49,2018-11-21 15:13:50,1.084s,PASSED
+tap,,Tap status date open,2018-11-21 15:13:50,2018-11-21 15:13:51,1.072s,PASSED
+tap,,Menyimpan pengaturan available dates,2018-11-21 15:13:51,2018-11-21 15:14:02,10.915s,PASSED
+tap,,Tap status date closed,2018-11-21 15:14:02,2018-11-21 15:14:02,0.001s,NOT_RUN
+delay,,,2018-11-21 15:14:02,2018-11-21 15:14:07,5.002s,PASSED

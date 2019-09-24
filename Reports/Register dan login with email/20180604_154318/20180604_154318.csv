@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register dan login with email,Chrome 66.0.3359.181,,2018-06-04 15:43:24,2018-06-04 15:44:30,1m - 6.448s,PASSED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC01 Register Biasa,Chrome 66.0.3359.181,,2018-06-04 15:43:24,2018-06-04 15:44:02,37.777s,PASSED
+openBrowser,Chrome 66.0.3359.181,Buka browser,2018-06-04 15:43:25,2018-06-04 15:43:32,6.557s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,Akses alamat website : http://movic.stagingapps.net/home,2018-06-04 15:43:32,2018-06-04 15:43:59,26.711s,PASSED
+click,Chrome 66.0.3359.181,Klik tombol 'Daftar',2018-06-04 15:43:59,2018-06-04 15:43:59,0.627s,PASSED
+setText,Chrome 66.0.3359.181,Input Nama Depan 'Test',2018-06-04 15:43:59,2018-06-04 15:44:00,0.671s,PASSED
+setText,Chrome 66.0.3359.181,Input Nama Belakang 'WGS',2018-06-04 15:44:00,2018-06-04 15:44:00,0.353s,PASSED
+setText,Chrome 66.0.3359.181,Input email address 'Test.wgs02@gmail.com',2018-06-04 15:44:00,2018-06-04 15:44:01,0.722s,PASSED
+setText,Chrome 66.0.3359.181,Input No. Handphone '082126650096',2018-06-04 15:44:01,2018-06-04 15:44:01,0.550s,PASSED
+setText,Chrome 66.0.3359.181,Input password 'Walden1234',2018-06-04 15:44:01,2018-06-04 15:44:02,0.502s,PASSED
+click,Chrome 66.0.3359.181,Klik tombol 'Daftar Member',2018-06-04 15:44:02,2018-06-04 15:44:02,0.304s,PASSED
+closeBrowser,Chrome 66.0.3359.181,Tutup browser,2018-06-04 15:44:02,2018-06-04 15:44:02,0.003s,NOT_RUN
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email,Chrome 66.0.3359.181,,2018-06-04 15:44:02,2018-06-04 15:44:29,26.436s,PASSED
+openBrowser,Chrome 66.0.3359.181,Buka browser,2018-06-04 15:44:03,2018-06-04 15:44:08,4.852s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,Akses alamat website : http://movic.stagingapps.net/home,2018-06-04 15:44:08,2018-06-04 15:44:27,19.402s,PASSED
+click,Chrome 66.0.3359.181,Klik menu 'Masuk',2018-06-04 15:44:27,2018-06-04 15:44:27,0.288s,PASSED
+setText,Chrome 66.0.3359.181,Input email\r\n,2018-06-04 15:44:27,2018-06-04 15:44:28,0.737s,PASSED
+setText,Chrome 66.0.3359.181,Input password,2018-06-04 15:44:28,2018-06-04 15:44:28,0.383s,PASSED
+click,Chrome 66.0.3359.181,Klik menu tombol 'Masuk',2018-06-04 15:44:28,2018-06-04 15:44:29,0.270s,PASSED

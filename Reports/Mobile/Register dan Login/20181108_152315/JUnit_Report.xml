@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register dan Login" time="116" tests="1" failures="0" errors="0">
+   <testsuite name="Register dan Login" tests="1" failures="0" errors="0" time="116" timestamp="2018-11-08 15:23:19" hostname="WGS-LAP199 - DESKTOP-QUMB1S3" id="Test Suites/Mobile/Register dan Login">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Register dan Login\\20181108_152315"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Register dan Login\\20181108_152315\\appium.log, C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Register dan Login\\20181108_152315\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP199 - DESKTOP-QUMB1S3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Redmi 5"/>
+         <property name="hostAddress" value="192.168.43.252"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="54e797627cf5"/>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC02 Registrasi with facebook" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC02 Registrasi with facebook" status="PASSED">
+         <system-out><![CDATA[2018-11-08 15:23:20 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC02 Registrasi with facebook: Test Cases/Mobile/Android/User/SC99 Regression/TC02 Registrasi with facebook
+
+2018-11-08 15:23:21 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.7_2018-10-14-stable-debug.apk'
+
+2018-11-08 15:24:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.7_2018-10-14-stable-debug.apk'
+
+2018-11-08 15:24:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-08 15:24:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-08 15:24:16 - [TEST_STEP][PASSED] - Statement - For (def index : (1..2)): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:24:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:24:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:24:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:24:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-08 15:24:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-08 15:24:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-08 15:24:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.LinearLayout2'
+
+2018-11-08 15:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.LinearLayout2'
+
+2018-11-08 15:24:23 - [TEST_STEP][PASSED] - setText: Text 'santirihamwahyuni@engineer.com' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (5)'
+
+2018-11-08 15:24:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:27 - [MESSAGE][PASSED] - Text 'santirihamwahyuni@engineer.com' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (5)'
+
+2018-11-08 15:24:27 - [TEST_STEP][PASSED] - setText: Text 'sr19121992' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText1 (1)'
+
+2018-11-08 15:24:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:28 - [MESSAGE][PASSED] - Text 'sr19121992' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText1 (1)'
+
+2018-11-08 15:24:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Masuk'
+
+2018-11-08 15:24:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Masuk'
+
+2018-11-08 15:24:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Continue'
+
+2018-11-08 15:24:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Continue'
+
+2018-11-08 15:24:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-08 15:24:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-08 15:24:37 - [TEST_STEP][PASSED] - setText: Text '082117284992' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (2)'
+
+2018-11-08 15:24:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:39 - [MESSAGE][PASSED] - Text '082117284992' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (2)'
+
+2018-11-08 15:24:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-08 15:24:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-08 15:24:41 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-08 15:24:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-08 15:24:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Next (1)'
+
+2018-11-08 15:24:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Next (1)'
+
+2018-11-08 15:24:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-08 15:24:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-08 15:24:55 - [TEST_STEP][PASSED] - setText: Text 'P@ssword123' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (3)'
+
+2018-11-08 15:24:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:24:57 - [MESSAGE][PASSED] - Text 'P@ssword123' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (3)'
+
+2018-11-08 15:24:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:24:58 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-08 15:25:00 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-08 15:25:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Next (3)'
+
+2018-11-08 15:25:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:25:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Next (3)'
+
+2018-11-08 15:25:02 - [TEST_STEP][PASSED] - setText: Text 'TESTCU983' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (4)'
+
+2018-11-08 15:25:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:25:04 - [MESSAGE][PASSED] - Text 'TESTCU983' has been set to element 'Object Repository/Mobile/OR Registrasi/android.widget.EditText0 (4)'
+
+2018-11-08 15:25:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-08 15:25:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-08 15:25:05 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-08 15:25:06 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-08 15:25:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Check'
+
+2018-11-08 15:25:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:25:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Check'
+
+2018-11-08 15:25:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Save'
+
+2018-11-08 15:25:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-08 15:25:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.Button0 - Save'
+
+2018-11-08 15:25:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-08 15:25:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-08 15:25:15 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-11-08 15:25:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-08 15:23:19 - [TEST_SUITE][PASSED] - Register dan Login: Test Cases/Mobile/Android/User/SC99 Regression/TC02 Registrasi with facebook]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_release</name>
+   <tag></tag>
+   <elementGuidId>c3306e12-062e-406d-a6ca-2acc6e364f85</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;listTables&quot;]/tbody/tr[1]/td[25]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;listTables&quot;]/tbody/tr[1]/td[25]/a[2]</value>
+   </webElementProperties>
+</WebElementEntity>

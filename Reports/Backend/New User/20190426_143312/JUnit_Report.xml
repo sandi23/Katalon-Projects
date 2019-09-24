@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New User" time="150" tests="2" failures="1" errors="0">
+   <testsuite name="New User" tests="2" failures="1" errors="0" time="150" timestamp="2019-04-26 14:33:23" hostname="WGS-LAP151 - INVWGSLAP151" id="Test Suites/Backend/New User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Backend\\New User\\20190426_143312"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Backend\\New User\\20190426_143312\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP151 - INVWGSLAP151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.10.11.99"/>
+         <property name="sessionId" value="3521de64af5fbe2d95c0f12b972671be"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin" classname="Test Cases/Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin" status="PASSED">
+         <system-out><![CDATA[2019-04-26 14:33:24 - [TEST_CASE][PASSED] - Test Cases/Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin: Test Cases/Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin
+
+2019-04-26 14:33:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-26 14:33:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-26 14:33:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-26 14:34:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 14:34:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-26 14:34:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-26 14:34:38 - [TEST_STEP][PASSED] - navigateToUrl("https://stg-cms.movic.id/login"): Navigate to 'https://stg-cms.movic.id/login' successfully
+
+2019-04-26 14:34:47 - [MESSAGE][PASSED] - Navigate to 'https://stg-cms.movic.id/login' successfully
+
+2019-04-26 14:34:47 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 1)): Delayed 2 second(s)
+
+2019-04-26 14:34:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 14:34:50 - [TEST_STEP][PASSED] - setText(findTestObject("Backend/OR User Management/Temporary/input_Admin_username"), "admin@movic.id"): Text 'admin@movic.id' is set on object 'Object Repository/Backend/OR User Management/Temporary/input_Admin_username'
+
+2019-04-26 14:34:56 - [MESSAGE][PASSED] - Text 'admin@movic.id' is set on object 'Object Repository/Backend/OR User Management/Temporary/input_Admin_username'
+
+2019-04-26 14:34:56 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 1)): Delayed 2 second(s)
+
+2019-04-26 14:34:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 14:34:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Backend/OR User Management/Temporary/input_Admin_password"), "SeFaNmi6/B8CPA8fJzpX7A=="): Text ****** has been set on object 'Object Repository/Backend/OR User Management/Temporary/input_Admin_password'
+
+2019-04-26 14:34:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Backend/OR User Management/Temporary/input_Admin_password'
+
+2019-04-26 14:34:59 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 1)): Delayed 2 second(s)
+
+2019-04-26 14:35:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 14:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Backend/OR User Management/Temporary/button_SignIn")): Object: 'Object Repository/Backend/OR User Management/Temporary/button_SignIn' is clicked on
+
+2019-04-26 14:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR User Management/Temporary/button_SignIn' is clicked on
+
+2019-04-26 14:35:10 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-04-26 14:35:12 - [MESSAGE][PASSED] - Wait for page load successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC01 - List User - User Management" classname="Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC01 - List User - User Management" status="PASSED">
+         <system-out><![CDATA[2019-04-26 14:35:13 - [TEST_CASE][PASSED] - Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC01 - List User - User Management: Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC01 - List User - User Management
+
+2019-04-26 14:35:14 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin"), [:], STOP_ON_FAILURE)
+
+2019-04-26 14:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin"), [:], STOP_ON_FAILURE)
+
+2019-04-26 14:35:14 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-04-26 14:35:14 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-04-26 14:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Access Management")): Object: 'Object Repository/Backend/OR Access Management/a_Access Management' is clicked on
+
+2019-04-26 14:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_Access Management' is clicked on
+
+2019-04-26 14:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_User Management")): Object: 'Object Repository/Backend/OR Access Management/a_User Management' is clicked on
+
+2019-04-26 14:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_User Management' is clicked on
+
+2019-04-26 14:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_New_searchValue"), "user test"): Text 'user test' is set on object 'Object Repository/Backend/OR Access Management/input_New_searchValue'
+
+2019-04-26 14:35:19 - [MESSAGE][PASSED] - Text 'user test' is set on object 'Object Repository/Backend/OR Access Management/input_New_searchValue'
+
+2019-04-26 14:35:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/button_New_filterBtn")): Object: 'Object Repository/Backend/OR Access Management/button_New_filterBtn' is clicked on
+
+2019-04-26 14:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/button_New_filterBtn' is clicked on
+
+2019-04-26 14:35:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Name"), "email", true): All options with value 'email' are selected in object 'Object Repository/Backend/OR Access Management/select_Name'  using regular expression
+
+2019-04-26 14:35:21 - [MESSAGE][PASSED] - All options with value 'email' are selected in object 'Object Repository/Backend/OR Access Management/select_Name'  using regular expression
+
+2019-04-26 14:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/div_Name")): Object: 'Object Repository/Backend/OR Access Management/div_Name' is clicked on
+
+2019-04-26 14:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/div_Name' is clicked on
+
+2019-04-26 14:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_New_searchValue"), "nugraha.iman@gmail.com"): Text 'nugraha.iman@gmail.com' is set on object 'Object Repository/Backend/OR Access Management/input_New_searchValue'
+
+2019-04-26 14:35:22 - [MESSAGE][PASSED] - Text 'nugraha.iman@gmail.com' is set on object 'Object Repository/Backend/OR Access Management/input_New_searchValue'
+
+2019-04-26 14:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/button_New_filterBtn")): Object: 'Object Repository/Backend/OR Access Management/button_New_filterBtn' is clicked on
+
+2019-04-26 14:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/button_New_filterBtn' is clicked on
+
+2019-04-26 14:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_Search_form-control inpu"), "user test"): Text 'user test' is set on object 'Object Repository/Backend/OR Access Management/input_Search_form-control inpu'
+
+2019-04-26 14:35:23 - [MESSAGE][PASSED] - Text 'user test' is set on object 'Object Repository/Backend/OR Access Management/input_Search_form-control inpu'
+
+2019-04-26 14:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Export")): Object: 'Object Repository/Backend/OR Access Management/a_Export' is clicked on
+
+2019-04-26 14:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_Export' is clicked on
+
+2019-04-26 14:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_New")): Object: 'Object Repository/Backend/OR Access Management/a_New' is clicked on
+
+2019-04-26 14:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_New' is clicked on
+
+2019-04-26 14:35:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_NPK _npk"), "008"): Text '008' is set on object 'Object Repository/Backend/OR Access Management/input_NPK _npk'
+
+2019-04-26 14:35:30 - [MESSAGE][PASSED] - Text '008' is set on object 'Object Repository/Backend/OR Access Management/input_NPK _npk'
+
+2019-04-26 14:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_Name _name"), "nandang"): Text 'nandang' is set on object 'Object Repository/Backend/OR Access Management/input_Name _name'
+
+2019-04-26 14:35:30 - [MESSAGE][PASSED] - Text 'nandang' is set on object 'Object Repository/Backend/OR Access Management/input_Name _name'
+
+2019-04-26 14:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_Email _email"), "nansulaiman5@mailinator.com"): Text 'nansulaiman5@mailinator.com' is set on object 'Object Repository/Backend/OR Access Management/input_Email _email'
+
+2019-04-26 14:35:31 - [MESSAGE][PASSED] - Text 'nansulaiman5@mailinator.com' is set on object 'Object Repository/Backend/OR Access Management/input_Email _email'
+
+2019-04-26 14:35:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_Phone Number _phone"), "082121212121"): Text '082121212121' is set on object 'Object Repository/Backend/OR Access Management/input_Phone Number _phone'
+
+2019-04-26 14:35:36 - [MESSAGE][PASSED] - Text '082121212121' is set on object 'Object Repository/Backend/OR Access Management/input_Phone Number _phone'
+
+2019-04-26 14:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/span_Nothing selected")): Object: 'Object Repository/Backend/OR Access Management/span_Nothing selected' is clicked on
+
+2019-04-26 14:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/span_Nothing selected' is clicked on
+
+2019-04-26 14:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/span_Admin Data")): Object: 'Object Repository/Backend/OR Access Management/span_Admin Data' is clicked on
+
+2019-04-26 14:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/span_Admin Data' is clicked on
+
+2019-04-26 14:35:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7ac", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:37 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7ac", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:37 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7ac", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:38 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7ac", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:38 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7ac", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:39 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7ac", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:39 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Admin Data")): Object: 'Object Repository/Backend/OR Access Management/a_Admin Data' is clicked on
+
+2019-04-26 14:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_Admin Data' is clicked on
+
+2019-04-26 14:35:39 - [TEST_STEP][PASSED] - deselectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7ac", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are de-selected on object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:40 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7ac' are de-selected on object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Admin Konten")): Object: 'Object Repository/Backend/OR Access Management/a_Admin Konten' is clicked on
+
+2019-04-26 14:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_Admin Konten' is clicked on
+
+2019-04-26 14:35:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7dc", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7dc' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:40 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7dc' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Superadmin")): Object: 'Object Repository/Backend/OR Access Management/a_Superadmin' is clicked on
+
+2019-04-26 14:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_Superadmin' is clicked on
+
+2019-04-26 14:35:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7c9", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:41 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/button_Save")): Object: 'Object Repository/Backend/OR Access Management/button_Save' is clicked on
+
+2019-04-26 14:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/button_Save' is clicked on
+
+2019-04-26 14:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_nansulaiman5mailinator.com_b")): Object: 'Object Repository/Backend/OR Access Management/a_nansulaiman5mailinator.com_b' is clicked on
+
+2019-04-26 14:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_nansulaiman5mailinator.com_b' is clicked on
+
+2019-04-26 14:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_NPK _npk"), "009"): Text '009' is set on object 'Object Repository/Backend/OR Access Management/input_NPK _npk'
+
+2019-04-26 14:35:44 - [MESSAGE][PASSED] - Text '009' is set on object 'Object Repository/Backend/OR Access Management/input_NPK _npk'
+
+2019-04-26 14:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_Name _name"), "nandangupdate"): Text 'nandangupdate' is set on object 'Object Repository/Backend/OR Access Management/input_Name _name'
+
+2019-04-26 14:35:44 - [MESSAGE][PASSED] - Text 'nandangupdate' is set on object 'Object Repository/Backend/OR Access Management/input_Name _name'
+
+2019-04-26 14:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_Email _email"), "nansulaiman5update@mailinator.com"): Text 'nansulaiman5update@mailinator.com' is set on object 'Object Repository/Backend/OR Access Management/input_Email _email'
+
+2019-04-26 14:35:45 - [MESSAGE][PASSED] - Text 'nansulaiman5update@mailinator.com' is set on object 'Object Repository/Backend/OR Access Management/input_Email _email'
+
+2019-04-26 14:35:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Backend/OR Access Management/input_Phone Number _phone"), "082121212122"): Text '082121212122' is set on object 'Object Repository/Backend/OR Access Management/input_Phone Number _phone'
+
+2019-04-26 14:35:45 - [MESSAGE][PASSED] - Text '082121212122' is set on object 'Object Repository/Backend/OR Access Management/input_Phone Number _phone'
+
+2019-04-26 14:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/button_Admin Konten Superadmin")): Object: 'Object Repository/Backend/OR Access Management/button_Admin Konten Superadmin' is clicked on
+
+2019-04-26 14:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/button_Admin Konten Superadmin' is clicked on
+
+2019-04-26 14:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Admin Konten")): Object: 'Object Repository/Backend/OR Access Management/a_Admin Konten' is clicked on
+
+2019-04-26 14:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/a_Admin Konten' is clicked on
+
+2019-04-26 14:35:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7c9", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:46 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7c9", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:46 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7c9", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7c9", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7c9", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Backend/OR Access Management/select_Admin Data"), "ab203982-13d0-427e-bc4b-8d887712b7c9", true): All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [MESSAGE][PASSED] - All options with value 'ab203982-13d0-427e-bc4b-8d887712b7c9' are selected in object 'Object Repository/Backend/OR Access Management/select_Admin Data'  using regular expression
+
+2019-04-26 14:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Backend/OR Access Management/button_Save")): Object: 'Object Repository/Backend/OR Access Management/button_Save' is clicked on
+
+2019-04-26 14:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Backend/OR Access Management/button_Save' is clicked on
+
+2019-04-26 14:35:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-26 14:35:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management" classname="Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC06 - New - User Management.run(TC06 - New - User Management:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556263992122.run(TempTestSuite1556263992122.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-26 14:35:51 - [TEST_CASE][FAILED] - Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management: Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC06 - New - User Management.run(TC06 - New - User Management:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556263992122.run(TempTestSuite1556263992122.groovy:36)
+
+
+2019-04-26 14:35:52 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin"), [:], STOP_ON_FAILURE)
+
+2019-04-26 14:35:52 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Back-End CMS/M002 - User Management/SC99 Regression/TC53 - Sign in as Admin"), [:], STOP_ON_FAILURE)
+
+2019-04-26 14:35:52 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-04-26 14:35:52 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-04-26 14:35:52 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Access Management")): click(findTestObject("Object Repository/Backend/OR Access Management/a_Access Management")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC06 - New - User Management.run(TC06 - New - User Management:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556263992122.run(TempTestSuite1556263992122.groovy:36)
+
+
+2019-04-26 14:35:52 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-04-26 14:35:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-04-26 14:35:53 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Backend/OR Access Management/a_Access Management")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC06 - New - User Management.run(TC06 - New - User Management:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556263992122.run(TempTestSuite1556263992122.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-26 14:35:51 - [TEST_CASE][FAILED] - Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management: Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC06 - New - User Management.run(TC06 - New - User Management:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556263992122.run(TempTestSuite1556263992122.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 14:33:23 - [TEST_SUITE][FAILED] - New User: Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC06 - New - User Management.run(TC06 - New - User Management:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556263992122.run(TempTestSuite1556263992122.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-26 14:33:23 - [TEST_SUITE][FAILED] - New User: Test Cases/Back-End CMS/M014 - Access Management/SC99Regression/TC06 - New - User Management FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Backend/OR Access Management/a_Access Management' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'INVWGSLAP151', ip: '10.10.11.99', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at TC06 - New - User Management.run(TC06 - New - User Management:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556263992122.run(TempTestSuite1556263992122.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

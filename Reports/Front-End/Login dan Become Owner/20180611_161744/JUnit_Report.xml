@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login dan Become Owner" time="54" tests="0" failures="2" errors="0">
+   <testsuite name="Login dan Become Owner" tests="0" failures="2" errors="0" time="54" timestamp="2018-06-11 16:17:48" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Front-End/Login dan Become Owner">
+      <properties>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180611_161744"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180611_161744\\appium.log, C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180611_161744\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180611_161744\\1528708710355.png"/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="sessionId" value="1b24601e-774d-482d-9d31-527e0baff738"/>
+         <property name="deviceId" value="4200d20faae66400"/>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+         <property name="platform" value="Windows 10"/>
+         <property name="browser" value="Chrome 66.0.3359.126"/>
+         <property name="deviceModel" value="SM-J320G"/>
+         <property name="hostAddress" value="10.10.10.191"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" classname="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" status="FAILED">
+         <failure type="FAILED" message="Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738)"/>
+         <system-out><![CDATA[2018-06-11 16:17:49 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738)
+
+2018-06-11 16:17:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-11 16:18:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-11 16:18:30 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738)
+
+2018-06-11 16:18:31 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738)
+[[ATTACHMENT|C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180611_161744\\1528708710355.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-11 16:17:49 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" classname="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})"/>
+         <system-out><![CDATA[2018-06-11 16:18:31 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})
+
+2018-06-11 16:18:32 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})
+
+2018-06-11 16:18:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-11 16:18:40 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})]]></system-out>
+         <system-err><![CDATA[2018-06-11 16:18:31 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-11 16:17:48 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738)]]></system-out>
+      <system-err><![CDATA[2018-06-11 16:17:48 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to maximize current window (Root cause: org.openqa.selenium.WebDriverException: unknown error: operation is unsupported on Android
+  (Session info: chrome=66.0.3359.126)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '10.10.10.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {browserName: Chrome, databaseEnabled: false, desired: {browserName: Chrome, deviceName: samsung SM-J320G (Android 5..., newCommandTimeout: 1800, platform: ANDROID, platformName: Android, udid: 4200d20faae66400}, deviceManufacturer: samsung, deviceModel: SM-J320G, deviceName: 4200d20faae66400, deviceScreenSize: 720x1280, deviceUDID: 4200d20faae66400, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, platform: ANDROID, platformName: ANDROID, platformVersion: 5.1.1, takesScreenshot: true, udid: 4200d20faae66400, warnings: {}, webStorageEnabled: false}
+Session ID: 1b24601e-774d-482d-9d31-527e0baff738)]]></system-err>
+   </testsuite>
+</testsuites>

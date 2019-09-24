@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver)" time="332" tests="1" failures="1" errors="0">
+   <testsuite name="User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver)" tests="1" failures="1" errors="0" time="332" timestamp="2018-11-16 09:57:20" hostname="Belinnd - Belinda-PC" id="Test Suites/Front-End/User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver)">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver)\\20181116_095716"/>
+         <property name="logFiles" value="D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver)\\20181116_095716\\execution0.log"/>
+         <property name="attachments" value="D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver)\\20181116_095716\\1542337303753.png"/>
+         <property name="hostName" value="Belinnd - Belinda-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.10.11.198"/>
+         <property name="sessionId" value="f6402495174a3a82d346efe2a6f20d77"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner" classname="Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner" status="PASSED">
+         <system-out><![CDATA[2018-11-16 09:57:21 - [TEST_CASE][PASSED] - Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner: Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner
+
+2018-11-16 09:57:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 09:57:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 09:57:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-16 09:57:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-16 09:57:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stg.movic.id/home' successfully
+
+2018-11-16 09:58:42 - [MESSAGE][PASSED] - Navigate to 'https://stg.movic.id/home' successfully
+
+2018-11-16 09:58:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-16 09:58:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-16 09:58:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk' is clicked on
+
+2018-11-16 09:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk' is clicked on
+
+2018-11-16 09:58:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:58:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:58:49 - [TEST_STEP][PASSED] - setText: Text 'ali.msaputra01@gmail.com' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for'
+
+2018-11-16 09:58:50 - [MESSAGE][PASSED] - Text 'ali.msaputra01@gmail.com' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for'
+
+2018-11-16 09:58:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:58:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:58:53 - [TEST_STEP][PASSED] - setText: Text 'android1' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng'
+
+2018-11-16 09:58:54 - [MESSAGE][PASSED] - Text 'android1' is set on object 'Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng'
+
+2018-11-16 09:58:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:58:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:58:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK' is clicked on
+
+2018-11-16 09:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK' is clicked on
+
+2018-11-16 09:58:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner' is clicked on
+
+2018-11-16 09:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner' is clicked on
+
+2018-11-16 09:59:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:23 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil" classname="Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BELINDA-PC', ip: '10.10.11.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Belinnd\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: f6402495174a3a82d346efe2a6f20d77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542255024319.run(Script1542255024319.groovy:291)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542337036245.run(TempTestSuite1542337036245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 09:59:23 - [TEST_CASE][FAILED] - Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil: Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BELINDA-PC', ip: '10.10.11.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Belinnd\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: f6402495174a3a82d346efe2a6f20d77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542255024319.run(Script1542255024319.groovy:291)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542337036245.run(TempTestSuite1542337036245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - openBrowser: NOT_RUN: openBrowser
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - maximizeWindow: NOT_RUN: maximizeWindow
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: maximizeWindow
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - navigateToUrl: NOT_RUN: navigateToUrl
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - waitForPageLoad: NOT_RUN: waitForPageLoad
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForPageLoad
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - setEncryptedText: NOT_RUN: setEncryptedText
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-16 09:59:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 09:59:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 09:59:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/img' is clicked on
+
+2018-11-16 09:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/img' is clicked on
+
+2018-11-16 09:59:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Tambah Mobil' is clicked on
+
+2018-11-16 09:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Tambah Mobil' is clicked on
+
+2018-11-16 09:59:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:32 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'a85daf47-1a7d-4f00-9f3e-ff1091740832' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_PeugeotDanDaihatsuHonda'  using regular expression
+
+2018-11-16 09:59:33 - [MESSAGE][PASSED] - All options with value 'a85daf47-1a7d-4f00-9f3e-ff1091740832' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_PeugeotDanDaihatsuHonda'  using regular expression
+
+2018-11-16 09:59:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '033ad234-f6a6-466d-9dca-1f8aa94958b9' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_C CLASSSPORT CLASSE CLA'  using regular expression
+
+2018-11-16 09:59:36 - [MESSAGE][PASSED] - All options with value '033ad234-f6a6-466d-9dca-1f8aa94958b9' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_C CLASSSPORT CLASSE CLA'  using regular expression
+
+2018-11-16 09:59:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2018' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_19901991199219931994199'  using regular expression
+
+2018-11-16 09:59:40 - [MESSAGE][PASSED] - All options with value '2018' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_19901991199219931994199'  using regular expression
+
+2018-11-16 09:59:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:43 - [TEST_STEP][PASSED] - setText: Text 'D 6446 RA' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_Plat Nomor_form-control'
+
+2018-11-16 09:59:44 - [MESSAGE][PASSED] - Text 'D 6446 RA' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_Plat Nomor_form-control'
+
+2018-11-16 09:59:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/button_' is clicked on
+
+2018-11-16 09:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/button_' is clicked on
+
+2018-11-16 09:59:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/button_' is clicked on
+
+2018-11-16 09:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/button_' is clicked on
+
+2018-11-16 09:59:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Listrik' is clicked on
+
+2018-11-16 09:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Listrik' is clicked on
+
+2018-11-16 09:59:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 09:59:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 09:59:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Manual' is clicked on
+
+2018-11-16 09:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Manual' is clicked on
+
+2018-11-16 09:59:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/span_Lokasi_switch switch-medi' is clicked on
+
+2018-11-16 10:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/span_Lokasi_switch switch-medi' is clicked on
+
+2018-11-16 10:00:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:03 - [TEST_STEP][PASSED] - setText: Text 'Depan Indomaret Point' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/textarea_(Optional)_form-contr'
+
+2018-11-16 10:00:04 - [MESSAGE][PASSED] - Text 'Depan Indomaret Point' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/textarea_(Optional)_form-contr'
+
+2018-11-16 10:00:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:00:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/button_Pemilihan Tanggal Lanju' is clicked on
+
+2018-11-16 10:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/button_Pemilihan Tanggal Lanju' is clicked on
+
+2018-11-16 10:00:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small' is clicked on
+
+2018-11-16 10:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small' is clicked on
+
+2018-11-16 10:00:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Open' is clicked on
+
+2018-11-16 10:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Open' is clicked on
+
+2018-11-16 10:00:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:20 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Open' successfully
+
+2018-11-16 10:00:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-16 10:00:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Open' successfully
+
+2018-11-16 10:00:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Lanjutkan_Pemilihan_Tanggal' is clicked on
+
+2018-11-16 10:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Lanjutkan_Pemilihan_Tanggal' is clicked on
+
+2018-11-16 10:00:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:27 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 680, y = 820
+
+2018-11-16 10:00:27 - [MESSAGE][PASSED] - Browser is scrolled to position x = 680, y = 820
+
+2018-11-16 10:00:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:00:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small_1' is clicked on
+
+2018-11-16 10:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small_1' is clicked on
+
+2018-11-16 10:00:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small_2' is clicked on
+
+2018-11-16 10:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small_2' is clicked on
+
+2018-11-16 10:00:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small_3' is clicked on
+
+2018-11-16 10:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/small_3' is clicked on
+
+2018-11-16 10:00:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:42 - [TEST_STEP][PASSED] - setText: Text 'Diperbolehkan membawa hewan peliharaan berukuran kecil.' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/textarea_Opsional_form-control'
+
+2018-11-16 10:00:43 - [MESSAGE][PASSED] - Text 'Diperbolehkan membawa hewan peliharaan berukuran kecil.' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/textarea_Opsional_form-control'
+
+2018-11-16 10:00:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Strict No Refund' is clicked on
+
+2018-11-16 10:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Strict No Refund' is clicked on
+
+2018-11-16 10:00:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:00:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:53 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-11-16 10:00:53 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-11-16 10:00:53 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 10:00:53 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 10:00:53 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-11-16 10:00:53 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-11-16 10:00:53 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-16 10:00:53 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-16 10:00:53 - [TEST_STEP][PASSED] - setText: Text 'Mohon mengembalikan mobil sesuai jam yang telah ditentukan' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/textarea_Optional_form-control'
+
+2018-11-16 10:00:53 - [MESSAGE][PASSED] - Text 'Mohon mengembalikan mobil sesuai jam yang telah ditentukan' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/textarea_Optional_form-control'
+
+2018-11-16 10:00:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:00:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:00:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '5' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_Tidak ada'  using regular expression
+
+2018-11-16 10:00:57 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_Tidak ada'  using regular expression
+
+2018-11-16 10:00:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Tambah Harga' is clicked on
+
+2018-11-16 10:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Tambah Harga' is clicked on
+
+2018-11-16 10:01:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:03 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_Tidak ada' successfully
+
+2018-11-16 10:01:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-16 10:01:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/select_Tidak ada' successfully
+
+2018-11-16 10:01:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:06 - [TEST_STEP][PASSED] - setText: Text '20000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_km'
+
+2018-11-16 10:01:06 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_km'
+
+2018-11-16 10:01:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:01:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Tanpa driver' is clicked on
+
+2018-11-16 10:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Tanpa driver' is clicked on
+
+2018-11-16 10:01:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:16 - [TEST_STEP][PASSED] - setText: Text '110000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_weekdays'
+
+2018-11-16 10:01:16 - [MESSAGE][PASSED] - Text '110000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_weekdays'
+
+2018-11-16 10:01:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:19 - [TEST_STEP][PASSED] - setText: Text '125000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_weekends'
+
+2018-11-16 10:01:19 - [MESSAGE][PASSED] - Text '125000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_weekends'
+
+2018-11-16 10:01:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:22 - [TEST_STEP][PASSED] - setText: Text '25000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_deposit'
+
+2018-11-16 10:01:23 - [MESSAGE][PASSED] - Text '25000' is set on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/input_harga_deposit'
+
+2018-11-16 10:01:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Select' is clicked on
+
+2018-11-16 10:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Select' is clicked on
+
+2018-11-16 10:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Life Insurance' is clicked on
+
+2018-11-16 10:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Life Insurance' is clicked on
+
+2018-11-16 10:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Trash Bin' is clicked on
+
+2018-11-16 10:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Trash Bin' is clicked on
+
+2018-11-16 10:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Car Seat Baby' is clicked on
+
+2018-11-16 10:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Car Seat Baby' is clicked on
+
+2018-11-16 10:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Emergency Tools' is clicked on
+
+2018-11-16 10:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Emergency Tools' is clicked on
+
+2018-11-16 10:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Tissue' is clicked on
+
+2018-11-16 10:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Tissue' is clicked on
+
+2018-11-16 10:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Wifi' is clicked on
+
+2018-11-16 10:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Wifi' is clicked on
+
+2018-11-16 10:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Car Insurance' is clicked on
+
+2018-11-16 10:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/label_Car Insurance' is clicked on
+
+2018-11-16 10:01:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Life Insurance Trash Bin Car' is clicked on
+
+2018-11-16 10:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_Life Insurance Trash Bin Car' is clicked on
+
+2018-11-16 10:01:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/a_LANJUTKAN' is clicked on
+
+2018-11-16 10:01:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up' is clicked on
+
+2018-11-16 10:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up' is clicked on
+
+2018-11-16 10:01:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_1' is clicked on
+
+2018-11-16 10:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_1' is clicked on
+
+2018-11-16 10:01:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 10:01:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 10:01:42 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BELINDA-PC', ip: '10.10.11.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Belinnd\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: f6402495174a3a82d346efe2a6f20d77)
+
+2018-11-16 10:01:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BELINDA-PC', ip: '10.10.11.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Belinnd\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: f6402495174a3a82d346efe2a6f20d77)
+[[ATTACHMENT|D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver)\\20181116_095716\\1542337303753.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 09:59:23 - [TEST_CASE][FAILED] - Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil: Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BELINDA-PC', ip: '10.10.11.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Belinnd\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: f6402495174a3a82d346efe2a6f20d77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542255024319.run(Script1542255024319.groovy:291)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542337036245.run(TempTestSuite1542337036245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-16 09:57:20 - [TEST_SUITE][FAILED] - User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver): Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BELINDA-PC', ip: '10.10.11.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Belinnd\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: f6402495174a3a82d346efe2a6f20d77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542255024319.run(Script1542255024319.groovy:291)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542337036245.run(TempTestSuite1542337036245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-16 09:57:20 - [TEST_SUITE][FAILED] - User owner menambahkan data mobil kemudian melakukan perubahan harga (Kondisi harga tanpa driver): Test Cases/Front-End/Product/SC99 Regression/TC02 Tambah data mobil FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Front-End/OR Product/OR Tambah data mobil/div_Foto Mobil_img-wrapper1 up_2' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'BELINDA-PC', ip: '10.10.11.198', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Belinnd\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: f6402495174a3a82d346efe2a6f20d77)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542255024319.run(Script1542255024319.groovy:291)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542337036245.run(TempTestSuite1542337036245.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

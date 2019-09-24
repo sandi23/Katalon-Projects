@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Become Owner" time="40" tests="0" failures="2" errors="0">
+   <testsuite name="Become Owner" tests="0" failures="2" errors="0" time="40" timestamp="2018-06-25 14:12:29" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Mobile/Become Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180625_141223"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180625_141223\\appium.log, C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180625_141223\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="hostAddress" value="10.10.11.196"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)"/>
+         <system-out><![CDATA[2018-06-25 14:12:30 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-06-25 14:12:31 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-06-25 14:13:03 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+         <system-err><![CDATA[2018-06-25 14:12:30 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" classname="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-06-25 14:13:03 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) No driver found
+
+2018-06-25 14:13:04 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-06-25 14:13:04 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-06-25 14:13:04 - [TEST_STEP][PASSED] - tap: Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-25 14:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30']]></system-out>
+         <system-err><![CDATA[2018-06-25 14:13:03 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-25 14:12:29 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+      <system-err><![CDATA[2018-06-25 14:12:29 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

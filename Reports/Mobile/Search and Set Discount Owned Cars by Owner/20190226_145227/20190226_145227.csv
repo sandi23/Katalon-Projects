@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set Discount Owned Cars by Owner,,,2019-02-26 14:52:33,2019-02-26 15:02:16,9m - 43.344s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-26 14:52:34,2019-02-26 14:54:28,1m - 54.220s,PASSED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-26 14:52:36,2019-02-26 14:53:45,1m - 8.709s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English""), 0)",,,2019-02-26 14:53:45,2019-02-26 14:53:51,6.232s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4""), 0)",,Tap button next,2019-02-26 14:53:51,2019-02-26 14:53:53,1.548s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2019-02-26 14:53:53,2019-02-26 14:53:57,4.650s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2019-02-26 14:53:57,2019-02-26 14:54:00,2.384s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2019-02-26 14:54:00,2019-02-26 14:54:02,2.022s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""nansulaiman5@gmail.com"", 0)",,Input email user,2019-02-26 14:54:02,2019-02-26 14:54:03,1.096s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03""), 0)",,Tap tombol lanjutkan seharusnya next Eng,2019-02-26 14:54:03,2019-02-26 14:54:06,2.709s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:54:06,2019-02-26 14:54:11,5.160s,PASSED
+"setText(findTestObject(""Mobile/OR Login 2/android.widget.EditText0 - field password""), ""password8"", 0)",,Input password user,2019-02-26 14:54:11,2019-02-26 14:54:12,1.001s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:54:12,2019-02-26 14:54:17,5.011s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2019-02-26 14:54:17,2019-02-26 14:54:19,2.769s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Start Movic 01""), 0)",,Submit form dan redirect ke homepage,2019-02-26 14:54:19,2019-02-26 14:54:23,3.681s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:54:23,2019-02-26 14:54:28,5.023s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2019-02-26 14:54:28,2019-02-26 15:00:30,6m - 1.322s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2019-02-26 14:54:29,2019-02-26 14:54:29,0.005s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2019-02-26 14:54:29,2019-02-26 14:55:30,1m - 1.408s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:55:30,2019-02-26 14:55:35,5.022s,PASSED
+"setText(findTestObject(""Mobile/OR Order/android.widget.EditText0 - Search car""), ""daihatsu"", 0)",,Mencari car by name,2019-02-26 14:55:35,2019-02-26 14:58:59,3m - 23.169s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 14:58:59,2019-02-26 14:59:04,5.008s,PASSED
+"tap(findTestObject(""Mobile/OR Order/android.widget.ImageView6 - icon search""), 0)",,Tap button search,2019-02-26 14:59:04,2019-02-26 15:00:25,1m - 21.013s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 15:00:25,2019-02-26 15:00:30,5.010s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC07 Set Discount - My Cars,,,2019-02-26 15:00:30,2019-02-26 15:02:14,1m - 44.165s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars""), [:], STOP_ON_FAILURE)",,Call test case search car - my cars,2019-02-26 15:00:30,2019-02-26 15:00:30,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2019-02-26 15:00:30,2019-02-26 15:00:30,0.006s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView9 (1)""), 0)",,Tap icon menu titik 3,2019-02-26 15:00:30,2019-02-26 15:02:14,1m - 43.249s,FAILED

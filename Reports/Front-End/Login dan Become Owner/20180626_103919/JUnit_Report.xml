@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login dan Become Owner" time="283" tests="0" failures="2" errors="0">
+   <testsuite name="Login dan Become Owner" tests="0" failures="2" errors="0" time="283" timestamp="2018-06-26 10:39:21" hostname="Sandi - DESKTOP-IO1HPO8" id="Test Suites/Front-End/Login dan Become Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_103919"/>
+         <property name="logFiles" value="C:\\Users\\Sandi\\Documents\\Katalon Projects\\Projects\\Astra Movic\\Reports\\Front-End\\Login dan Become Owner\\20180626_103919\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sandi - DESKTOP-IO1HPO8"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="10.10.10.233"/>
+         <property name="sessionId" value="4be8a4e8cdad91f4354e1427b6b34254"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" classname="Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})"/>
+         <system-out><![CDATA[2018-06-26 10:39:22 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})
+
+2018-06-26 10:39:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 10:39:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 10:39:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 10:39:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 10:39:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-26 10:42:12 - [MESSAGE][PASSED] - Navigate to 'https://movic.stagingapps.net/home' successfully
+
+2018-06-26 10:42:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-06-26 10:42:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-06-26 10:42:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-26 10:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Masuk' is clicked on
+
+2018-06-26 10:42:15 - [TEST_STEP][PASSED] - setText: Text 'ali.msaputra01@gmail.com' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-26 10:42:19 - [MESSAGE][PASSED] - Text 'ali.msaputra01@gmail.com' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-untouche'
+
+2018-06-26 10:42:19 - [TEST_STEP][PASSED] - setText: Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-26 10:42:23 - [MESSAGE][PASSED] - Text 'Walden1234' is set on object 'Object Repository/Front-End/OR Login Biasa with email/Page_Home/input_form-control ng-touched'
+
+2018-06-26 10:42:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-26 10:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/button_MASUK' is clicked on
+
+2018-06-26 10:42:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-26 10:42:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 10:42:29 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-06-26 10:43:23 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-06-26 10:43:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' is clicked on
+
+2018-06-26 10:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Home/a_Bergabung menjadi Vehicle Ow' is clicked on
+
+2018-06-26 10:43:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner/a_Bergabung Menjadi Pemilik Mo' is clicked on
+
+2018-06-26 10:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner/a_Bergabung Menjadi Pemilik Mo' is clicked on
+
+2018-06-26 10:43:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-26 10:43:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 10:43:30 - [TEST_STEP][PASSED] - WebUICustomKeyword.uploadFile: WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-26 10:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar' is clicked on
+
+2018-06-26 10:43:32 - [MESSAGE][PASSED] - WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-26 10:43:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-06-26 10:43:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-06-26 10:43:35 - [TEST_STEP][FAILED] - WebUICustomKeyword.uploadFile: Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})
+
+2018-06-26 10:43:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-26 10:43:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})
+
+2018-06-26 10:43:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})]]></system-out>
+         <system-err><![CDATA[2018-06-26 10:39:22 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" classname="Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})"/>
+         <system-out><![CDATA[2018-06-26 10:43:53 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})
+
+2018-06-26 10:43:53 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})
+
+2018-06-26 10:44:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-26 10:44:03 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})]]></system-out>
+         <system-err><![CDATA[2018-06-26 10:43:53 - [TEST_CASE][FAILED] - Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental: Test Cases/Front-End/Owner/SC02 Validasi Rental Name/TC01 Kosongkan nama rental FAILED because (of) Unable to set text '' of object 'Object Repository/Front-End/OR Validasi Rental/Page_Become Owner Register/input_form-control ng-untouche' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=//input[@placeholder = 'Nama rental' and @type = 'text']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 10:39:21 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})]]></system-out>
+      <system-err><![CDATA[2018-06-26 10:39:21 - [TEST_SUITE][FAILED] - Login dan Become Owner: Test Cases/Front-End/Owner/SC01 Validasi Photo/TC06 Upload menggunakan gallery FAILED because (of) Unable to click on object 'Object Repository/Front-End/OR Upload menggunakan Gallery/Page_Become Owner Register/span_Upload Gambar (1)' (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.87)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IO1HPO8', ip: '10.10.10.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Sandi\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.87, webStorageEnabled: true}
+Session ID: 4be8a4e8cdad91f4354e1427b6b34254
+*** Element info: {Using=xpath, value=/html/body/app-root/be-come-owner/div[1]/div/div[2]/div/div/form/div[1]/div[11]/span[1]})]]></system-err>
+   </testsuite>
+</testsuites>

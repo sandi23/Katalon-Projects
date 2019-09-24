@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservasi mobil melalui data yang tersedia di kategori mobil,Chrome 70.0.3538.102,,2018-11-15 10:54:08,2018-11-15 10:56:26,2m - 17.623s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email,Chrome 70.0.3538.102,,2018-11-15 10:54:09,2018-11-15 10:55:29,1m - 20.155s,PASSED
+openBrowser,Chrome 70.0.3538.102,Buka browser,2018-11-15 10:54:09,2018-11-15 10:54:16,6.494s,PASSED
+maximizeWindow,Chrome 70.0.3538.102,Maximize window,2018-11-15 10:54:16,2018-11-15 10:54:17,1.201s,PASSED
+navigateToUrl,Chrome 70.0.3538.102,Akses Url,2018-11-15 10:54:17,2018-11-15 10:55:15,58.409s,PASSED
+waitForPageLoad,Chrome 70.0.3538.102,,2018-11-15 10:55:15,2018-11-15 10:55:16,0.140s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 10:55:16,2018-11-15 10:55:16,0.485s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:55:16,2018-11-15 10:55:19,3.051s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 10:55:19,2018-11-15 10:55:20,0.487s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:55:20,2018-11-15 10:55:23,3.006s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-15 10:55:23,2018-11-15 10:55:23,0.218s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:55:23,2018-11-15 10:55:26,3.003s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-15 10:55:26,2018-11-15 10:55:26,0.219s,PASSED
+verifyElementVisible,Chrome 70.0.3538.102,"Verifikasi popup ""Success"" Visible",2018-11-15 10:55:26,2018-11-15 10:55:27,0.638s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:55:27,2018-11-15 10:55:29,2.050s,PASSED
+,,,,,,
+Test Cases/Front-End/Homepage/SC99 Regression/TC21 Cari mobil via pilihan tipe kendaraan,Chrome 70.0.3538.102,,2018-11-15 10:55:29,2018-11-15 10:55:36,7.285s,FAILED
+scrollToPosition,Chrome 70.0.3538.102,,2018-11-15 10:55:29,2018-11-15 10:55:33,3.642s,PASSED
+click,Chrome 70.0.3538.102,Klik Tipe Mobil Sedan,2018-11-15 10:55:33,2018-11-15 10:55:33,0.412s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:55:33,2018-11-15 10:55:35,2.004s,PASSED
+click,Chrome 70.0.3538.102,Pilih Mobil Honda Jazz,2018-11-15 10:55:35,2018-11-15 10:55:36,0.800s,FAILED
+,,,,,,
+Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil,Chrome 70.0.3538.102,,2018-11-15 10:55:36,2018-11-15 10:56:16,40.294s,FAILED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:55:36,2018-11-15 10:55:38,2.003s,PASSED
+scrollToPosition,Chrome 70.0.3538.102,Scroll kebawah,2018-11-15 10:55:38,2018-11-15 10:55:38,0.039s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:55:38,2018-11-15 10:55:40,2.003s,PASSED
+click,Chrome 70.0.3538.102,Klik Pilih Paket pada salah satu Paket,2018-11-15 10:55:40,2018-11-15 10:56:06,25.774s,FAILED
+delay,Chrome 70.0.3538.102,,2018-11-15 10:56:06,2018-11-15 10:56:08,2.003s,PASSED
+click,Chrome 70.0.3538.102,Klik Button Pesan Sekarang,2018-11-15 10:56:08,2018-11-15 10:56:16,8.058s,FAILED
+,,,,,,
+Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher,Chrome 70.0.3538.102,,2018-11-15 10:56:16,2018-11-15 10:56:25,8.445s,FAILED
+click,Chrome 70.0.3538.102,Klik button Lanjutkan ke Metode Pembayaran,2018-11-15 10:56:17,2018-11-15 10:56:25,8.078s,FAILED

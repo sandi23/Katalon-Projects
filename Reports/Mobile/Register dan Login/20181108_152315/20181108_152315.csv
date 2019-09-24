@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register dan Login,,,2018-11-08 15:23:19,2018-11-08 15:25:16,1m - 56.796s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC02 Registrasi with facebook,,,2018-11-08 15:23:20,2018-11-08 15:25:16,1m - 55.835s,PASSED
+startApplication,,Open apps on phone,2018-11-08 15:23:21,2018-11-08 15:24:11,49.852s,PASSED
+tap,,Tap button next,2018-11-08 15:24:11,2018-11-08 15:24:16,4.540s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-08 15:24:16,2018-11-08 15:24:18,2.641s,PASSED
+tap,,Tap button skip,2018-11-08 15:24:18,2018-11-08 15:24:21,2.218s,PASSED
+tap,,Tap button continue with facebook,2018-11-08 15:24:21,2018-11-08 15:24:23,1.901s,PASSED
+setText,,Input email facebook,2018-11-08 15:24:23,2018-11-08 15:24:27,3.981s,PASSED
+setText,,Input password facebook,2018-11-08 15:24:27,2018-11-08 15:24:28,1.147s,PASSED
+tap,,Tap button masuk facebook,2018-11-08 15:24:28,2018-11-08 15:24:29,1.626s,PASSED
+tap,,Tap button continue facebook,2018-11-08 15:24:29,2018-11-08 15:24:34,4.801s,PASSED
+delay,,"Delay agar name dan email facebook terrecord di field first name, last name dan email",2018-11-08 15:24:34,2018-11-08 15:24:37,3.066s,PASSED
+setText,,Input mobile number,2018-11-08 15:24:37,2018-11-08 15:24:39,1.352s,PASSED
+delay,,,2018-11-08 15:24:39,2018-11-08 15:24:41,2.006s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:24:41,2018-11-08 15:24:43,2.204s,PASSED
+tap,,Tap button next,2018-11-08 15:24:43,2018-11-08 15:24:45,2.008s,PASSED
+delay,,Delay untuk mengisi verification code,2018-11-08 15:24:45,2018-11-08 15:24:55,10.002s,PASSED
+setText,,Input password,2018-11-08 15:24:55,2018-11-08 15:24:57,2.020s,PASSED
+delay,,,2018-11-08 15:24:57,2018-11-08 15:24:58,1.005s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:24:58,2018-11-08 15:25:00,2.352s,PASSED
+tap,,Tap button next,2018-11-08 15:25:00,2018-11-08 15:25:02,2.289s,PASSED
+setText,,Input referral code,2018-11-08 15:25:02,2018-11-08 15:25:04,1.149s,PASSED
+delay,,,2018-11-08 15:25:04,2018-11-08 15:25:05,1.004s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:25:05,2018-11-08 15:25:06,1.608s,PASSED
+tap,,Check ketersediaan referral code,2018-11-08 15:25:06,2018-11-08 15:25:08,1.806s,PASSED
+tap,,Submit form registrasi dan sistem akan mengirim email verifikasi,2018-11-08 15:25:08,2018-11-08 15:25:10,1.587s,PASSED
+delay,,,2018-11-08 15:25:10,2018-11-08 15:25:15,5.004s,PASSED
+closeApplication,,,2018-11-08 15:25:15,2018-11-08 15:25:16,1.469s,PASSED

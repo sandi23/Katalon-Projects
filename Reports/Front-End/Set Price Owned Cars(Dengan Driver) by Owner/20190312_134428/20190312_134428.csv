@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Set Price Owned Cars(Dengan Driver) by Owner,Chrome 72.0.3626.121,,2019-03-12 13:44:34,2019-03-12 13:47:56,3m - 21.214s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 72.0.3626.121,,2019-03-12 13:44:35,2019-03-12 13:45:49,1m - 13.785s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,Buka Browser,2019-03-12 13:44:36,2019-03-12 13:44:49,12.397s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,Maximize Window,2019-03-12 13:44:49,2019-03-12 13:44:50,1.215s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.121,Akses Url,2019-03-12 13:44:50,2019-03-12 13:45:21,30.997s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-12 13:45:21,2019-03-12 13:45:22,0.527s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk""))",Chrome 72.0.3626.121,Klik textlink Masuk,2019-03-12 13:45:22,2019-03-12 13:45:23,1.042s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:45:23,2019-03-12 13:45:26,3.079s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""082128751192"")",Chrome 72.0.3626.121,Input Email,2019-03-12 13:45:26,2019-03-12 13:45:27,1.088s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""ali.msaputra01@gmail.com"")",Chrome 72.0.3626.121,Input Email,2019-03-12 13:45:27,2019-03-12 13:45:27,0.007s,NOT_RUN
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:45:27,2019-03-12 13:45:30,3.005s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng""), ""password10"")",Chrome 72.0.3626.121,Input Password,2019-03-12 13:45:30,2019-03-12 13:45:30,0.713s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:45:30,2019-03-12 13:45:33,3.002s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK""))",Chrome 72.0.3626.121,Klik button Masuk,2019-03-12 13:45:33,2019-03-12 13:45:34,0.566s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:45:34,2019-03-12 13:45:37,3.004s,PASSED
+"click(findTestObject(""Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update""))",Chrome 72.0.3626.121,Klik Switch to Owner,2019-03-12 13:45:37,2019-03-12 13:45:46,8.858s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:45:46,2019-03-12 13:45:49,3.002s,PASSED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC06 Set price data mobil (ubah harga untuk kondisi dengan driver),Chrome 72.0.3626.121,,2019-03-12 13:45:49,2019-03-12 13:47:54,2m - 4.599s,FAILED
+"callTestCase(findTestCase(""Front-End/User/SC99 Regression/TC12 Login Sebagai Owner""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,Panggil TestCase Login Sebagai Owner,2019-03-12 13:45:50,2019-03-12 13:45:50,0.009s,NOT_RUN
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/img""))",Chrome 72.0.3626.121,Klik Menu Kendaraan Saya,2019-03-12 13:45:50,2019-03-12 13:45:50,0.579s,PASSED
+"setText(findTestObject(""Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/input_field_search""), ""BMW X3"")",Chrome 72.0.3626.121,Input Field Search,2019-03-12 13:45:50,2019-03-12 13:45:51,0.391s,PASSED
+delay(15),Chrome 72.0.3626.121,,2019-03-12 13:45:51,2019-03-12 13:46:06,15.003s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/button_tiga_titik""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 13:46:06,2019-03-12 13:46:06,0.478s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/button_tiga_titik""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 13:46:06,2019-03-12 13:46:07,0.438s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/a_Set Price""))",Chrome 72.0.3626.121,Klik Set Price,2019-03-12 13:46:07,2019-03-12 13:47:54,1m - 46.897s,FAILED

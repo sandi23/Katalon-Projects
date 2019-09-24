@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservation Use Permata Bank Virtual Account,,,2019-02-18 15:17:19,2019-02-18 15:21:19,3m - 59.668s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-18 15:17:20,2019-02-18 15:19:17,1m - 57.349s,PASSED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-18 15:17:21,2019-02-18 15:18:34,1m - 12.614s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English""), 0)",,,2019-02-18 15:18:34,2019-02-18 15:18:38,4.193s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4""), 0)",,Tap button next,2019-02-18 15:18:38,2019-02-18 15:18:42,3.514s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2019-02-18 15:18:42,2019-02-18 15:18:44,2.517s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2019-02-18 15:18:44,2019-02-18 15:18:47,2.513s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2019-02-18 15:18:47,2019-02-18 15:18:50,3.530s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""nansulaiman5@gmail.com"", 0)",,Input email user,2019-02-18 15:18:50,2019-02-18 15:18:52,1.140s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03""), 0)",,Tap tombol lanjutkan seharusnya next Eng,2019-02-18 15:18:52,2019-02-18 15:18:54,2.880s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:18:54,2019-02-18 15:19:00,5.165s,PASSED
+"setText(findTestObject(""Mobile/OR Login 2/android.widget.EditText0 - field password""), ""password8"", 0)",,Input password user,2019-02-18 15:19:00,2019-02-18 15:19:01,1.179s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:19:01,2019-02-18 15:19:06,5.009s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2019-02-18 15:19:06,2019-02-18 15:19:09,2.756s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Start Movic 01""), 0)",,Submit form dan redirect ke homepage,2019-02-18 15:19:09,2019-02-18 15:19:12,3.699s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:19:12,2019-02-18 15:19:17,5.014s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars,,,2019-02-18 15:19:17,2019-02-18 15:20:39,1m - 22.150s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region""), [:], STOP_ON_FAILURE)",,Call test case search car use search bar renal city atau region,2019-02-18 15:19:18,2019-02-18 15:19:18,0.013s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.support.v4.view.ViewPager0""), 0)",,Select car yang ada di list of cars,2019-02-18 15:19:18,2019-02-18 15:19:18,0.005s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Check Packages""), 0)",,Check packages,2019-02-18 15:19:18,2019-02-18 15:19:54,36.232s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button1 - Book Now""), 0)",,Membuat reservasi,2019-02-18 15:19:54,2019-02-18 15:19:56,1.583s,PASSED
+"scrollToText(""Add additional benefits"", STOP_ON_FAILURE)",,Scroll to text add additional benefits,2019-02-18 15:19:56,2019-02-18 15:20:01,5.044s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView2 - Edit""), 0)",,Edit additional benefits,2019-02-18 15:20:01,2019-02-18 15:20:02,1.623s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.CheckBox0""), 0)",,Checklist life insurance,2019-02-18 15:20:02,2019-02-18 15:20:06,3.522s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.ImageView1""), 0)",,Tap arrow right untuk menampilkan life insurance by astralife,2019-02-18 15:20:06,2019-02-18 15:20:08,1.856s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Save""), 0)",,Menyimpan contact life insurance,2019-02-18 15:20:08,2019-02-18 15:20:09,1.473s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - I Agree""), 0)",,Menyetujui additional benefits,2019-02-18 15:20:09,2019-02-18 15:20:13,3.515s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.EditText0""), 0)",,Tap untuk menampilkan jam,2019-02-18 15:20:13,2019-02-18 15:20:17,3.662s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:20:17,2019-02-18 15:20:22,5.015s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button1 - OK""), 0)",,Submit jam,2019-02-18 15:20:22,2019-02-18 15:20:23,1.094s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.RelativeLayout7""), 0)",,Pick up location,2019-02-18 15:20:23,2019-02-18 15:20:25,2.811s,PASSED
+"delay(5, STOP_ON_FAILURE)",,Delay untuk load maps sesuai titik yang ditentukan,2019-02-18 15:20:25,2019-02-18 15:20:30,5.005s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Confirm""), 0)",,Mengkonfirmasi lokasi pick up,2019-02-18 15:20:30,2019-02-18 15:20:32,1.747s,PASSED
+"scrollToText(""Pick Up Rules"", STOP_ON_FAILURE)",,,2019-02-18 15:20:32,2019-02-18 15:20:32,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.RelativeLayout8""), 0)",,Return location,2019-02-18 15:20:32,2019-02-18 15:20:32,0.002s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:20:32,2019-02-18 15:20:32,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Confirm""), 0)",,Mengkonfirmasi lokasi return ,2019-02-18 15:20:32,2019-02-18 15:20:32,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Continue""), 0)",,Continue reserve,2019-02-18 15:20:32,2019-02-18 15:20:34,2.228s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:20:34,2019-02-18 15:20:39,5.007s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules,,,2019-02-18 15:20:39,2019-02-18 15:20:49,9.435s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars""), [:], STOP_ON_FAILURE)",,Call test case select car from list cars,2019-02-18 15:20:40,2019-02-18 15:20:40,0.001s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY""), 0)",,Menampilkan informasi yang ada di tab cancellation policy,2019-02-18 15:20:40,2019-02-18 15:20:41,1.343s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Agree""), 0)",,Menyetujui segala ketentuan rules yang tertera,2019-02-18 15:20:41,2019-02-18 15:20:44,2.427s,PASSED
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Pay Later""), 0)",,,2019-02-18 15:20:44,2019-02-18 15:20:44,0.002s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:20:44,2019-02-18 15:20:49,5.008s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment,,,2019-02-18 15:20:49,2019-02-18 15:21:02,12.737s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Booking/SC99 Regression/TC09 Rules""), [:], STOP_ON_FAILURE)",,Call test case rules,2019-02-18 15:20:49,2019-02-18 15:20:49,0.005s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.ImageView2""), 0)",,,2019-02-18 15:20:49,2019-02-18 15:20:49,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.Button1 - Pay""), 0)",,Mulai melakukan pembayaran,2019-02-18 15:20:49,2019-02-18 15:20:53,3.758s,PASSED
+"tap(findTestObject(""Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM""), 0)",,Konfirmasi pembayaran,2019-02-18 15:20:53,2019-02-18 15:20:57,3.458s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:20:57,2019-02-18 15:21:02,5.009s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method,,,2019-02-18 15:21:02,2019-02-18 15:21:09,7.042s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment""), [:], STOP_ON_FAILURE)",,Call test case pay - payment,2019-02-18 15:21:02,2019-02-18 15:21:02,0.034s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout3""), 0)",,Menampilkan option payment,2019-02-18 15:21:02,2019-02-18 15:21:04,1.515s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-18 15:21:04,2019-02-18 15:21:09,5.008s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC07 Permata Bank Virtual Account,,,2019-02-18 15:21:09,2019-02-18 15:21:13,4.647s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC04 Select payment method""), [:], STOP_ON_FAILURE)",,Call test case select payment method,2019-02-18 15:21:09,2019-02-18 15:21:09,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout4""), 0)",,Select payment via permatabank,2019-02-18 15:21:09,2019-02-18 15:21:11,1.659s,PASSED
+"scrollToText(""Hubungi kami."", STOP_ON_FAILURE)",,Scroll to hubungi kami,2019-02-18 15:21:11,2019-02-18 15:21:13,2.463s,FAILED

@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Reservation From Click Show More Section Available Near Me,,,2019-02-15 14:50:07,2019-02-15 14:51:46,1m - 38.399s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-15 14:50:08,2019-02-15 14:51:41,1m - 32.773s,FAILED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-15 14:50:10,2019-02-15 14:51:41,1m - 30.864s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC07 Show more car available near me,,,2019-02-15 14:51:41,2019-02-15 14:51:42,0.845s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2019-02-15 14:51:42,2019-02-15 14:51:42,0.009s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Homepage/android.widget.TextView11 - Show more""), 0)",,Show more car yang ada di near me,2019-02-15 14:51:42,2019-02-15 14:51:42,0.275s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars,,,2019-02-15 14:51:42,2019-02-15 14:51:43,0.744s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region""), [:], STOP_ON_FAILURE)",,Call test case search car use search bar renal city atau region,2019-02-15 14:51:43,2019-02-15 14:51:43,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.support.v4.view.ViewPager0""), 0)",,Select car yang ada di list of cars,2019-02-15 14:51:43,2019-02-15 14:51:43,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.Button0 - Check Packages""), 0)",,Check packages,2019-02-15 14:51:43,2019-02-15 14:51:43,0.014s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules,,,2019-02-15 14:51:43,2019-02-15 14:51:43,0.543s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars""), [:], STOP_ON_FAILURE)",,Call test case select car from list cars,2019-02-15 14:51:43,2019-02-15 14:51:43,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY""), 0)",,Menampilkan informasi yang ada di tab cancellation policy,2019-02-15 14:51:43,2019-02-15 14:51:43,0.012s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment,,,2019-02-15 14:51:43,2019-02-15 14:51:44,0.574s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Booking/SC99 Regression/TC09 Rules""), [:], STOP_ON_FAILURE)",,Call test case rules,2019-02-15 14:51:44,2019-02-15 14:51:44,0.008s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.ImageView2""), 0)",,,2019-02-15 14:51:44,2019-02-15 14:51:44,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.Button1 - Pay""), 0)",,Mulai melakukan pembayaran,2019-02-15 14:51:44,2019-02-15 14:51:44,0.023s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method,,,2019-02-15 14:51:44,2019-02-15 14:51:44,0.547s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment""), [:], STOP_ON_FAILURE)",,Call test case pay - payment,2019-02-15 14:51:44,2019-02-15 14:51:44,0.010s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout3""), 0)",,Menampilkan option payment,2019-02-15 14:51:44,2019-02-15 14:51:44,0.061s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment,,,2019-02-15 14:51:44,2019-02-15 14:51:45,0.825s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Payment/SC99 Regression/TC04 Select payment method""), [:], STOP_ON_FAILURE)",,Call test case select payment method,2019-02-15 14:51:45,2019-02-15 14:51:45,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Payment/android.widget.FrameLayout3 (1)""), 0)",,Pilih metode pembayaran credit card,2019-02-15 14:51:45,2019-02-15 14:51:45,0.013s,FAILED

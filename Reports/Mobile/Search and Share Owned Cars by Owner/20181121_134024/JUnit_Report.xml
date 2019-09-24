@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search and Share Owned Cars by Owner" time="631" tests="3" failures="0" errors="0">
+   <testsuite name="Search and Share Owned Cars by Owner" tests="3" failures="0" errors="0" time="631" timestamp="2018-11-21 13:40:30" hostname="WGS-LAP199 - DESKTOP-QUMB1S3" id="Test Suites/Mobile/Search and Share Owned Cars by Owner">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Search and Share Owned Cars by Owner\\20181121_134024"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Search and Share Owned Cars by Owner\\20181121_134024\\appium.log, C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Search and Share Owned Cars by Owner\\20181121_134024\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP199 - DESKTOP-QUMB1S3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Redmi 5"/>
+         <property name="hostAddress" value="10.10.11.177"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="54e797627cf5"/>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" status="PASSED">
+         <system-out><![CDATA[2018-11-21 13:40:31 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email
+
+2018-11-21 13:40:33 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.8_2018-11-12-stable-debug.apk'
+
+2018-11-21 13:41:20 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.8_2018-11-12-stable-debug.apk'
+
+2018-11-21 13:41:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-21 13:41:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-21 13:41:24 - [TEST_STEP][PASSED] - Statement - For (def index : (1..2)): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 13:41:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 13:41:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 13:41:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 13:41:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-21 13:41:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-21 13:41:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-21 13:41:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-21 13:41:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-21 13:41:31 - [TEST_STEP][PASSED] - setText: Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-21 13:41:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:32 - [MESSAGE][PASSED] - Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-21 13:41:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-21 13:41:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-21 13:41:35 - [TEST_STEP][PASSED] - setText: Text 'P@ssword789' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-21 13:41:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:36 - [MESSAGE][PASSED] - Text 'P@ssword789' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-21 13:41:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-21 13:41:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-21 13:41:37 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-21 13:41:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-21 13:41:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-21 13:41:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:41:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-21 13:41:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 13:41:46 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars" classname="Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars" status="PASSED">
+         <system-out><![CDATA[2018-11-21 13:41:46 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars: Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars
+
+2018-11-21 13:41:47 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-21 13:41:47 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-21 13:41:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.Tab - My Cars'
+
+2018-11-21 13:41:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:43:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.Tab - My Cars'
+
+2018-11-21 13:43:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 13:43:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-21 13:43:13 - [TEST_STEP][PASSED] - setText: Text 'Mitsubishi' has been set to element 'Object Repository/Mobile/OR Product/android.widget.EditText0 - Search car'
+
+2018-11-21 13:43:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:47:57 - [MESSAGE][PASSED] - Text 'Mitsubishi' has been set to element 'Object Repository/Mobile/OR Product/android.widget.EditText0 - Search car'
+
+2018-11-21 13:47:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 13:48:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-21 13:48:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView6'
+
+2018-11-21 13:48:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:49:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView6'
+
+2018-11-21 13:49:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 13:49:28 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Product/SC99 Regression/TC10 Share - My Cars" classname="Test Cases/Mobile/Android/Product/SC99 Regression/TC10 Share - My Cars" status="PASSED">
+         <system-out><![CDATA[2018-11-21 13:49:28 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Product/SC99 Regression/TC10 Share - My Cars: Test Cases/Mobile/Android/Product/SC99 Regression/TC10 Share - My Cars
+
+2018-11-21 13:49:28 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-21 13:49:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-21 13:49:28 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-21 13:49:28 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-21 13:49:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView9 (1)'
+
+2018-11-21 13:49:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:50:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView9 (1)'
+
+2018-11-21 13:50:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.RelativeLayout7 (2)'
+
+2018-11-21 13:50:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:50:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.RelativeLayout7 (2)'
+
+2018-11-21 13:50:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.LinearLayout5'
+
+2018-11-21 13:50:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-21 13:50:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.LinearLayout5'
+
+2018-11-21 13:50:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-21 13:50:59 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-21 13:40:30 - [TEST_SUITE][PASSED] - Search and Share Owned Cars by Owner: Test Cases/Mobile/Android/Product/SC99 Regression/TC10 Share - My Cars]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

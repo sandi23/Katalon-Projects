@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set Discount Owned Cars by Owner,,,2019-02-26 14:50:31,2019-02-26 14:51:39,1m - 7.504s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-26 14:50:32,2019-02-26 14:51:37,1m - 4.710s,FAILED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-26 14:50:33,2019-02-26 14:51:37,1m - 3.218s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2019-02-26 14:51:37,2019-02-26 14:51:37,0.839s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2019-02-26 14:51:37,2019-02-26 14:51:37,0.017s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2019-02-26 14:51:37,2019-02-26 14:51:37,0.256s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC07 Set Discount - My Cars,,,2019-02-26 14:51:37,2019-02-26 14:51:38,0.648s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars""), [:], STOP_ON_FAILURE)",,Call test case search car - my cars,2019-02-26 14:51:38,2019-02-26 14:51:38,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2019-02-26 14:51:38,2019-02-26 14:51:38,0.011s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView9 (1)""), 0)",,Tap icon menu titik 3,2019-02-26 14:51:38,2019-02-26 14:51:38,0.050s,FAILED

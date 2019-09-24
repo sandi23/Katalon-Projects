@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Set Discount Owned(Dengan Driver) Cars by Owner,Chrome 72.0.3626.121,,2019-03-11 10:53:57,2019-03-11 10:57:03,3m - 6.705s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 72.0.3626.121,,2019-03-11 10:53:57,2019-03-11 10:55:08,1m - 10.939s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,Buka Browser,2019-03-11 10:53:59,2019-03-11 10:54:06,7.510s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,Maximize Window,2019-03-11 10:54:06,2019-03-11 10:54:07,1.203s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.121,Akses Url,2019-03-11 10:54:07,2019-03-11 10:54:42,34.448s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-11 10:54:42,2019-03-11 10:54:42,0.575s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk""))",Chrome 72.0.3626.121,Klik textlink Masuk,2019-03-11 10:54:42,2019-03-11 10:54:43,0.862s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:54:43,2019-03-11 10:54:46,3.069s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""082128751192"")",Chrome 72.0.3626.121,Input Email,2019-03-11 10:54:46,2019-03-11 10:54:47,0.531s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""ali.msaputra01@gmail.com"")",Chrome 72.0.3626.121,Input Email,2019-03-11 10:54:47,2019-03-11 10:54:47,0.007s,NOT_RUN
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:54:47,2019-03-11 10:54:50,3.005s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng""), ""password10"")",Chrome 72.0.3626.121,Input Password,2019-03-11 10:54:50,2019-03-11 10:54:50,0.375s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:54:50,2019-03-11 10:54:53,3.005s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK""))",Chrome 72.0.3626.121,Klik button Masuk,2019-03-11 10:54:53,2019-03-11 10:54:54,0.461s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:54:54,2019-03-11 10:54:57,3.004s,PASSED
+"click(findTestObject(""Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update""))",Chrome 72.0.3626.121,Klik Switch to Owner,2019-03-11 10:54:57,2019-03-11 10:55:05,8.527s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:55:05,2019-03-11 10:55:08,3.004s,PASSED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga),Chrome 72.0.3626.121,,2019-03-11 10:55:08,2019-03-11 10:57:01,1m - 52.944s,FAILED
+"callTestCase(findTestCase(""Front-End/User/SC99 Regression/TC12 Login Sebagai Owner""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,Panggil TestCase Login Sebagai Owner,2019-03-11 10:55:09,2019-03-11 10:55:09,0.003s,NOT_RUN
+delay(1),Chrome 72.0.3626.121,,2019-03-11 10:55:09,2019-03-11 10:55:10,1.005s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/img""))",Chrome 72.0.3626.121,Klik Menu Kendaraan Saya,2019-03-11 10:55:10,2019-03-11 10:55:11,0.442s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-11 10:55:11,2019-03-11 10:55:12,1.006s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/input_SORT BY _form-control ty""), ""Mitsubishi KUDA"")",Chrome 72.0.3626.121,Input Field Search,2019-03-11 10:55:12,2019-03-11 10:55:12,0.628s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-11 10:55:12,2019-03-11 10:55:13,1.004s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/img - search""))",Chrome 72.0.3626.121,,2019-03-11 10:55:13,2019-03-11 10:55:14,0.530s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/button_Tersedia_btn btn-primar""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-11 10:55:14,2019-03-11 10:55:14,0.268s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/button_Tersedia_btn btn-primar""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-11 10:55:14,2019-03-11 10:55:14,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/a_Set Discount""))",Chrome 72.0.3626.121,Klik Set Discount,2019-03-11 10:55:14,2019-03-11 10:57:01,1m - 47.219s,FAILED

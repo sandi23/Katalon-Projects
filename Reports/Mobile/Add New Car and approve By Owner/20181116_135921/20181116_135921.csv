@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Add New Car and approve By Owner,,,2018-11-16 13:59:25,2018-11-16 14:04:13,4m - 47.920s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-16 13:59:26,2018-11-16 14:00:45,1m - 19.280s,PASSED
+startApplication,,Open apps on phone,2018-11-16 13:59:27,2018-11-16 14:00:18,51.375s,PASSED
+tap,,Tap button next,2018-11-16 14:00:18,2018-11-16 14:00:23,4.700s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-16 14:00:23,2018-11-16 14:00:26,2.827s,PASSED
+tap,,Tap button skip,2018-11-16 14:00:26,2018-11-16 14:00:28,2.204s,PASSED
+tap,,Tap button login,2018-11-16 14:00:28,2018-11-16 14:00:30,1.720s,PASSED
+setText,,Input email user,2018-11-16 14:00:30,2018-11-16 14:00:31,1.274s,PASSED
+tap,,Tap button next,2018-11-16 14:00:31,2018-11-16 14:00:34,2.935s,PASSED
+setText,,Input password user,2018-11-16 14:00:34,2018-11-16 14:00:35,1.208s,PASSED
+delay,,,2018-11-16 14:00:35,2018-11-16 14:00:36,1.058s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-16 14:00:36,2018-11-16 14:00:38,2.155s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-16 14:00:38,2018-11-16 14:00:40,1.655s,PASSED
+delay,,,2018-11-16 14:00:40,2018-11-16 14:00:45,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC01 Add Car - My Car,,,2018-11-16 14:00:45,2018-11-16 14:04:09,3m - 24.199s,PASSED
+callTestCase,,,2018-11-16 14:00:46,2018-11-16 14:00:46,0.005s,NOT_RUN
+tap,,Switch to customer mode,2018-11-16 14:00:46,2018-11-16 14:00:46,0.003s,NOT_RUN
+tap,,Switch to owner mode,2018-11-16 14:00:46,2018-11-16 14:00:46,0.001s,NOT_RUN
+tap,,Tap tab my cars,2018-11-16 14:00:46,2018-11-16 14:00:49,3.313s,PASSED
+tap,,Tap add new car,2018-11-16 14:00:49,2018-11-16 14:00:51,1.795s,PASSED
+tap,,Tap dropdown car brand,2018-11-16 14:00:51,2018-11-16 14:00:53,1.557s,PASSED
+tap,,Select brand,2018-11-16 14:00:53,2018-11-16 14:00:53,0.002s,NOT_RUN
+delay,,Delay untuk select brand,2018-11-16 14:00:53,2018-11-16 14:00:58,5.002s,PASSED
+tap,,Tap dropdown car model,2018-11-16 14:00:58,2018-11-16 14:00:59,1.442s,PASSED
+tap,,Select model,2018-11-16 14:00:59,2018-11-16 14:00:59,0.001s,NOT_RUN
+delay,,Delay untuk select model,2018-11-16 14:00:59,2018-11-16 14:01:04,5.003s,PASSED
+tap,,Tap dropdown model years,2018-11-16 14:01:04,2018-11-16 14:01:06,1.529s,PASSED
+tap,,Select years,2018-11-16 14:01:06,2018-11-16 14:01:06,0.001s,NOT_RUN
+delay,,Delay untuk select model years,2018-11-16 14:01:06,2018-11-16 14:01:11,5.003s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:01:11,2018-11-16 14:01:12,1.546s,PASSED
+setText,,Input plate number,2018-11-16 14:01:12,2018-11-16 14:01:14,1.743s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:01:14,2018-11-16 14:01:16,2.011s,PASSED
+Statement - For (def index : (1..2)),,Looping total seats,2018-11-16 14:01:16,2018-11-16 14:01:18,2.077s,PASSED
+tap,,Select transmision,2018-11-16 14:01:18,2018-11-16 14:01:19,1.046s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:01:19,2018-11-16 14:01:21,1.705s,PASSED
+tap,,Select on jika lokasi sama dengan lokasi profil,2018-11-16 14:01:21,2018-11-16 14:01:21,0.002s,NOT_RUN
+tap,,Set location ,2018-11-16 14:01:21,2018-11-16 14:01:23,2.217s,PASSED
+tap,,Confirm location,2018-11-16 14:01:23,2018-11-16 14:01:25,1.849s,PASSED
+tap,,Menampilkan dropdown list city,2018-11-16 14:01:25,2018-11-16 14:01:27,1.836s,PASSED
+setText,,Search city by name,2018-11-16 14:01:27,2018-11-16 14:01:28,1.769s,PASSED
+tap,,Select city,2018-11-16 14:01:28,2018-11-16 14:01:30,1.633s,PASSED
+tap,,Simpan kota yang dipilih,2018-11-16 14:01:30,2018-11-16 14:01:34,3.478s,PASSED
+setText,,Input complate address (optional),2018-11-16 14:01:34,2018-11-16 14:01:35,1.126s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:01:35,2018-11-16 14:01:37,2.211s,PASSED
+delay,,Delay untuk menentukan tanggal not available,2018-11-16 14:01:37,2018-11-16 14:01:42,5.005s,PASSED
+tap,,Untuk menampilkan pengaturan tanggal available,2018-11-16 14:01:42,2018-11-16 14:01:44,1.662s,PASSED
+tap,,On jika available setiap minggu,2018-11-16 14:01:44,2018-11-16 14:01:45,1.043s,PASSED
+tap,,On jika available hari kerja,2018-11-16 14:01:45,2018-11-16 14:01:46,1.020s,PASSED
+tap,,Menyimpan pengaturan tanggal available,2018-11-16 14:01:46,2018-11-16 14:01:47,1.659s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:01:47,2018-11-16 14:01:49,1.556s,PASSED
+setText,,Input additional car rules,2018-11-16 14:01:49,2018-11-16 14:01:50,1.187s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:01:50,2018-11-16 14:01:52,2.203s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:01:52,2018-11-16 14:01:54,1.451s,PASSED
+tap,,Menampilkan jam pick up (from),2018-11-16 14:01:54,2018-11-16 14:01:55,1.263s,PASSED
+delay,,Delay untuk menentukan jam pick up (from),2018-11-16 14:01:55,2018-11-16 14:02:00,5.002s,PASSED
+tap,,Menyimpan jam pick up (from) yang telah ditentukan,2018-11-16 14:02:00,2018-11-16 14:02:02,1.526s,PASSED
+tap,,Menampilkan jam pick up (to),2018-11-16 14:02:02,2018-11-16 14:02:03,1.221s,PASSED
+delay,,Delay untuk menentukan jam pick up (to),2018-11-16 14:02:03,2018-11-16 14:02:08,5.003s,PASSED
+tap,,Menyimpan jam pick up (to) yang telah ditentukan,2018-11-16 14:02:08,2018-11-16 14:02:09,1.087s,PASSED
+tap,,Menampilkan jam return (from),2018-11-16 14:02:09,2018-11-16 14:02:10,1.178s,PASSED
+delay,,Delay untuk menentukan jam return (from),2018-11-16 14:02:10,2018-11-16 14:02:15,5.002s,PASSED
+tap,,Menyimpan jam return (from) yang telah ditentukan,2018-11-16 14:02:15,2018-11-16 14:02:16,1.125s,PASSED
+tap,,Menampilkan jam return (to),2018-11-16 14:02:16,2018-11-16 14:02:17,1.221s,PASSED
+delay,,Delay untuk menentukan jam return (to),2018-11-16 14:02:17,2018-11-16 14:02:22,5.003s,PASSED
+tap,,Menyimpan jam return (to) yang telah ditentukan,2018-11-16 14:02:22,2018-11-16 14:02:23,1.017s,PASSED
+setText,,Input additional pick up rules,2018-11-16 14:02:23,2018-11-16 14:02:25,1.165s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:02:25,2018-11-16 14:02:27,2.134s,PASSED
+setText,,Input price per kilometer,2018-11-16 14:02:27,2018-11-16 14:02:28,1.603s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:02:28,2018-11-16 14:02:30,1.922s,PASSED
+setText,,Input price for weekdays,2018-11-16 14:02:30,2018-11-16 14:02:34,4.146s,PASSED
+setText,,Input price for weekends / national holiday,2018-11-16 14:02:34,2018-11-16 14:02:36,1.771s,PASSED
+tap,,Tap add specific facilities,2018-11-16 14:02:36,2018-11-16 14:02:39,2.570s,PASSED
+setText,,Input book car only with deposit,2018-11-16 14:02:39,2018-11-16 14:02:40,1.635s,PASSED
+tap,,Select car facility life insurance,2018-11-16 14:02:40,2018-11-16 14:02:42,1.892s,PASSED
+tap,,Select car facility trash bin,2018-11-16 14:02:42,2018-11-16 14:02:44,1.386s,PASSED
+tap,,Select car facility car seat baby,2018-11-16 14:02:44,2018-11-16 14:02:45,1.352s,PASSED
+tap,,Select car facility emergency tools,2018-11-16 14:02:45,2018-11-16 14:02:46,1.389s,PASSED
+tap,,Menyimpan specific facilities yang telah di select,2018-11-16 14:02:46,2018-11-16 14:02:48,1.449s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:02:48,2018-11-16 14:02:49,1.538s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:02:49,2018-11-16 14:02:51,1.438s,PASSED
+tap,,Upload car photo 1,2018-11-16 14:02:51,2018-11-16 14:02:52,1.226s,PASSED
+tap,,Select upload photo from camera,2018-11-16 14:02:52,2018-11-16 14:02:54,2.029s,PASSED
+tap,,Capture photo,2018-11-16 14:02:54,2018-11-16 14:02:56,2.354s,PASSED
+delay,,,2018-11-16 14:02:56,2018-11-16 14:03:01,5.003s,PASSED
+tap,,Upload car photo 2,2018-11-16 14:03:01,2018-11-16 14:03:03,1.360s,PASSED
+tap,,Select upload photo from camera,2018-11-16 14:03:03,2018-11-16 14:03:04,1.440s,PASSED
+tap,,Capture photo,2018-11-16 14:03:04,2018-11-16 14:03:06,1.952s,PASSED
+delay,,,2018-11-16 14:03:06,2018-11-16 14:03:11,5.002s,PASSED
+tap,,Upload car photo 3,2018-11-16 14:03:11,2018-11-16 14:03:12,1.197s,PASSED
+tap,,Select upload photo from camera,2018-11-16 14:03:12,2018-11-16 14:03:14,1.405s,PASSED
+tap,,Capture photo,2018-11-16 14:03:14,2018-11-16 14:03:16,2.020s,PASSED
+delay,,,2018-11-16 14:03:16,2018-11-16 14:03:21,5.001s,PASSED
+tap,,Upload car photo 4,2018-11-16 14:03:21,2018-11-16 14:03:22,1.244s,PASSED
+tap,,Select upload photo from camera,2018-11-16 14:03:22,2018-11-16 14:03:23,1.374s,PASSED
+tap,,Capture photo,2018-11-16 14:03:23,2018-11-16 14:03:25,1.985s,PASSED
+delay,,,2018-11-16 14:03:25,2018-11-16 14:03:30,5.001s,PASSED
+tap,,Upload car photo 5,2018-11-16 14:03:30,2018-11-16 14:03:32,1.262s,PASSED
+tap,,Select upload photo from camera,2018-11-16 14:03:32,2018-11-16 14:03:33,1.423s,PASSED
+tap,,Capture photo,2018-11-16 14:03:33,2018-11-16 14:03:35,1.971s,PASSED
+delay,,,2018-11-16 14:03:35,2018-11-16 14:03:40,5.001s,PASSED
+tap,,Upload car photo 6,2018-11-16 14:03:40,2018-11-16 14:03:41,1.276s,PASSED
+tap,,Select upload photo from camera,2018-11-16 14:03:41,2018-11-16 14:03:43,1.391s,PASSED
+tap,,Capture photo,2018-11-16 14:03:43,2018-11-16 14:03:45,1.955s,PASSED
+delay,,,2018-11-16 14:03:45,2018-11-16 14:03:50,5.001s,PASSED
+tap,,Upload vehicle registration certificate,2018-11-16 14:03:50,2018-11-16 14:03:51,1.242s,PASSED
+tap,,Select upload photo from camera,2018-11-16 14:03:51,2018-11-16 14:03:52,1.374s,PASSED
+tap,,Capture photo,2018-11-16 14:03:52,2018-11-16 14:03:54,2.056s,PASSED
+delay,,,2018-11-16 14:03:54,2018-11-16 14:03:59,5.001s,PASSED
+tap,,Tap button next untuk ke form selanjutnya,2018-11-16 14:03:59,2018-11-16 14:04:01,1.851s,PASSED
+tap,,Menyimpan form add car,2018-11-16 14:04:01,2018-11-16 14:04:04,3.007s,PASSED
+delay,,,2018-11-16 14:04:04,2018-11-16 14:04:09,5.001s,PASSED

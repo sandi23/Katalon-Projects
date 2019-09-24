@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Share Owned Cars by Owner,,,2018-11-21 13:40:30,2018-11-21 13:51:02,10m - 31.889s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-21 13:40:31,2018-11-21 13:41:46,1m - 14.958s,PASSED
+startApplication,,Open apps on phone,2018-11-21 13:40:33,2018-11-21 13:41:20,47.197s,PASSED
+tap,,Tap button next,2018-11-21 13:41:20,2018-11-21 13:41:24,4.600s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-21 13:41:24,2018-11-21 13:41:27,2.694s,PASSED
+tap,,Tap button skip,2018-11-21 13:41:27,2018-11-21 13:41:30,2.516s,PASSED
+tap,,Tap button login,2018-11-21 13:41:30,2018-11-21 13:41:31,1.619s,PASSED
+setText,,Input email user,2018-11-21 13:41:31,2018-11-21 13:41:32,1.198s,PASSED
+tap,,Tap button next,2018-11-21 13:41:32,2018-11-21 13:41:35,2.677s,PASSED
+setText,,Input password user,2018-11-21 13:41:35,2018-11-21 13:41:36,1.201s,PASSED
+delay,,,2018-11-21 13:41:36,2018-11-21 13:41:37,1.079s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-21 13:41:37,2018-11-21 13:41:39,1.932s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-21 13:41:39,2018-11-21 13:41:41,1.769s,PASSED
+delay,,,2018-11-21 13:41:41,2018-11-21 13:41:46,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-11-21 13:41:46,2018-11-21 13:49:28,7m - 41.787s,PASSED
+callTestCase,,,2018-11-21 13:41:47,2018-11-21 13:41:47,0.007s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 13:41:47,2018-11-21 13:43:08,1m - 21.294s,PASSED
+delay,,,2018-11-21 13:43:08,2018-11-21 13:43:13,5.003s,PASSED
+setText,,Mencari car by name,2018-11-21 13:43:13,2018-11-21 13:47:57,4m - 43.605s,PASSED
+delay,,,2018-11-21 13:47:57,2018-11-21 13:48:02,5.003s,PASSED
+tap,,Tap button search,2018-11-21 13:48:02,2018-11-21 13:49:23,1m - 21.181s,PASSED
+delay,,,2018-11-21 13:49:23,2018-11-21 13:49:28,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC10 Share - My Cars,,,2018-11-21 13:49:28,2018-11-21 13:50:59,1m - 31.134s,PASSED
+callTestCase,,,2018-11-21 13:49:28,2018-11-21 13:49:28,0.002s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 13:49:28,2018-11-21 13:49:28,0.002s,NOT_RUN
+tap,,Tap icon menu titik 3,2018-11-21 13:49:28,2018-11-21 13:50:41,1m - 12.261s,PASSED
+tap,,Select menu share,2018-11-21 13:50:41,2018-11-21 13:50:43,2.619s,PASSED
+tap,,Select option share by copy link,2018-11-21 13:50:43,2018-11-21 13:50:54,10.645s,PASSED
+delay,,,2018-11-21 13:50:54,2018-11-21 13:50:59,5.003s,PASSED

@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Profile,,,2018-11-15 11:04:33,2018-11-15 11:09:33,5m - 0.289s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-15 11:04:34,2018-11-15 11:05:50,1m - 16.216s,PASSED
+startApplication,,Open apps on phone,2018-11-15 11:04:35,2018-11-15 11:05:24,48.903s,PASSED
+tap,,Tap button next,2018-11-15 11:05:24,2018-11-15 11:05:29,4.736s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-15 11:05:29,2018-11-15 11:05:32,2.707s,PASSED
+tap,,Tap button skip,2018-11-15 11:05:32,2018-11-15 11:05:34,2.268s,PASSED
+tap,,Tap button login,2018-11-15 11:05:34,2018-11-15 11:05:36,1.622s,PASSED
+setText,,Input email user,2018-11-15 11:05:36,2018-11-15 11:05:37,1.286s,PASSED
+tap,,Tap button next,2018-11-15 11:05:37,2018-11-15 11:05:40,2.709s,PASSED
+setText,,Input password user,2018-11-15 11:05:40,2018-11-15 11:05:41,1.176s,PASSED
+delay,,,2018-11-15 11:05:41,2018-11-15 11:05:42,1.066s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-15 11:05:42,2018-11-15 11:05:44,1.876s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-15 11:05:44,2018-11-15 11:05:45,1.758s,PASSED
+delay,,,2018-11-15 11:05:45,2018-11-15 11:05:50,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC12 Edit profile profile,,,2018-11-15 11:05:50,2018-11-15 11:09:31,3m - 41.026s,PASSED
+callTestCase,,,2018-11-15 11:05:51,2018-11-15 11:05:51,0.003s,NOT_RUN
+delay,,,2018-11-15 11:05:51,2018-11-15 11:05:56,5.003s,PASSED
+tap,,Tap icon profile,2018-11-15 11:05:56,2018-11-15 11:07:18,1m - 21.435s,PASSED
+tap,,Tap area name dan view and edit profile,2018-11-15 11:07:18,2018-11-15 11:08:31,1m - 13.392s,PASSED
+tap,,Tap textlink edit profile,2018-11-15 11:08:31,2018-11-15 11:08:33,1.583s,PASSED
+clearText,,Clear first name,2018-11-15 11:08:33,2018-11-15 11:09:01,28.148s,PASSED
+setText,,Input new first name,2018-11-15 11:09:01,2018-11-15 11:09:02,1.714s,PASSED
+clearText,,Clear last name,2018-11-15 11:09:02,2018-11-15 11:09:03,0.846s,PASSED
+setText,,Input ne last name,2018-11-15 11:09:03,2018-11-15 11:09:05,1.452s,PASSED
+tap,,Menampilkan list gender,2018-11-15 11:09:05,2018-11-15 11:09:06,1.709s,PASSED
+tap,,Pilih gender male,2018-11-15 11:09:06,2018-11-15 11:09:07,0.962s,PASSED
+tap,,Menampilkan kalender default 17 tahun terakhir,2018-11-15 11:09:07,2018-11-15 11:09:09,1.693s,PASSED
+Statement - For (def index : (1..5)),,Mundur beberapa bulan,2018-11-15 11:09:09,2018-11-15 11:09:15,6.221s,PASSED
+delay,,Delay untuk memilih tanggal,2018-11-15 11:09:15,2018-11-15 11:09:20,5.003s,PASSED
+tap,,Submit tanggal yang telah dipilih,2018-11-15 11:09:20,2018-11-15 11:09:22,1.669s,PASSED
+setText,,Input address,2018-11-15 11:09:22,2018-11-15 11:09:24,1.573s,PASSED
+tap,,Tap arrow left,2018-11-15 11:09:24,2018-11-15 11:09:25,1.625s,PASSED
+tap,,Tap button save,2018-11-15 11:09:25,2018-11-15 11:09:26,1.214s,PASSED
+delay,,,2018-11-15 11:09:26,2018-11-15 11:09:31,5.001s,PASSED

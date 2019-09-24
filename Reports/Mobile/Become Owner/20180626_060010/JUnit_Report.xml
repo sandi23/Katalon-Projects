@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Become Owner" time="47" tests="0" failures="2" errors="0">
+   <testsuite name="Become Owner" tests="0" failures="2" errors="0" time="47" timestamp="2018-06-26 06:00:17" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Mobile/Become Owner">
+      <properties>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060010"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060010\\appium.log, C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060010\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="deviceModel" value="SM-J320G"/>
+         <property name="hostAddress" value="192.168.43.170"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="4200d20faae66400"/>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.38 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-06-26 06:00:18 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.38 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-06-26 06:00:18 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.38 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-06-26 06:01:02 - [MESSAGE][FAILED] - Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.38 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-06-26 06:00:18 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.38 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" classname="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2018-06-26 06:01:02 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)
+
+2018-06-26 06:01:03 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-06-26 06:01:03 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-06-26 06:01:03 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)
+
+2018-06-26 06:01:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:01:03 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2018-06-26 06:01:02 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 06:00:17 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.38 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+      <system-err><![CDATA[2018-06-26 06:00:17 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Unable to start app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.38 seconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-5G7MA8C', ip: '192.168.43.170', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+   </testsuite>
+</testsuites>

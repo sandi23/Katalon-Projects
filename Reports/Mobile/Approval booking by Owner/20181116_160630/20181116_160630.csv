@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Approval booking by Owner,,,2018-11-16 16:06:34,2018-11-16 16:08:15,1m - 40.687s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-16 16:06:35,2018-11-16 16:07:55,1m - 19.892s,PASSED
+startApplication,,Open apps on phone,2018-11-16 16:06:37,2018-11-16 16:07:29,52.200s,PASSED
+tap,,Tap button next,2018-11-16 16:07:29,2018-11-16 16:07:34,4.949s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-16 16:07:34,2018-11-16 16:07:36,2.621s,PASSED
+tap,,Tap button skip,2018-11-16 16:07:36,2018-11-16 16:07:39,2.237s,PASSED
+tap,,Tap button login,2018-11-16 16:07:39,2018-11-16 16:07:40,1.590s,PASSED
+setText,,Input email user,2018-11-16 16:07:40,2018-11-16 16:07:41,1.174s,PASSED
+tap,,Tap button next,2018-11-16 16:07:41,2018-11-16 16:07:44,2.717s,PASSED
+setText,,Input password user,2018-11-16 16:07:44,2018-11-16 16:07:45,1.220s,PASSED
+delay,,,2018-11-16 16:07:45,2018-11-16 16:07:46,1.076s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-16 16:07:46,2018-11-16 16:07:49,2.134s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-16 16:07:49,2018-11-16 16:07:50,1.750s,PASSED
+delay,,,2018-11-16 16:07:50,2018-11-16 16:07:55,5.005s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC01 My Order,,,2018-11-16 16:07:55,2018-11-16 16:08:02,6.913s,PASSED
+callTestCase,,,2018-11-16 16:07:56,2018-11-16 16:07:56,0.004s,NOT_RUN
+tap,,Menampilkan page my order,2018-11-16 16:07:56,2018-11-16 16:07:57,1.307s,PASSED
+delay,,,2018-11-16 16:07:57,2018-11-16 16:08:02,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Order/SC99 Regression/TC06 Approval,,,2018-11-16 16:08:02,2018-11-16 16:08:14,11.385s,PASSED
+callTestCase,,,2018-11-16 16:08:03,2018-11-16 16:08:03,0.002s,NOT_RUN
+tap,,Select my order,2018-11-16 16:08:03,2018-11-16 16:08:04,1.754s,PASSED
+tap,,Approve order,2018-11-16 16:08:04,2018-11-16 16:08:07,2.838s,PASSED
+tap,,Konfirmasi ok,2018-11-16 16:08:07,2018-11-16 16:08:09,1.254s,PASSED
+delay,,,2018-11-16 16:08:09,2018-11-16 16:08:14,5.002s,PASSED

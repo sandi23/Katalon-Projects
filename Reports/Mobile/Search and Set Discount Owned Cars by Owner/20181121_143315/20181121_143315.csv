@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set Discount Owned Cars by Owner,,,2018-11-21 14:33:23,2018-11-21 14:44:17,10m - 54.267s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-21 14:33:24,2018-11-21 14:34:54,1m - 30.021s,PASSED
+startApplication,,Open apps on phone,2018-11-21 14:33:26,2018-11-21 14:34:27,1m - 1.473s,PASSED
+tap,,Tap button next,2018-11-21 14:34:27,2018-11-21 14:34:32,4.611s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-21 14:34:32,2018-11-21 14:34:34,2.708s,PASSED
+tap,,Tap button skip,2018-11-21 14:34:34,2018-11-21 14:34:37,2.502s,PASSED
+tap,,Tap button login,2018-11-21 14:34:37,2018-11-21 14:34:38,1.603s,PASSED
+setText,,Input email user,2018-11-21 14:34:38,2018-11-21 14:34:40,1.338s,PASSED
+tap,,Tap button next,2018-11-21 14:34:40,2018-11-21 14:34:42,2.410s,PASSED
+setText,,Input password user,2018-11-21 14:34:42,2018-11-21 14:34:43,1.194s,PASSED
+delay,,,2018-11-21 14:34:43,2018-11-21 14:34:45,1.108s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-21 14:34:45,2018-11-21 14:34:47,2.264s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-21 14:34:47,2018-11-21 14:34:49,2.208s,PASSED
+delay,,,2018-11-21 14:34:49,2018-11-21 14:34:54,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-11-21 14:34:54,2018-11-21 14:42:36,7m - 42.444s,PASSED
+callTestCase,,,2018-11-21 14:34:55,2018-11-21 14:34:55,0.004s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 14:34:55,2018-11-21 14:36:16,1m - 21.481s,PASSED
+delay,,,2018-11-21 14:36:16,2018-11-21 14:36:21,5.003s,PASSED
+setText,,Mencari car by name,2018-11-21 14:36:21,2018-11-21 14:41:05,4m - 43.924s,PASSED
+delay,,,2018-11-21 14:41:05,2018-11-21 14:41:10,5.009s,PASSED
+tap,,Tap button search,2018-11-21 14:41:10,2018-11-21 14:42:31,1m - 21.322s,PASSED
+delay,,,2018-11-21 14:42:31,2018-11-21 14:42:36,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC07 Set Discount - My Cars,,,2018-11-21 14:42:36,2018-11-21 14:44:15,1m - 38.781s,PASSED
+callTestCase,,,2018-11-21 14:42:37,2018-11-21 14:42:37,0.002s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 14:42:37,2018-11-21 14:42:37,0.002s,NOT_RUN
+tap,,Tap icon menu titik 3,2018-11-21 14:42:37,2018-11-21 14:43:49,1m - 12.131s,PASSED
+tap,,Select menu set discounts,2018-11-21 14:43:49,2018-11-21 14:43:51,1.906s,PASSED
+tap,,Tap add discount,2018-11-21 14:43:51,2018-11-21 14:43:52,1.178s,PASSED
+setText,,Input weekdays discount,2018-11-21 14:43:52,2018-11-21 14:43:54,1.225s,PASSED
+tap,,Tap weekends/national holiday discount,2018-11-21 14:43:54,2018-11-21 14:43:56,2.050s,PASSED
+setText,,Input weekends/national holiday discount,2018-11-21 14:43:56,2018-11-21 14:43:57,1.194s,PASSED
+hideKeyboard,,Hide keyboard,2018-11-21 14:43:57,2018-11-21 14:43:59,2.289s,PASSED
+tap,,Save add discount,2018-11-21 14:43:59,2018-11-21 14:44:10,11.159s,PASSED
+delay,,,2018-11-21 14:44:10,2018-11-21 14:44:15,5.002s,PASSED

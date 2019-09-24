@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set Price Owned Cars by Owner,,,2018-11-21 14:09:06,2018-11-21 14:20:01,10m - 54.855s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-21 14:09:07,2018-11-21 14:10:29,1m - 22.060s,PASSED
+startApplication,,Open apps on phone,2018-11-21 14:09:09,2018-11-21 14:10:01,52.329s,PASSED
+tap,,Tap button next,2018-11-21 14:10:01,2018-11-21 14:10:06,4.705s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-21 14:10:06,2018-11-21 14:10:09,2.926s,PASSED
+tap,,Tap button skip,2018-11-21 14:10:09,2018-11-21 14:10:12,2.655s,PASSED
+tap,,Tap button login,2018-11-21 14:10:12,2018-11-21 14:10:13,1.868s,PASSED
+setText,,Input email user,2018-11-21 14:10:13,2018-11-21 14:10:15,1.573s,PASSED
+tap,,Tap button next,2018-11-21 14:10:15,2018-11-21 14:10:18,2.957s,PASSED
+setText,,Input password user,2018-11-21 14:10:18,2018-11-21 14:10:19,1.298s,PASSED
+delay,,,2018-11-21 14:10:19,2018-11-21 14:10:20,1.114s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-21 14:10:20,2018-11-21 14:10:23,2.262s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-21 14:10:23,2018-11-21 14:10:24,1.753s,PASSED
+delay,,,2018-11-21 14:10:24,2018-11-21 14:10:29,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-11-21 14:10:29,2018-11-21 14:18:12,7m - 42.424s,PASSED
+callTestCase,,,2018-11-21 14:10:31,2018-11-21 14:10:31,0.030s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 14:10:31,2018-11-21 14:11:52,1m - 21.335s,PASSED
+delay,,,2018-11-21 14:11:52,2018-11-21 14:11:57,5.003s,PASSED
+setText,,Mencari car by name,2018-11-21 14:11:57,2018-11-21 14:16:41,4m - 43.497s,PASSED
+delay,,,2018-11-21 14:16:41,2018-11-21 14:16:46,5.004s,PASSED
+tap,,Tap button search,2018-11-21 14:16:46,2018-11-21 14:18:07,1m - 21.025s,PASSED
+delay,,,2018-11-21 14:18:07,2018-11-21 14:18:12,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC06 Set Price - My Cars,,,2018-11-21 14:18:12,2018-11-21 14:19:59,1m - 47.196s,PASSED
+callTestCase,,,2018-11-21 14:18:12,2018-11-21 14:18:12,0.002s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 14:18:12,2018-11-21 14:18:12,0.002s,NOT_RUN
+tap,,Tap icon menu titik 3,2018-11-21 14:18:12,2018-11-21 14:19:24,1m - 12.029s,PASSED
+tap,,Select menu set price,2018-11-21 14:19:25,2018-11-21 14:19:27,2.115s,PASSED
+clearText,,Clear price for weekdays (package price 1),2018-11-21 14:19:27,2018-11-21 14:19:28,1.567s,PASSED
+setText,,Input new price for weekdays (package price 1),2018-11-21 14:19:28,2018-11-21 14:19:30,2.223s,PASSED
+clearText,,Clear price for weekends/national holiday (package price 1),2018-11-21 14:19:30,2018-11-21 14:19:31,0.887s,PASSED
+setText,,Input new price for weekends/national holiday (package price 1),2018-11-21 14:19:31,2018-11-21 14:19:33,1.806s,PASSED
+scrollToText,,,2018-11-21 14:19:33,2018-11-21 14:19:38,4.602s,PASSED
+clearText,,Clear price for weekdays (package price 2),2018-11-21 14:19:38,2018-11-21 14:19:38,0.413s,PASSED
+setText,,Input new price for weekdays (package price 2),2018-11-21 14:19:38,2018-11-21 14:19:40,1.815s,PASSED
+clearText,,Clear price for weekends/national holiday (package price 2),2018-11-21 14:19:40,2018-11-21 14:19:41,0.917s,PASSED
+setText,,Input new price for weekends/national holiday (package price 2),2018-11-21 14:19:41,2018-11-21 14:19:43,1.746s,PASSED
+tap,,Menyimpan perubahan price,2018-11-21 14:19:43,2018-11-21 14:19:54,11.401s,PASSED
+delay,,,2018-11-21 14:19:54,2018-11-21 14:19:59,5.004s,PASSED

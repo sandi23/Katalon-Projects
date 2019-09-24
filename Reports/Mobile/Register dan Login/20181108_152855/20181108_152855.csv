@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register dan Login,,,2018-11-08 15:28:59,2018-11-08 15:30:57,1m - 58.532s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC03 Registrasi with google,,,2018-11-08 15:29:00,2018-11-08 15:30:57,1m - 57.591s,PASSED
+startApplication,,Open apps on phone,2018-11-08 15:29:01,2018-11-08 15:29:53,51.819s,PASSED
+tap,,Tap button next,2018-11-08 15:29:53,2018-11-08 15:29:57,4.508s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-08 15:29:57,2018-11-08 15:30:00,2.722s,PASSED
+tap,,Tap button skip,2018-11-08 15:30:00,2018-11-08 15:30:02,2.590s,PASSED
+tap,,Tap button continue with google,2018-11-08 15:30:02,2018-11-08 15:30:05,2.390s,PASSED
+tap,,Select account google,2018-11-08 15:30:05,2018-11-08 15:30:10,5.011s,PASSED
+tap,,,2018-11-08 15:30:10,2018-11-08 15:30:12,1.752s,PASSED
+setText,,Input mobile number,2018-11-08 15:30:12,2018-11-08 15:30:13,1.263s,PASSED
+delay,,,2018-11-08 15:30:13,2018-11-08 15:30:14,1.088s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:30:14,2018-11-08 15:30:16,2.535s,PASSED
+tap,,Tap button next,2018-11-08 15:30:16,2018-11-08 15:30:18,1.935s,PASSED
+delay,,Delay untuk mengisi verification code,2018-11-08 15:30:18,2018-11-08 15:30:28,10.004s,PASSED
+setText,,Input password,2018-11-08 15:30:28,2018-11-08 15:30:38,9.912s,PASSED
+delay,,,2018-11-08 15:30:38,2018-11-08 15:30:39,1.003s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:30:39,2018-11-08 15:30:41,2.017s,PASSED
+tap,,Tap button next,2018-11-08 15:30:41,2018-11-08 15:30:44,2.298s,PASSED
+setText,,Input referral code,2018-11-08 15:30:44,2018-11-08 15:30:45,1.303s,PASSED
+delay,,,2018-11-08 15:30:45,2018-11-08 15:30:46,1.003s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-08 15:30:46,2018-11-08 15:30:48,1.634s,PASSED
+tap,,Check ketersediaan referral code,2018-11-08 15:30:48,2018-11-08 15:30:49,1.606s,PASSED
+tap,,Submit form registrasi dan sistem akan mengirim email verifikasi,2018-11-08 15:30:49,2018-11-08 15:30:51,1.453s,PASSED
+delay,,,2018-11-08 15:30:51,2018-11-08 15:30:56,5.022s,PASSED
+closeApplication,,,2018-11-08 15:30:56,2018-11-08 15:30:57,1.609s,PASSED

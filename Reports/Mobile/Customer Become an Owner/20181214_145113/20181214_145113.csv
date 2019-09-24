@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer Become an Owner,,,2018-12-14 14:51:17,2018-12-14 14:54:15,2m - 58.214s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-14 14:51:18,2018-12-14 14:52:46,1m - 27.624s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-14 14:51:20,2018-12-14 14:52:07,47.207s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-14 14:52:07,2018-12-14 14:52:13,5.968s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-14 14:52:13,2018-12-14 14:52:18,4.879s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-14 14:52:18,2018-12-14 14:52:20,2.156s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-14 14:52:20,2018-12-14 14:52:21,1.585s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-14 14:52:21,2018-12-14 14:52:23,1.284s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 14:52:23,2018-12-14 14:52:26,2.900s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 14:52:26,2018-12-14 14:52:31,5.131s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-14 14:52:31,2018-12-14 14:52:32,1.160s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 14:52:32,2018-12-14 14:52:37,5.008s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-14 14:52:37,2018-12-14 14:52:39,2.181s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-14 14:52:39,2018-12-14 14:52:41,1.612s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 14:52:41,2018-12-14 14:52:46,5.006s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC22 Become a vehicle owner,,,2018-12-14 14:52:46,2018-12-14 14:54:12,1m - 26.785s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,,2018-12-14 14:52:46,2018-12-14 14:52:46,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.ImageView0""), 0)",,Tap icon profile,2018-12-14 14:52:46,2018-12-14 14:52:48,1.737s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.TextView17 - Become a vehicle owner""), 0)",,Tap menu become a vehicle owner,2018-12-14 14:52:48,2018-12-14 14:52:51,2.564s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started""), 0)",,Tap button get started untuk memulai pendaftaran sebagai owner,2018-12-14 14:52:51,2018-12-14 14:52:51,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 14:52:51,2018-12-14 14:52:51,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/android.widget.Button0 - Resend""), 0)",,Tap button resend,2018-12-14 14:52:51,2018-12-14 14:52:51,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/android.widget.TextView1 - Close""), 0)",,Tap button close,2018-12-14 14:52:51,2018-12-14 14:52:51,0.003s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 4), STOP_ON_FAILURE)",,Delay untuk verify email,2018-12-14 14:52:51,2018-12-14 14:52:51,0.002s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button1 - Get Started""), 0)",,Tap button get started untuk memulai pendaftaran sebagai owner,2018-12-14 14:52:51,2018-12-14 14:52:53,1.917s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok""), 0)",,Tap ok untuk mengambil foto diri bersama kartu identitas,2018-12-14 14:52:53,2018-12-14 14:52:56,3.473s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.LinearLayout3""), 0)",,Capture image,2018-12-14 14:52:56,2018-12-14 14:52:59,2.373s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo""), 0)",,Gunakan gambar yang telah diambil,2018-12-14 14:52:59,2018-12-14 14:53:00,1.398s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)""), 0)",,Tap ok untuk mengambil foto sim,2018-12-14 14:53:00,2018-12-14 14:53:04,4.045s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.LinearLayout3""), 0)",,Capture image,2018-12-14 14:53:04,2018-12-14 14:53:07,3.435s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo""), 0)",,Gunakan gambar yang telah diambil,2018-12-14 14:53:07,2018-12-14 14:53:10,2.587s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Ok (1)""), 0)",,Tap ok untuk mengambil foto ktp,2018-12-14 14:53:10,2018-12-14 14:53:14,3.585s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.LinearLayout3""), 0)",,Capture image,2018-12-14 14:53:14,2018-12-14 14:53:16,2.066s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Use This Photo""), 0)",,Gunakan gambar yang telah diambil,2018-12-14 14:53:16,2018-12-14 14:53:19,3.447s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.ImageView1""), 0)",,Add photo profile rental,2018-12-14 14:53:19,2018-12-14 14:53:21,1.982s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.LinearLayout3""), 0)",,Capture image,2018-12-14 14:53:21,2018-12-14 14:53:25,3.481s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Next""), 0)",,Tap button next untuk mengisi form selanjutnya,2018-12-14 14:53:25,2018-12-14 14:53:26,1.941s,PASSED
+"setText(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.EditText0""), ""QA Rentals"", 0)",,Input car rental name,2018-12-14 14:53:26,2018-12-14 14:53:28,1.353s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.TextView2 - Check""), 0)",,Check ketersediaan nama rental,2018-12-14 14:53:28,2018-12-14 14:53:30,2.199s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Next""), 0)",,Tap button next untuk mengisi form selanjutnya,2018-12-14 14:53:30,2018-12-14 14:53:32,2.297s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.LinearLayout3 (1)""), 0)",,Menentukan lokasi rental,2018-12-14 14:53:32,2018-12-14 14:53:36,3.614s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Confirm""), 0)",,Mengkonfirmasi lokasi rental,2018-12-14 14:53:36,2018-12-14 14:53:38,2.411s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.EditText0 (1)""), 0, STOP_ON_FAILURE)",,Menampilkan form city,2018-12-14 14:53:38,2018-12-14 14:53:40,1.694s,PASSED
+"setText(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.EditText0 - Search city""), ""Bandung"", 0)",,Searching city,2018-12-14 14:53:40,2018-12-14 14:53:42,1.973s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.RelativeLayout3""), 0)",,Select city,2018-12-14 14:53:42,2018-12-14 14:53:44,1.644s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Save""), 0)",,Tap button save untuk menyimpan pilihan city,2018-12-14 14:53:44,2018-12-14 14:53:47,3.512s,PASSED
+"setText(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.EditText1 (1)""), ""Jl. AH. Nasution No. 55"", 0)",,Input alamat lengkap lokasi rental,2018-12-14 14:53:47,2018-12-14 14:53:48,1.197s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Next""), 0)",,Tap button next untuk mengisi form selanjutnya,2018-12-14 14:53:48,2018-12-14 14:53:52,3.926s,PASSED
+"setText(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.EditText0 (3)""), ""Prioritas Qualitas"", 0)",,Input slogan,2018-12-14 14:53:52,2018-12-14 14:53:54,1.351s,PASSED
+"setText(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.EditText1 (2)""), ""Rental Milik QA Group"", 0)",,Input description,2018-12-14 14:53:54,2018-12-14 14:53:55,1.711s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Next""), 0)",,Tap button next untuk submit form registrasi owner,2018-12-14 14:53:55,2018-12-14 14:53:58,2.583s,PASSED
+"tap(findTestObject(""Mobile/OR Become a vehicle owner/android.widget.Button0 - Got It""), 0)",,Memulai sebagai owner,2018-12-14 14:53:58,2018-12-14 14:54:07,9.461s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 14:54:07,2018-12-14 14:54:12,5.008s,PASSED

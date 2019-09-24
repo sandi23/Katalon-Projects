@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Rent Car By Category,,,2018-06-25 17:21:49,2018-06-25 17:24:54,3m - 4.465s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email,,,2018-06-25 17:21:50,2018-06-25 17:23:54,2m - 3.572s,PASSED
+startApplication,,Buka browser,2018-06-25 17:21:51,2018-06-25 17:23:04,1m - 12.596s,PASSED
+tap,,Pilih bahasa indonesia,2018-06-25 17:23:04,2018-06-25 17:23:07,3.283s,PASSED
+tap,,Tap arrow next,2018-06-25 17:23:07,2018-06-25 17:23:09,1.475s,PASSED
+tap,,"Tap tombol \""Lewati\""",2018-06-25 17:23:09,2018-06-25 17:23:11,2.183s,PASSED
+tap,,"Tap tombol \""Login\""",2018-06-25 17:23:11,2018-06-25 17:23:12,1.445s,PASSED
+setText,,Masukkan email,2018-06-25 17:23:12,2018-06-25 17:23:25,12.638s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-25 17:23:25,2018-06-25 17:23:26,1.129s,PASSED
+tap,,Tap field password,2018-06-25 17:23:26,2018-06-25 17:23:32,6.242s,PASSED
+setText,,Masukkan password,2018-06-25 17:23:32,2018-06-25 17:23:47,14.229s,PASSED
+tap,,"Tap tombol \""Mulai Movic\""",2018-06-25 17:23:47,2018-06-25 17:23:48,1.419s,PASSED
+verifyElementVisible,,Verifikasi image sesudah login,2018-06-25 17:23:48,2018-06-25 17:23:54,5.920s,PASSED
+closeApplication,,,2018-06-25 17:23:54,2018-06-25 17:23:54,0.006s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/Owner/SC99 Regression/TC02 Rent New Car by Category,,,2018-06-25 17:23:54,2018-06-25 17:24:48,54.093s,FAILED
+startApplication,,,2018-06-25 17:23:55,2018-06-25 17:23:55,0.000s,NOT_RUN
+scrollToText,,,2018-06-25 17:23:55,2018-06-25 17:24:00,5.193s,PASSED
+tap,,,2018-06-25 17:24:00,2018-06-25 17:24:01,0.885s,PASSED
+tap,,,2018-06-25 17:24:01,2018-06-25 17:24:06,5.405s,PASSED
+tap,,,2018-06-25 17:24:06,2018-06-25 17:24:06,0.003s,NOT_RUN
+tap,,,2018-06-25 17:24:06,2018-06-25 17:24:10,4.022s,PASSED
+tap,,,2018-06-25 17:24:10,2018-06-25 17:24:12,2.157s,PASSED
+tap,,,2018-06-25 17:24:12,2018-06-25 17:24:14,1.774s,PASSED
+tap,,,2018-06-25 17:24:14,2018-06-25 17:24:48,34.037s,FAILED

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Set Discount Owned(Dengan Driver) Cars by Owner,Chrome 72.0.3626.121,,2019-03-11 10:25:45,2019-03-11 10:27:08,1m - 23.303s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 72.0.3626.121,,2019-03-11 10:25:45,2019-03-11 10:27:04,1m - 18.397s,FAILED
+"openBrowser("""")",Chrome 72.0.3626.121,Buka Browser,2019-03-11 10:25:47,2019-03-11 10:26:15,27.628s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,Maximize Window,2019-03-11 10:26:15,2019-03-11 10:26:16,1.242s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.121,Akses Url,2019-03-11 10:26:16,2019-03-11 10:26:47,30.929s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-11 10:26:47,2019-03-11 10:26:47,0.610s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk""))",Chrome 72.0.3626.121,Klik textlink Masuk,2019-03-11 10:26:47,2019-03-11 10:26:48,1.002s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:26:48,2019-03-11 10:26:52,3.154s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""kaitokuroba099@gmail.com
+"")",Chrome 72.0.3626.121,Input Email,2019-03-11 10:26:52,2019-03-11 10:26:53,1.293s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""ali.msaputra01@gmail.com"")",Chrome 72.0.3626.121,Input Email,2019-03-11 10:26:53,2019-03-11 10:26:53,0.006s,NOT_RUN
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:26:53,2019-03-11 10:26:56,3.004s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng""), ""kait000"")",Chrome 72.0.3626.121,Input Password,2019-03-11 10:26:56,2019-03-11 10:26:56,0.329s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:26:56,2019-03-11 10:26:59,3.005s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK""))",Chrome 72.0.3626.121,Klik button Masuk,2019-03-11 10:26:59,2019-03-11 10:27:00,0.417s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-11 10:27:00,2019-03-11 10:27:03,3.005s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner""))",Chrome 72.0.3626.121,Klik Switch to Owner,2019-03-11 10:27:03,2019-03-11 10:27:04,1.159s,FAILED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga),Chrome 72.0.3626.121,,2019-03-11 10:27:04,2019-03-11 10:27:06,2.228s,FAILED
+"callTestCase(findTestCase(""Front-End/User/SC99 Regression/TC12 Login Sebagai Owner""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,Panggil TestCase Login Sebagai Owner,2019-03-11 10:27:04,2019-03-11 10:27:04,0.002s,NOT_RUN
+delay(1),Chrome 72.0.3626.121,,2019-03-11 10:27:04,2019-03-11 10:27:05,1.003s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/img""))",Chrome 72.0.3626.121,Klik Menu Kendaraan Saya,2019-03-11 10:27:05,2019-03-11 10:27:06,0.570s,FAILED

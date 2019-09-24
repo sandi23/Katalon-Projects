@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Set Price Owned Cars(Dengan Driver) by Owner,Chrome 72.0.3626.121,,2019-03-12 14:24:14,2019-03-12 14:26:02,1m - 48.195s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 72.0.3626.121,,2019-03-12 14:24:15,2019-03-12 14:25:40,1m - 24.674s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,Buka Browser,2019-03-12 14:24:16,2019-03-12 14:24:28,11.439s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,Maximize Window,2019-03-12 14:24:28,2019-03-12 14:24:29,1.374s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.121,Akses Url,2019-03-12 14:24:29,2019-03-12 14:24:59,30.393s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-12 14:24:59,2019-03-12 14:25:01,1.297s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk""))",Chrome 72.0.3626.121,Klik textlink Masuk,2019-03-12 14:25:01,2019-03-12 14:25:03,2.441s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:25:03,2019-03-12 14:25:06,3.095s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""082128751192"")",Chrome 72.0.3626.121,Input Email,2019-03-12 14:25:06,2019-03-12 14:25:12,5.475s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""ali.msaputra01@gmail.com"")",Chrome 72.0.3626.121,Input Email,2019-03-12 14:25:12,2019-03-12 14:25:12,0.006s,NOT_RUN
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:25:12,2019-03-12 14:25:15,3.005s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng""), ""password10"")",Chrome 72.0.3626.121,Input Password,2019-03-12 14:25:15,2019-03-12 14:25:15,0.676s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:25:15,2019-03-12 14:25:19,3.005s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK""))",Chrome 72.0.3626.121,Klik button Masuk,2019-03-12 14:25:19,2019-03-12 14:25:19,0.533s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:25:19,2019-03-12 14:25:22,3.004s,PASSED
+"click(findTestObject(""Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update""))",Chrome 72.0.3626.121,Klik Switch to Owner,2019-03-12 14:25:22,2019-03-12 14:25:36,14.338s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:25:36,2019-03-12 14:25:39,3.002s,PASSED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC06 Set price data mobil (ubah harga untuk kondisi dengan driver),Chrome 72.0.3626.121,,2019-03-12 14:25:40,2019-03-12 14:26:01,20.971s,FAILED
+"callTestCase(findTestCase(""Front-End/User/SC99 Regression/TC12 Login Sebagai Owner""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,Panggil TestCase Login Sebagai Owner,2019-03-12 14:25:41,2019-03-12 14:25:41,0.038s,NOT_RUN
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/img""))",Chrome 72.0.3626.121,Klik Menu Kendaraan Saya,2019-03-12 14:25:41,2019-03-12 14:25:42,1.244s,PASSED
+"setText(findTestObject(""Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/input_field_search""), ""kuda"")",Chrome 72.0.3626.121,Input Field Search,2019-03-12 14:25:42,2019-03-12 14:25:43,0.795s,PASSED
+delay(15),Chrome 72.0.3626.121,,2019-03-12 14:25:43,2019-03-12 14:25:58,15.007s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/button_tiga_titik""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 14:25:58,2019-03-12 14:25:58,0.454s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Set price data mobil (ubah harga untuk kondisi dengan driver)/button_tiga_titik""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 14:25:58,2019-03-12 14:25:58,0.002s,NOT_RUN
+"click(findTestObject(""Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/price""))",Chrome 72.0.3626.121,Klik Set Price,2019-03-12 14:25:58,2019-03-12 14:26:01,2.450s,FAILED

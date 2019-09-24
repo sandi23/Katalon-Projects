@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Set not available Owned Cars by Owner,,,2018-11-21 15:33:38,2018-11-21 15:43:58,10m - 19.571s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-21 15:33:39,2018-11-21 15:35:04,1m - 24.699s,PASSED
+startApplication,,Open apps on phone,2018-11-21 15:33:41,2018-11-21 15:34:36,54.609s,PASSED
+tap,,Tap button next,2018-11-21 15:34:36,2018-11-21 15:34:41,5.472s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-21 15:34:41,2018-11-21 15:34:44,2.876s,PASSED
+tap,,Tap button skip,2018-11-21 15:34:44,2018-11-21 15:34:47,2.472s,PASSED
+tap,,Tap button login,2018-11-21 15:34:47,2018-11-21 15:34:48,1.699s,PASSED
+setText,,Input email user,2018-11-21 15:34:48,2018-11-21 15:34:50,1.411s,PASSED
+tap,,Tap button next,2018-11-21 15:34:50,2018-11-21 15:34:53,3.072s,PASSED
+setText,,Input password user,2018-11-21 15:34:53,2018-11-21 15:34:54,1.319s,PASSED
+delay,,,2018-11-21 15:34:54,2018-11-21 15:34:55,1.091s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-21 15:34:55,2018-11-21 15:34:57,2.195s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-21 15:34:57,2018-11-21 15:34:59,1.704s,PASSED
+delay,,,2018-11-21 15:34:59,2018-11-21 15:35:04,5.004s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-11-21 15:35:04,2018-11-21 15:42:26,7m - 21.941s,PASSED
+callTestCase,,,2018-11-21 15:35:05,2018-11-21 15:35:05,0.005s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 15:35:05,2018-11-21 15:36:06,1m - 1.162s,PASSED
+delay,,,2018-11-21 15:36:06,2018-11-21 15:36:11,5.004s,PASSED
+setText,,Mencari car by name,2018-11-21 15:36:11,2018-11-21 15:40:55,4m - 43.504s,PASSED
+delay,,,2018-11-21 15:40:55,2018-11-21 15:41:00,5.003s,PASSED
+tap,,Tap button search,2018-11-21 15:41:00,2018-11-21 15:42:21,1m - 21.407s,PASSED
+delay,,,2018-11-21 15:42:21,2018-11-21 15:42:26,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC08 Set not available - My Cars,,,2018-11-21 15:42:26,2018-11-21 15:43:56,1m - 29.834s,PASSED
+callTestCase,,,2018-11-21 15:42:27,2018-11-21 15:42:27,0.003s,NOT_RUN
+tap,,Tap tab my cars,2018-11-21 15:42:27,2018-11-21 15:42:27,0.004s,NOT_RUN
+tap,,Tap icon menu titik 3,2018-11-21 15:42:27,2018-11-21 15:43:39,1m - 12.079s,PASSED
+tap,,Select menu set not available,2018-11-21 15:43:39,2018-11-21 15:43:40,1.266s,PASSED
+tap,,Tap konfirmasi ok,2018-11-21 15:43:40,2018-11-21 15:43:51,10.627s,PASSED
+delay,,,2018-11-21 15:43:51,2018-11-21 15:43:56,5.003s,PASSED

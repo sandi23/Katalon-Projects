@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Rent Car By Category,,,2018-06-25 16:08:41,2018-06-25 16:10:57,2m - 15.618s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email,,,2018-06-25 16:08:42,2018-06-25 16:10:49,2m - 6.944s,PASSED
+startApplication,,Buka browser,2018-06-25 16:08:43,2018-06-25 16:09:59,1m - 16.061s,PASSED
+tap,,Pilih bahasa indonesia,2018-06-25 16:09:59,2018-06-25 16:10:02,3.062s,PASSED
+tap,,Tap arrow next,2018-06-25 16:10:02,2018-06-25 16:10:03,1.223s,PASSED
+tap,,"Tap tombol \""Lewati\""",2018-06-25 16:10:03,2018-06-25 16:10:05,1.747s,PASSED
+tap,,"Tap tombol \""Login\""",2018-06-25 16:10:05,2018-06-25 16:10:06,1.302s,PASSED
+setText,,Masukkan email,2018-06-25 16:10:06,2018-06-25 16:10:20,13.347s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-25 16:10:20,2018-06-25 16:10:21,1.236s,PASSED
+tap,,Tap field password,2018-06-25 16:10:21,2018-06-25 16:10:26,5.656s,PASSED
+setText,,Masukkan password,2018-06-25 16:10:26,2018-06-25 16:10:41,14.705s,PASSED
+tap,,"Tap tombol \""Mulai Movic\""",2018-06-25 16:10:41,2018-06-25 16:10:43,1.360s,PASSED
+verifyElementVisible,,Verifikasi image sesudah login,2018-06-25 16:10:43,2018-06-25 16:10:49,6.421s,PASSED
+closeApplication,,,2018-06-25 16:10:49,2018-06-25 16:10:49,0.003s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/Owner/SC99 Regression/TC02 Rent New Car by Category,,,2018-06-25 16:10:49,2018-06-25 16:10:51,1.812s,FAILED
+startApplication,,,2018-06-25 16:10:49,2018-06-25 16:10:49,0.000s,NOT_RUN
+scrollToElement,,,2018-06-25 16:10:49,2018-06-25 16:10:51,1.333s,FAILED

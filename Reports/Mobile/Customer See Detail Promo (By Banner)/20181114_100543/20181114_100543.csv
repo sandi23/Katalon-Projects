@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer See Detail Promo (By Banner),,,2018-11-14 10:05:47,2018-11-14 10:07:26,1m - 38.958s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-14 10:05:48,2018-11-14 10:07:05,1m - 16.321s,PASSED
+startApplication,,Open apps on phone,2018-11-14 10:05:50,2018-11-14 10:06:39,49.233s,PASSED
+tap,,Tap button next,2018-11-14 10:06:39,2018-11-14 10:06:43,4.620s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-14 10:06:43,2018-11-14 10:06:46,2.724s,PASSED
+tap,,Tap button skip,2018-11-14 10:06:46,2018-11-14 10:06:48,2.220s,PASSED
+tap,,Tap button login,2018-11-14 10:06:48,2018-11-14 10:06:50,1.636s,PASSED
+setText,,Input email user,2018-11-14 10:06:50,2018-11-14 10:06:51,1.176s,PASSED
+tap,,Tap button next,2018-11-14 10:06:51,2018-11-14 10:06:54,2.731s,PASSED
+setText,,Input password user,2018-11-14 10:06:54,2018-11-14 10:06:55,1.134s,PASSED
+delay,,,2018-11-14 10:06:55,2018-11-14 10:06:56,1.063s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-14 10:06:56,2018-11-14 10:06:58,1.730s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-14 10:06:58,2018-11-14 10:07:00,1.766s,PASSED
+delay,,,2018-11-14 10:07:00,2018-11-14 10:07:05,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Promo/SC99 Regression/TC01 Show detail promo (By Banner),,,2018-11-14 10:07:05,2018-11-14 10:07:24,19.633s,PASSED
+callTestCase,,,2018-11-14 10:07:06,2018-11-14 10:07:06,0.003s,NOT_RUN
+tap,,,2018-11-14 10:07:06,2018-11-14 10:07:09,3.767s,PASSED
+tap,,,2018-11-14 10:07:09,2018-11-14 10:07:14,4.938s,PASSED
+tap,,,2018-11-14 10:07:14,2018-11-14 10:07:16,1.437s,PASSED
+tap,,,2018-11-14 10:07:16,2018-11-14 10:07:19,3.621s,PASSED
+delay,,,2018-11-14 10:07:19,2018-11-14 10:07:24,5.003s,PASSED

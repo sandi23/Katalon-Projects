@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Search and Delete Owned Cars by Owner,,,2018-12-14 16:01:11,2018-12-14 16:03:12,2m - 1.047s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-12-14 16:01:12,2018-12-14 16:02:39,1m - 26.798s,PASSED
+"startApplication(""C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.10.0_2018-12-03-staging-debug.apk"", false)",,Open apps on phone,2018-12-14 16:01:13,2018-12-14 16:02:00,46.874s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.ImageView4""), 0)",,Tap button next,2018-12-14 16:02:00,2018-12-14 16:02:07,6.800s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-12-14 16:02:07,2018-12-14 16:02:09,2.731s,PASSED
+"tap(findTestObject(""Mobile/OR Registrasi/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2018-12-14 16:02:09,2018-12-14 16:02:12,2.122s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2018-12-14 16:02:12,2018-12-14 16:02:13,1.556s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""santi.wahyuni@wgs.co.id"", 0)",,Input email user,2018-12-14 16:02:13,2018-12-14 16:02:14,1.182s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Next""), 0)",,Tap button next,2018-12-14 16:02:14,2018-12-14 16:02:17,2.791s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:02:17,2018-12-14 16:02:22,5.093s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0 (1)""), ""P@ssword123"", 0)",,Input password user,2018-12-14 16:02:22,2018-12-14 16:02:23,1.121s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:02:23,2018-12-14 16:02:28,5.004s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2018-12-14 16:02:28,2018-12-14 16:02:30,1.837s,PASSED
+"tap(findTestObject(""Mobile/OR Login/android.widget.Button0 - Start Movic""), 0)",,Submit form dan redirect ke homepage,2018-12-14 16:02:30,2018-12-14 16:02:34,3.467s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:02:34,2018-12-14 16:02:39,5.002s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars,,,2018-12-14 16:02:39,2018-12-14 16:02:59,20.375s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2018-12-14 16:02:39,2018-12-14 16:02:39,0.004s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 16:02:39,2018-12-14 16:02:41,1.476s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:02:41,2018-12-14 16:02:46,5.007s,PASSED
+"setText(findTestObject(""Mobile/OR Product/android.widget.EditText0 - Search car""), ""Mitsubishi"", 0)",,Mencari car by name,2018-12-14 16:02:46,2018-12-14 16:02:47,1.654s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:02:47,2018-12-14 16:02:52,5.014s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView6""), 0)",,Tap button search,2018-12-14 16:02:52,2018-12-14 16:02:54,1.670s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:02:54,2018-12-14 16:02:59,5.012s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC05 Delete - My Cars,,,2018-12-14 16:02:59,2018-12-14 16:03:11,11.586s,PASSED
+"callTestCase(findTestCase(""Mobile/Android/Product/SC99 Regression/TC02 Search Car - My Cars""), [:], STOP_ON_FAILURE)",,Call test case search car - my cars,2018-12-14 16:02:59,2018-12-14 16:02:59,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.Tab - My Cars""), 0)",,Tap tab my cars,2018-12-14 16:02:59,2018-12-14 16:02:59,0.003s,NOT_RUN
+"tap(findTestObject(""Mobile/OR Product/android.widget.ImageView9 (1)""), 0)",,Tap icon menu titik 3,2018-12-14 16:02:59,2018-12-14 16:03:01,1.391s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.RelativeLayout3 (1)""), 0)",,Tap menu delete,2018-12-14 16:03:01,2018-12-14 16:03:02,1.292s,PASSED
+"tap(findTestObject(""Mobile/OR Product/android.widget.TextView3 - OK""), 0)",,Select konfirmasi ok,2018-12-14 16:03:02,2018-12-14 16:03:06,3.465s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2018-12-14 16:03:06,2018-12-14 16:03:11,5.007s,PASSED

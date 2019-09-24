@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Owner Set Car not available,Chrome 72.0.3626.121,,2019-03-12 14:34:41,2019-03-12 14:37:58,3m - 16.963s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 72.0.3626.121,,2019-03-12 14:34:42,2019-03-12 14:36:03,1m - 20.918s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,Buka Browser,2019-03-12 14:34:43,2019-03-12 14:34:57,13.618s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,Maximize Window,2019-03-12 14:34:57,2019-03-12 14:34:58,1.196s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.121,Akses Url,2019-03-12 14:34:58,2019-03-12 14:35:36,37.873s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-12 14:35:36,2019-03-12 14:35:36,0.316s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk""))",Chrome 72.0.3626.121,Klik textlink Masuk,2019-03-12 14:35:36,2019-03-12 14:35:37,0.443s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:35:37,2019-03-12 14:35:40,3.072s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""082128751192"")",Chrome 72.0.3626.121,Input Email,2019-03-12 14:35:40,2019-03-12 14:35:40,0.682s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""ali.msaputra01@gmail.com"")",Chrome 72.0.3626.121,Input Email,2019-03-12 14:35:40,2019-03-12 14:35:40,0.005s,NOT_RUN
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:35:40,2019-03-12 14:35:43,3.002s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng""), ""password10"")",Chrome 72.0.3626.121,Input Password,2019-03-12 14:35:43,2019-03-12 14:35:44,0.384s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:35:44,2019-03-12 14:35:47,3.004s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK""))",Chrome 72.0.3626.121,Klik button Masuk,2019-03-12 14:35:47,2019-03-12 14:35:47,0.429s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:35:47,2019-03-12 14:35:50,3.003s,PASSED
+"click(findTestObject(""Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update""))",Chrome 72.0.3626.121,Klik Switch to Owner,2019-03-12 14:35:50,2019-03-12 14:36:00,9.528s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:36:00,2019-03-12 14:36:03,3.002s,PASSED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC10 Set not available data mobil,Chrome 72.0.3626.121,,2019-03-12 14:36:03,2019-03-12 14:37:56,1m - 53.151s,FAILED
+"callTestCase(findTestCase(""Front-End/User/SC99 Regression/TC12 Login Sebagai Owner""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,,2019-03-12 14:36:03,2019-03-12 14:36:03,0.011s,NOT_RUN
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set not available data mobil/img""))",Chrome 72.0.3626.121,Klik Menu Kendaraan Saya,2019-03-12 14:36:03,2019-03-12 14:36:04,0.686s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-12 14:36:04,2019-03-12 14:36:05,1.007s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR Product/OR Set not available data mobil/input_SORT BY _form-control ty""), ""kuda"")",Chrome 72.0.3626.121,Input Field Search,2019-03-12 14:36:05,2019-03-12 14:36:06,0.473s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-12 14:36:06,2019-03-12 14:36:07,1.004s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Set not available data mobil/button_tiga_titik""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 14:36:07,2019-03-12 14:36:07,0.460s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Set not available data mobil/button_tiga_titik""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 14:36:07,2019-03-12 14:36:07,0.318s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-12 14:36:07,2019-03-12 14:36:08,1.003s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Set not available data mobil/a_Set Not Available""))",Chrome 72.0.3626.121,Klik Set Not Available,2019-03-12 14:36:08,2019-03-12 14:37:56,1m - 47.619s,FAILED

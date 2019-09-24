@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer chat atau send message to vehicle owner from page list car,,,2018-11-15 09:20:30,2018-11-15 09:24:00,3m - 29.585s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-15 09:20:31,2018-11-15 09:21:48,1m - 17.197s,PASSED
+startApplication,,Open apps on phone,2018-11-15 09:20:32,2018-11-15 09:21:22,49.419s,PASSED
+tap,,Tap button next,2018-11-15 09:21:22,2018-11-15 09:21:26,4.665s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-15 09:21:26,2018-11-15 09:21:29,2.691s,PASSED
+tap,,Tap button skip,2018-11-15 09:21:29,2018-11-15 09:21:31,2.285s,PASSED
+tap,,Tap button login,2018-11-15 09:21:31,2018-11-15 09:21:33,1.571s,PASSED
+setText,,Input email user,2018-11-15 09:21:33,2018-11-15 09:21:34,1.231s,PASSED
+tap,,Tap button next,2018-11-15 09:21:34,2018-11-15 09:21:37,2.974s,PASSED
+setText,,Input password user,2018-11-15 09:21:37,2018-11-15 09:21:38,1.229s,PASSED
+delay,,,2018-11-15 09:21:38,2018-11-15 09:21:39,1.059s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-15 09:21:39,2018-11-15 09:21:41,2.154s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-15 09:21:41,2018-11-15 09:21:43,1.770s,PASSED
+delay,,,2018-11-15 09:21:43,2018-11-15 09:21:48,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC20 Show List Car By Click Image Popular Car Rental,,,2018-11-15 09:21:48,2018-11-15 09:23:43,1m - 54.907s,PASSED
+callTestCase,,,2018-11-15 09:21:49,2018-11-15 09:21:49,0.004s,NOT_RUN
+scrollToText,,Scroll ke part popular car rentals,2018-11-15 09:21:49,2018-11-15 09:22:31,41.589s,PASSED
+delay,,Delay untuk slide popular car rentals,2018-11-15 09:22:31,2018-11-15 09:22:36,5.003s,PASSED
+tap,,Select popular car rentals,2018-11-15 09:22:36,2018-11-15 09:23:38,1m - 2.635s,PASSED
+delay,,,2018-11-15 09:23:38,2018-11-15 09:23:43,5.004s,PASSED
+tap,,Select car,2018-11-15 09:23:43,2018-11-15 09:23:43,0.002s,NOT_RUN
+delay,,,2018-11-15 09:23:43,2018-11-15 09:23:43,0.002s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC25 Send message to owner - Detail Car,,,2018-11-15 09:23:43,2018-11-15 09:23:57,14.082s,PASSED
+callTestCase,,,2018-11-15 09:23:44,2018-11-15 09:23:44,0.001s,NOT_RUN
+tap,,Tap icon chat,2018-11-15 09:23:44,2018-11-15 09:23:45,1.320s,PASSED
+tap,,,2018-11-15 09:23:45,2018-11-15 09:23:48,3.375s,PASSED
+setText,,,2018-11-15 09:23:48,2018-11-15 09:23:50,1.739s,PASSED
+tap,,,2018-11-15 09:23:50,2018-11-15 09:23:52,2.053s,PASSED
+delay,,,2018-11-15 09:23:52,2018-11-15 09:23:57,5.003s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>price</name>
+   <tag></tag>
+   <elementGuidId>520f5a8d-54ee-440a-a1f1-079d64f29a24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/app-owner/div[1]/list-car-owner/div[4]/div[3]/div/div[1]/a/div/div[2]/div[2]/div/ul/li[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/app-owner/div[1]/list-car-owner/div[4]/div[3]/div/div[1]/a/div/div[2]/div[2]/div/ul/li[5]/a</value>
+   </webElementProperties>
+</WebElementEntity>

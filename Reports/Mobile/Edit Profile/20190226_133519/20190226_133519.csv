@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit Profile,,,2019-02-26 13:35:26,2019-02-26 13:41:39,6m - 13.456s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2019-02-26 13:35:27,2019-02-26 13:38:25,2m - 58.247s,PASSED
+"startApplication(""C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk"", false)",,Open apps on phone,2019-02-26 13:35:28,2019-02-26 13:37:40,2m - 11.872s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English""), 0)",,,2019-02-26 13:37:40,2019-02-26 13:37:44,4.191s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4""), 0)",,Tap button next,2019-02-26 13:37:44,2019-02-26 13:37:48,3.512s,PASSED
+for (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2019-02-26 13:37:48,2019-02-26 13:37:50,2.444s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip""), 0)",,Tap button skip,2019-02-26 13:37:50,2019-02-26 13:37:54,3.464s,PASSED
+"tap(findTestObject(""Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in""), 0)",,Tap button login,2019-02-26 13:37:54,2019-02-26 13:37:57,3.398s,PASSED
+"setText(findTestObject(""Mobile/OR Login/android.widget.EditText0""), ""nansulaiman5@gmail.com"", 0)",,Input email user,2019-02-26 13:37:57,2019-02-26 13:37:58,0.997s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03""), 0)",,Tap tombol lanjutkan seharusnya next Eng,2019-02-26 13:37:58,2019-02-26 13:38:01,3.216s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 13:38:01,2019-02-26 13:38:06,5.189s,PASSED
+"setText(findTestObject(""Mobile/OR Login 2/android.widget.EditText0 - field password""), ""password8"", 0)",,Input password user,2019-02-26 13:38:06,2019-02-26 13:38:07,1.033s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 13:38:07,2019-02-26 13:38:12,5.008s,PASSED
+hideKeyboard(),,Hide keyboard on phone,2019-02-26 13:38:12,2019-02-26 13:38:16,3.780s,PASSED
+"tap(findTestObject(""Mobile/OR Login 2/android.widget.Button0 - Start Movic 01""), 0)",,Submit form dan redirect ke homepage,2019-02-26 13:38:16,2019-02-26 13:38:20,3.662s,PASSED
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 13:38:20,2019-02-26 13:38:25,5.008s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC12 Edit profile profile,,,2019-02-26 13:38:25,2019-02-26 13:41:36,3m - 11.134s,FAILED
+"callTestCase(findTestCase(""Mobile/Android/User/SC99 Regression/TC04 Login with email""), [:], STOP_ON_FAILURE)",,Call test case login,2019-02-26 13:38:26,2019-02-26 13:38:26,0.007s,NOT_RUN
+"delay(findTestData(""Delay Step"").getValue(1, 2), STOP_ON_FAILURE)",,,2019-02-26 13:38:26,2019-02-26 13:38:31,5.012s,PASSED
+"tap(findTestObject(""Mobile/OR Profile/android.widget.ImageView0 - icon profile""), 0)",,Tap icon profile,2019-02-26 13:38:31,2019-02-26 13:39:52,1m - 21.329s,PASSED
+"tap(findTestObject(""Mobile/OR Profile/android.widget.LinearLayout12""), 0)",,Tap area name dan view and edit profile,2019-02-26 13:39:52,2019-02-26 13:41:36,1m - 43.781s,FAILED

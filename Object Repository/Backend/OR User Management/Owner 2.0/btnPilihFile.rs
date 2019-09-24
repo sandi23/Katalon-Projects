@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnPilihFile</name>
+   <tag></tag>
+   <elementGuidId>1f0ad701-61ee-4d55-ac52-cf2b4601591c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;formUpload&quot;]/div[1]/div[1]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;formUpload&quot;]/div[1]/div[1]/div/input</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Customer Sort dan Filter List Car,,,2018-11-14 11:31:21,2018-11-14 11:34:14,2m - 53.130s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email,,,2018-11-14 11:31:22,2018-11-14 11:32:40,1m - 17.792s,PASSED
+startApplication,,Open apps on phone,2018-11-14 11:31:24,2018-11-14 11:32:13,49.651s,PASSED
+tap,,Tap button next,2018-11-14 11:32:13,2018-11-14 11:32:18,4.644s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-14 11:32:18,2018-11-14 11:32:21,2.708s,PASSED
+tap,,Tap button skip,2018-11-14 11:32:21,2018-11-14 11:32:23,2.170s,PASSED
+tap,,Tap button login,2018-11-14 11:32:23,2018-11-14 11:32:25,1.668s,PASSED
+setText,,Input email user,2018-11-14 11:32:25,2018-11-14 11:32:26,1.434s,PASSED
+tap,,Tap button next,2018-11-14 11:32:26,2018-11-14 11:32:29,2.942s,PASSED
+setText,,Input password user,2018-11-14 11:32:29,2018-11-14 11:32:30,1.181s,PASSED
+delay,,,2018-11-14 11:32:30,2018-11-14 11:32:31,1.064s,PASSED
+hideKeyboard,,Hide keyboard on phone,2018-11-14 11:32:31,2018-11-14 11:32:33,1.988s,PASSED
+tap,,Submit form dan redirect ke homepage,2018-11-14 11:32:33,2018-11-14 11:32:35,1.827s,PASSED
+delay,,,2018-11-14 11:32:35,2018-11-14 11:32:40,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region,,,2018-11-14 11:32:40,2018-11-14 11:33:02,22.463s,PASSED
+callTestCase,,,2018-11-14 11:32:41,2018-11-14 11:32:41,0.005s,NOT_RUN
+tap,,Tap car rental citiy atau region,2018-11-14 11:32:41,2018-11-14 11:32:43,2.096s,PASSED
+setText,,Mencari city or region jabodetabek,2018-11-14 11:32:43,2018-11-14 11:32:45,1.982s,PASSED
+tap,,Memilih city or region jabodetabek,2018-11-14 11:32:45,2018-11-14 11:32:47,2.320s,PASSED
+tap,,Memilih car only,2018-11-14 11:32:47,2018-11-14 11:32:48,1.362s,PASSED
+tap,,Next untuk select dates,2018-11-14 11:32:48,2018-11-14 11:32:50,1.736s,PASSED
+delay,,Delay untuk select date,2018-11-14 11:32:50,2018-11-14 11:32:55,5.004s,PASSED
+tap,,Mencari car dengan ketentuan yang telah dipilih,2018-11-14 11:32:55,2018-11-14 11:32:57,2.277s,PASSED
+delay,,,2018-11-14 11:32:57,2018-11-14 11:33:02,5.003s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/Product/SC99 Regression/TC14 Sort and filter list cars,,,2018-11-14 11:33:02,2018-11-14 11:34:12,1m - 9.739s,PASSED
+callTestCase,,,2018-11-14 11:33:03,2018-11-14 11:33:03,0.006s,NOT_RUN
+tap,,Menampilkan option sort & filter,2018-11-14 11:33:03,2018-11-14 11:33:05,1.881s,PASSED
+tap,,Menampilkan dropdown option list sort by,2018-11-14 11:33:05,2018-11-14 11:33:07,2.176s,PASSED
+delay,,Delay untuk select sort by,2018-11-14 11:33:07,2018-11-14 11:33:12,5.003s,PASSED
+tap,,Select bintang 1,2018-11-14 11:33:12,2018-11-14 11:33:13,1.203s,PASSED
+tap,,Select bintang 2,2018-11-14 11:33:13,2018-11-14 11:33:15,1.160s,PASSED
+tap,,Select bintang 3,2018-11-14 11:33:15,2018-11-14 11:33:16,1.151s,PASSED
+tap,,Select bintang 4,2018-11-14 11:33:16,2018-11-14 11:33:17,1.135s,PASSED
+tap,,Select bintang 5,2018-11-14 11:33:17,2018-11-14 11:33:18,1.127s,PASSED
+delay,,Delay untuk select price range,2018-11-14 11:33:18,2018-11-14 11:33:23,5.003s,PASSED
+Statement - For (def index : (1..4)),,Looping untuk menentukan jumlah seat,2018-11-14 11:33:23,2018-11-14 11:33:28,4.676s,PASSED
+tap,,Select plate number even,2018-11-14 11:33:28,2018-11-14 11:33:29,1.120s,PASSED
+tap,,Select plate number odd,2018-11-14 11:33:29,2018-11-14 11:33:30,1.187s,PASSED
+scrollToText,,,2018-11-14 11:33:30,2018-11-14 11:33:32,1.620s,PASSED
+tap,,Select facilities life insurance,2018-11-14 11:33:32,2018-11-14 11:33:33,1.284s,PASSED
+tap,,Select facilities wifi,2018-11-14 11:33:33,2018-11-14 11:33:34,1.204s,PASSED
+tap,,Select car categories commercial,2018-11-14 11:33:34,2018-11-14 11:33:37,2.681s,PASSED
+tap,,Select car categories jeep,2018-11-14 11:33:37,2018-11-14 11:33:38,1.338s,PASSED
+tap,,Select car categories luxury car,2018-11-14 11:33:38,2018-11-14 11:33:41,2.502s,PASSED
+tap,,Select brands honda,2018-11-14 11:33:41,2018-11-14 11:33:42,1.296s,PASSED
+tap,,Select brands chevrolet,2018-11-14 11:33:42,2018-11-14 11:33:43,1.249s,PASSED
+tap,,Select brands toyota,2018-11-14 11:33:43,2018-11-14 11:33:44,1.332s,PASSED
+tap,,Tap arrow right untuk select model,2018-11-14 11:33:44,2018-11-14 11:33:46,1.821s,PASSED
+delay,,Delay untuk select model,2018-11-14 11:33:46,2018-11-14 11:33:56,10.001s,PASSED
+tap,,,2018-11-14 11:33:56,2018-11-14 11:33:56,0.001s,NOT_RUN
+tap,,,2018-11-14 11:33:56,2018-11-14 11:33:56,0.001s,NOT_RUN
+tap,,,2018-11-14 11:33:56,2018-11-14 11:33:56,0.001s,NOT_RUN
+tap,,,2018-11-14 11:33:56,2018-11-14 11:33:56,0.002s,NOT_RUN
+tap,,Submit model yang dipilih,2018-11-14 11:33:56,2018-11-14 11:33:58,1.483s,PASSED
+scrollToText,,,2018-11-14 11:33:58,2018-11-14 11:33:59,1.477s,PASSED
+tap,,Select type of fuel diesel,2018-11-14 11:33:59,2018-11-14 11:34:01,1.256s,PASSED
+tap,,Select type of fuel petrol,2018-11-14 11:34:01,2018-11-14 11:34:02,1.320s,PASSED
+tap,,Select type of fuel electric,2018-11-14 11:34:02,2018-11-14 11:34:03,1.207s,PASSED
+tap,,Select transmission manual,2018-11-14 11:34:03,2018-11-14 11:34:04,1.194s,PASSED
+tap,,Select transmission automatic,2018-11-14 11:34:04,2018-11-14 11:34:06,1.280s,PASSED
+tap,,Search car sesuai sort dan filter yang telah ditentukan,2018-11-14 11:34:06,2018-11-14 11:34:07,1.636s,PASSED
+delay,,,2018-11-14 11:34:07,2018-11-14 11:34:12,5.001s,PASSED

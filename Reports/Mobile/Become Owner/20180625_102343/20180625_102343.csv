@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Become Owner,,,2018-06-25 10:23:47,2018-06-25 10:29:48,6m - 0.561s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email,,,2018-06-25 10:23:48,2018-06-25 10:26:18,2m - 30.004s,PASSED
+startApplication,,Buka browser,2018-06-25 10:23:49,2018-06-25 10:25:28,1m - 39.171s,PASSED
+tap,,Pilih bahasa indonesia,2018-06-25 10:25:28,2018-06-25 10:25:31,3.146s,PASSED
+tap,,Tap arrow next,2018-06-25 10:25:31,2018-06-25 10:25:33,1.428s,PASSED
+tap,,"Tap tombol \""Lewati\""",2018-06-25 10:25:33,2018-06-25 10:25:35,2.187s,PASSED
+tap,,"Tap tombol \""Login\""",2018-06-25 10:25:35,2018-06-25 10:25:37,1.562s,PASSED
+setText,,Masukkan email,2018-06-25 10:25:37,2018-06-25 10:25:48,11.793s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-25 10:25:48,2018-06-25 10:25:50,1.304s,PASSED
+tap,,Tap field password,2018-06-25 10:25:50,2018-06-25 10:25:58,7.860s,PASSED
+setText,,Masukkan password,2018-06-25 10:25:58,2018-06-25 10:26:12,13.992s,PASSED
+tap,,"Tap tombol \""Mulai Movic\""",2018-06-25 10:26:12,2018-06-25 10:26:13,1.156s,PASSED
+verifyElementVisible,,Verifikasi image sesudah login,2018-06-25 10:26:13,2018-06-25 10:26:18,5.504s,PASSED
+closeApplication,,,2018-06-25 10:26:18,2018-06-25 10:26:18,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner,,,2018-06-25 10:26:18,2018-06-25 10:29:47,3m - 29.182s,FAILED
+startApplication,,,2018-06-25 10:26:19,2018-06-25 10:26:19,0.001s,NOT_RUN
+tap,,Tap image user,2018-06-25 10:26:19,2018-06-25 10:26:19,0.563s,PASSED
+tap,,Pilih menu switch to vehicle owner,2018-06-25 10:26:19,2018-06-25 10:26:21,2.053s,PASSED
+tap,,"Tap tombol \""Get Started\""",2018-06-25 10:26:21,2018-06-25 10:26:24,2.144s,PASSED
+tap,,"Tap tombol \""Ok\""",2018-06-25 10:26:24,2018-06-25 10:26:25,1.316s,PASSED
+tap,,Ambil photo dengan kamera,2018-06-25 10:26:25,2018-06-25 10:26:27,1.643s,PASSED
+tap,,"Tap tombol \""use this photo\""",2018-06-25 10:26:27,2018-06-25 10:26:27,0.982s,PASSED
+tap,,"Tap tombol \""Ok\""",2018-06-25 10:26:27,2018-06-25 10:26:33,5.610s,PASSED
+tap,,Ambil photo dengan kamera,2018-06-25 10:26:33,2018-06-25 10:26:35,1.544s,PASSED
+tap,,"Tap tombol \""use this photo\""",2018-06-25 10:26:35,2018-06-25 10:26:36,0.901s,PASSED
+tap,,"Tap tombol \""Ok\""",2018-06-25 10:26:36,2018-06-25 10:26:44,8.067s,PASSED
+tap,,Ambil photo dengan kamera,2018-06-25 10:26:44,2018-06-25 10:26:45,1.497s,PASSED
+tap,,"Tap tombol \""use this photo\""",2018-06-25 10:26:45,2018-06-25 10:26:46,0.924s,PASSED
+tap,,"Tap \""Add Photo\""",2018-06-25 10:26:46,2018-06-25 10:26:54,8.104s,PASSED
+tap,,Ambil photo dengan kamera,2018-06-25 10:26:54,2018-06-25 10:26:56,1.362s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-25 10:26:56,2018-06-25 10:26:57,1.174s,PASSED
+setText,,Masukkan rental name,2018-06-25 10:26:57,2018-06-25 10:27:09,11.823s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-25 10:27:09,2018-06-25 10:27:10,1.035s,PASSED
+tap,,"Tap \""Set Location\""",2018-06-25 10:27:10,2018-06-25 10:27:15,5.352s,PASSED
+tap,,"Tap tombol \""Confirm\""",2018-06-25 10:27:15,2018-06-25 10:27:16,1.257s,PASSED
+setText,,"Masukkan city \""Bandung\""",2018-06-25 10:27:16,2018-06-25 10:29:47,2m - 31.222s,FAILED

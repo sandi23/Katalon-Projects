@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reservasi mobil melalui pencarian lebih lanjut di homepage" time="286" tests="6" failures="0" errors="0">
+   <testsuite name="Reservasi mobil melalui pencarian lebih lanjut di homepage" tests="6" failures="0" errors="0" time="286" timestamp="2018-11-14 14:10:55" hostname="Belinnd - Belinda-PC" id="Test Suites/Front-End/Reservasi mobil melalui pencarian lebih lanjut di homepage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui pencarian lebih lanjut di homepage\\20181114_141050"/>
+         <property name="logFiles" value="D:\\QA\\Katalon\\astra-movic\\Reports\\Front-End\\Reservasi mobil melalui pencarian lebih lanjut di homepage\\20181114_141050\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Belinnd - Belinda-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.10.11.198"/>
+         <property name="sessionId" value="99ac94794ab1c8910968f50aaf5bfe9c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email" classname="Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:10:56 - [TEST_CASE][PASSED] - Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email: Test Cases/Front-End/User/SC99 Regression/TC04 Login Biasa with email
+
+2018-11-14 14:10:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-14 14:11:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 14:11:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-14 14:11:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 14:11:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://stg.movic.id/home' successfully
+
+2018-11-14 14:12:16 - [MESSAGE][PASSED] - Navigate to 'https://stg.movic.id/home' successfully
+
+2018-11-14 14:12:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-14 14:12:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-14 14:12:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/a_Masuk (1)' is clicked on
+
+2018-11-14 14:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/a_Masuk (1)' is clicked on
+
+2018-11-14 14:12:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:12:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:12:20 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2018-11-14 14:12:20 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2018-11-14 14:12:20 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-14 14:12:20 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-14 14:12:20 - [TEST_STEP][PASSED] - setText: Text '081904561970' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for'
+
+2018-11-14 14:12:21 - [MESSAGE][PASSED] - Text '081904561970' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_EmailNomor Handphone_for'
+
+2018-11-14 14:12:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:12:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:12:24 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng'
+
+2018-11-14 14:12:25 - [MESSAGE][PASSED] - Text 'P@ssw0rd' is set on object 'Object Repository/Front-End/OR User/OR Login Biasa with email/input_Password_form-control ng'
+
+2018-11-14 14:12:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:12:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:12:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/button_MASUK' is clicked on
+
+2018-11-14 14:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR User/OR Login Biasa with email/button_MASUK' is clicked on
+
+2018-11-14 14:12:28 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda' is visible
+
+2018-11-14 14:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Front-End/OR User/OR Login Biasa with email/div_i  SuccessTerimakasih Anda' is visible
+
+2018-11-14 14:12:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:31 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut" classname="Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:12:31 - [TEST_CASE][PASSED] - Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut: Test Cases/Front-End/Homepage/SC99 Regression/TC02 Cari mobil menggunakan fitur pencarian lebih lanjut
+
+2018-11-14 14:12:32 - [TEST_STEP][PASSED] - setText: Text 'bandung' is set on object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h'
+
+2018-11-14 14:12:35 - [MESSAGE][PASSED] - Text 'bandung' is set on object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/input_Next_form-input-search h'
+
+2018-11-14 14:12:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/div_Bandung' is clicked on
+
+2018-11-14 14:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/div_Bandung' is clicked on
+
+2018-11-14 14:12:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/span_16' is clicked on
+
+2018-11-14 14:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/span_16' is clicked on
+
+2018-11-14 14:12:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/span_17' is clicked on
+
+2018-11-14 14:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/span_17' is clicked on
+
+2018-11-14 14:12:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/label_Car Only' is clicked on
+
+2018-11-14 14:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/label_Car Only' is clicked on
+
+2018-11-14 14:12:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/a_Pencarian Lebih Lanjut' is clicked on
+
+2018-11-14 14:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/a_Pencarian Lebih Lanjut' is clicked on
+
+2018-11-14 14:12:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:49 - [TEST_STEP][PASSED] - setText: Text '100000' is set on object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/harga_start'
+
+2018-11-14 14:12:49 - [MESSAGE][PASSED] - Text '100000' is set on object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/harga_start'
+
+2018-11-14 14:12:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:51 - [TEST_STEP][PASSED] - setText: Text '500000' is set on object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/harga_end'
+
+2018-11-14 14:12:51 - [MESSAGE][PASSED] - Text '500000' is set on object 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/harga_end'
+
+2018-11-14 14:12:51 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-14 14:12:51 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-11-14 14:12:51 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-14 14:12:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-11-14 14:12:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/label_Car Insurance' is clicked on
+
+2018-11-14 14:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/label_Car Insurance' is clicked on
+
+2018-11-14 14:12:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/span_Rating_fa fa-star clickab' is clicked on
+
+2018-11-14 14:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/span_Rating_fa fa-star clickab' is clicked on
+
+2018-11-14 14:12:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:12:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:12:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/button_Cari' is clicked on
+
+2018-11-14 14:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/button_Cari' is clicked on
+
+2018-11-14 14:12:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/h5_JAZZ' is clicked on
+
+2018-11-14 14:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Homepage/OR Cari mobil menggunakan fitur pencarian lebih lanjut/h5_JAZZ' is clicked on
+
+2018-11-14 14:13:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 14:13:06 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil" classname="Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:13:06 - [TEST_CASE][PASSED] - Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil: Test Cases/Front-End/Booking/SC99 Regression/TC01 Reservasi mobil
+
+2018-11-14 14:13:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:08 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 530, y = 1240
+
+2018-11-14 14:13:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 530, y = 1240
+
+2018-11-14 14:13:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' is clicked on
+
+2018-11-14 14:13:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_PILIH PAKET' is clicked on
+
+2018-11-14 14:13:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang' is clicked on
+
+2018-11-14 14:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_Pesan Sekarang' is clicked on
+
+2018-11-14 14:13:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 610, y = 970
+
+2018-11-14 14:13:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 610, y = 970
+
+2018-11-14 14:13:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 14:13:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-14 14:13:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_LANJUTKAN PESANAN' is clicked on
+
+2018-11-14 14:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/a_LANJUTKAN PESANAN' is clicked on
+
+2018-11-14 14:13:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Setuju' is clicked on
+
+2018-11-14 14:13:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Setuju' is clicked on
+
+2018-11-14 14:13:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Yes' is clicked on
+
+2018-11-14 14:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/button_Yes' is clicked on
+
+2018-11-14 14:13:25 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/h2_Sukses' is visible
+
+2018-11-14 14:13:27 - [MESSAGE][PASSED] - Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/h2_Sukses' is visible
+
+2018-11-14 14:13:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/div_Mobil berhasil dimasukan k' is visible
+
+2018-11-14 14:13:27 - [MESSAGE][PASSED] - Object 'Object Repository/Front-End/OR Booking/OR Reservasi Mobil/div_Mobil berhasil dimasukan k' is visible
+
+2018-11-14 14:13:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:29 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher" classname="Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:13:29 - [TEST_CASE][PASSED] - Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher: Test Cases/Front-End/Payment/SC99 Regression/TC01 Review pesanan tanpa input voucher
+
+2018-11-14 14:13:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' is clicked on
+
+2018-11-14 14:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Review pesanan tanpa input voucher/a_Lanjutkan ke metode Pembayar' is clicked on
+
+2018-11-14 14:13:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:32 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Payment/SC99 Regression/TC03 Payment via credit card visa atau master" classname="Test Cases/Front-End/Payment/SC99 Regression/TC03 Payment via credit card visa atau master" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:13:32 - [TEST_CASE][PASSED] - Test Cases/Front-End/Payment/SC99 Regression/TC03 Payment via credit card visa atau master: Test Cases/Front-End/Payment/SC99 Regression/TC03 Payment via credit card visa atau master
+
+2018-11-14 14:13:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' is clicked on
+
+2018-11-14 14:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/label_Credit Card Visa  Master' is clicked on
+
+2018-11-14 14:13:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/a_Lihat rincian' is clicked on
+
+2018-11-14 14:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/a_Lihat rincian' is clicked on
+
+2018-11-14 14:13:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/span_' is clicked on
+
+2018-11-14 14:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/span_' is clicked on
+
+2018-11-14 14:13:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/a_Bayar' is clicked on
+
+2018-11-14 14:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/a_Bayar' is clicked on
+
+2018-11-14 14:13:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:43 - [TEST_STEP][PASSED] - setText: Text '4137 1803 0002 3783' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input_Credit Card Information_'
+
+2018-11-14 14:13:57 - [MESSAGE][PASSED] - Text '4137 1803 0002 3783' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input_Credit Card Information_'
+
+2018-11-14 14:13:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:13:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:13:59 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input_Credit Card Information__1'
+
+2018-11-14 14:13:59 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input_Credit Card Information__1'
+
+2018-11-14 14:13:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:14:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:14:01 - [TEST_STEP][PASSED] - setText: Text '05' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input__EXPIRYMONTH'
+
+2018-11-14 14:14:01 - [MESSAGE][PASSED] - Text '05' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input__EXPIRYMONTH'
+
+2018-11-14 14:14:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:14:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:14:03 - [TEST_STEP][PASSED] - setText: Text '19' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input__EXPIRYYEARBEFORE'
+
+2018-11-14 14:14:03 - [MESSAGE][PASSED] - Text '19' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input__EXPIRYYEARBEFORE'
+
+2018-11-14 14:14:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:14:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:14:06 - [TEST_STEP][PASSED] - setText: Text '783' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input__CARDCVC'
+
+2018-11-14 14:14:06 - [MESSAGE][PASSED] - Text '783' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input__CARDCVC'
+
+2018-11-14 14:14:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-11-14 14:14:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-11-14 14:14:08 - [TEST_STEP][PASSED] - setText: Text 'test@sgo.co.id' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input_Card Holder Email_CUSTEM'
+
+2018-11-14 14:14:08 - [MESSAGE][PASSED] - Text 'test@sgo.co.id' is set on object 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/input_Card Holder Email_CUSTEM'
+
+2018-11-14 14:14:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/button_Lanjutkan' is clicked on
+
+2018-11-14 14:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/button_Lanjutkan' is clicked on
+
+2018-11-14 14:14:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/button_Selesai' is clicked on
+
+2018-11-14 14:15:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Payment/OR Payment via credit card visa atau master/button_Selesai' is clicked on
+
+2018-11-14 14:15:23 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-14 14:15:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking" classname="Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:15:23 - [TEST_CASE][PASSED] - Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking: Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking
+
+2018-11-14 14:15:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 14:15:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-14 14:15:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR My Booking/img' is clicked on
+
+2018-11-14 14:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR My Booking/img' is clicked on
+
+2018-11-14 14:15:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 14:15:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-14 14:15:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front-End/OR Booking/OR My Booking/a_Riwayat' is clicked on
+
+2018-11-14 14:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Front-End/OR Booking/OR My Booking/a_Riwayat' is clicked on
+
+2018-11-14 14:15:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 14:15:39 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 14:10:55 - [TEST_SUITE][PASSED] - Reservasi mobil melalui pencarian lebih lanjut di homepage: Test Cases/Front-End/Booking/SC99 Regression/TC06 My Booking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

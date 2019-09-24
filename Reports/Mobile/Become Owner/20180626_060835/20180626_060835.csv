@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Become Owner,,,2018-06-26 06:08:39,2018-06-26 06:12:00,3m - 20.696s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email,,,2018-06-26 06:08:40,2018-06-26 06:11:21,2m - 40.535s,FAILED
+startApplication,,Buka browser,2018-06-26 06:08:41,2018-06-26 06:10:27,1m - 46.586s,PASSED
+tap,,Pilih bahasa indonesia,2018-06-26 06:10:27,2018-06-26 06:10:31,3.636s,PASSED
+tap,,Tap arrow next,2018-06-26 06:10:31,2018-06-26 06:10:32,1.440s,PASSED
+tap,,"Tap tombol \""Lewati\""",2018-06-26 06:10:33,2018-06-26 06:10:35,2.338s,PASSED
+tap,,"Tap tombol \""Login\""",2018-06-26 06:10:35,2018-06-26 06:10:36,1.389s,PASSED
+setText,,Masukkan email,2018-06-26 06:10:36,2018-06-26 06:10:49,13.086s,PASSED
+tap,,"Tap tombol \""Next\""",2018-06-26 06:10:49,2018-06-26 06:10:50,1.166s,PASSED
+tap,,Tap field password,2018-06-26 06:10:50,2018-06-26 06:11:21,30.035s,FAILED
+,,,,,,
+Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner,,,2018-06-26 06:11:21,2018-06-26 06:11:52,31.546s,FAILED
+startApplication,,,2018-06-26 06:11:21,2018-06-26 06:11:21,0.003s,NOT_RUN
+tap,,Tap image user,2018-06-26 06:11:21,2018-06-26 06:11:22,0.746s,PASSED
+tap,,Pilih menu switch to vehicle owner,2018-06-26 06:11:22,2018-06-26 06:11:52,30.231s,FAILED

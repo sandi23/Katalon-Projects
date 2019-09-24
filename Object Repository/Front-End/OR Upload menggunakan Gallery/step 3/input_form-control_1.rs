@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_form-control_1</name>
+   <tag></tag>
+   <elementGuidId>81e48777-0cfa-445b-860b-76e3704b4b8e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>display-property-name</name>
+      <type>Main</type>
+      <value>name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Masukan lokasi rental anda</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value-property-name</name>
+      <type>Main</type>
+      <value>id</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/app-root[1]/be-come-owner[1]/div[@class=&quot;container-type-b&quot;]/div[1]/div[@class=&quot;row m-0 mx-xl-5 mb-4&quot;]/div[@class=&quot;col mx-xl-5 p-0&quot;]/div[@class=&quot;mx-xl-5&quot;]/form[@class=&quot;ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;ng2-auto-complete-wrapper&quot;]/input[@class=&quot;form-control&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

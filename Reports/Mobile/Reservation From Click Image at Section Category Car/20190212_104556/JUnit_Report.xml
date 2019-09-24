@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reservation From Click Image at Section Category Car" time="268" tests="6" failures="0" errors="1">
+   <testsuite name="Reservation From Click Image at Section Category Car" tests="6" failures="0" errors="1" time="268" timestamp="2019-02-12 10:46:05" hostname="WGS-LAP151 - INVWGSLAP151" id="Test Suites/Mobile/Reservation From Click Image at Section Category Car">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 4A (Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Mobile\\Reservation From Click Image at Section Category Car\\20190212_104556"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Mobile\\Reservation From Click Image at Section Category Car\\20190212_104556\\appium.log, C:\\Users\\WGS-LAP151\\git\\astra-movic\\Reports\\Mobile\\Reservation From Click Image at Section Category Car\\20190212_104556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP151 - INVWGSLAP151"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="Redmi 4A"/>
+         <property name="hostAddress" value="10.10.10.122"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="5e31d87d7d73"/>
+         <property name="deviceName" value="Xiaomi Redmi 4A (Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" status="PASSED">
+         <system-out><![CDATA[2019-02-12 10:46:06 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email
+
+2019-02-12 10:46:08 - [TEST_STEP][PASSED] - startApplication("C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk", false): Started app at: 'C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk'
+
+2019-02-12 10:46:08 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2019-02-12 10:46:22 - [MESSAGE][INFO] - Appium server started on port 60,129
+
+2019-02-12 10:47:48 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk'
+
+2019-02-12 10:47:48 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English"), 0): Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English'
+
+2019-02-12 10:47:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:47:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - English'
+
+2019-02-12 10:47:54 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4"), 0): Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4'
+
+2019-02-12 10:47:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:47:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.ImageView4'
+
+2019-02-12 10:47:57 - [TEST_STEP][PASSED] - for (def index : (1..2)): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2019-02-12 10:47:57 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Registrasi/android.widget.ImageView1"), 0): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2019-02-12 10:47:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:47:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2019-02-12 10:47:59 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Registrasi/android.widget.ImageView1"), 0): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2019-02-12 10:47:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2019-02-12 10:48:01 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip"), 0): Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip'
+
+2019-02-12 10:48:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.TextView2 - Skip'
+
+2019-02-12 10:48:03 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in"), 0): Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in'
+
+2019-02-12 10:48:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Homepage/OBJ-Login/android.widget.TextView0 - Log in'
+
+2019-02-12 10:48:07 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Login/android.widget.EditText0"), "nansulaiman5@gmail.com", 0): Text 'nansulaiman5@gmail.com' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2019-02-12 10:48:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:08 - [MESSAGE][PASSED] - Text 'nansulaiman5@gmail.com' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2019-02-12 10:48:08 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03"), 0): Tapped on element 'Object Repository/Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03'
+
+2019-02-12 10:48:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login 2/android.widget.Button0 - Lanjutkan 03'
+
+2019-02-12 10:48:11 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:48:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-12 10:48:16 - [TEST_STEP][PASSED] - setText(findTestObject("Mobile/OR Login 2/android.widget.EditText0 - field password"), "password8", 0): Text 'password8' has been set to element 'Object Repository/Mobile/OR Login 2/android.widget.EditText0 - field password'
+
+2019-02-12 10:48:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:17 - [MESSAGE][PASSED] - Text 'password8' has been set to element 'Object Repository/Mobile/OR Login 2/android.widget.EditText0 - field password'
+
+2019-02-12 10:48:17 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:48:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-12 10:48:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2019-02-12 10:48:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2019-02-12 10:48:24 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Login 2/android.widget.Button0 - Start Movic 01"), 0): Tapped on element 'Object Repository/Mobile/OR Login 2/android.widget.Button0 - Start Movic 01'
+
+2019-02-12 10:48:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login 2/android.widget.Button0 - Start Movic 01'
+
+2019-02-12 10:48:29 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:48:34 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Homepage/SC99 Regression/TC21 Show List Car By Click Image Car Categories" classname="Test Cases/Mobile/Android/Homepage/SC99 Regression/TC21 Show List Car By Click Image Car Categories" status="PASSED">
+         <system-out><![CDATA[2019-02-12 10:48:34 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Homepage/SC99 Regression/TC21 Show List Car By Click Image Car Categories: Test Cases/Mobile/Android/Homepage/SC99 Regression/TC21 Show List Car By Click Image Car Categories
+
+2019-02-12 10:48:34 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Mobile/Android/User/SC99 Regression/TC04 Login with email"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Mobile/Android/User/SC99 Regression/TC04 Login with email"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:48:34 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Mobile/Android/User/SC99 Regression/TC04 Login with email"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:48:34 - [TEST_STEP][NOT_RUN] - startApplication("C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk", false): NOT_RUN: startApplication("C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk", false)
+
+2019-02-12 10:48:34 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication("C:\Users\WGS-LAP151\Downloads\Movic_1.2.0_2019-02-04-stable-debug.apk", false)
+
+2019-02-12 10:48:34 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:48:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-12 10:48:39 - [TEST_STEP][PASSED] - scrollToText("Search by Car Categories", STOP_ON_FAILURE): Scrolling to text 'Search by Car Categories' successfully
+
+2019-02-12 10:48:48 - [MESSAGE][PASSED] - Scrolling to text 'Search by Car Categories' successfully
+
+2019-02-12 10:48:48 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:48:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-12 10:48:53 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Homepage/android.view.View2"), 0): Tapped on element 'Object Repository/Mobile/OR Homepage/android.view.View2'
+
+2019-02-12 10:48:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Homepage/android.view.View2'
+
+2019-02-12 10:48:55 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Homepage/android.widget.ImageView5"), 0): Tapped on element 'Object Repository/Mobile/OR Homepage/android.widget.ImageView5'
+
+2019-02-12 10:48:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:48:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Homepage/android.widget.ImageView5'
+
+2019-02-12 10:48:59 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:49:04 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars" classname="Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars" status="PASSED">
+         <system-out><![CDATA[2019-02-12 10:49:04 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars: Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars
+
+2019-02-12 10:49:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:49:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:49:05 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/OR Booking/android.support.v4.view.ViewPager0"), 0): NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.support.v4.view.ViewPager0"), 0)
+
+2019-02-12 10:49:05 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.support.v4.view.ViewPager0"), 0)
+
+2019-02-12 10:49:05 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Check Packages"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Check Packages'
+
+2019-02-12 10:49:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Check Packages'
+
+2019-02-12 10:49:05 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button1 - Book Now"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - Book Now'
+
+2019-02-12 10:49:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - Book Now'
+
+2019-02-12 10:49:07 - [TEST_STEP][PASSED] - scrollToText("Add additional benefits", STOP_ON_FAILURE): Scrolling to text 'Add additional benefits' successfully
+
+2019-02-12 10:49:12 - [MESSAGE][PASSED] - Scrolling to text 'Add additional benefits' successfully
+
+2019-02-12 10:49:12 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.TextView2 - Edit"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView2 - Edit'
+
+2019-02-12 10:49:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView2 - Edit'
+
+2019-02-12 10:49:15 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.CheckBox0"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.CheckBox0'
+
+2019-02-12 10:49:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.CheckBox0'
+
+2019-02-12 10:49:19 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.ImageView1"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.ImageView1'
+
+2019-02-12 10:49:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.ImageView1'
+
+2019-02-12 10:49:21 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Save"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Save'
+
+2019-02-12 10:49:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Save'
+
+2019-02-12 10:49:23 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - I Agree"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - I Agree'
+
+2019-02-12 10:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - I Agree'
+
+2019-02-12 10:49:25 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.EditText0"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.EditText0'
+
+2019-02-12 10:49:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.EditText0'
+
+2019-02-12 10:49:29 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:49:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-12 10:49:34 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button1 - OK"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - OK'
+
+2019-02-12 10:49:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - OK'
+
+2019-02-12 10:49:37 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.RelativeLayout7"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.RelativeLayout7'
+
+2019-02-12 10:49:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.RelativeLayout7'
+
+2019-02-12 10:49:40 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:49:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-12 10:49:45 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Confirm"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Confirm'
+
+2019-02-12 10:49:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Confirm'
+
+2019-02-12 10:49:47 - [TEST_STEP][NOT_RUN] - scrollToText("Pick Up Rules", STOP_ON_FAILURE): NOT_RUN: scrollToText("Pick Up Rules", STOP_ON_FAILURE)
+
+2019-02-12 10:49:47 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToText("Pick Up Rules", STOP_ON_FAILURE)
+
+2019-02-12 10:49:47 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/OR Booking/android.widget.RelativeLayout8"), 0): NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.widget.RelativeLayout8"), 0)
+
+2019-02-12 10:49:47 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.widget.RelativeLayout8"), 0)
+
+2019-02-12 10:49:47 - [TEST_STEP][NOT_RUN] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): NOT_RUN: delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE)
+
+2019-02-12 10:49:47 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE)
+
+2019-02-12 10:49:47 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Confirm"), 0): NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Confirm"), 0)
+
+2019-02-12 10:49:47 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Confirm"), 0)
+
+2019-02-12 10:49:47 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Continue"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Continue'
+
+2019-02-12 10:49:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Continue'
+
+2019-02-12 10:49:50 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:49:55 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules" classname="Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules" status="PASSED">
+         <system-out><![CDATA[2019-02-12 10:49:55 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules: Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules
+
+2019-02-12 10:49:56 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:49:56 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:49:56 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY'
+
+2019-02-12 10:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY'
+
+2019-02-12 10:49:57 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Agree"), 0): Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Agree'
+
+2019-02-12 10:49:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:49:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Agree'
+
+2019-02-12 10:49:59 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Pay Later"), 0): NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Pay Later"), 0)
+
+2019-02-12 10:49:59 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/OR Booking/android.widget.Button0 - Pay Later"), 0)
+
+2019-02-12 10:49:59 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:50:04 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment" classname="Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment" status="PASSED">
+         <system-out><![CDATA[2019-02-12 10:50:04 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment: Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment
+
+2019-02-12 10:50:05 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Mobile/Android/Booking/SC99 Regression/TC09 Rules"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Mobile/Android/Booking/SC99 Regression/TC09 Rules"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:50:05 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Mobile/Android/Booking/SC99 Regression/TC09 Rules"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:50:05 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Mobile/OR Payment/android.widget.ImageView2"), 0): NOT_RUN: tap(findTestObject("Mobile/OR Payment/android.widget.ImageView2"), 0)
+
+2019-02-12 10:50:05 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Mobile/OR Payment/android.widget.ImageView2"), 0)
+
+2019-02-12 10:50:05 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Payment/android.widget.Button1 - Pay"), 0): Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.Button1 - Pay'
+
+2019-02-12 10:50:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:50:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.Button1 - Pay'
+
+2019-02-12 10:50:09 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM"), 0): Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM'
+
+2019-02-12 10:50:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:50:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM'
+
+2019-02-12 10:50:11 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:50:16 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method" classname="Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method" status="PASSED">
+         <system-out><![CDATA[2019-02-12 10:50:16 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method: Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment method
+
+2019-02-12 10:50:16 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:50:16 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:50:16 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Payment/android.widget.FrameLayout3"), 0): Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3'
+
+2019-02-12 10:50:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:50:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3'
+
+2019-02-12 10:50:18 - [TEST_STEP][PASSED] - delay(findTestData("Delay Step").getValue(1, 2), STOP_ON_FAILURE): Delayed 5 second(s)
+
+2019-02-12 10:50:23 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment" classname="Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment" status="ERROR">
+         <error type="ERROR" message="Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column index 4 for test data 'C:\Users\WGS-LAP151\git\astra-movic\Data Files\Delay Step.dat'. Column index must be between 1..1
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:57)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC05 Credit card payment.run(TC05 Credit card payment:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549943156239.run(TempTestSuite1549943156239.groovy:36)
+"/>
+         <system-out><![CDATA[2019-02-12 10:50:23 - [TEST_CASE][ERROR] - Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment: Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column index 4 for test data 'C:\Users\WGS-LAP151\git\astra-movic\Data Files\Delay Step.dat'. Column index must be between 1..1
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:57)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC05 Credit card payment.run(TC05 Credit card payment:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549943156239.run(TempTestSuite1549943156239.groovy:36)
+
+
+2019-02-12 10:50:24 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("Mobile/Android/Payment/SC99 Regression/TC04 Select payment method"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("Mobile/Android/Payment/SC99 Regression/TC04 Select payment method"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:50:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("Mobile/Android/Payment/SC99 Regression/TC04 Select payment method"), [:], STOP_ON_FAILURE)
+
+2019-02-12 10:50:24 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/OR Payment/android.widget.FrameLayout3 (1)"), 0): Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3 (1)'
+
+2019-02-12 10:50:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '100'
+
+2019-02-12 10:50:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3 (1)'
+
+2019-02-12 10:50:28 - [TEST_STEP][ERROR] - delay(findTestData("Delay Step").getValue(4, 5), STOP_ON_FAILURE): delay(findTestData("Delay Step").getValue(4, 5), STOP_ON_FAILURE) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column index 4 for test data 'C:\Users\WGS-LAP151\git\astra-movic\Data Files\Delay Step.dat'. Column index must be between 1..1
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:57)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC05 Credit card payment.run(TC05 Credit card payment:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549943156239.run(TempTestSuite1549943156239.groovy:36)
+
+
+2019-02-12 10:50:28 - [MESSAGE][ERROR] - delay(findTestData("Delay Step").getValue(4, 5), STOP_ON_FAILURE) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column index 4 for test data 'C:\Users\WGS-LAP151\git\astra-movic\Data Files\Delay Step.dat'. Column index must be between 1..1
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:57)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC05 Credit card payment.run(TC05 Credit card payment:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549943156239.run(TempTestSuite1549943156239.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-02-12 10:50:23 - [TEST_CASE][ERROR] - Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment: Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column index 4 for test data 'C:\Users\WGS-LAP151\git\astra-movic\Data Files\Delay Step.dat'. Column index must be between 1..1
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:57)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC05 Credit card payment.run(TC05 Credit card payment:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549943156239.run(TempTestSuite1549943156239.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-12 10:46:05 - [TEST_SUITE][ERROR] - Reservation From Click Image at Section Category Car: Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column index 4 for test data 'C:\Users\WGS-LAP151\git\astra-movic\Data Files\Delay Step.dat'. Column index must be between 1..1
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:57)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC05 Credit card payment.run(TC05 Credit card payment:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549943156239.run(TempTestSuite1549943156239.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-02-12 10:46:05 - [TEST_SUITE][ERROR] - Reservation From Click Image at Section Category Car: Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid column index 4 for test data 'C:\Users\WGS-LAP151\git\astra-movic\Data Files\Delay Step.dat'. Column index must be between 1..1
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyColumnIndex(AbstractTestData.java:57)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:115)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:89)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC05 Credit card payment.run(TC05 Credit card payment:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1549943156239.run(TempTestSuite1549943156239.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

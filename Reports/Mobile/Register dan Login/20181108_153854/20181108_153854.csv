@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Register dan Login,,,2018-11-08 15:38:58,2018-11-08 15:40:20,1m - 22.664s,PASSED
+,,,,,,
+Test Cases/Mobile/Android/User/SC99 Regression/TC06 Login with sms,,,2018-11-08 15:38:59,2018-11-08 15:40:20,1m - 21.723s,PASSED
+startApplication,,Open apps on phone,2018-11-08 15:39:00,2018-11-08 15:39:52,52.284s,PASSED
+tap,,Tap button next,2018-11-08 15:39:52,2018-11-08 15:39:57,4.535s,PASSED
+Statement - For (def index : (1..2)),,Tap button arrow next untuk baca tutorial,2018-11-08 15:39:57,2018-11-08 15:39:59,2.623s,PASSED
+tap,,Tap button skip,2018-11-08 15:39:59,2018-11-08 15:40:01,2.167s,PASSED
+tap,,Tap button login,2018-11-08 15:40:01,2018-11-08 15:40:03,1.671s,PASSED
+setText,,Input email user,2018-11-08 15:40:03,2018-11-08 15:40:04,1.232s,PASSED
+tap,,Tap button next,2018-11-08 15:40:04,2018-11-08 15:40:07,2.529s,PASSED
+tap,,Input password user,2018-11-08 15:40:07,2018-11-08 15:40:08,1.335s,PASSED
+delay,,Delay untuk mengisi verification code kemudian redirect ke homepage,2018-11-08 15:40:08,2018-11-08 15:40:18,10.072s,PASSED
+closeApplication,,,2018-11-08 15:40:18,2018-11-08 15:40:20,2.000s,PASSED

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Set Discount Owned(Dengan Driver) Cars by Owner,Chrome 72.0.3626.121,,2019-03-12 13:42:20,2019-03-12 13:43:32,1m - 11.412s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 72.0.3626.121,,2019-03-12 13:42:21,2019-03-12 13:43:24,1m - 2.937s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,Buka Browser,2019-03-12 13:42:22,2019-03-12 13:42:33,10.827s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,Maximize Window,2019-03-12 13:42:33,2019-03-12 13:42:34,1.219s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.121,Akses Url,2019-03-12 13:42:34,2019-03-12 13:42:59,24.466s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-12 13:42:59,2019-03-12 13:42:59,0.270s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk""))",Chrome 72.0.3626.121,Klik textlink Masuk,2019-03-12 13:42:59,2019-03-12 13:43:00,1.092s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:43:00,2019-03-12 13:43:03,3.060s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""082128751192"")",Chrome 72.0.3626.121,Input Email,2019-03-12 13:43:03,2019-03-12 13:43:04,0.684s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""ali.msaputra01@gmail.com"")",Chrome 72.0.3626.121,Input Email,2019-03-12 13:43:04,2019-03-12 13:43:04,0.006s,NOT_RUN
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:43:04,2019-03-12 13:43:07,3.004s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng""), ""password10"")",Chrome 72.0.3626.121,Input Password,2019-03-12 13:43:07,2019-03-12 13:43:07,0.363s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:43:07,2019-03-12 13:43:10,3.004s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK""))",Chrome 72.0.3626.121,Klik button Masuk,2019-03-12 13:43:10,2019-03-12 13:43:11,0.322s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:43:11,2019-03-12 13:43:14,3.002s,PASSED
+"click(findTestObject(""Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update""))",Chrome 72.0.3626.121,Klik Switch to Owner,2019-03-12 13:43:14,2019-03-12 13:43:21,7.403s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 13:43:21,2019-03-12 13:43:24,3.001s,PASSED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga),Chrome 72.0.3626.121,,2019-03-12 13:43:24,2019-03-12 13:43:30,6.242s,FAILED
+"callTestCase(findTestCase(""Front-End/User/SC99 Regression/TC12 Login Sebagai Owner""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,Panggil TestCase Login Sebagai Owner,2019-03-12 13:43:25,2019-03-12 13:43:25,0.003s,NOT_RUN
+delay(1),Chrome 72.0.3626.121,,2019-03-12 13:43:25,2019-03-12 13:43:26,1.005s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/img""))",Chrome 72.0.3626.121,Klik Menu Kendaraan Saya,2019-03-12 13:43:26,2019-03-12 13:43:26,0.552s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-12 13:43:26,2019-03-12 13:43:27,1.005s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/input_SORT BY _form-control ty""), ""kuda"")",Chrome 72.0.3626.121,Input Field Search,2019-03-12 13:43:27,2019-03-12 13:43:28,0.359s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-12 13:43:28,2019-03-12 13:43:29,1.005s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/img - search""))",Chrome 72.0.3626.121,,2019-03-12 13:43:29,2019-03-12 13:43:29,0.442s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/div_17""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 13:43:29,2019-03-12 13:43:30,1.105s,FAILED

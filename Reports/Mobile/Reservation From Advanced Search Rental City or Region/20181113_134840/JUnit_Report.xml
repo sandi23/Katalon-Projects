@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Reservation From Advanced Search Rental City or Region" time="306" tests="9" failures="0" errors="0">
+   <testsuite name="Reservation From Advanced Search Rental City or Region" tests="9" failures="0" errors="0" time="306" timestamp="2018-11-13 13:48:45" hostname="WGS-LAP199 - DESKTOP-QUMB1S3" id="Test Suites/Mobile/Reservation From Advanced Search Rental City or Region">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Reservation From Advanced Search Rental City or Region\\20181113_134840"/>
+         <property name="logFiles" value="C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Reservation From Advanced Search Rental City or Region\\20181113_134840\\appium.log, C:\\Users\\WGS-LAP199\\git\\astra-movic\\Reports\\Mobile\\Reservation From Advanced Search Rental City or Region\\20181113_134840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WGS-LAP199 - DESKTOP-QUMB1S3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="Redmi 5"/>
+         <property name="hostAddress" value="10.10.10.109"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="54e797627cf5"/>
+         <property name="deviceName" value="Xiaomi Redmi 5 (Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:48:46 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login with email
+
+2018-11-13 13:48:48 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.7_2018-10-14-stable-debug.apk'
+
+2018-11-13 13:49:37 - [MESSAGE][PASSED] - Started app at: 'C:\Users\WGS-LAP199\Downloads\Movic apk\Movic_0.9.7_2018-10-14-stable-debug.apk'
+
+2018-11-13 13:49:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-13 13:49:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView4'
+
+2018-11-13 13:49:41 - [TEST_STEP][PASSED] - Statement - For (def index : (1..2)): Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-13 13:49:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-13 13:49:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-13 13:49:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-13 13:49:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.ImageView1'
+
+2018-11-13 13:49:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-13 13:49:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Registrasi/android.widget.TextView2 - Skip'
+
+2018-11-13 13:49:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-13 13:49:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.TextView0 - Log in'
+
+2018-11-13 13:49:48 - [TEST_STEP][PASSED] - setText: Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-13 13:49:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:49 - [MESSAGE][PASSED] - Text 'santi.wahyuni@wgs.co.id' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0'
+
+2018-11-13 13:49:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-13 13:49:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Next'
+
+2018-11-13 13:49:52 - [TEST_STEP][PASSED] - setText: Text 'P@ssword789' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-13 13:49:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:53 - [MESSAGE][PASSED] - Text 'P@ssword789' has been set to element 'Object Repository/Mobile/OR Login/android.widget.EditText0 (1)'
+
+2018-11-13 13:49:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-13 13:49:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-13 13:49:54 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-11-13 13:49:56 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-11-13 13:49:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-13 13:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:49:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login/android.widget.Button0 - Start Movic'
+
+2018-11-13 13:49:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:50:03 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region" classname="Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:50:03 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region: Test Cases/Mobile/Android/Homepage/SC99 Regression/TC01 Search car use search bar rental city atau region
+
+2018-11-13 13:50:04 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:50:04 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:50:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView0 - Car Rental CityRegion'
+
+2018-11-13 13:50:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView0 - Car Rental CityRegion'
+
+2018-11-13 13:50:05 - [TEST_STEP][PASSED] - setText: Text 'Jabodetabek' has been set to element 'Object Repository/Mobile/OR Booking/android.widget.EditText0 - Search available car for you'
+
+2018-11-13 13:50:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:07 - [MESSAGE][PASSED] - Text 'Jabodetabek' has been set to element 'Object Repository/Mobile/OR Booking/android.widget.EditText0 - Search available car for you'
+
+2018-11-13 13:50:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView2 - Jabodetabek'
+
+2018-11-13 13:50:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView2 - Jabodetabek'
+
+2018-11-13 13:50:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView1 - Car Only'
+
+2018-11-13 13:50:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView1 - Car Only'
+
+2018-11-13 13:50:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Next'
+
+2018-11-13 13:50:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Next'
+
+2018-11-13 13:50:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:50:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:50:18 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:50:18 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-13 13:50:18 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-11-13 13:50:18 - [MESSAGE][NOT_RUN] - NOT_RUN: delay]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Homepage/SC99 Regression/TC02 Advanced Search Car Use Search Bar Rental City atau Region" classname="Test Cases/Mobile/Android/Homepage/SC99 Regression/TC02 Advanced Search Car Use Search Bar Rental City atau Region" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:50:18 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Homepage/SC99 Regression/TC02 Advanced Search Car Use Search Bar Rental City atau Region: Test Cases/Mobile/Android/Homepage/SC99 Regression/TC02 Advanced Search Car Use Search Bar Rental City atau Region
+
+2018-11-13 13:50:18 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:50:18 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:50:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView46 - Advance Search'
+
+2018-11-13 13:50:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView46 - Advance Search'
+
+2018-11-13 13:50:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Search'
+
+2018-11-13 13:50:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Search'
+
+2018-11-13 13:50:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:50:28 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Product/SC99 Regression/TC14 Sort and filter list cars" classname="Test Cases/Mobile/Android/Product/SC99 Regression/TC14 Sort and filter list cars" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:50:28 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Product/SC99 Regression/TC14 Sort and filter list cars: Test Cases/Mobile/Android/Product/SC99 Regression/TC14 Sort and filter list cars
+
+2018-11-13 13:50:28 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:50:28 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:50:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView5 - Sort  Filter'
+
+2018-11-13 13:50:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView5 - Sort  Filter'
+
+2018-11-13 13:50:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.EditText0 - Popularity'
+
+2018-11-13 13:50:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.EditText0 - Popularity'
+
+2018-11-13 13:50:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:50:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:50:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView4 - 1'
+
+2018-11-13 13:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView4 - 1'
+
+2018-11-13 13:50:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView7 - 2'
+
+2018-11-13 13:50:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView7 - 2'
+
+2018-11-13 13:50:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView8 - 3'
+
+2018-11-13 13:50:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView8 - 3'
+
+2018-11-13 13:50:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView9 - 4'
+
+2018-11-13 13:50:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView9 - 4'
+
+2018-11-13 13:50:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView10 - 5'
+
+2018-11-13 13:50:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView10 - 5'
+
+2018-11-13 13:50:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:50:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:50:48 - [TEST_STEP][PASSED] - Statement - For (def index : (1..4)): Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:52 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView2'
+
+2018-11-13 13:50:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView18 - Even'
+
+2018-11-13 13:50:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView18 - Even'
+
+2018-11-13 13:50:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView20 - Odd'
+
+2018-11-13 13:50:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:50:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView20 - Odd'
+
+2018-11-13 13:50:55 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Facilities' successfully
+
+2018-11-13 13:50:59 - [MESSAGE][PASSED] - Scrolling to text 'Facilities' successfully
+
+2018-11-13 13:50:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView6 - Life Insurance'
+
+2018-11-13 13:50:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView6 - Life Insurance'
+
+2018-11-13 13:51:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView11 - Wifi'
+
+2018-11-13 13:51:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView11 - Wifi'
+
+2018-11-13 13:51:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView15 - Commercial'
+
+2018-11-13 13:51:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView15 - Commercial'
+
+2018-11-13 13:51:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView18 - Jeep'
+
+2018-11-13 13:51:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView18 - Jeep'
+
+2018-11-13 13:51:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView19 - Luxury Car'
+
+2018-11-13 13:51:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView19 - Luxury Car'
+
+2018-11-13 13:51:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView5 - Honda'
+
+2018-11-13 13:51:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView5 - Honda'
+
+2018-11-13 13:51:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView9 - Chevrolet'
+
+2018-11-13 13:51:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView9 - Chevrolet'
+
+2018-11-13 13:51:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView11 - Toyota'
+
+2018-11-13 13:51:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView11 - Toyota'
+
+2018-11-13 13:51:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView9'
+
+2018-11-13 13:51:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.ImageView9'
+
+2018-11-13 13:51:14 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-13 13:51:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-13 13:51:24 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:51:24 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-13 13:51:24 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:51:24 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-13 13:51:24 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:51:24 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-13 13:51:24 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:51:24 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-13 13:51:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.Button0 - Save'
+
+2018-11-13 13:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.Button0 - Save'
+
+2018-11-13 13:51:26 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Transmission' successfully
+
+2018-11-13 13:51:27 - [MESSAGE][PASSED] - Scrolling to text 'Transmission' successfully
+
+2018-11-13 13:51:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView10 - Diesel'
+
+2018-11-13 13:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView10 - Diesel'
+
+2018-11-13 13:51:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView13 - Petrol'
+
+2018-11-13 13:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView13 - Petrol'
+
+2018-11-13 13:51:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView14 - Electric'
+
+2018-11-13 13:51:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView14 - Electric'
+
+2018-11-13 13:51:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView16 - Manual'
+
+2018-11-13 13:51:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView16 - Manual'
+
+2018-11-13 13:51:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView19 - Automatic'
+
+2018-11-13 13:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.TextView19 - Automatic'
+
+2018-11-13 13:51:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Product/android.widget.Button0 - Search'
+
+2018-11-13 13:51:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Product/android.widget.Button0 - Search'
+
+2018-11-13 13:51:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:51:41 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars" classname="Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:51:41 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars: Test Cases/Mobile/Android/Booking/SC99 Regression/TC15 Select car from list cars
+
+2018-11-13 13:51:42 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:51:42 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:51:42 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:51:42 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-13 13:51:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Check Packages'
+
+2018-11-13 13:51:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:51:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Check Packages'
+
+2018-11-13 13:51:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - Book Now'
+
+2018-11-13 13:51:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - Book Now'
+
+2018-11-13 13:52:05 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Add additional benefits' successfully
+
+2018-11-13 13:52:09 - [MESSAGE][PASSED] - Scrolling to text 'Add additional benefits' successfully
+
+2018-11-13 13:52:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView2 - Edit'
+
+2018-11-13 13:52:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView2 - Edit'
+
+2018-11-13 13:52:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.CheckBox0'
+
+2018-11-13 13:52:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.CheckBox0'
+
+2018-11-13 13:52:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.ImageView1'
+
+2018-11-13 13:52:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.ImageView1'
+
+2018-11-13 13:52:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Save'
+
+2018-11-13 13:52:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Save'
+
+2018-11-13 13:52:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - I Agree'
+
+2018-11-13 13:52:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - I Agree'
+
+2018-11-13 13:52:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.EditText0'
+
+2018-11-13 13:52:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.EditText0'
+
+2018-11-13 13:52:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:52:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:52:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - OK'
+
+2018-11-13 13:52:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button1 - OK'
+
+2018-11-13 13:52:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.RelativeLayout7'
+
+2018-11-13 13:52:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.RelativeLayout7'
+
+2018-11-13 13:52:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:52:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:52:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Confirm'
+
+2018-11-13 13:52:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Confirm'
+
+2018-11-13 13:52:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.RelativeLayout8'
+
+2018-11-13 13:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.RelativeLayout8'
+
+2018-11-13 13:52:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:52:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:52:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Confirm'
+
+2018-11-13 13:52:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Confirm'
+
+2018-11-13 13:52:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Continue'
+
+2018-11-13 13:52:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Continue'
+
+2018-11-13 13:52:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:52:49 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules" classname="Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:52:49 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules: Test Cases/Mobile/Android/Booking/SC99 Regression/TC09 Rules
+
+2018-11-13 13:52:49 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:52:49 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:52:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY'
+
+2018-11-13 13:52:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.TextView - CANCELLATION POLICY'
+
+2018-11-13 13:52:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Agree'
+
+2018-11-13 13:52:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Booking/android.widget.Button0 - Agree'
+
+2018-11-13 13:52:53 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: tap]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment" classname="Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:52:53 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment: Test Cases/Mobile/Android/Payment/SC99 Regression/TC01 Pay - Payment
+
+2018-11-13 13:52:53 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:52:53 - [TEST_STEP][NOT_RUN] - tap: NOT_RUN: tap
+
+2018-11-13 13:52:53 - [MESSAGE][NOT_RUN] - NOT_RUN: tap
+
+2018-11-13 13:52:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.Button1 - Pay'
+
+2018-11-13 13:52:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.Button1 - Pay'
+
+2018-11-13 13:52:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM'
+
+2018-11-13 13:52:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.TextView3 - ALREADY CONFIRM'
+
+2018-11-13 13:52:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:53:01 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment methode" classname="Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment methode" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:53:01 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment methode: Test Cases/Mobile/Android/Payment/SC99 Regression/TC04 Select payment methode
+
+2018-11-13 13:53:02 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:53:02 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:53:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3'
+
+2018-11-13 13:53:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3'
+
+2018-11-13 13:53:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:53:08 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment" classname="Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment" status="PASSED">
+         <system-out><![CDATA[2018-11-13 13:53:08 - [TEST_CASE][PASSED] - Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment: Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment
+
+2018-11-13 13:53:09 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-11-13 13:53:09 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-11-13 13:53:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3 (1)'
+
+2018-11-13 13:53:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.FrameLayout3 (1)'
+
+2018-11-13 13:53:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:53:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:53:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText0'
+
+2018-11-13 13:53:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText0'
+
+2018-11-13 13:53:25 - [TEST_STEP][PASSED] - setText: Text '4137180300023783' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText0'
+
+2018-11-13 13:53:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:26 - [MESSAGE][PASSED] - Text '4137180300023783' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText0'
+
+2018-11-13 13:53:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText1'
+
+2018-11-13 13:53:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText1'
+
+2018-11-13 13:53:31 - [TEST_STEP][PASSED] - setText: Text 'test' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText1'
+
+2018-11-13 13:53:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:31 - [MESSAGE][PASSED] - Text 'test' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText1'
+
+2018-11-13 13:53:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText2'
+
+2018-11-13 13:53:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText2'
+
+2018-11-13 13:53:33 - [TEST_STEP][PASSED] - setText: Text '05' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText2'
+
+2018-11-13 13:53:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:33 - [MESSAGE][PASSED] - Text '05' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText2'
+
+2018-11-13 13:53:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText3'
+
+2018-11-13 13:53:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText3'
+
+2018-11-13 13:53:35 - [TEST_STEP][PASSED] - setText: Text '19' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText3'
+
+2018-11-13 13:53:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:36 - [MESSAGE][PASSED] - Text '19' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText3'
+
+2018-11-13 13:53:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText4'
+
+2018-11-13 13:53:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText4'
+
+2018-11-13 13:53:38 - [TEST_STEP][PASSED] - setText: Text '783' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText4'
+
+2018-11-13 13:53:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:38 - [MESSAGE][PASSED] - Text '783' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText4'
+
+2018-11-13 13:53:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText5'
+
+2018-11-13 13:53:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.EditText5'
+
+2018-11-13 13:53:40 - [TEST_STEP][PASSED] - setText: Text 'test@sgo.co.id' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText5'
+
+2018-11-13 13:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:41 - [MESSAGE][PASSED] - Text 'test@sgo.co.id' has been set to element 'Object Repository/Mobile/OR Payment/android.widget.EditText5'
+
+2018-11-13 13:53:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.CheckBox0'
+
+2018-11-13 13:53:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.CheckBox0'
+
+2018-11-13 13:53:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.Button0 - Lanjutkan'
+
+2018-11-13 13:53:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-11-13 13:53:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Payment/android.widget.Button0 - Lanjutkan'
+
+2018-11-13 13:53:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-13 13:53:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-13 13:53:49 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-11-13 13:53:51 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 13:48:45 - [TEST_SUITE][PASSED] - Reservation From Advanced Search Rental City or Region: Test Cases/Mobile/Android/Payment/SC99 Regression/TC05 Credit card payment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

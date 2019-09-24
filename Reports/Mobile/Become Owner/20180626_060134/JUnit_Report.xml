@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Become Owner" time="163" tests="0" failures="2" errors="0">
+   <testsuite name="Become Owner" tests="0" failures="2" errors="0" time="163" timestamp="2018-06-26 06:01:37" hostname="ALIMSAPUTRA - DESKTOP-5G7MA8C" id="Test Suites/Mobile/Become Owner">
+      <properties>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060134"/>
+         <property name="logFiles" value="C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060134\\appium.log, C:\\Users\\ALIMSAPUTRA\\Katalon Studio\\Astra Movic\\Reports\\Mobile\\Become Owner\\20180626_060134\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ALIMSAPUTRA - DESKTOP-5G7MA8C"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-J320G"/>
+         <property name="hostAddress" value="192.168.43.170"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="4200d20faae66400"/>
+         <property name="deviceName" value="samsung SM-J320G (Android 5.1.1)"/>
+         <property name="deviceOSVersion" value="5.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" classname="Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found)"/>
+         <system-out><![CDATA[2018-06-26 06:01:38 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found)
+
+2018-06-26 06:01:39 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk'
+
+2018-06-26 06:03:10 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ALIMSAPUTRA\Downloads\Movic_0.4.2_2018-06-23-staging-debug.apk'
+
+2018-06-26 06:03:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView3 - Indonesia (1)'
+
+2018-06-26 06:03:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:03:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.TextView3 - Indonesia (1)'
+
+2018-06-26 06:03:13 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found)
+
+2018-06-26 06:03:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:03:43 - [MESSAGE][FAILED] - Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found
+
+2018-06-26 06:03:43 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found)]]></system-out>
+         <system-err><![CDATA[2018-06-26 06:01:38 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" classname="Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.ImageView0 not found)"/>
+         <system-out><![CDATA[2018-06-26 06:03:43 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.ImageView0 not found)
+
+2018-06-26 06:03:44 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-06-26 06:03:44 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-06-26 06:03:44 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.ImageView0 not found)
+
+2018-06-26 06:03:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-06-26 06:04:14 - [MESSAGE][FAILED] - Object Object Repository/Mobile/OR Become Owner/android.widget.ImageView0 not found
+
+2018-06-26 06:04:14 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.ImageView0 not found)]]></system-out>
+         <system-err><![CDATA[2018-06-26 06:03:43 - [TEST_CASE][FAILED] - Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner: Test Cases/Mobile/Android/Owner/SC99 Regression/TC01 Become Owner FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Become Owner/android.widget.ImageView0' (Root cause: Object Object Repository/Mobile/OR Become Owner/android.widget.ImageView0 not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 06:01:37 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found)]]></system-out>
+      <system-err><![CDATA[2018-06-26 06:01:37 - [TEST_SUITE][FAILED] - Become Owner: Test Cases/Mobile/Android/User/SC99 Regression/TC04 Login biasa with email FAILED because (of) Failed to tap on element 'Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4' (Root cause: Object Object Repository/Mobile/OR Login biasa with email/android.widget.ImageView4 not found)]]></system-err>
+   </testsuite>
+</testsuites>

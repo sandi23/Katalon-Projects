@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>refound_btn</name>
+   <tag></tag>
+   <elementGuidId>cda639af-5175-4780-b4dd-9e0f42354f7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;listTables&quot;]/tbody/tr[2]/td[20]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;listTables&quot;]/tbody/tr[2]/td[20]/a[2]</value>
+   </webElementProperties>
+</WebElementEntity>

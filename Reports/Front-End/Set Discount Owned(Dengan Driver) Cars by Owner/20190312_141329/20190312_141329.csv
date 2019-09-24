@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Set Discount Owned(Dengan Driver) Cars by Owner,Chrome 72.0.3626.121,,2019-03-12 14:13:41,2019-03-12 14:15:28,1m - 47.490s,FAILED
+,,,,,,
+Test Cases/Front-End/User/SC99 Regression/TC12 Login Sebagai Owner,Chrome 72.0.3626.121,,2019-03-12 14:13:41,2019-03-12 14:15:20,1m - 38.315s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,Buka Browser,2019-03-12 14:13:43,2019-03-12 14:14:17,34.402s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,Maximize Window,2019-03-12 14:14:17,2019-03-12 14:14:18,1.234s,PASSED
+"navigateToUrl(""https://stg.movic.id/home"")",Chrome 72.0.3626.121,Akses Url,2019-03-12 14:14:18,2019-03-12 14:14:49,30.357s,PASSED
+waitForPageLoad(10),Chrome 72.0.3626.121,,2019-03-12 14:14:49,2019-03-12 14:14:49,0.426s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/a_Masuk""))",Chrome 72.0.3626.121,Klik textlink Masuk,2019-03-12 14:14:49,2019-03-12 14:14:50,1.094s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:14:50,2019-03-12 14:14:54,3.147s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""082128751192"")",Chrome 72.0.3626.121,Input Email,2019-03-12 14:14:54,2019-03-12 14:14:55,1.595s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_EmailNomor Handphone_for""), ""ali.msaputra01@gmail.com"")",Chrome 72.0.3626.121,Input Email,2019-03-12 14:14:55,2019-03-12 14:14:55,0.008s,NOT_RUN
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:14:55,2019-03-12 14:14:58,3.003s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/input_Password_form-control ng""), ""password10"")",Chrome 72.0.3626.121,Input Password,2019-03-12 14:14:58,2019-03-12 14:14:59,0.829s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:14:59,2019-03-12 14:15:02,3.006s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR User/OR Login sebagai Owner/button_MASUK""))",Chrome 72.0.3626.121,Klik button Masuk,2019-03-12 14:15:02,2019-03-12 14:15:03,0.614s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:15:03,2019-03-12 14:15:06,3.005s,PASSED
+"click(findTestObject(""Front-End/OR User/OR Login sebagai Owner/a_Switch to Owner update""))",Chrome 72.0.3626.121,Klik Switch to Owner,2019-03-12 14:15:06,2019-03-12 14:15:17,11.123s,PASSED
+delay(3),Chrome 72.0.3626.121,,2019-03-12 14:15:17,2019-03-12 14:15:20,3.002s,PASSED
+,,,,,,
+Test Cases/Front-End/Product/SC99 Regression/TC08 Set discount data mobil (ubah ke kondisi dengan potongan harga),Chrome 72.0.3626.121,,2019-03-12 14:15:20,2019-03-12 14:15:26,5.972s,FAILED
+"callTestCase(findTestCase(""Front-End/User/SC99 Regression/TC12 Login Sebagai Owner""), [:], STOP_ON_FAILURE)",Chrome 72.0.3626.121,Panggil TestCase Login Sebagai Owner,2019-03-12 14:15:21,2019-03-12 14:15:21,0.004s,NOT_RUN
+delay(1),Chrome 72.0.3626.121,,2019-03-12 14:15:21,2019-03-12 14:15:22,1.003s,PASSED
+"click(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/img""))",Chrome 72.0.3626.121,Klik Menu Kendaraan Saya,2019-03-12 14:15:22,2019-03-12 14:15:22,0.627s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-12 14:15:22,2019-03-12 14:15:23,1.005s,PASSED
+"setText(findTestObject(""Object Repository/Front-End/OR Product/OR Set discount data mobil (ubah ke kondisi dengan potongan harga/input_SORT BY _form-control ty""), ""kuda"")",Chrome 72.0.3626.121,Input Field Search,2019-03-12 14:15:23,2019-03-12 14:15:24,0.365s,PASSED
+delay(1),Chrome 72.0.3626.121,,2019-03-12 14:15:24,2019-03-12 14:15:25,1.004s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/img - search""))",Chrome 72.0.3626.121,,2019-03-12 14:15:25,2019-03-12 14:15:25,0.384s,PASSED
+"click(findTestObject(""Front-End/OR Product/OR Edit Mobil/Page_Owner - Edit Car/div_17""))",Chrome 72.0.3626.121,Klik Button Tiga Titik,2019-03-12 14:15:25,2019-03-12 14:15:26,0.798s,FAILED
