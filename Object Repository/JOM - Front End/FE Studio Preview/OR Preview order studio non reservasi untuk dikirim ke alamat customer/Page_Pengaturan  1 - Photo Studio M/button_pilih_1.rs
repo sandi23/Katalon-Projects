@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_pilih_1</name>
+   <tag></tag>
+   <elementGuidId>9659071d-a8a9-406c-9037-a640e20b279f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;template-photo-all&quot;]/div/div/div[3]/div[2]/div[1]/label/div/button</value>
+   </webElementProperties>
+</WebElementEntity>

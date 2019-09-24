@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ins_iCheck-helper</name>
+   <tag></tag>
+   <elementGuidId>4406ef95-6b43-4d94-afd7-0de7c8c9fb88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;DataTables_Table_1&quot;)/thead[1]/tr[1]/th[@class=&quot;dt-center sorting_disabled&quot;]/label[@class=&quot;radio-inline icheck hover&quot;]/div[@class=&quot;icheckbox_square-blue hover checked&quot;]/ins[@class=&quot;iCheck-helper&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;DataTables_Table_1&quot;]/thead/tr/th[4]/label/div/ins</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ins</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>iCheck-helper</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_1&quot;)/thead[1]/tr[1]/th[@class=&quot;dt-center sorting_disabled&quot;]/label[@class=&quot;radio-inline icheck hover&quot;]/div[@class=&quot;icheckbox_square-blue hover checked&quot;]/ins[@class=&quot;iCheck-helper&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

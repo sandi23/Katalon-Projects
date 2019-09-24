@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ins_iCheck-helper</name>
+   <tag></tag>
+   <elementGuidId>289c38d3-3c42-44e1-ac8d-33d9e6d99f93</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;form-price-template&quot;)/div[@class=&quot;box-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;box box-primary order-studio-area&quot;]/div[@class=&quot;box-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-9 col-md-9 col-lg-9&quot;]/div[1]/div[1]/div[@class=&quot;pull-left&quot;]/label[@id=&quot;radio-company&quot;]/div[@class=&quot;iradio_square-blue hover active&quot;]/ins[@class=&quot;iCheck-helper&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;radio-company&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ins</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>iCheck-helper</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form-price-template&quot;)/div[@class=&quot;box-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;box box-primary order-studio-area&quot;]/div[@class=&quot;box-body&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-9 col-md-9 col-lg-9&quot;]/div[1]/div[1]/div[@class=&quot;pull-left&quot;]/label[@id=&quot;radio-company&quot;]/div[@class=&quot;iradio_square-blue hover active&quot;]/ins[@class=&quot;iCheck-helper&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

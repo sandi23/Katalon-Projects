@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_form-control text-center</name>
+   <tag></tag>
+   <elementGuidId>e3b26055-ea11-46bb-9721-d0c2e5b596a8</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control text-center change-qty-cart-studio</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-url</name>
+      <type>Main</type>
+      <value>http://jom-demo-banda.stagingapps.net/cart/studio/edit/5b6913bad9a71</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-id</name>
+      <type>Main</type>
+      <value>5b6913bad9a71</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-choiceproduct&quot;)/div[@class=&quot;modal-dialog large-modal&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body no-padding&quot;]/div[@class=&quot;table-responsive table-modalproduct&quot;]/table[@class=&quot;table product-table&quot;]/tbody[1]/tr[1]/td[4]/div[@class=&quot;input-group number-spinner&quot;]/input[@class=&quot;form-control text-center change-qty-cart-studio&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

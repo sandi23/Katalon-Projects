@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_qty02</name>
+   <tag></tag>
+   <elementGuidId>daf815aa-8f5c-4cb9-b054-df5fa1cce156</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control text-center product-qty numeric</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>qty[0][2]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;step-1&quot;)/div[@class=&quot;box-order&quot;]/div[@class=&quot;flat-box recapitulation-your-photo no-padding-bottom&quot;]/div[@class=&quot;recap-table edit-advance&quot;]/div[@class=&quot;table-responsive table-modalproduct no-padding-left no-padding-right&quot;]/table[@class=&quot;table product-table summary-table&quot;]/tbody[1]/tr[@class=&quot;print-image-row&quot;]/td[3]/table[@class=&quot;uploaded-form-input&quot;]/tbody[1]/tr[@class=&quot;print-product&quot;]/td[@class=&quot;qty&quot;]/div[@class=&quot;input-group number-spinner&quot;]/input[@class=&quot;form-control text-center product-qty numeric&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
